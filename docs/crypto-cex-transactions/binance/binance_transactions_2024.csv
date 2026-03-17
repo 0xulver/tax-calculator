@@ -1,0 +1,341 @@
+user_id,time,account,operation,coin,change,remark,source_file,export_year
+201486434,24-01-04 20:03:12,Spot,Binance Convert,FDUSD,1.28123089,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-01-04 20:03:12,Spot,Binance Convert,BUSD,-1.28123089,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-01-19 09:57:21,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-02-20 08:31:34,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-03-21 10:41:42,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-04-19 05:17:24,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-05-22 06:24:46,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-06-19 04:14:34,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-07-24 06:22:09,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-16 10:19:50,Spot,Deposit,USDC,0.01,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-16 10:24:14,Spot,Deposit,USDC,1500,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-16 10:25:33,Spot,Binance Convert,EUR,1357.95233507,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-16 10:25:33,Spot,Binance Convert,USDC,-1500.01,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-16 10:37:18,Spot,Fiat Withdraw,EUR,-1357.95,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-08-23 05:07:40,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 09:04:23,Spot,Deposit,USDC,2994.9102,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 09:04:23,Spot,Deposit,USDC,0.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Fee,EUR,-2.460405,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Buy,EUR,4.8,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Spend,USDC,-5.29488,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Buy,EUR,2589.9,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Spend,USDC,-2856.91869,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:07,Spot,Transaction Fee,EUR,-0.00456,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:18,Spot,Transaction Fee,EUR,-0.1203,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:18,Spot,Transaction Spend,USDC,-132.70293,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:32:18,Spot,Transaction Buy,EUR,120.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-03 10:38:56,Spot,Fiat Withdraw,EUR,-2712.42,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-17 09:31:02,Spot,Deposit,USDC,0.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-17 09:31:02,Spot,Deposit,USDC,1969.903599,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-17 09:35:38,Spot,Binance Convert,EUR,1758.91175466,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-17 09:35:38,Spot,Binance Convert,USDC,-1970.097299,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-17 09:41:39,Spot,Fiat Withdraw,EUR,-1758.91,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-09-24 09:58:46,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 13:58:46,Spot,Deposit,USDC,0.002,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:02:04,Spot,Deposit,USDC,3109.46907,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Spend,USDC,-553.85,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Fee,EUR,-0.64296,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Fee,EUR,-0.23636,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Fee,EUR,-1.28991,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Spend,USDC,-749.75904,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Buy,EUR,676.8,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Buy,EUR,23.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Fee,EUR,-0.475,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Buy,EUR,248.8,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Spend,USDC,-1504.03506,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Fee,EUR,-0.02242,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Spend,USDC,-275.59576,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Buy,EUR,1357.8,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Buy,EUR,500,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:09:51,Spot,Transaction Spend,USDC,-26.14408,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-01 14:24:06,Spot,Fiat Withdraw,EUR,-2804.33,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-15 12:06:27,Spot,Deposit,ETH,0.000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-15 12:11:14,Spot,Deposit,ETH,0.575,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-15 12:19:55,Spot,Sell Crypto To Fiat,EUR,1362.04,Via CashBalance -  Wallet/N02542648319839666176101534,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-15 12:19:56,Spot,Sell Crypto To Fiat,ETH,-0.575001,Via CashBalance -  Wallet/N02542648319839666176101534,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-15 14:31:31,Spot,Fiat Withdraw,EUR,-1362.04,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-10-21 17:05:05,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:04:54,Spot,Deposit,ETH,0.0001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:07:36,Spot,Deposit,ETH,1.33,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:52:04,Spot,Sell Crypto To Fiat,ETH,-0.015,via Paymonade - Ref - 2024110415420487673581626368,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:54:40,Spot,Sell Crypto To Fiat,ETH,-1.3151,Via CashBalance -  Wallet/N02549965217313004544110434,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:54:40,Spot,Sell Crypto To Fiat,EUR,2939.89,Via CashBalance -  Wallet/N02549965217313004544110434,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-04 16:55:35,Spot,Fiat Withdraw,EUR,-2939.89,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 12:10:47,Spot,Deposit,USDC,2105.50944,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 12:10:47,Spot,Deposit,USDC,0.01,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:57:25,Spot,Transaction Spend,USDC,-499.854,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:57:25,Spot,Transaction Fee,SUI,-0.12939,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:57:25,Spot,Transaction Buy,SUI,136.2,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:58:04,Spot,Transaction Spend,USDC,-1605.71268,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:58:04,Spot,Transaction Buy,EUR,1517.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:58:04,Spot,Transaction Fee,EUR,-1.44153,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 16:59:33,Spot,Fiat Withdraw,EUR,-1515.96,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 17:16:43,Spot,Withdraw,SUI,-1,Withdraw fee is included,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-19 17:18:42,Spot,Withdraw,SUI,-135.07061,Withdraw fee is included,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-22 05:02:17,Spot,Airdrop Assets,LUNA,0.00000001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:28:14,Spot,Deposit,ETH,0.001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:31:35,Spot,Deposit,ETH,0.2579,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:00,Spot,Transaction Sold,ETH,-0.2589,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:00,Spot,Transaction Revenue,USDT,937.215411,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:00,Spot,Transaction Fee,USDT,-0.93721541,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Fee,EUR,-0.0429,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Buy,EUR,844.2,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Spend,USDT,-890.96868,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Spend,USDT,-45.27666,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Fee,EUR,-0.8442,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 22:35:25,Spot,Transaction Buy,EUR,42.9,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-27 23:45:44,Spot,Fiat Withdraw,EUR,-886.21,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:29:39,Spot,Deposit,ETH,0.0001,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:32:20,Spot,Deposit,ETH,1.87005684,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:01,Spot,Transaction Revenue,USDT,6774.381147,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:01,Spot,Transaction Fee,USDT,-6.77438115,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:01,Spot,Transaction Sold,ETH,-1.8701,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,57.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,2.9,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-1.1281,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-202.01409,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-3991.10499,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,57.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0574,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0527,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,1128.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-203.07546,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,57.5,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-10.25991,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0575,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0571,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,57.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-1768.95,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0571,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-203.42925,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-202.01409,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Spend,USDT,-186.44733,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,500,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Buy,SUI,52.7,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.0029,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-11-29 16:54:40,Spot,Transaction Fee,SUI,-0.5,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-01 20:13:41,Spot,Withdraw,SUI,-1910.8872,Withdraw fee is included,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:17,Spot,Deposit,ETH,0.838,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Sold,ETH,-0.796,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Sold,ETH,-0.0279,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Fee,USDT,-2.85416148,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Revenue,USDT,2854.16148,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Sold,ETH,-0.0091,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Revenue,USDT,100.039077,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Revenue,USDT,17.92815,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Fee,USDT,-0.10003908,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Revenue,USDT,32.629233,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Fee,USDT,-0.01792815,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Sold,ETH,-0.005,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:43:49,Spot,Transaction Fee,USDT,-0.03262923,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Buy,EUR,1485.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Spend,USDT,-55.3877,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Fee,EUR,-0.0527,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Buy,EUR,1318.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Fee,EUR,-1.4854,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Buy,EUR,52.7,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Spend,USDT,-1385.5333,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Spend,USDT,-1561.1554,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-03 14:44:29,Spot,Transaction Fee,EUR,-1.3183,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-04 01:18:14,Spot,Fiat Withdraw,EUR,-2853.55,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:45:22,Spot,Deposit,ETH,0.53190511,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:46:32,Spot,Transaction Fee,USDT,-2.0029386,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:46:32,Spot,Transaction Revenue,USDT,2002.938597,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:46:32,Spot,Transaction Sold,ETH,-0.5319,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Spend,USDT,-368.44554,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Buy,EUR,1551.9,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Fee,EUR,-0.3503,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Spend,USDT,-1632.44361,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Fee,EUR,-1.5519,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 11:47:14,Spot,Transaction Buy,EUR,350.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-10 13:56:17,Spot,Fiat Withdraw,EUR,-1900.29,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:05:17,Spot,Deposit,USDC,0.01,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:10:19,Spot,Deposit,USDC,4000,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Fee,EUR,-0.89813,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Fee,EUR,-0.97204,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Spend,USDC,-993.33178,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Spend,USDC,-1931.39674,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Fee,EUR,-1.74629,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Buy,EUR,1838.2,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Spend,USDC,-1075.17856,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Buy,EUR,1023.2,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:13:24,Spot,Transaction Buy,EUR,945.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:15:17,Spot,Deposit,USDC,7999.99,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:19:19,Spot,Fiat Withdraw,EUR,-3803.19,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.10056,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.1031,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6384,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.10737,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,65.7,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.09212,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-751.01312,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-210.82516,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-176.91135,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,11.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-19.5734,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.9813,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-237.49122,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.63552,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.15048,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.04199,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.87064,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.63168,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.003895,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6312,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.02508,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-755.4096,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.632,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.88573,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-55.36448,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-313.68465,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.03007,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.10127,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,49.8,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-176.98926,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.062415,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.99639,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6304,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.108775,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,114.5,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-546.1421,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.95615,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.01292,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-238.00304,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-240.01148,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.97124,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,13.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,26.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6328,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-176.97071,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047405,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,44.2,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.0909,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,49.9,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-55.34244,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.07459,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6392,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6368,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.149435,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.636,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.09822,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6344,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6336,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.097,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-240.02657,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.10493,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.09578,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.08968,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,6.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.09944,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,158.4,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.01152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.13024,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-125.8884,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,11.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.01102,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,1.6,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.035245,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.94106,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,157.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-29.09456,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.01102,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-239.92597,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,37.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-64.89376,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6352,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.00152,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-176.93732,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-7.6376,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.005795,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Spend,USDC,-177.05604,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.04731,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,50.3,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Buy,SUI,4.1,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:25:01,Spot,Transaction Fee,SUI,-0.047785,,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:29:42,Spot,Withdraw,SUI,-1,Withdraw fee is included,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
+201486434,24-12-17 09:34:43,Spot,Withdraw,SUI,-1674.107135,Withdraw fee is included,Binance-Transaction-History-202603101621(UTC+1)_6002ee42 - All transactions 2024.xlsx,2024
