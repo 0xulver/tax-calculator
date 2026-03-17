@@ -1,0 +1,3 @@
+wallet_label,wallet_address,chain,chain_family,tx_hash,tx_type,direction,asset_symbol,amount,amount_raw,counterparty,status,tx_time_utc,year,month,notes
+Old Solana,4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC,solana-mainnet,solana,3ukomEoYvmEnyk3zbGfziwWJgCnYkQXGgodaTGpJWxduk9mg7QMGpnoqNdXvCxaJuLcoZZ7yryfU8e99bbtiUxrC,solana_native,in,SOL,1E-9,1,,success,2025-11-19T13:47:27+00:00,2025,11,slot=381121271
+Old Solana,4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC,solana-mainnet,solana,42LKRqoPAUg6YbNZX5TtwWEekGxYtenaejgj8yyGuDm7cAW5aeJqC7D7yQMZYqkiHohdMngxaUeanQgtnyLKuNw,solana_native,in,SOL,1E-9,1,,success,2025-11-19T13:47:37+00:00,2025,11,slot=381121296

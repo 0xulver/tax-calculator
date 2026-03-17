@@ -1,0 +1,20 @@
+wallet_label,wallet_address,chain,chain_type,active,status
+Reaper,0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a,polygon,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Reaper,0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a,ethereum,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Reaper,0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a,optimism,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Reaper,0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a,base,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Metamask2,0x8cA0c27a7a868A4069967709B5592995A69aE006,polygon,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Metamask2,0x8cA0c27a7a868A4069967709B5592995A69aE006,ethereum,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Metamask2,0x8cA0c27a7a868A4069967709B5592995A69aE006,optimism,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Metamask2,0x8cA0c27a7a868A4069967709B5592995A69aE006,base,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Metamask3,0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864,polygon,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Metamask3,0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864,ethereum,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Metamask3,0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864,optimism,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Metamask3,0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864,base,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Reaper strategist,0x81876677843D00a7D792E1617459aC2E93202576,polygon,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Reaper strategist,0x81876677843D00a7D792E1617459aC2E93202576,ethereum,evm_explorer,False,Etherscan API error (txlist): Missing/Invalid API Key
+Reaper strategist,0x81876677843D00a7D792E1617459aC2E93202576,optimism,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Reaper strategist,0x81876677843D00a7D792E1617459aC2E93202576,base,evm_explorer,False,Etherscan API error (txlist): Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis
+Old Solana,4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC,solana-mainnet,solana_rpc,True,HTTP Error 429: Too Many Requests
+Sui Ulver Stashed,0x0d879ddb48b77b454c534e88801bce2be514ab5cad4ffcc00e5a5476cd8b27c9,sui-mainnet,sui_rpc,True,ok
+Sui m.brantheim stashed,0xad4a4802f3f81d94a6e4fde6ce19fc120cd2f3a5f31de2723a3efbe9f2bf881b,sui-mainnet,sui_rpc,True,ok

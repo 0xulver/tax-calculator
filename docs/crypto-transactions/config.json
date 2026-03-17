@@ -1,0 +1,71 @@
+{
+  "history_start": "2019-01-01",
+  "request_delay_seconds": 0.2,
+  "default_report_year": 2025,
+  "chains": [
+    {
+      "name": "polygon",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "137",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "MATIC",
+      "native_decimals": 18
+    },
+    {
+      "name": "ethereum",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "1",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
+      "name": "optimism",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "10",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
+      "name": "base",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "8453",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
+      "name": "solana-mainnet",
+      "family": "solana",
+      "type": "solana_rpc",
+      "rpc_url": "https://api.mainnet-beta.solana.com",
+      "native_symbol": "SOL",
+      "native_decimals": 9
+    },
+    {
+      "name": "sui-mainnet",
+      "family": "sui",
+      "type": "sui_rpc",
+      "rpc_url": "https://fullnode.mainnet.sui.io:443",
+      "native_symbol": "SUI",
+      "coin_decimals": {
+        "0x2::sui::SUI": 9
+      }
+    }
+  ],
+  "salary_detection": {
+    "enabled": false,
+    "chain_names": ["polygon"],
+    "keywords": ["salary", "payroll", "wage", "pay"],
+    "min_amount": 0
+  }
+}
