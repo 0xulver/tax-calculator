@@ -1,0 +1,755 @@
+date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,counterparty_amount,notes
+2021-08-11T11:41:14+00:00,binance,,deposit,BTC,0.00043356,0,,,0,Binance Deposit
+2021-08-11T11:53:06+00:00,binance,,deposit,BTC,0.15691157,0,,,0,Binance Deposit
+2021-08-11T13:45:53+00:00,binance,,swap_out,BTC,0.157345,7.23934283,USDT,USDT,7239.34283064,Binance Trade
+2021-08-11T13:45:53+00:00,binance,,swap_in,USDT,7239.34283064,0,,BTC,0.157345,Binance Trade
+2021-08-11T14:00:49+00:00,binance,,withdrawal,USDT,2265,0,,,0,Binance Withdraw
+2021-08-11T14:27:12+00:00,binance,,deposit,BTC,0.15322921,0,,,0,Binance Deposit
+2021-08-11T14:28:40+00:00,binance,,swap_out,BTC,0.153229,7.093378,USDT,USDT,7093.37799914,Binance Trade
+2021-08-11T14:28:40+00:00,binance,,swap_in,USDT,7093.37799914,0,,BTC,0.153229,Binance Trade
+2021-08-11T14:30:24+00:00,binance,,swap_out,USDT,12053.375383,0.70399,LUNA,LUNA,703.99,Binance Trade
+2021-08-11T14:30:24+00:00,binance,,swap_in,LUNA,703.99,0,,USDT,12053.375383,Binance Trade
+2021-08-11T14:38:41+00:00,binance,,withdrawal,LUNA,5,0,,,0,Binance Withdraw
+2021-08-12T06:56:41+00:00,binance,,withdrawal,LUNA,1E+1,0,,,0,Binance Withdraw
+2021-08-12T07:00:52+00:00,binance,,withdrawal,LUNA,688.28601,0,,,0,Binance Withdraw
+2021-08-22T16:17:07+00:00,binance,,deposit,AAVE,0.05100219,0,,,0,Binance Deposit
+2021-08-22T16:25:08+00:00,binance,,deposit,AAVE,10.13908437,0,,,0,Binance Deposit
+2021-08-22T16:26:52+00:00,binance,,swap_out,AAVE,10.19,3.99678009,BUSD,BUSD,3996.780085,Binance Trade
+2021-08-22T16:26:52+00:00,binance,,swap_in,BUSD,3996.780085,0,,AAVE,10.19,Binance Trade
+2021-08-22T16:34:05+00:00,binance,,swap_out,BUSD,3992.758065,0.147765,LUNA,LUNA,147.765,Binance Trade
+2021-08-22T16:34:05+00:00,binance,,swap_in,LUNA,147.765,0,,BUSD,3992.758065,Binance Trade
+2021-08-22T16:42:41+00:00,binance,,withdrawal,LUNA,147.617235,0,,,0,Binance Withdraw
+2021-08-26T21:01:06+00:00,binance,,deposit,LUNA,0.1,0,,,0,Binance Deposit
+2021-08-26T21:03:07+00:00,binance,,deposit,LUNA,147.49,0,,,0,Binance Deposit
+2021-08-26T21:05:00+00:00,binance,,swap_out,LUNA,147.59,3.970171,USDT,USDT,3970.171,Binance Trade
+2021-08-26T21:05:00+00:00,binance,,swap_in,USDT,3970.171,0,,LUNA,147.59,Binance Trade
+2021-08-26T21:07:15+00:00,binance,,swap_out,USDT,476.024,0.00628,SOL,SOL,6.28,Binance Trade
+2021-08-26T21:07:15+00:00,binance,,swap_in,SOL,6.28,0,,USDT,476.024,Binance Trade
+2021-08-26T21:07:41+00:00,binance,,swap_out,USDT,768.096,0.01016,SOL,SOL,10.16,Binance Trade
+2021-08-26T21:07:41+00:00,binance,,swap_in,SOL,10.16,0,,USDT,768.096,Binance Trade
+2021-08-26T21:15:40+00:00,binance,,swap_out,USDT,653.25,0.00871,SOL,SOL,8.71,Binance Trade
+2021-08-26T21:15:40+00:00,binance,,swap_in,SOL,8.71,0,,USDT,653.25,Binance Trade
+2021-08-27T01:16:46+00:00,binance,,swap_out,USDT,413.91,0.00567,SOL,SOL,5.67,Binance Trade
+2021-08-27T01:16:46+00:00,binance,,swap_in,SOL,5.67,0,,USDT,413.91,Binance Trade
+2021-08-27T07:04:57+00:00,binance,,swap_out,USDT,1653.837,0.02038,SOL,SOL,20.38,Binance Trade
+2021-08-27T07:04:57+00:00,binance,,swap_in,SOL,20.38,0,,USDT,1653.837,Binance Trade
+2021-08-27T12:23:42+00:00,binance,,withdrawal,SOL,0.1,0,,,0,Binance Withdraw
+2021-08-27T12:29:42+00:00,binance,,withdrawal,SOL,51.0488,0,,,0,Binance Withdraw
+2021-09-03T10:44:07+00:00,binance,,deposit,LUNA,98,0,,,0,Binance Deposit
+2021-09-03T10:54:51+00:00,binance,,swap_out,LUNA,98,3.2683,USDT,USDT,3268.3,Binance Trade
+2021-09-03T10:54:51+00:00,binance,,swap_in,USDT,3268.3,0,,LUNA,98,Binance Trade
+2021-09-03T11:02:44+00:00,binance,,withdrawal,USDT,3266.128254,0,,,0,Binance Withdraw
+2021-09-03T12:46:16+00:00,binance,,deposit,USDT,1E+1,0,,,0,Binance Deposit
+2021-09-03T12:50:48+00:00,binance,,deposit,USDT,3072.036233,0,,,0,Binance Deposit
+2021-09-03T12:53:38+00:00,binance,,swap_out,USDT,2953.4719,3.44,FTM,FTM,3.44E+3,Binance Trade
+2021-09-03T12:53:38+00:00,binance,,swap_in,FTM,3.44E+3,0,,USDT,2953.4719,Binance Trade
+2021-09-03T12:54:32+00:00,binance,,swap_out,USDT,122.9414,0.143,FTM,FTM,143,Binance Trade
+2021-09-03T12:54:32+00:00,binance,,swap_in,FTM,143,0,,USDT,122.9414,Binance Trade
+2021-09-03T12:57:41+00:00,binance,,withdrawal,FTM,1E+1,0,,,0,Binance Withdraw
+2021-09-03T13:04:41+00:00,binance,,withdrawal,FTM,3569.417,0,,,0,Binance Withdraw
+2021-09-03T14:06:16+00:00,binance,,deposit,USDT,8843.35,0,,,0,Binance Deposit
+2021-09-03T14:09:47+00:00,binance,,swap_out,USDT,2654.0384,3.048,FTM,FTM,3048,Binance Trade
+2021-09-03T14:09:47+00:00,binance,,swap_in,FTM,3048,0,,USDT,2654.0384,Binance Trade
+2021-09-03T14:10:16+00:00,binance,,swap_out,USDT,6193.9498,7.102,FTM,FTM,7102,Binance Trade
+2021-09-03T14:10:16+00:00,binance,,swap_in,FTM,7102,0,,USDT,6193.9498,Binance Trade
+2021-09-03T17:06:41+00:00,binance,,withdrawal,FTM,10139.85,0,,,0,Binance Withdraw
+2021-09-03T17:29:07+00:00,binance,,deposit,LUNA,86.29,0,,,0,Binance Deposit
+2021-09-03T17:29:18+00:00,binance,,swap_out,LUNA,85.43,2.7482831,USDT,USDT,2748.2831,Binance Trade
+2021-09-03T17:29:18+00:00,binance,,swap_in,USDT,2748.2831,0,,LUNA,85.43,Binance Trade
+2021-09-03T17:29:28+00:00,binance,,swap_out,LUNA,0.85,0.027336,USDT,USDT,27.336,Binance Trade
+2021-09-03T17:29:28+00:00,binance,,swap_in,USDT,27.336,0,,LUNA,0.85,Binance Trade
+2021-09-03T17:37:43+00:00,binance,,withdrawal,USDT,2773.828214,0,,,0,Binance Withdraw
+2021-09-03T18:06:15+00:00,binance,,deposit,USDT,10164.58,0,,,0,Binance Deposit
+2021-09-03T18:16:09+00:00,binance,,swap_out,USDT,10066.1878,10.989,FTM,FTM,10989,Binance Trade
+2021-09-03T18:16:09+00:00,binance,,swap_in,FTM,10989,0,,USDT,10066.1878,Binance Trade
+2021-09-03T18:16:17+00:00,binance,,swap_out,USDT,97.2232,0.106,FTM,FTM,106,Binance Trade
+2021-09-03T18:16:17+00:00,binance,,swap_in,FTM,106,0,,USDT,97.2232,Binance Trade
+2021-09-03T18:21:41+00:00,binance,,withdrawal,FTM,1E+1,0,,,0,Binance Withdraw
+2021-09-03T18:44:41+00:00,binance,,withdrawal,FTM,11073.905,0,,,0,Binance Withdraw
+2021-09-05T12:19:07+00:00,binance,,deposit,LUNA,209,0,,,0,Binance Deposit
+2021-09-05T12:55:25+00:00,binance,,swap_out,LUNA,209.01,6.9206731,USDT,USDT,6920.6731,Binance Trade
+2021-09-05T12:55:25+00:00,binance,,swap_in,USDT,6920.6731,0,,LUNA,209.01,Binance Trade
+2021-09-05T12:55:57+00:00,binance,,swap_out,USDT,6913.9226,6.056,FTM,FTM,6056,Binance Trade
+2021-09-05T12:55:57+00:00,binance,,swap_in,FTM,6056,0,,USDT,6913.9226,Binance Trade
+2021-09-05T12:58:41+00:00,binance,,withdrawal,FTM,6049.944,0,,,0,Binance Withdraw
+2021-09-07T17:42:08+00:00,binance,,deposit,LUNA,1035,0,,,0,Binance Deposit
+2021-09-07T17:43:58+00:00,binance,,swap_out,LUNA,310.5,8.3835,USDT,USDT,8383.5,Binance Trade
+2021-09-07T17:43:58+00:00,binance,,swap_in,USDT,8383.5,0,,LUNA,310.5,Binance Trade
+2021-09-07T17:45:25+00:00,binance,,swap_out,LUNA,217.35,5.91192,USDT,USDT,5911.92,Binance Trade
+2021-09-07T17:45:25+00:00,binance,,swap_in,USDT,5911.92,0,,LUNA,217.35,Binance Trade
+2021-09-07T17:45:53+00:00,binance,,swap_out,LUNA,28.48,0.777504,USDT,USDT,777.504,Binance Trade
+2021-09-07T17:45:53+00:00,binance,,swap_in,USDT,777.504,0,,LUNA,28.48,Binance Trade
+2021-09-07T17:45:54+00:00,binance,,swap_out,LUNA,174.38,4.760574,USDT,USDT,4760.574,Binance Trade
+2021-09-07T17:45:54+00:00,binance,,swap_in,USDT,4760.574,0,,LUNA,174.38,Binance Trade
+2021-09-07T17:57:38+00:00,binance,,swap_out,USDT,6549.27507,0.0018346,ETH,ETH,1.8346,Binance Trade
+2021-09-07T17:57:38+00:00,binance,,swap_in,ETH,1.8346,0,,USDT,6549.27507,Binance Trade
+2021-09-07T17:58:34+00:00,binance,,swap_out,USDT,3505.6916,0.12824,LUNA,LUNA,128.24,Binance Trade
+2021-09-07T17:58:34+00:00,binance,,swap_in,LUNA,128.24,0,,USDT,3505.6916,Binance Trade
+2021-09-07T18:16:42+00:00,binance,,withdrawal,LUNA,1E+1,0,,,0,Binance Withdraw
+2021-09-07T18:24:35+00:00,binance,,deposit,FTM,1E+1,0,,,0,Binance Deposit
+2021-09-07T18:25:36+00:00,binance,,deposit,FTM,4303.539487,0,,,0,Binance Deposit
+2021-09-07T18:34:02+00:00,binance,,swap_out,USDT,2146.940793,0.0006168,ETH,ETH,0.6168,Binance Trade
+2021-09-07T18:34:02+00:00,binance,,swap_in,ETH,0.6168,0,,USDT,2146.940793,Binance Trade
+2021-09-07T18:36:42+00:00,binance,,withdrawal,LUNA,422.40176,0,,,0,Binance Withdraw
+2021-09-07T18:40:55+00:00,binance,,swap_out,FTM,961,1.5391376,USDT,USDT,1539.1376,Binance Trade
+2021-09-07T18:40:55+00:00,binance,,swap_in,USDT,1539.1376,0,,FTM,961,Binance Trade
+2021-09-07T18:40:56+00:00,binance,,swap_out,FTM,1092,1.7489472,USDT,USDT,1748.9472,Binance Trade
+2021-09-07T18:40:56+00:00,binance,,swap_in,USDT,1748.9472,0,,FTM,1092,Binance Trade
+2021-09-07T19:00:15+00:00,binance,,swap_out,FTM,1379,2.0577438,USDT,USDT,2057.7438,Binance Trade
+2021-09-07T19:00:15+00:00,binance,,swap_in,USDT,2057.7438,0,,FTM,1379,Binance Trade
+2021-09-07T19:00:25+00:00,binance,,swap_out,FTM,881,1.308766,USDT,USDT,1308.766,Binance Trade
+2021-09-07T19:00:25+00:00,binance,,swap_in,USDT,1308.766,0,,FTM,881,Binance Trade
+2021-09-07T19:45:40+00:00,binance,,deposit,SOL,6,0,,,0,Binance Deposit
+2021-09-07T19:47:31+00:00,binance,,swap_out,SOL,6,1.04514,USDT,USDT,1045.14,Binance Trade
+2021-09-07T19:47:31+00:00,binance,,swap_in,USDT,1045.14,0,,SOL,6,Binance Trade
+2021-09-07T20:16:24+00:00,binance,,swap_out,USDT,1456.977975,0.0004215,ETH,ETH,0.4215,Binance Trade
+2021-09-07T20:16:24+00:00,binance,,swap_in,ETH,0.4215,0,,USDT,1456.977975,Binance Trade
+2021-09-07T20:17:51+00:00,binance,,swap_out,USDT,2878.2343,0.1097,LUNA,LUNA,109.7,Binance Trade
+2021-09-07T20:17:51+00:00,binance,,swap_in,LUNA,109.7,0,,USDT,2878.2343,Binance Trade
+2021-09-07T20:54:22+00:00,binance,,swap_out,USDT,2535.311,0.09658,LUNA,LUNA,96.58,Binance Trade
+2021-09-07T20:54:22+00:00,binance,,swap_in,LUNA,96.58,0,,USDT,2535.311,Binance Trade
+2021-09-07T22:02:42+00:00,binance,,withdrawal,LUNA,206.07372,0,,,0,Binance Withdraw
+2021-09-07T22:23:47+00:00,binance,,swap_out,USDT,952.224,0.0002834,ETH,ETH,0.2834,Binance Trade
+2021-09-07T22:23:47+00:00,binance,,swap_in,ETH,0.2834,0,,USDT,952.224,Binance Trade
+2021-09-08T05:16:34+00:00,binance,,deposit,EUR,539.55,0,,,0,Binance Deposit
+2021-09-08T05:16:34+00:00,binance,,adjustment,EUR,-539.55,0,,,0,Binance Transaction Related
+2021-09-08T05:16:34+00:00,binance,,adjustment,ETH,0.18225383,0,,,0,Binance Transaction Related
+2021-09-08T05:17:27+00:00,binance,,swap_out,USDT,1400.056983,0.0004041,ETH,ETH,0.4041,Binance Trade
+2021-09-08T05:17:27+00:00,binance,,swap_in,ETH,0.4041,0,,USDT,1400.056983,Binance Trade
+2021-09-08T05:23:41+00:00,binance,,swap_out,USDT,6081.8736,0.22132,LUNA,LUNA,221.32,Binance Trade
+2021-09-08T05:23:41+00:00,binance,,swap_in,LUNA,221.32,0,,USDT,6081.8736,Binance Trade
+2021-09-08T05:26:44+00:00,binance,,withdrawal,ETH,3.73909343,0,,,0,Binance Withdraw
+2021-09-08T05:34:41+00:00,binance,,withdrawal,LUNA,221.09868,0,,,0,Binance Withdraw
+2021-09-09T18:00:49+00:00,binance,,deposit,LUNA,664,0,,,0,Binance Deposit
+2021-09-09T18:01:12+00:00,binance,,swap_out,LUNA,664,19.8367193,USDT,USDT,19836.7193,Binance Trade
+2021-09-09T18:01:12+00:00,binance,,swap_in,USDT,19836.7193,0,,LUNA,664,Binance Trade
+2021-09-09T18:09:08+00:00,binance,,deposit,LUNA,797,0,,,0,Binance Deposit
+2021-09-09T18:10:08+00:00,binance,,swap_out,LUNA,9.68,0.291852,USDT,USDT,291.852,Binance Trade
+2021-09-09T18:10:08+00:00,binance,,swap_in,USDT,291.852,0,,LUNA,9.68,Binance Trade
+2021-09-09T18:10:09+00:00,binance,,swap_out,LUNA,27.18,0.819477,USDT,USDT,819.477,Binance Trade
+2021-09-09T18:10:09+00:00,binance,,swap_in,USDT,819.477,0,,LUNA,27.18,Binance Trade
+2021-09-09T18:10:10+00:00,binance,,swap_out,LUNA,98.63,2.9736945,USDT,USDT,2973.6945,Binance Trade
+2021-09-09T18:10:10+00:00,binance,,swap_in,USDT,2973.6945,0,,LUNA,98.63,Binance Trade
+2021-09-09T18:12:06+00:00,binance,,swap_out,LUNA,145.53,4.395006,USDT,USDT,4395.006,Binance Trade
+2021-09-09T18:12:06+00:00,binance,,swap_in,USDT,4395.006,0,,LUNA,145.53,Binance Trade
+2021-09-09T18:15:09+00:00,binance,,swap_out,LUNA,185.75,5.628225,USDT,USDT,5628.225,Binance Trade
+2021-09-09T18:15:09+00:00,binance,,swap_in,USDT,5628.225,0,,LUNA,185.75,Binance Trade
+2021-09-09T18:56:14+00:00,binance,,swap_out,LUNA,330.23,9.9993644,USDT,USDT,9999.3644,Binance Trade
+2021-09-09T18:56:14+00:00,binance,,swap_in,USDT,9999.3644,0,,LUNA,330.23,Binance Trade
+2021-09-09T19:28:05+00:00,binance,,swap_out,USDT,4389.831496,0.001263,ETH,ETH,1.263,Binance Trade
+2021-09-09T19:28:05+00:00,binance,,swap_in,ETH,1.263,0,,USDT,4389.831496,Binance Trade
+2021-09-09T19:49:19+00:00,binance,,swap_out,USDT,1975.471,0.0005693,ETH,ETH,0.5693,Binance Trade
+2021-09-09T19:49:19+00:00,binance,,swap_in,ETH,0.5693,0,,USDT,1975.471,Binance Trade
+2021-09-09T19:54:36+00:00,binance,,swap_out,USDT,4128.894,0.0011916,ETH,ETH,1.1916,Binance Trade
+2021-09-09T19:54:36+00:00,binance,,swap_in,ETH,1.1916,0,,USDT,4128.894,Binance Trade
+2021-09-09T20:11:16+00:00,binance,,swap_out,USDT,2338.614,0.0006759,ETH,ETH,0.6759,Binance Trade
+2021-09-09T20:11:16+00:00,binance,,swap_in,ETH,0.6759,0,,USDT,2338.614,Binance Trade
+2021-09-09T20:20:50+00:00,binance,,swap_out,USDT,4970.656487,0.0014339,ETH,ETH,1.4339,Binance Trade
+2021-09-09T20:20:50+00:00,binance,,swap_in,ETH,1.4339,0,,USDT,4970.656487,Binance Trade
+2021-09-09T21:20:26+00:00,binance,,swap_out,USDT,2023.77,0.0005866,ETH,ETH,0.5866,Binance Trade
+2021-09-09T21:20:26+00:00,binance,,swap_in,ETH,0.5866,0,,USDT,2023.77,Binance Trade
+2021-09-09T21:37:27+00:00,binance,,swap_out,USDT,3072.608,0.0008932,ETH,ETH,0.8932,Binance Trade
+2021-09-09T21:37:27+00:00,binance,,swap_in,ETH,0.8932,0,,USDT,3072.608,Binance Trade
+2021-09-09T21:59:16+00:00,binance,,swap_out,USDT,3551.422,0.0010354,ETH,ETH,1.0354,Binance Trade
+2021-09-09T21:59:16+00:00,binance,,swap_in,ETH,1.0354,0,,USDT,3551.422,Binance Trade
+2021-09-10T06:41:14+00:00,binance,,swap_out,USDT,3489.3776,2.078,FTM,FTM,2078,Binance Trade
+2021-09-10T06:41:14+00:00,binance,,swap_in,FTM,2078,0,,USDT,3489.3776,Binance Trade
+2021-09-10T06:49:43+00:00,binance,,withdrawal,FTM,2076.461487,0,,,0,Binance Withdraw
+2021-09-10T09:04:38+00:00,binance,,swap_out,USDT,2093.9957,0.0006157,ETH,ETH,0.6157,Binance Trade
+2021-09-10T09:04:38+00:00,binance,,swap_in,ETH,0.6157,0,,USDT,2093.9957,Binance Trade
+2021-09-10T09:19:29+00:00,binance,,swap_out,USDT,1712.37681,0.0005003,ETH,ETH,0.5003,Binance Trade
+2021-09-10T09:19:29+00:00,binance,,swap_in,ETH,0.5003,0,,USDT,1712.37681,Binance Trade
+2021-09-10T09:30:51+00:00,binance,,swap_out,USDT,1879.472,0.0005536,ETH,ETH,0.5536,Binance Trade
+2021-09-10T09:30:51+00:00,binance,,swap_in,ETH,0.5536,0,,USDT,1879.472,Binance Trade
+2021-09-10T09:33:13+00:00,binance,,swap_out,USDT,1423.7315,0.0004231,ETH,ETH,0.4231,Binance Trade
+2021-09-10T09:33:13+00:00,binance,,swap_in,ETH,0.4231,0,,USDT,1423.7315,Binance Trade
+2021-09-10T10:09:07+00:00,binance,,swap_out,USDT,1027.6084,0.0003052,ETH,ETH,0.3052,Binance Trade
+2021-09-10T10:09:07+00:00,binance,,swap_in,ETH,0.3052,0,,USDT,1027.6084,Binance Trade
+2021-09-10T11:18:15+00:00,binance,,swap_out,USDT,1222.66839,0.0003606,ETH,ETH,0.3606,Binance Trade
+2021-09-10T11:18:15+00:00,binance,,swap_in,ETH,0.3606,0,,USDT,1222.66839,Binance Trade
+2021-09-10T11:52:52+00:00,binance,,swap_out,USDT,4599.632472,0.0013498,ETH,ETH,1.3498,Binance Trade
+2021-09-10T11:52:52+00:00,binance,,swap_in,ETH,1.3498,0,,USDT,4599.632472,Binance Trade
+2021-09-10T15:08:43+00:00,binance,,withdrawal,ETH,0.1,0,,,0,Binance Withdraw
+2021-09-10T15:10:43+00:00,binance,,withdrawal,ETH,11.6454428,0,,,0,Binance Withdraw
+2021-09-10T22:48:37+00:00,binance,,deposit,LUNA,245,0,,,0,Binance Deposit
+2021-09-10T22:52:00+00:00,binance,,swap_out,LUNA,245,9.5587962,USDT,USDT,9558.7962,Binance Trade
+2021-09-10T22:52:00+00:00,binance,,swap_in,USDT,9558.7962,0,,LUNA,245,Binance Trade
+2021-09-10T22:58:27+00:00,binance,,swap_out,USDT,2147.018401,0.0006743,ETH,ETH,0.6743,Binance Trade
+2021-09-10T22:58:27+00:00,binance,,swap_in,ETH,0.6743,0,,USDT,2147.018401,Binance Trade
+2021-09-10T23:02:08+00:00,binance,,swap_out,USDT,5477.5912,3.76,FTM,FTM,3.76E+3,Binance Trade
+2021-09-10T23:02:08+00:00,binance,,swap_in,FTM,3.76E+3,0,,USDT,5477.5912,Binance Trade
+2021-09-10T23:02:37+00:00,binance,,swap_out,USDT,1923.8136,1.32,FTM,FTM,1.32E+3,Binance Trade
+2021-09-10T23:02:37+00:00,binance,,swap_in,FTM,1.32E+3,0,,USDT,1923.8136,Binance Trade
+2021-09-10T23:10:41+00:00,binance,,withdrawal,FTM,5074.92,0,,,0,Binance Withdraw
+2021-09-13T11:36:17+00:00,binance,,deposit,USDT,7.5,0,,,0,Binance Deposit
+2021-09-13T11:41:46+00:00,binance,,deposit,USDT,4627.6586,0,,,0,Binance Deposit
+2021-09-13T11:42:56+00:00,binance,,swap_out,USDT,1157.9944,0.892,FTM,FTM,892,Binance Trade
+2021-09-13T11:42:56+00:00,binance,,swap_in,FTM,892,0,,USDT,1157.9944,Binance Trade
+2021-09-13T13:43:41+00:00,binance,,withdrawal,FTM,891.108,0,,,0,Binance Withdraw
+2021-09-14T07:00:45+00:00,binance,,deposit,ETH,1.09053,0,,,0,Binance Deposit
+2021-09-14T07:06:41+00:00,binance,,withdrawal,ETH,1.7641557,0,,,0,Binance Withdraw
+2021-09-14T15:09:30+00:00,binance,,swap_out,USDT,1738.646,1.435,FTM,FTM,1435,Binance Trade
+2021-09-14T15:09:30+00:00,binance,,swap_in,FTM,1435,0,,USDT,1738.646,Binance Trade
+2021-09-14T15:10:41+00:00,binance,,swap_out,USDT,1739.5,0.0497,LUNA,LUNA,49.7,Binance Trade
+2021-09-14T15:10:41+00:00,binance,,swap_in,LUNA,49.7,0,,USDT,1739.5,Binance Trade
+2021-09-14T15:17:41+00:00,binance,,withdrawal,LUNA,49.6503,0,,,0,Binance Withdraw
+2021-09-14T15:32:41+00:00,binance,,withdrawal,FTM,1433.565,0,,,0,Binance Withdraw
+2021-09-24T14:34:07+00:00,binance,,fiat_deposit,EUR,882.9,0,,,0,Binance Fiat OCBS - Add Fiat and Fees
+2021-09-24T14:34:08+00:00,binance,,buy,EUR,882.9,0,,,0,Binance Buy Crypto With Card
+2021-09-24T14:34:08+00:00,binance,,buy,LUNA,30.43532966,0,,,0,Binance Buy Crypto With Card
+2021-09-24T14:40:41+00:00,binance,,withdrawal,LUNA,30.435329,0,,,0,Binance Withdraw
+2021-10-09T12:49:37+00:00,binance,,deposit,LUNA,1E+1,0,,,0,Binance Deposit
+2021-10-09T12:51:37+00:00,binance,,deposit,LUNA,334.531531,0,,,0,Binance Deposit
+2021-10-09T13:07:06+00:00,binance,,swap_out,LUNA,344.53,0,,BUSD,15021.508,Binance Trade
+2021-10-09T13:07:06+00:00,binance,,swap_in,BUSD,15021.508,0,,LUNA,344.53,Binance Trade
+2021-10-09T13:14:12+00:00,binance,,swap_out,BUSD,15019.6825,6.884,FTM,FTM,6884,Binance Trade
+2021-10-09T13:14:12+00:00,binance,,swap_in,FTM,6884,0,,BUSD,15019.6825,Binance Trade
+2021-10-09T13:19:41+00:00,binance,,withdrawal,FTM,1E+1,0,,,0,Binance Withdraw
+2021-10-09T13:22:41+00:00,binance,,withdrawal,FTM,6867.116,0,,,0,Binance Withdraw
+2021-10-09T16:44:11+00:00,binance,,deposit,SOL,0.1,0,,,0,Binance Deposit
+2021-10-09T16:46:10+00:00,binance,,deposit,SOL,107.3,0,,,0,Binance Deposit
+2021-10-09T16:47:56+00:00,binance,,swap_out,SOL,107.4,16.9514183,BUSD,BUSD,16951.4183,Binance Trade
+2021-10-09T16:47:56+00:00,binance,,swap_in,BUSD,16951.4183,0,,SOL,107.4,Binance Trade
+2021-10-09T16:48:28+00:00,binance,,swap_out,BUSD,16926.6922,7.541,FTM,FTM,7541,Binance Trade
+2021-10-09T16:48:28+00:00,binance,,swap_in,FTM,7541,0,,BUSD,16926.6922,Binance Trade
+2021-10-09T16:53:41+00:00,binance,,withdrawal,FTM,7533.459,0,,,0,Binance Withdraw
+2021-10-09T17:57:36+00:00,binance,,deposit,LUNA,302.255945,0,,,0,Binance Deposit
+2021-10-09T18:18:08+00:00,binance,,swap_out,LUNA,302.25,13.0417038,BUSD,BUSD,13041.7038,Binance Trade
+2021-10-09T18:18:08+00:00,binance,,swap_in,BUSD,13041.7038,0,,LUNA,302.25,Binance Trade
+2021-10-09T18:19:24+00:00,binance,,swap_out,BUSD,12735.4242,5.802,FTM,FTM,5802,Binance Trade
+2021-10-09T18:19:24+00:00,binance,,swap_in,FTM,5802,0,,BUSD,12735.4242,Binance Trade
+2021-10-09T18:19:44+00:00,binance,,swap_out,BUSD,300.578,0.137,FTM,FTM,137,Binance Trade
+2021-10-09T18:19:44+00:00,binance,,swap_in,FTM,137,0,,BUSD,300.578,Binance Trade
+2021-10-09T18:23:41+00:00,binance,,withdrawal,FTM,5933.061,0,,,0,Binance Withdraw
+2021-10-31T21:12:38+00:00,binance,,deposit,LUNA,151.804084,0,,,0,Binance Deposit
+2021-10-31T21:28:08+00:00,binance,,sell,LUNA,15.18,0.566214,EUR,EUR,566.214,Binance Trade
+2021-10-31T22:32:22+00:00,binance,,sell,LUNA,20.49,0.766326,EUR,EUR,766.326,Binance Trade
+2021-10-31T22:32:25+00:00,binance,,sell,LUNA,17.42,0.65325,EUR,EUR,653.25,Binance Trade
+2021-11-01T14:53:11+00:00,binance,,sell,LUNA,98.72,3.702,EUR,EUR,3702,Binance Trade
+2021-11-01T15:01:09+00:00,binance,,fiat_withdrawal,EUR,1E+3,0,,,0,Binance Fiat Withdraw
+2021-11-01T15:11:02+00:00,binance,,fiat_withdrawal,EUR,4682.1,0,,,0,Binance Fiat Withdraw
+2021-11-16T13:43:06+00:00,binance,,deposit,FTM,5,0,,,0,Binance Deposit
+2021-11-16T13:44:36+00:00,binance,,deposit,FTM,5074,0,,,0,Binance Deposit
+2021-11-16T13:48:33+00:00,binance,,swap_out,FTM,5079,11.3653958,BUSD,BUSD,11365.3958,Binance Trade
+2021-11-16T13:48:33+00:00,binance,,swap_in,BUSD,11365.3958,0,,FTM,5079,Binance Trade
+2021-11-16T13:50:12+00:00,binance,,swap_out,BUSD,2836.5071,0.06374,LUNA,LUNA,63.74,Binance Trade
+2021-11-16T13:50:12+00:00,binance,,swap_in,LUNA,63.74,0,,BUSD,2836.5071,Binance Trade
+2021-11-16T19:52:42+00:00,binance,,withdrawal,LUNA,5,0,,,0,Binance Withdraw
+2021-11-16T20:04:41+00:00,binance,,withdrawal,LUNA,58.67782,0,,,0,Binance Withdraw
+2021-11-16T21:17:07+00:00,binance,,swap_out,BUSD,1704.09,0,,LUNA,39.63,Binance Trade
+2021-11-16T21:17:07+00:00,binance,,swap_in,LUNA,39.63,0,,BUSD,1704.09,Binance Trade
+2021-11-16T21:44:46+00:00,binance,,swap_out,BUSD,2385.18,0,,LUNA,56.79,Binance Trade
+2021-11-16T21:44:46+00:00,binance,,swap_in,LUNA,56.79,0,,BUSD,2385.18,Binance Trade
+2021-11-17T10:57:20+00:00,binance,,swap_out,BUSD,4430.46,0,,LUNA,108.06,Binance Trade
+2021-11-17T10:57:20+00:00,binance,,swap_in,LUNA,108.06,0,,BUSD,4430.46,Binance Trade
+2021-11-17T11:37:41+00:00,binance,,withdrawal,LUNA,204.48,0,,,0,Binance Withdraw
+2021-11-18T17:50:08+00:00,binance,,deposit,KSM,0.1,0,,,0,Binance Deposit
+2021-11-18T17:53:08+00:00,binance,,deposit,KSM,32.1,0,,,0,Binance Deposit
+2021-11-18T17:54:21+00:00,binance,,swap_out,KSM,1.167,0,,BUSD,400.281,Binance Trade
+2021-11-18T17:54:21+00:00,binance,,swap_in,BUSD,400.281,0,,KSM,1.167,Binance Trade
+2021-11-18T17:54:22+00:00,binance,,swap_out,KSM,1.168,0,,BUSD,400.624,Binance Trade
+2021-11-18T17:54:22+00:00,binance,,swap_in,BUSD,400.624,0,,KSM,1.168,Binance Trade
+2021-11-18T17:54:37+00:00,binance,,swap_out,KSM,29.865,0,,BUSD,10243.695,Binance Trade
+2021-11-18T17:54:37+00:00,binance,,swap_in,BUSD,10243.695,0,,KSM,29.865,Binance Trade
+2021-11-20T23:16:43+00:00,binance,,swap_out,BUSD,11042.7053,5.1,FTM,FTM,5.1E+3,Binance Trade
+2021-11-20T23:16:43+00:00,binance,,swap_in,FTM,5.1E+3,0,,BUSD,11042.7053,Binance Trade
+2021-11-23T08:33:35+00:00,binance,,swap_out,FTM,5094,10.391199,BUSD,BUSD,10391.199,Binance Trade
+2021-11-23T08:33:35+00:00,binance,,swap_in,BUSD,10391.199,0,,FTM,5094,Binance Trade
+2021-11-23T09:23:32+00:00,binance,,swap_out,BUSD,3426.306,0,,LUNA,85.02,Binance Trade
+2021-11-23T09:23:32+00:00,binance,,swap_in,LUNA,85.02,0,,BUSD,3426.306,Binance Trade
+2021-11-23T09:25:49+00:00,binance,,swap_out,BUSD,6951.1621,0.17192,LUNA,LUNA,171.92,Binance Trade
+2021-11-23T09:25:49+00:00,binance,,swap_in,LUNA,171.92,0,,BUSD,6951.1621,Binance Trade
+2021-11-24T09:14:41+00:00,binance,,withdrawal,LUNA,256.76808,0,,,0,Binance Withdraw
+2021-11-24T19:25:35+00:00,binance,,deposit,FTM,983,0,,,0,Binance Deposit
+2021-11-24T19:32:25+00:00,binance,,swap_out,FTM,197,0,,BUSD,508.26,Binance Trade
+2021-11-24T19:32:25+00:00,binance,,swap_in,BUSD,508.26,0,,FTM,197,Binance Trade
+2021-11-25T00:50:30+00:00,binance,,swap_out,FTM,236,0,,BUSD,613.6,Binance Trade
+2021-11-25T00:50:30+00:00,binance,,swap_in,BUSD,613.6,0,,FTM,236,Binance Trade
+2021-11-25T04:07:01+00:00,binance,,swap_out,FTM,5.5E+2,0,,BUSD,1446.5,Binance Trade
+2021-11-25T04:07:01+00:00,binance,,swap_in,BUSD,1446.5,0,,FTM,5.5E+2,Binance Trade
+2021-11-25T09:55:59+00:00,binance,,sell,BUSD,2571.3498,2.2938,EUR,EUR,2293.8,Binance Trade
+2021-11-25T10:00:16+00:00,binance,,fiat_withdrawal,EUR,2291.5,0,,,0,Binance Fiat Withdraw
+2021-12-04T22:06:09+00:00,binance,,deposit,LUNA,1,0,,,0,Binance Deposit
+2021-12-04T22:14:09+00:00,binance,,deposit,LUNA,535.609215,0,,,0,Binance Deposit
+2021-12-05T00:05:32+00:00,binance,,swap_out,LUNA,32.2,0,,BUSD,2413.068,Binance Trade
+2021-12-05T00:05:32+00:00,binance,,swap_in,BUSD,2413.068,0,,LUNA,32.2,Binance Trade
+2021-12-05T00:07:17+00:00,binance,,swap_out,LUNA,40.35,0,,BUSD,3055.302,Binance Trade
+2021-12-05T00:07:17+00:00,binance,,swap_in,BUSD,3055.302,0,,LUNA,40.35,Binance Trade
+2021-12-05T00:07:43+00:00,binance,,swap_out,LUNA,174.62,0,,BUSD,13358.086,Binance Trade
+2021-12-05T00:07:43+00:00,binance,,swap_in,BUSD,13358.086,0,,LUNA,174.62,Binance Trade
+2021-12-05T00:10:15+00:00,binance,,swap_out,LUNA,101.3,0,,BUSD,7871.01,Binance Trade
+2021-12-05T00:10:15+00:00,binance,,swap_in,BUSD,7871.01,0,,LUNA,101.3,Binance Trade
+2021-12-05T10:51:52+00:00,binance,,swap_out,BUSD,2673.1261,1.613,FTM,FTM,1613,Binance Trade
+2021-12-05T10:51:52+00:00,binance,,swap_in,FTM,1613,0,,BUSD,2673.1261,Binance Trade
+2021-12-05T11:02:34+00:00,binance,,swap_out,LUNA,188.13,0,,BUSD,14580.075,Binance Trade
+2021-12-05T11:02:34+00:00,binance,,swap_in,BUSD,14580.075,0,,LUNA,188.13,Binance Trade
+2021-12-05T16:55:19+00:00,binance,,swap_out,BUSD,6181.7381,4.044,FTM,FTM,4044,Binance Trade
+2021-12-05T16:55:19+00:00,binance,,swap_in,FTM,4044,0,,BUSD,6181.7381,Binance Trade
+2021-12-05T17:06:24+00:00,binance,,swap_out,BUSD,6811.0382,4.388,FTM,FTM,4388,Binance Trade
+2021-12-05T17:06:24+00:00,binance,,swap_in,FTM,4388,0,,BUSD,6811.0382,Binance Trade
+2021-12-06T01:18:12+00:00,binance,,swap_out,BUSD,969.882,0,,FTM,654,Binance Trade
+2021-12-06T01:18:12+00:00,binance,,swap_in,FTM,654,0,,BUSD,969.882,Binance Trade
+2021-12-06T01:18:13+00:00,binance,,swap_out,BUSD,1079.624,0,,FTM,728,Binance Trade
+2021-12-06T01:18:13+00:00,binance,,swap_in,FTM,728,0,,BUSD,1079.624,Binance Trade
+2021-12-06T03:44:18+00:00,binance,,swap_out,BUSD,3147.43,0,,FTM,2201,Binance Trade
+2021-12-06T03:44:18+00:00,binance,,swap_in,FTM,2201,0,,BUSD,3147.43,Binance Trade
+2021-12-06T08:25:08+00:00,binance,,swap_out,BUSD,44.928,0,,FTM,32,Binance Trade
+2021-12-06T08:25:08+00:00,binance,,swap_in,FTM,32,0,,BUSD,44.928,Binance Trade
+2021-12-06T08:25:09+00:00,binance,,swap_out,BUSD,103.896,0,,FTM,74,Binance Trade
+2021-12-06T08:25:09+00:00,binance,,swap_in,FTM,74,0,,BUSD,103.896,Binance Trade
+2021-12-06T08:26:21+00:00,binance,,swap_out,BUSD,165.672,0,,FTM,118,Binance Trade
+2021-12-06T08:26:21+00:00,binance,,swap_in,FTM,118,0,,BUSD,165.672,Binance Trade
+2021-12-06T08:26:22+00:00,binance,,swap_out,BUSD,2478.06,0,,FTM,1765,Binance Trade
+2021-12-06T08:26:22+00:00,binance,,swap_in,FTM,1765,0,,BUSD,2478.06,Binance Trade
+2021-12-06T08:26:23+00:00,binance,,swap_out,BUSD,2653.56,0,,FTM,1.89E+3,Binance Trade
+2021-12-06T08:26:23+00:00,binance,,swap_in,FTM,1.89E+3,0,,BUSD,2653.56,Binance Trade
+2021-12-06T10:44:29+00:00,binance,,swap_out,BUSD,3146.6831,0.011977,KSM,KSM,11.977,Binance Trade
+2021-12-06T10:44:29+00:00,binance,,swap_in,KSM,11.977,0,,BUSD,3146.6831,Binance Trade
+2021-12-06T10:45:25+00:00,binance,,swap_out,BUSD,1180.6178,0.866,FTM,FTM,866,Binance Trade
+2021-12-06T10:45:25+00:00,binance,,swap_in,FTM,866,0,,BUSD,1180.6178,Binance Trade
+2021-12-06T13:34:41+00:00,binance,,withdrawal,FTM,17497.855,0,,,0,Binance Withdraw
+2021-12-06T17:43:08+00:00,binance,,swap_out,BUSD,3616.3282,2.362,FTM,FTM,2362,Binance Trade
+2021-12-06T17:43:08+00:00,binance,,swap_in,FTM,2362,0,,BUSD,3616.3282,Binance Trade
+2021-12-08T09:55:21+00:00,binance,,sell,BUSD,1053.1312,0.9328,EUR,EUR,932.8,Binance Trade
+2021-12-08T10:00:58+00:00,binance,,fiat_withdrawal,EUR,931.87,0,,,0,Binance Fiat Withdraw
+2021-12-08T13:44:18+00:00,binance,,swap_out,BUSD,1194.3417,0.778,FTM,FTM,778,Binance Trade
+2021-12-08T13:44:18+00:00,binance,,swap_in,FTM,778,0,,BUSD,1194.3417,Binance Trade
+2021-12-09T21:56:41+00:00,binance,,withdrawal,FTM,4001.994,0,,,0,Binance Withdraw
+2021-12-09T22:09:42+00:00,binance,,withdrawal,KSM,11.965023,0,,,0,Binance Withdraw
+2021-12-10T00:45:58+00:00,binance,,swap_out,BUSD,620.62,0,,FTM,434,Binance Trade
+2021-12-10T00:45:58+00:00,binance,,swap_in,FTM,434,0,,BUSD,620.62,Binance Trade
+2021-12-10T07:31:12+00:00,binance,,swap_out,BUSD,541.562,0,,FTM,383,Binance Trade
+2021-12-10T07:31:12+00:00,binance,,swap_in,FTM,383,0,,BUSD,541.562,Binance Trade
+2021-12-10T07:31:38+00:00,binance,,swap_out,BUSD,581.154,0,,FTM,411,Binance Trade
+2021-12-10T07:31:38+00:00,binance,,swap_in,FTM,411,0,,BUSD,581.154,Binance Trade
+2021-12-10T07:58:14+00:00,binance,,swap_out,BUSD,1548.4,0,,FTM,1106,Binance Trade
+2021-12-10T07:58:14+00:00,binance,,swap_in,FTM,1106,0,,BUSD,1548.4,Binance Trade
+2021-12-13T16:55:38+00:00,binance,,swap_out,FTM,2334,3.0547292,USDT,USDT,3054.7292,Binance Trade
+2021-12-13T16:55:38+00:00,binance,,swap_in,USDT,3054.7292,0,,FTM,2334,Binance Trade
+2021-12-13T16:56:05+00:00,binance,,swap_out,USDT,3049.4346,0.05583,LUNA,LUNA,55.83,Binance Trade
+2021-12-13T16:56:05+00:00,binance,,swap_in,LUNA,55.83,0,,USDT,3049.4346,Binance Trade
+2021-12-13T16:56:19+00:00,binance,,swap_out,BUSD,1487.7906,0.02715,LUNA,LUNA,27.15,Binance Trade
+2021-12-13T16:56:19+00:00,binance,,swap_in,LUNA,27.15,0,,BUSD,1487.7906,Binance Trade
+2021-12-13T16:59:42+00:00,binance,,withdrawal,LUNA,82.906235,0,,,0,Binance Withdraw
+2021-12-13T17:17:06+00:00,binance,,deposit,FTM,1E+1,0,,,0,Binance Deposit
+2021-12-13T17:18:06+00:00,binance,,deposit,FTM,5285.1080554,0,,,0,Binance Deposit
+2021-12-13T17:21:18+00:00,binance,,swap_out,FTM,5295,6.9803125,BUSD,BUSD,6980.3125,Binance Trade
+2021-12-13T17:21:18+00:00,binance,,swap_in,BUSD,6980.3125,0,,FTM,5295,Binance Trade
+2021-12-13T17:30:48+00:00,binance,,deposit,FTM,1478.27967908,0,,,0,Binance Deposit
+2021-12-13T17:32:12+00:00,binance,,swap_out,FTM,1478,1.9518468,BUSD,BUSD,1951.8468,Binance Trade
+2021-12-13T17:32:12+00:00,binance,,swap_in,BUSD,1951.8468,0,,FTM,1478,Binance Trade
+2021-12-13T17:37:08+00:00,binance,,swap_out,BUSD,8918.1566,0.15943,LUNA,LUNA,159.43,Binance Trade
+2021-12-13T17:37:08+00:00,binance,,swap_in,LUNA,159.43,0,,BUSD,8918.1566,Binance Trade
+2021-12-13T17:40:56+00:00,binance,,withdrawal,LUNA,159.27057,0,,,0,Binance Withdraw
+2021-12-13T20:37:35+00:00,binance,,deposit,FTM,4155.6532808,0,,,0,Binance Deposit
+2021-12-13T20:37:43+00:00,binance,,swap_out,FTM,4156,5.2405749,BUSD,BUSD,5240.5749,Binance Trade
+2021-12-13T20:37:43+00:00,binance,,swap_in,BUSD,5240.5749,0,,FTM,4156,Binance Trade
+2021-12-13T20:38:52+00:00,binance,,swap_out,BUSD,5159.8128,0.0973,LUNA,LUNA,97.3,Binance Trade
+2021-12-13T20:38:52+00:00,binance,,swap_in,LUNA,97.3,0,,BUSD,5159.8128,Binance Trade
+2021-12-13T20:39:08+00:00,binance,,swap_out,BUSD,80.6208,0.00152,LUNA,LUNA,1.52,Binance Trade
+2021-12-13T20:39:08+00:00,binance,,swap_in,LUNA,1.52,0,,BUSD,80.6208,Binance Trade
+2021-12-13T20:42:42+00:00,binance,,withdrawal,LUNA,98.72118,0,,,0,Binance Withdraw
+2021-12-20T15:30:51+00:00,binance,,deposit,LUNA,50.363846,0,,,0,Binance Deposit
+2021-12-20T15:37:18+00:00,binance,,swap_out,LUNA,50.36,3.6995471,BUSD,BUSD,3699.5471,Binance Trade
+2021-12-20T15:37:18+00:00,binance,,swap_in,BUSD,3699.5471,0,,LUNA,50.36,Binance Trade
+2021-12-20T16:08:49+00:00,binance,,sell,BUSD,3692.727,3.2679,EUR,EUR,3267.9,Binance Trade
+2021-12-20T16:20:22+00:00,binance,,fiat_withdrawal,EUR,3264.63,0,,,0,Binance Fiat Withdraw
+2021-12-22T10:52:37+00:00,binance,,deposit,LUNA,194.091111,0,,,0,Binance Deposit
+2021-12-22T10:57:15+00:00,binance,,swap_out,LUNA,42.7,4.1127248,BUSD,BUSD,4112.7248,Binance Trade
+2021-12-22T10:57:15+00:00,binance,,swap_in,BUSD,4112.7248,0,,LUNA,42.7,Binance Trade
+2021-12-22T11:22:51+00:00,binance,,swap_out,LUNA,24.22,0,,BUSD,2361.45,Binance Trade
+2021-12-22T11:22:51+00:00,binance,,swap_in,BUSD,2361.45,0,,LUNA,24.22,Binance Trade
+2021-12-22T12:43:42+00:00,binance,,sell,BUSD,733.822,0.6494,EUR,EUR,649.4,Binance Trade
+2021-12-22T12:55:53+00:00,binance,,buy,USDT,732.3823,0.7323823,USDT,EUR,648.7,Binance Trade
+2021-12-22T12:56:40+00:00,binance,,swap_out,BUSD,287,0,,USDT,286.8565,Binance Trade
+2021-12-22T12:56:40+00:00,binance,,swap_in,USDT,286.8565,0,,BUSD,287,Binance Trade
+2021-12-22T13:01:27+00:00,binance,,swap_out,BUSD,3272.1974,0.011888,KSM,KSM,11.888,Binance Trade
+2021-12-22T13:01:27+00:00,binance,,swap_in,KSM,11.888,0,,BUSD,3272.1974,Binance Trade
+2021-12-22T13:02:44+00:00,binance,,withdrawal,USDT,1020.955572,0,,,0,Binance Withdraw
+2021-12-22T13:09:41+00:00,binance,,withdrawal,KSM,11.876112,0,,,0,Binance Withdraw
+2021-12-26T23:06:53+00:00,binance,,swap_out,LUNA,127.17,12.6398294,BUSD,BUSD,12639.8294,Binance Trade
+2021-12-26T23:06:53+00:00,binance,,swap_in,BUSD,12639.8294,0,,LUNA,127.17,Binance Trade
+2021-12-26T23:07:30+00:00,binance,,swap_out,BUSD,5034.1813,0.16277,DOT,DOT,162.77,Binance Trade
+2021-12-26T23:07:30+00:00,binance,,swap_in,DOT,162.77,0,,BUSD,5034.1813,Binance Trade
+2021-12-26T23:07:48+00:00,binance,,swap_out,BUSD,4886.5508,0.015374,KSM,KSM,15.374,Binance Trade
+2021-12-26T23:07:48+00:00,binance,,swap_in,KSM,15.374,0,,BUSD,4886.5508,Binance Trade
+2021-12-26T23:15:41+00:00,binance,,withdrawal,KSM,15.358626,0,,,0,Binance Withdraw
+2021-12-26T23:17:41+00:00,binance,,withdrawal,DOT,162.60723,0,,,0,Binance Withdraw
+2021-12-30T12:02:29+00:00,binance,,sell,BUSD,1172.847,1.037,EUR,EUR,1037,Binance Trade
+2021-12-30T12:05:22+00:00,binance,,swap_out,BUSD,1856.3786,0.02174,LUNA,LUNA,21.74,Binance Trade
+2021-12-30T12:05:22+00:00,binance,,swap_in,LUNA,21.74,0,,BUSD,1856.3786,Binance Trade
+2021-12-30T12:10:23+00:00,binance,,fiat_withdrawal,EUR,1036.02,0,,,0,Binance Fiat Withdraw
+2022-01-05T15:58:27+00:00,binance,,swap_out,BUSD,1857.226,1.855,UST,UST,1855,Binance Trade
+2022-01-05T15:58:27+00:00,binance,,swap_in,UST,1855,0,,BUSD,1857.226,Binance Trade
+2022-01-05T16:02:42+00:00,binance,,withdrawal,UST,1853.145,0,,,0,Binance Withdraw
+2022-01-05T16:05:41+00:00,binance,,withdrawal,LUNA,21.723217,0,,,0,Binance Withdraw
+2022-01-07T16:20:06+00:00,binance,,deposit,FTM,1,0,,,0,Binance Deposit
+2022-01-07T16:24:06+00:00,binance,,deposit,FTM,7435,0,,,0,Binance Deposit
+2022-01-07T16:48:50+00:00,binance,,swap_out,FTM,7436,19.9972164,BUSD,BUSD,19997.2164,Binance Trade
+2022-01-07T16:48:50+00:00,binance,,swap_in,BUSD,19997.2164,0,,FTM,7436,Binance Trade
+2022-01-07T16:49:09+00:00,binance,,swap_out,BUSD,19976.9505,19.955,UST,UST,19955,Binance Trade
+2022-01-07T16:49:09+00:00,binance,,swap_in,UST,19955,0,,BUSD,19976.9505,Binance Trade
+2022-01-07T16:53:42+00:00,binance,,withdrawal,UST,19935.045,0,,,0,Binance Withdraw
+2022-01-08T14:57:35+00:00,binance,,deposit,FTM,395,0,,,0,Binance Deposit
+2022-01-08T14:58:25+00:00,binance,,swap_out,FTM,395,0.982523,BUSD,BUSD,982.523,Binance Trade
+2022-01-08T14:58:25+00:00,binance,,swap_in,BUSD,982.523,0,,FTM,395,Binance Trade
+2022-01-08T14:59:15+00:00,binance,,sell,BUSD,982.044,0.866,EUR,EUR,866,Binance Trade
+2022-01-08T15:10:41+00:00,binance,,fiat_withdrawal,EUR,865.1,0,,,0,Binance Fiat Withdraw
+2022-01-08T21:00:08+00:00,binance,,deposit,FTM,1337,0,,,0,Binance Deposit
+2022-01-08T21:01:18+00:00,binance,,swap_out,FTM,1337,3.0116245,BUSD,BUSD,3011.6245,Binance Trade
+2022-01-08T21:01:18+00:00,binance,,swap_in,BUSD,3011.6245,0,,FTM,1337,Binance Trade
+2022-01-08T21:01:41+00:00,binance,,swap_out,BUSD,3008.005,3.005,UST,UST,3005,Binance Trade
+2022-01-08T21:01:41+00:00,binance,,swap_in,UST,3005,0,,BUSD,3008.005,Binance Trade
+2022-01-08T21:05:42+00:00,binance,,withdrawal,UST,3001.995,0,,,0,Binance Withdraw
+2022-01-08T21:18:36+00:00,binance,,deposit,FTM,2021,0,,,0,Binance Deposit
+2022-01-08T21:18:50+00:00,binance,,swap_out,FTM,2021,4.4774695,BUSD,BUSD,4477.4695,Binance Trade
+2022-01-08T21:18:50+00:00,binance,,swap_in,BUSD,4477.4695,0,,FTM,2021,Binance Trade
+2022-01-08T21:33:58+00:00,binance,,swap_out,BUSD,4472.8743,0.06917,LUNA,LUNA,69.17,Binance Trade
+2022-01-08T21:33:58+00:00,binance,,swap_in,LUNA,69.17,0,,BUSD,4472.8743,Binance Trade
+2022-01-10T15:16:41+00:00,binance,,withdrawal,LUNA,69.10083,0,,,0,Binance Withdraw
+2022-01-18T16:15:37+00:00,binance,,deposit,FTM,1.46E+3,0,,,0,Binance Deposit
+2022-01-18T16:16:32+00:00,binance,,swap_out,FTM,1.46E+3,4.018268,BUSD,BUSD,4018.268,Binance Trade
+2022-01-18T16:16:32+00:00,binance,,swap_in,BUSD,4018.268,0,,FTM,1.46E+3,Binance Trade
+2022-01-18T16:16:57+00:00,binance,,sell,BUSD,4015.0784,3.5344,EUR,EUR,3534.4,Binance Trade
+2022-01-18T16:20:26+00:00,binance,,fiat_withdrawal,EUR,3530.9,0,,,0,Binance Fiat Withdraw
+2022-01-21T23:03:05+00:00,binance,,deposit,FTM,4.65E+3,0,,,0,Binance Deposit
+2022-01-21T23:05:36+00:00,binance,,swap_out,FTM,4.65E+3,10.3907438,BUSD,BUSD,10390.7438,Binance Trade
+2022-01-21T23:05:36+00:00,binance,,swap_in,BUSD,10390.7438,0,,FTM,4.65E+3,Binance Trade
+2022-01-21T23:20:43+00:00,binance,,deposit,FTM,1.5E+4,0,,,0,Binance Deposit
+2022-01-21T23:29:31+00:00,binance,,swap_out,BUSD,10380.2502,0.1588,LUNA,LUNA,158.8,Binance Trade
+2022-01-21T23:29:31+00:00,binance,,swap_in,LUNA,158.8,0,,BUSD,10380.2502,Binance Trade
+2022-01-21T23:43:28+00:00,binance,,swap_out,FTM,1.5E+4,33.9718372,BUSD,BUSD,33971.8372,Binance Trade
+2022-01-21T23:43:28+00:00,binance,,swap_in,BUSD,33971.8372,0,,FTM,1.5E+4,Binance Trade
+2022-01-21T23:58:50+00:00,binance,,swap_out,BUSD,7805.4915,0.12265,LUNA,LUNA,122.65,Binance Trade
+2022-01-21T23:58:50+00:00,binance,,swap_in,LUNA,122.65,0,,BUSD,7805.4915,Binance Trade
+2022-01-22T00:09:42+00:00,binance,,withdrawal,LUNA,158.6412,0,,,0,Binance Withdraw
+2022-01-22T00:30:48+00:00,binance,,withdrawal,LUNA,122.52735,0,,,0,Binance Withdraw
+2022-01-22T00:52:59+00:00,binance,,swap_out,BUSD,8361.7236,0.12976,LUNA,LUNA,129.76,Binance Trade
+2022-01-22T00:52:59+00:00,binance,,swap_in,LUNA,129.76,0,,BUSD,8361.7236,Binance Trade
+2022-01-22T01:03:41+00:00,binance,,withdrawal,LUNA,129.63024,0,,,0,Binance Withdraw
+2022-01-22T06:31:57+00:00,binance,,swap_out,BUSD,1243.72,0,,LUNA,20.06,Binance Trade
+2022-01-22T06:31:57+00:00,binance,,swap_in,LUNA,20.06,0,,BUSD,1243.72,Binance Trade
+2022-01-22T06:45:47+00:00,binance,,swap_out,BUSD,1487.18,0,,LUNA,24.38,Binance Trade
+2022-01-22T06:45:47+00:00,binance,,swap_in,LUNA,24.38,0,,BUSD,1487.18,Binance Trade
+2022-01-22T07:31:55+00:00,binance,,swap_out,BUSD,2556.6,0,,LUNA,42.61,Binance Trade
+2022-01-22T07:31:55+00:00,binance,,swap_in,LUNA,42.61,0,,BUSD,2556.6,Binance Trade
+2022-01-22T07:36:17+00:00,binance,,swap_out,BUSD,3495.16,0,,LUNA,59.24,Binance Trade
+2022-01-22T07:36:17+00:00,binance,,swap_in,LUNA,59.24,0,,BUSD,3495.16,Binance Trade
+2022-01-22T07:38:20+00:00,binance,,swap_out,BUSD,8987.68,0,,LUNA,154.96,Binance Trade
+2022-01-22T07:38:20+00:00,binance,,swap_in,LUNA,154.96,0,,BUSD,8987.68,Binance Trade
+2022-01-22T11:16:42+00:00,binance,,withdrawal,LUNA,301.25,0,,,0,Binance Withdraw
+2022-01-22T11:28:35+00:00,binance,,deposit,ETH,8.9,0,,,0,Binance Deposit
+2022-01-22T11:29:01+00:00,binance,,swap_out,ETH,8.9,21.46856392,BUSD,BUSD,21468.56392,Binance Trade
+2022-01-22T11:29:01+00:00,binance,,swap_in,BUSD,21468.56392,0,,ETH,8.9,Binance Trade
+2022-01-22T12:43:05+00:00,binance,,deposit,FTM,3.02E+3,0,,,0,Binance Deposit
+2022-01-22T13:06:47+00:00,binance,,swap_out,FTM,3.02E+3,6.0237594,BUSD,BUSD,6023.7594,Binance Trade
+2022-01-22T13:06:47+00:00,binance,,swap_in,BUSD,6023.7594,0,,FTM,3.02E+3,Binance Trade
+2022-01-23T06:52:49+00:00,binance,,swap_out,BUSD,172,0,,UST,172,Binance Trade
+2022-01-23T06:52:49+00:00,binance,,swap_in,UST,172,0,,BUSD,172,Binance Trade
+2022-01-23T06:52:51+00:00,binance,,swap_out,BUSD,102,0,,UST,102,Binance Trade
+2022-01-23T06:52:51+00:00,binance,,swap_in,UST,102,0,,BUSD,102,Binance Trade
+2022-01-23T06:53:22+00:00,binance,,swap_out,BUSD,14889,0,,UST,14889,Binance Trade
+2022-01-23T06:53:22+00:00,binance,,swap_in,UST,14889,0,,BUSD,14889,Binance Trade
+2022-01-23T06:53:23+00:00,binance,,swap_out,BUSD,4063,0,,UST,4063,Binance Trade
+2022-01-23T06:53:23+00:00,binance,,swap_in,UST,4063,0,,BUSD,4063,Binance Trade
+2022-01-23T11:08:42+00:00,binance,,withdrawal,UST,19226,0,,,0,Binance Withdraw
+2022-01-23T12:05:53+00:00,binance,,swap_out,BUSD,8239.2583,0.042283,KSM,KSM,42.283,Binance Trade
+2022-01-23T12:05:53+00:00,binance,,swap_in,KSM,42.283,0,,BUSD,8239.2583,Binance Trade
+2022-01-23T12:13:42+00:00,binance,,withdrawal,KSM,1.1,0,,,0,Binance Withdraw
+2022-01-23T12:25:41+00:00,binance,,withdrawal,KSM,41.140717,0,,,0,Binance Withdraw
+2022-01-26T20:55:37+00:00,binance,,deposit,UST,2.5E+3,0,,,0,Binance Deposit
+2022-01-26T20:59:22+00:00,binance,,swap_out,UST,2.5E+3,2.50175,BUSD,BUSD,2501.75,Binance Trade
+2022-01-26T20:59:22+00:00,binance,,swap_in,BUSD,2501.75,0,,UST,2.5E+3,Binance Trade
+2022-01-26T20:59:52+00:00,binance,,sell,BUSD,2499.2696,2.2196,EUR,EUR,2219.6,Binance Trade
+2022-01-26T21:10:51+00:00,binance,,fiat_withdrawal,EUR,2217.38,0,,,0,Binance Fiat Withdraw
+2022-01-30T23:28:35+00:00,binance,,deposit,FTM,1.09E+3,0,,,0,Binance Deposit
+2022-01-30T23:29:44+00:00,binance,,swap_out,FTM,1.09E+3,2.2038339,BUSD,BUSD,2203.8339,Binance Trade
+2022-01-30T23:29:44+00:00,binance,,swap_in,BUSD,2203.8339,0,,FTM,1.09E+3,Binance Trade
+2022-01-30T23:30:11+00:00,binance,,sell,BUSD,2201.6488,1.9799,EUR,EUR,1979.9,Binance Trade
+2022-01-30T23:40:22+00:00,binance,,fiat_withdrawal,EUR,1977.92,0,,,0,Binance Fiat Withdraw
+2022-01-31T10:04:06+00:00,binance,,deposit,FTM,5.1E+2,0,,,0,Binance Deposit
+2022-01-31T10:09:35+00:00,binance,,deposit,FTM,5E+2,0,,,0,Binance Deposit
+2022-01-31T10:12:06+00:00,binance,,deposit,FTM,3E+3,0,,,0,Binance Deposit
+2022-01-31T10:38:22+00:00,binance,,swap_out,FTM,4.01E+3,7.7870187,BUSD,BUSD,7787.0187,Binance Trade
+2022-01-31T10:38:22+00:00,binance,,swap_in,BUSD,7787.0187,0,,FTM,4.01E+3,Binance Trade
+2022-01-31T10:39:01+00:00,binance,,swap_out,BUSD,855.71398,0.55618,ACA,ACA,556.18,Binance Trade
+2022-01-31T10:39:01+00:00,binance,,swap_in,ACA,556.18,0,,BUSD,855.71398,Binance Trade
+2022-01-31T11:14:40+00:00,binance,,swap_out,BUSD,6923.4251,0.26436,ATOM,ATOM,264.36,Binance Trade
+2022-01-31T11:14:40+00:00,binance,,swap_in,ATOM,264.36,0,,BUSD,6923.4251,Binance Trade
+2022-01-31T11:33:41+00:00,binance,,withdrawal,ATOM,0.02,0,,,0,Binance Withdraw
+2022-01-31T11:36:42+00:00,binance,,withdrawal,ATOM,264.07564,0,,,0,Binance Withdraw
+2022-01-31T13:21:40+00:00,binance,,withdrawal,ACA,1,0,,,0,Binance Withdraw
+2022-01-31T13:35:40+00:00,binance,,withdrawal,ACA,554.62382,0,,,0,Binance Withdraw
+2022-02-05T13:14:04+00:00,binance,,deposit,USDC,1,0,,,0,Binance Deposit
+2022-02-05T13:22:04+00:00,binance,,deposit,BUSD,999,0,,,0,Binance Deposit
+2022-02-05T15:18:15+00:00,binance,,swap_out,BUSD,189.72,0,,ATOM,6.12,Binance Trade
+2022-02-05T15:18:15+00:00,binance,,swap_in,ATOM,6.12,0,,BUSD,189.72,Binance Trade
+2022-02-05T16:02:26+00:00,binance,,swap_out,BUSD,259.028,0,,ATOM,8.41,Binance Trade
+2022-02-05T16:02:26+00:00,binance,,swap_in,ATOM,8.41,0,,BUSD,259.028,Binance Trade
+2022-02-05T17:52:17+00:00,binance,,swap_out,BUSD,550.188,0,,ATOM,17.98,Binance Trade
+2022-02-05T17:52:17+00:00,binance,,swap_in,ATOM,17.98,0,,BUSD,550.188,Binance Trade
+2022-02-06T11:59:41+00:00,binance,,withdrawal,ATOM,0.02,0,,,0,Binance Withdraw
+2022-02-06T12:46:40+00:00,binance,,withdrawal,ATOM,32.49,0,,,0,Binance Withdraw
+2022-02-12T15:46:06+00:00,binance,,deposit,FTM,2.75E+3,0,,,0,Binance Deposit
+2022-02-12T15:47:54+00:00,binance,,swap_out,FTM,2.75E+3,5.2014944,BUSD,BUSD,5201.4944,Binance Trade
+2022-02-12T15:47:54+00:00,binance,,swap_in,BUSD,5201.4944,0,,FTM,2.75E+3,Binance Trade
+2022-02-12T15:48:13+00:00,binance,,sell,BUSD,5196.3282,4.5823,EUR,EUR,4582.3,Binance Trade
+2022-02-12T15:50:07+00:00,binance,,fiat_withdrawal,EUR,4577.7,0,,,0,Binance Fiat Withdraw
+2022-02-21T10:49:35+00:00,binance,,deposit,FTM,2.69E+3,0,,,0,Binance Deposit
+2022-02-21T12:40:17+00:00,binance,,swap_out,FTM,2.69E+3,4.621689,BUSD,BUSD,4621.689,Binance Trade
+2022-02-21T12:40:17+00:00,binance,,swap_in,BUSD,4621.689,0,,FTM,2.69E+3,Binance Trade
+2022-02-21T12:40:57+00:00,binance,,sell,BUSD,4617.1584,4.0644,EUR,EUR,4064.4,Binance Trade
+2022-02-21T13:00:03+00:00,binance,,fiat_withdrawal,EUR,4060.35,0,,,0,Binance Fiat Withdraw
+2022-03-04T10:21:12+00:00,binance,,deposit,FTM,2.39E+3,0,,,0,Binance Deposit
+2022-03-04T10:24:39+00:00,binance,,swap_out,FTM,2.39E+3,4.3301549,USDT,USDT,4330.1549,Binance Trade
+2022-03-04T10:24:39+00:00,binance,,swap_in,USDT,4330.1549,0,,FTM,2.39E+3,Binance Trade
+2022-03-04T10:30:55+00:00,binance,,withdrawal,USDT,2815,0,,,0,Binance Withdraw
+2022-03-06T13:46:24+00:00,binance,,swap_out,USDT,378,0.27,FTM,FTM,2.7E+2,Binance Trade
+2022-03-06T13:46:24+00:00,binance,,swap_in,FTM,2.7E+2,0,,USDT,378,Binance Trade
+2022-03-07T01:14:17+00:00,binance,,swap_out,USDT,1131.52,0.832,FTM,FTM,832,Binance Trade
+2022-03-07T01:14:17+00:00,binance,,swap_in,FTM,832,0,,USDT,1131.52,Binance Trade
+2022-03-07T11:24:34+00:00,binance,,swap_out,FTM,1.1E+3,1.5427949,USDT,USDT,1542.7949,Binance Trade
+2022-03-07T11:24:34+00:00,binance,,swap_in,USDT,1542.7949,0,,FTM,1.1E+3,Binance Trade
+2022-03-07T11:31:07+00:00,binance,,withdrawal,USDT,1542.55685,0,,,0,Binance Withdraw
+2022-03-21T12:56:35+00:00,binance,,deposit,FTM,3095.81450995,0,,,0,Binance Deposit
+2022-03-21T13:00:21+00:00,binance,,swap_out,FTM,155,0.1992926,BUSD,BUSD,199.2926,Binance Trade
+2022-03-21T13:00:21+00:00,binance,,swap_in,BUSD,199.2926,0,,FTM,155,Binance Trade
+2022-03-21T13:29:00+00:00,binance,,swap_out,FTM,588,0.75852,USDT,USDT,758.52,Binance Trade
+2022-03-21T13:29:00+00:00,binance,,swap_in,USDT,758.52,0,,FTM,588,Binance Trade
+2022-03-22T05:26:13+00:00,binance,,swap_out,FTM,776,1.01656,USDT,USDT,1016.56,Binance Trade
+2022-03-22T05:26:13+00:00,binance,,swap_in,USDT,1016.56,0,,FTM,776,Binance Trade
+2022-03-22T18:53:20+00:00,binance,,swap_out,BUSD,199,0,,USDT,198.9005,Binance Trade
+2022-03-22T18:53:20+00:00,binance,,swap_in,USDT,198.9005,0,,BUSD,199,Binance Trade
+2022-03-22T19:31:43+00:00,binance,,withdrawal,USDT,1972.20542,0,,,0,Binance Withdraw
+2022-03-23T08:23:25+00:00,binance,,swap_out,FTM,1577,2.0140367,USDT,USDT,2014.0367,Binance Trade
+2022-03-23T08:23:25+00:00,binance,,swap_in,USDT,2014.0367,0,,FTM,1577,Binance Trade
+2022-03-23T08:28:44+00:00,binance,,withdrawal,USDT,2012.022663,0,,,0,Binance Withdraw
+2022-04-03T08:08:07+00:00,binance,,deposit,FTM,2485.78657084,0,,,0,Binance Deposit
+2022-04-03T22:24:08+00:00,binance,,swap_out,FTM,622,1.002975,USDT,USDT,1002.975,Binance Trade
+2022-04-03T22:24:08+00:00,binance,,swap_in,USDT,1002.975,0,,FTM,622,Binance Trade
+2022-04-03T22:28:10+00:00,binance,,swap_out,FTM,8.2E+2,1.32307,USDT,USDT,1323.07,Binance Trade
+2022-04-03T22:28:10+00:00,binance,,swap_in,USDT,1323.07,0,,FTM,8.2E+2,Binance Trade
+2022-04-03T22:42:49+00:00,binance,,swap_out,FTM,1044,1.685016,USDT,USDT,1685.016,Binance Trade
+2022-04-03T22:42:49+00:00,binance,,swap_in,USDT,1685.016,0,,FTM,1044,Binance Trade
+2022-04-04T11:01:44+00:00,binance,,withdrawal,USDT,4007.049939,0,,,0,Binance Withdraw
+2022-04-05T03:49:22+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-06T03:47:35+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-07T03:12:23+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-08T04:41:45+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-09T03:44:53+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-10T03:42:32+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-11T03:37:33+00:00,binance,,interest,BUSD,0.13699,0,,,0,Binance Simple Earn Flexible Interest
+2022-04-18T22:21:05+00:00,binance,,deposit,FTM,1E+1,0,,,0,Binance Deposit
+2022-04-18T22:22:35+00:00,binance,,deposit,FTM,3525.76766437,0,,,0,Binance Deposit
+2022-04-18T22:28:11+00:00,binance,,swap_out,FTM,3536,4.0049536,USDT,USDT,4004.9536,Binance Trade
+2022-04-18T22:28:11+00:00,binance,,swap_in,USDT,4004.9536,0,,FTM,3536,Binance Trade
+2022-04-18T22:28:32+00:00,binance,,swap_out,USDT,4000.7688,0.023976,KSM,KSM,23.976,Binance Trade
+2022-04-18T22:28:32+00:00,binance,,swap_in,KSM,23.976,0,,USDT,4000.7688,Binance Trade
+2022-04-27T20:13:42+00:00,binance,,withdrawal,KSM,1.01,0,,,0,Binance Withdraw
+2022-04-27T20:19:42+00:00,binance,,withdrawal,KSM,22.942024,0,,,0,Binance Withdraw
+2022-05-03T10:44:06+00:00,binance,,deposit,FTM,1270.93251468,0,,,0,Binance Deposit
+2022-05-03T10:44:34+00:00,binance,,swap_out,FTM,1271,0.9968165,BUSD,BUSD,996.8165,Binance Trade
+2022-05-03T10:44:34+00:00,binance,,swap_in,BUSD,996.8165,0,,FTM,1271,Binance Trade
+2022-05-03T10:49:28+00:00,binance,,swap_out,BUSD,996,0,,USDT,996,Binance Trade
+2022-05-03T10:49:28+00:00,binance,,swap_in,USDT,996,0,,BUSD,996,Binance Trade
+2022-05-03T10:53:44+00:00,binance,,withdrawal,USDT,996.179847,0,,,0,Binance Withdraw
+2022-05-11T17:28:10+00:00,binance,,deposit,KSM,1,0,,,0,Binance Deposit
+2022-05-11T17:37:08+00:00,binance,,deposit,KSM,44,0,,,0,Binance Deposit
+2022-05-11T17:46:05+00:00,binance,,swap_out,KSM,45,3.5386523,BUSD,BUSD,3538.6523,Binance Trade
+2022-05-11T17:46:05+00:00,binance,,swap_in,BUSD,3538.6523,0,,KSM,45,Binance Trade
+2022-05-11T18:46:13+00:00,binance,,deposit,KSM,23.2559,0,,,0,Binance Deposit
+2022-05-11T18:46:52+00:00,binance,,swap_out,KSM,23.255,1.7861654,BUSD,BUSD,1786.1654,Binance Trade
+2022-05-11T18:46:52+00:00,binance,,swap_in,BUSD,1786.1654,0,,KSM,23.255,Binance Trade
+2022-05-11T18:57:38+00:00,binance,,deposit,KSM,44.7539,0,,,0,Binance Deposit
+2022-05-11T18:58:19+00:00,binance,,swap_out,KSM,44.754,3.5021217,BUSD,BUSD,3502.1217,Binance Trade
+2022-05-11T18:58:19+00:00,binance,,swap_in,BUSD,3502.1217,0,,KSM,44.754,Binance Trade
+2022-05-11T19:21:04+00:00,binance,,deposit,KSM,49.0183,0,,,0,Binance Deposit
+2022-05-11T19:53:45+00:00,binance,,swap_out,KSM,48.529,3.8803991,BUSD,BUSD,3880.3991,Binance Trade
+2022-05-11T19:53:45+00:00,binance,,swap_in,BUSD,3880.3991,0,,KSM,48.529,Binance Trade
+2022-05-13T08:21:02+00:00,binance,,swap_out,BUSD,12695.5096,31.45,FTM,FTM,3.145E+4,Binance Trade
+2022-05-13T08:21:02+00:00,binance,,swap_in,FTM,3.145E+4,0,,BUSD,12695.5096,Binance Trade
+2022-05-13T08:23:41+00:00,binance,,withdrawal,FTM,31418.79027512,0,,,0,Binance Withdraw
+2022-05-13T09:52:06+00:00,binance,,deposit,DOT,1,0,,,0,Binance Deposit
+2022-05-13T09:54:36+00:00,binance,,deposit,DOT,1103.6,0,,,0,Binance Deposit
+2022-05-13T09:57:07+00:00,binance,,swap_out,DOT,1104.6,11.3254873,BUSD,BUSD,11325.4873,Binance Trade
+2022-05-13T09:57:07+00:00,binance,,swap_in,BUSD,11325.4873,0,,DOT,1104.6,Binance Trade
+2022-05-13T09:58:06+00:00,binance,,swap_out,BUSD,11313.9337,29.275,FTM,FTM,29275,Binance Trade
+2022-05-13T09:58:06+00:00,binance,,swap_in,FTM,29275,0,,BUSD,11313.9337,Binance Trade
+2022-05-13T10:00:55+00:00,binance,,withdrawal,FTM,29245.725,0,,,0,Binance Withdraw
+2022-05-17T08:16:07+00:00,binance,,deposit,FTM,10786.63181866,0,,,0,Binance Deposit
+2022-05-17T09:44:14+00:00,binance,,swap_out,FTM,2157,0.787305,USDT,USDT,787.305,Binance Trade
+2022-05-17T09:44:14+00:00,binance,,swap_in,USDT,787.305,0,,FTM,2157,Binance Trade
+2022-05-17T13:31:34+00:00,binance,,swap_out,FTM,1985,0.7282965,USDT,USDT,728.2965,Binance Trade
+2022-05-17T13:31:34+00:00,binance,,swap_in,USDT,728.2965,0,,FTM,1985,Binance Trade
+2022-05-17T14:03:04+00:00,binance,,swap_out,FTM,2193,0.8131644,USDT,USDT,813.1644,Binance Trade
+2022-05-17T14:03:04+00:00,binance,,swap_in,USDT,813.1644,0,,FTM,2193,Binance Trade
+2022-05-17T14:43:53+00:00,binance,,swap_out,FTM,4451,1.6851486,USDT,USDT,1685.1486,Binance Trade
+2022-05-17T14:43:53+00:00,binance,,swap_in,USDT,1685.1486,0,,FTM,4451,Binance Trade
+2022-05-17T14:51:00+00:00,binance,,swap_out,KSM,0.49,0.041062,USDT,USDT,41.062,Binance Trade
+2022-05-17T14:51:00+00:00,binance,,swap_in,USDT,41.062,0,,KSM,0.49,Binance Trade
+2022-05-17T14:55:46+00:00,binance,,withdrawal,USDT,4050.921523,0,,,0,Binance Withdraw
+2022-05-28T18:05:39+00:00,binance,,token_swap,LUNC,6.6E-7,0,,,0,Binance Token Swap - Redenomination/Rebranding
+2022-05-28T18:05:39+00:00,binance,,token_swap,LUNA,-6.6E-7,0,,,0,Binance Token Swap - Redenomination/Rebranding
+2022-05-29T11:57:17+00:00,binance,,airdrop,LUNA,2E-7,0,,,0,Binance Airdrop Assets
+2022-09-29T07:56:57+00:00,binance,,conversion,USDC,-1,0,,,0,Binance Stablecoins Auto-Conversion
+2022-09-29T07:56:57+00:00,binance,,conversion,BUSD,1,0,,,0,Binance Stablecoins Auto-Conversion
+2022-12-21T23:41:07+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-01-18T23:28:21+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-02-16T17:05:17+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-03-24T12:21:20+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-04-20T15:09:58+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-05-22T16:20:50+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-06-23T10:44:02+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-07-20T08:21:04+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-08-23T14:23:46+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-09-22T04:09:36+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-10-20T10:48:10+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-11-17T10:20:39+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2023-12-15T04:16:02+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-01-04T20:03:12+00:00,binance,,swap_out,BUSD,1.28123089,0,,FDUSD,1.28123089,Binance Convert
+2024-01-04T20:03:12+00:00,binance,,swap_in,FDUSD,1.28123089,0,,BUSD,1.28123089,Binance Convert
+2024-01-19T09:57:21+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-02-20T08:31:34+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-03-21T10:41:42+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-04-19T05:17:24+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-05-22T06:24:46+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-06-19T04:14:34+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-07-24T06:22:09+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-08-16T10:19:50+00:00,binance,,deposit,USDC,0.01,0,,,0,Binance Deposit
+2024-08-16T10:24:14+00:00,binance,,deposit,USDC,1.5E+3,0,,,0,Binance Deposit
+2024-08-16T10:25:33+00:00,binance,,sell,USDC,1500.01,0,,EUR,1357.95233507,Binance Convert
+2024-08-16T10:37:18+00:00,binance,,fiat_withdrawal,EUR,1357.95,0,,,0,Binance Fiat Withdraw
+2024-08-23T05:07:40+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-09-03T09:04:23+00:00,binance,,deposit,USDC,2994.9102,0,,,0,Binance Deposit
+2024-09-03T09:04:23+00:00,binance,,deposit,USDC,0.1,0,,,0,Binance Deposit
+2024-09-03T10:32:07+00:00,binance,,sell,USDC,2862.21357,2.464965,EUR,EUR,2594.7,Binance Trade
+2024-09-03T10:32:18+00:00,binance,,sell,USDC,132.70293,0.1203,EUR,EUR,120.3,Binance Trade
+2024-09-03T10:38:56+00:00,binance,,fiat_withdrawal,EUR,2712.42,0,,,0,Binance Fiat Withdraw
+2024-09-17T09:31:02+00:00,binance,,deposit,USDC,0.1,0,,,0,Binance Deposit
+2024-09-17T09:31:02+00:00,binance,,deposit,USDC,1969.903599,0,,,0,Binance Deposit
+2024-09-17T09:35:38+00:00,binance,,sell,USDC,1970.097299,0,,EUR,1758.91175466,Binance Convert
+2024-09-17T09:41:39+00:00,binance,,fiat_withdrawal,EUR,1758.91,0,,,0,Binance Fiat Withdraw
+2024-09-24T09:58:46+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-10-01T13:58:46+00:00,binance,,deposit,USDC,0.002,0,,,0,Binance Deposit
+2024-10-01T14:02:04+00:00,binance,,deposit,USDC,3109.46907,0,,,0,Binance Deposit
+2024-10-01T14:09:51+00:00,binance,,sell,USDC,3109.38394,2.66665,EUR,EUR,2807,Binance Trade
+2024-10-01T14:24:06+00:00,binance,,fiat_withdrawal,EUR,2804.33,0,,,0,Binance Fiat Withdraw
+2024-10-15T12:06:27+00:00,binance,,deposit,ETH,0.000001,0,,,0,Binance Deposit
+2024-10-15T12:11:14+00:00,binance,,deposit,ETH,0.575,0,,,0,Binance Deposit
+2024-10-15T12:19:55+00:00,binance,,sell,ETH,0.575001,0,,EUR,1362.04,Binance Sell Crypto To Fiat
+2024-10-15T14:31:31+00:00,binance,,fiat_withdrawal,EUR,1362.04,0,,,0,Binance Fiat Withdraw
+2024-10-21T17:05:05+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-11-04T16:04:54+00:00,binance,,deposit,ETH,0.0001,0,,,0,Binance Deposit
+2024-11-04T16:07:36+00:00,binance,,deposit,ETH,1.33,0,,,0,Binance Deposit
+2024-11-04T16:52:04+00:00,binance,,sell,ETH,0.015,0,,,0,"Binance Sell Crypto To Fiat (unpaired, via Paymonade - Ref - 2024110415420487673581626368)"
+2024-11-04T16:54:40+00:00,binance,,sell,ETH,1.3151,0,,EUR,2939.89,Binance Sell Crypto To Fiat
+2024-11-04T16:55:35+00:00,binance,,fiat_withdrawal,EUR,2939.89,0,,,0,Binance Fiat Withdraw
+2024-11-19T12:10:47+00:00,binance,,deposit,USDC,2105.50944,0,,,0,Binance Deposit
+2024-11-19T12:10:47+00:00,binance,,deposit,USDC,0.01,0,,,0,Binance Deposit
+2024-11-19T16:57:25+00:00,binance,,swap_out,USDC,499.854,0.12939,SUI,SUI,136.2,Binance Trade
+2024-11-19T16:57:25+00:00,binance,,swap_in,SUI,136.2,0,,USDC,499.854,Binance Trade
+2024-11-19T16:58:04+00:00,binance,,sell,USDC,1605.71268,1.44153,EUR,EUR,1517.4,Binance Trade
+2024-11-19T16:59:33+00:00,binance,,fiat_withdrawal,EUR,1515.96,0,,,0,Binance Fiat Withdraw
+2024-11-19T17:16:43+00:00,binance,,withdrawal,SUI,1,0,,,0,Binance Withdraw
+2024-11-19T17:18:42+00:00,binance,,withdrawal,SUI,135.07061,0,,,0,Binance Withdraw
+2024-11-22T05:02:17+00:00,binance,,airdrop,LUNA,1E-8,0,,,0,Binance Airdrop Assets
+2024-11-27T22:28:14+00:00,binance,,deposit,ETH,0.001,0,,,0,Binance Deposit
+2024-11-27T22:31:35+00:00,binance,,deposit,ETH,0.2579,0,,,0,Binance Deposit
+2024-11-27T22:35:00+00:00,binance,,swap_out,ETH,0.2589,0.93721541,USDT,USDT,937.215411,Binance Trade
+2024-11-27T22:35:00+00:00,binance,,swap_in,USDT,937.215411,0,,ETH,0.2589,Binance Trade
+2024-11-27T22:35:25+00:00,binance,,sell,USDT,936.24534,0.8871,EUR,EUR,887.1,Binance Trade
+2024-11-27T23:45:44+00:00,binance,,fiat_withdrawal,EUR,886.21,0,,,0,Binance Fiat Withdraw
+2024-11-29T16:29:39+00:00,binance,,deposit,ETH,0.0001,0,,,0,Binance Deposit
+2024-11-29T16:32:20+00:00,binance,,deposit,ETH,1.87005684,0,,,0,Binance Deposit
+2024-11-29T16:54:01+00:00,binance,,swap_out,ETH,1.8701,6.77438115,USDT,USDT,6774.381147,Binance Trade
+2024-11-29T16:54:01+00:00,binance,,swap_in,USDT,6774.381147,0,,ETH,1.8701,Binance Trade
+2024-11-29T16:54:40+00:00,binance,,swap_out,USDT,6767.29512,1.9128,SUI,SUI,1912.8,Binance Trade
+2024-11-29T16:54:40+00:00,binance,,swap_in,SUI,1912.8,0,,USDT,6767.29512,Binance Trade
+2024-12-01T20:13:41+00:00,binance,,withdrawal,SUI,1910.8872,0,,,0,Binance Withdraw
+2024-12-03T14:43:17+00:00,binance,,deposit,ETH,0.838,0,,,0,Binance Deposit
+2024-12-03T14:43:49+00:00,binance,,swap_out,ETH,0.838,3.00475794,USDT,USDT,3004.75794,Binance Trade
+2024-12-03T14:43:49+00:00,binance,,swap_in,USDT,3004.75794,0,,ETH,0.838,Binance Trade
+2024-12-03T14:44:29+00:00,binance,,sell,USDT,3002.0764,2.8564,EUR,EUR,2856.4,Binance Trade
+2024-12-04T01:18:14+00:00,binance,,fiat_withdrawal,EUR,2853.55,0,,,0,Binance Fiat Withdraw
+2024-12-10T11:45:22+00:00,binance,,deposit,ETH,0.53190511,0,,,0,Binance Deposit
+2024-12-10T11:46:32+00:00,binance,,swap_out,ETH,0.5319,2.0029386,USDT,USDT,2002.938597,Binance Trade
+2024-12-10T11:46:32+00:00,binance,,swap_in,USDT,2002.938597,0,,ETH,0.5319,Binance Trade
+2024-12-10T11:47:14+00:00,binance,,sell,USDT,2000.88915,1.9022,EUR,EUR,1902.2,Binance Trade
+2024-12-10T13:56:17+00:00,binance,,fiat_withdrawal,EUR,1900.29,0,,,0,Binance Fiat Withdraw
+2024-12-17T09:05:17+00:00,binance,,deposit,USDC,0.01,0,,,0,Binance Deposit
+2024-12-17T09:10:19+00:00,binance,,deposit,USDC,4E+3,0,,,0,Binance Deposit
+2024-12-17T09:13:24+00:00,binance,,sell,USDC,3999.90708,3.61646,EUR,EUR,3806.8,Binance Trade
+2024-12-17T09:15:17+00:00,binance,,deposit,USDC,7999.99,0,,,0,Binance Deposit
+2024-12-17T09:19:19+00:00,binance,,fiat_withdrawal,EUR,3803.19,0,,,0,Binance Fiat Withdraw
+2024-12-17T09:25:01+00:00,binance,,swap_out,USDC,7999.46873,1.592865,SUI,SUI,1676.7,Binance Trade
+2024-12-17T09:25:01+00:00,binance,,swap_in,SUI,1676.7,0,,USDC,7999.46873,Binance Trade
+2024-12-17T09:29:42+00:00,binance,,withdrawal,SUI,1,0,,,0,Binance Withdraw
+2024-12-17T09:34:43+00:00,binance,,withdrawal,SUI,1674.107135,0,,,0,Binance Withdraw
+2025-01-13T18:22:53+00:00,binance,,recovery,FTM,-0.63181866,0,,,0,Binance Asset Recovery
+2025-01-15T07:52:59+00:00,binance,,token_swap,S,0.63181866,0,,,0,Binance Token Swap - Distribution
+2025-01-16T09:35:16+00:00,binance,,deposit,USDC,0.1,0,,,0,Binance Deposit
+2025-01-16T09:40:19+00:00,binance,,deposit,USDC,999.9,0,,,0,Binance Deposit
+2025-01-16T09:41:12+00:00,binance,,sell,USDC,1000.645,0.922925,EUR,EUR,971.5,Binance Trade
+2025-01-16T09:42:49+00:00,binance,,fiat_withdrawal,EUR,970.58,0,,,0,Binance Fiat Withdraw
+2025-02-04T11:24:31+00:00,binance,,deposit,USDC,0.01,0,,,0,Binance Deposit
+2025-02-04T11:24:32+00:00,binance,,deposit,USDC,2998.2799,0,,,0,Binance Deposit
+2025-02-04T11:26:36+00:00,binance,,sell,USDC,2998.14111,2.75614,EUR,EUR,2901.2,Binance Trade
+2025-02-04T11:27:13+00:00,binance,,sell,USDC,0.10334,0,,EUR,0.09921139,Binance Convert
+2025-02-04T11:49:55+00:00,binance,,fiat_withdrawal,EUR,2898.54,0,,,0,Binance Fiat Withdraw
+2025-02-14T20:10:21+00:00,binance,,deposit,USDC,0.1,0,,,0,Binance Deposit
+2025-02-14T20:15:17+00:00,binance,,deposit,USDC,3000.048979,0,,,0,Binance Deposit
+2025-02-14T20:18:49+00:00,binance,,sell,USDC,3000.20099,2.713865,EUR,EUR,2856.7,Binance Trade
+2025-02-14T20:54:43+00:00,binance,,fiat_withdrawal,EUR,2853.98,0,,,0,Binance Fiat Withdraw
+2025-03-02T16:57:36+00:00,binance,,deposit,ETH,0.001,0,,,0,Binance Deposit
+2025-03-02T17:00:38+00:00,binance,,deposit,ETH,10.1,0,,,0,Binance Deposit
+2025-03-02T17:06:24+00:00,binance,,swap_out,ETH,10.101,21.28559351,USDC,USDC,22405.887897,Binance Trade
+2025-03-02T17:06:24+00:00,binance,,swap_in,USDC,22405.887897,0,,ETH,10.101,Binance Trade
+2025-03-02T17:06:36+00:00,binance,,swap_out,USDC,22384.39587,0.13086155,SOL,SOL,137.749,Binance Trade
+2025-03-02T17:06:36+00:00,binance,,swap_in,SOL,137.749,0,,USDC,22384.39587,Binance Trade
+2025-03-02T17:26:43+00:00,binance,,withdrawal,SOL,0.2,0,,,0,Binance Withdraw
+2025-03-02T17:28:43+00:00,binance,,withdrawal,SOL,137.41813845,0,,,0,Binance Withdraw
+2025-03-04T15:08:16+00:00,binance,,deposit,USDT,0.01,0,,,0,Binance Deposit
+2025-03-04T15:09:17+00:00,binance,,deposit,USDT,3999.99,0,,,0,Binance Deposit
+2025-03-04T15:37:47+00:00,binance,,sell,USDT,3999.96099,3.7994,EUR,EUR,3799.4,Binance Trade
+2025-03-04T15:39:56+00:00,binance,,fiat_withdrawal,EUR,3795.61,0,,,0,Binance Fiat Withdraw
+2025-03-20T12:01:32+00:00,binance,,deposit,USDC,0.002,0,,,0,Binance Deposit
+2025-03-20T12:06:39+00:00,binance,,deposit,USDC,5999.9986,0,,,0,Binance Deposit
+2025-03-20T22:42:23+00:00,binance,,sell,USDC,6000.16896,5.25312,EUR,EUR,5529.6,Binance Trade
+2025-03-20T22:45:44+00:00,binance,,fiat_withdrawal,EUR,5524.34,0,,,0,Binance Fiat Withdraw
+2025-03-25T13:54:41+00:00,binance,,deposit,USDT,2E+3,0,,,0,Binance Deposit
+2025-03-25T14:03:08+00:00,binance,,sell,USDT,1999.9416,1.8477,EUR,EUR,1847.7,Binance Trade
+2025-03-25T14:27:07+00:00,binance,,fiat_withdrawal,EUR,1845.85,0,,,0,Binance Fiat Withdraw
+2025-03-27T16:24:35+00:00,binance,,deposit,USDT,6E+3,0,,,0,Binance Deposit
+2025-03-27T16:38:08+00:00,binance,,sell,USDT,6000.0315,5.5525,EUR,EUR,5552.5,Binance Trade
+2025-03-27T16:40:58+00:00,binance,,fiat_withdrawal,EUR,5546.95,0,,,0,Binance Fiat Withdraw
+2025-04-11T13:59:11+00:00,binance,,deposit,USDC,0.002,0,,,0,Binance Deposit
+2025-04-11T13:59:14+00:00,binance,,deposit,USDC,6322.014773,0,,,0,Binance Deposit
+2025-04-11T14:32:10+00:00,binance,,sell,USDC,6321.9609,5.271075,EUR,EUR,5548.5,Binance Trade
+2025-04-11T14:33:50+00:00,binance,,fiat_withdrawal,EUR,5543.23,0,,,0,Binance Fiat Withdraw
+2025-04-22T18:39:14+00:00,binance,,deposit,USDC,0.1,0,,,0,Binance Deposit
+2025-04-22T18:39:15+00:00,binance,,deposit,USDC,3187.216343,0,,,0,Binance Deposit
+2025-04-23T19:09:16+00:00,binance,,deposit,USDT,0.1,0,,,0,Binance Deposit
+2025-04-23T19:11:18+00:00,binance,,deposit,USDT,20003.052409,0,,,0,Binance Deposit
+2025-04-23T20:29:28+00:00,binance,,swap_out,USDT,20003.28611155,0,,USDC,20003.28611155,Binance Convert
+2025-04-23T20:29:28+00:00,binance,,swap_in,USDC,20003.28611155,0,,USDT,20003.28611155,Binance Convert
+2025-04-23T20:29:57+00:00,binance,,sell,USDC,23190.65552,19.445645,EUR,EUR,20469.1,Binance Trade
+2025-04-23T20:31:35+00:00,binance,,fiat_withdrawal,EUR,20449.66,0,,,0,Binance Fiat Withdraw
+2025-05-06T10:21:35+00:00,binance,,deposit,USDT,0.002,0,,,0,Binance Deposit
+2025-05-06T10:27:18+00:00,binance,,deposit,USDT,2999.998,0,,,0,Binance Deposit
+2025-05-06T10:57:54+00:00,binance,,swap_out,USDT,3E+3,0,,USDC,3E+3,Binance Convert
+2025-05-06T10:57:54+00:00,binance,,swap_in,USDC,3E+3,0,,USDT,3E+3,Binance Convert
+2025-05-06T10:58:34+00:00,binance,,sell,USDC,2999.924,2.52206,EUR,EUR,2654.8,Binance Trade
+2025-05-06T11:00:30+00:00,binance,,fiat_withdrawal,EUR,2652.27,0,,,0,Binance Fiat Withdraw
+2025-05-19T15:46:19+00:00,binance,,deposit,USDC,0.001,0,,,0,Binance Deposit
+2025-05-19T15:48:20+00:00,binance,,deposit,USDC,6000.119749,0,,,0,Binance Deposit
+2025-05-19T15:54:42+00:00,binance,,sell,USDC,6000.21213,5.065495,EUR,EUR,5332.1,Binance Trade
+2025-05-19T15:56:11+00:00,binance,,fiat_withdrawal,EUR,5327.04,0,,,0,Binance Fiat Withdraw
+2025-06-05T08:32:43+00:00,binance,,deposit,USDC,1,0,,,0,Binance Deposit
+2025-06-05T08:33:21+00:00,binance,,deposit,USDC,2999,0,,,0,Binance Deposit
+2025-06-05T08:42:22+00:00,binance,,sell,USDC,2999.96532,2.49603,EUR,EUR,2627.4,Binance Trade
+2025-06-05T08:43:36+00:00,binance,,fiat_withdrawal,EUR,2624.9,0,,,0,Binance Fiat Withdraw
+2025-06-20T13:14:58+00:00,binance,,buy,USDC,2275.36649,0,,,0,Binance Buy Crypto With Fiat
+2025-06-20T13:20:15+00:00,binance,,withdrawal,USDC,1E+1,0,,,0,Binance Withdraw
+2025-06-20T13:24:09+00:00,binance,,withdrawal,USDC,2265.439189,0,,,0,Binance Withdraw
+2025-06-22T14:51:02+00:00,binance,,buy,USDC,2499.60415945,0,,,0,Binance Buy Crypto With Fiat
+2025-06-22T14:54:32+00:00,binance,,withdrawal,USDC,2499.604159,0,,,0,Binance Withdraw
