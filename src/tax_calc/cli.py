@@ -158,6 +158,14 @@ def cmd_pit38(args: argparse.Namespace) -> int:
     with open(results_path, "w", encoding="utf-8") as f:
         json.dump({"yearly_results": json_data, "warnings": warnings}, f, indent=2)
 
+    # Export enriched detail JSON for the frontend dashboard
+    detail_data = {}
+    for year, r in sorted(yearly_results.items()):
+        detail_data[str(year)] = r.to_dict()
+    detail_path = os.path.join(output_dir, "pit38_detail.json")
+    with open(detail_path, "w", encoding="utf-8") as f:
+        json.dump({"yearly_results": detail_data, "warnings": warnings}, f, indent=2)
+
     # Print summary
     print("\n" + "=" * 70)
     print("PIT-38 COST POOL SUMMARY (Polish method)")

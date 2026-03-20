@@ -34,6 +34,20 @@ class CostPoolEvent:
     counterparty_amount: Decimal = Decimal("0")
     notes: str = ""
 
+    def to_dict(self) -> dict[str, str]:
+        return {
+            "date": self.date,
+            "event_type": self.event_type,
+            "asset": self.asset,
+            "amount": fmt_full(self.amount),
+            "pln_value": fmt(self.pln_value),
+            "price_method": self.price_method,
+            "source": self.source,
+            "counterparty_asset": self.counterparty_asset,
+            "counterparty_amount": fmt_full(self.counterparty_amount),
+            "notes": self.notes,
+        }
+
 
 @dataclass
 class YearlyPool:
@@ -77,6 +91,20 @@ class PIT38Result:
     revenue_events: list[CostPoolEvent]
     cost_events: list[CostPoolEvent]
     warnings: list[str]
+
+    def to_dict(self) -> dict:
+        return {
+            "year": self.year,
+            "revenue_pln": fmt(self.revenue_pln),
+            "costs_current_year_pln": fmt(self.costs_current_year_pln),
+            "costs_prior_years_pln": fmt(self.costs_prior_years_pln),
+            "income_pln": fmt(self.income_pln),
+            "carry_forward_pln": fmt(self.carry_forward_pln),
+            "tax_due_pln": fmt(self.tax_due_pln),
+            "disposal_count": self.disposal_count,
+            "revenue_events": [e.to_dict() for e in self.revenue_events],
+            "cost_events": [e.to_dict() for e in self.cost_events],
+        }
 
 
 def process_cost_pool(
