@@ -1,0 +1,1088 @@
+date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,counterparty_amount,notes
+2020-11-27T09:43:02+00:00,kraken,LWL444-GQZWK-VCLV3K,deposit,EUR,985,0,,,0,Kraken deposit (fiat)
+2020-12-01T09:08:40+00:00,kraken,LX7IDP-EYDUU-OAP2OS,withdrawal,ETH,1.37601,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-01T09:36:59+00:00,kraken,LA77ZB-6T2QV-MFC55H,withdrawal,BTC,0.02784,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-03T16:38:09+00:00,kraken,LD2K72-A7FCP-4RY6VC,deposit,EUR,1.1E+4,0,,,0,Kraken deposit (fiat)
+2020-12-04T09:54:07+00:00,kraken,LWKNHL-EZAFC-G334JB,deposit,EUR,1.3E+4,0,,,0,Kraken deposit (fiat)
+2020-12-04T10:41:40+00:00,kraken,LVUFQY-W6QK4-YZJLIM,withdrawal,ETH,16.14154,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-04T12:06:26+00:00,kraken,LCGTGU-7MORL-MPMOVS,withdrawal,ETH,16.24153,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-04T12:22:46+00:00,kraken,LMNWFU-N2E23-TWP6XA,withdrawal,ETH,16.41578,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-07T10:06:48+00:00,kraken,LU2TXT-GNPAT-DLAHQH,deposit,EUR,7.35E+3,0,,,0,Kraken deposit (fiat)
+2020-12-07T10:47:01+00:00,kraken,LZQDWN-S3NDC-VX7SS7,internal_transfer,DOT,-765.51500265,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-07T10:47:10+00:00,kraken,LZPFAT-XS5VI-TCIW6U,internal_transfer,DOT,765.51500265,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-07T10:47:36+00:00,kraken,L4IAQ5-BMJZF-OC4BG3,internal_transfer,KSM,73.98772318,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-07T10:47:38+00:00,kraken,LRKRDF-CCBUC-6IMEXZ,internal_transfer,KSM,-73.98772318,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-08T07:15:33+00:00,kraken,LY6PN2-247QS-GMVZBZ,staking_reward,DOT,0.14900567,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-08T13:13:22+00:00,kraken,LUQBBX-32JUG-2GCYWP,withdrawal,BTC,0.0095,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-08T22:37:15+00:00,kraken,LG4QUV-TEAT2-TM5UIG,withdrawal,BTC,0.04173,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-09T02:42:11+00:00,kraken,LKCQPY-FWLTU-XM6J6Q,staking_reward,KSM,0.03971377,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-09T09:38:52+00:00,kraken,LRYKQP-I6IOT-5LEK3R,deposit,EUR,2.4E+3,0,,,0,Kraken deposit (fiat)
+2020-12-09T10:01:42+00:00,kraken,LAD5FN-GWJQ7-MYS5PF,withdrawal,ETH,3.49244,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-09T10:09:50+00:00,kraken,LLARZM-KQYZW-Q7PFLK,withdrawal,BTC,0.05275,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-11T03:53:40+00:00,kraken,LWDGFD-BD4AX-ROZZSB,staking_reward,DOT,0.75464686,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-11T14:40:34+00:00,kraken,L27DZQ-QZEMK-NRD3A6,deposit,EUR,1.16E+3,0,,,0,Kraken deposit (fiat)
+2020-12-12T02:21:09+00:00,kraken,LNZEAN-O6GL3-E673GB,staking_reward,KSM,0.07296322,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-12T15:05:02+00:00,kraken,LK3JJX-E44DX-MNDJ3B,internal_transfer,DOT,25.57423099,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-12T15:05:04+00:00,kraken,LRYVID-QMD7Z-KQI5JW,internal_transfer,DOT,-25.57423099,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-12T20:47:52+00:00,kraken,LUVZVG-H3G4F-YCWI4F,internal_transfer,DOT,-25.06734027,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-12T20:48:20+00:00,kraken,LVGOVX-NSRPZ-SNYVO6,internal_transfer,DOT,25.06734027,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-12T20:49:06+00:00,kraken,LGXVJB-YNLOC-IVF5XV,internal_transfer,KSM,2.46984626,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-12T20:49:21+00:00,kraken,L5HWJV-PSY3H-CSMPSL,internal_transfer,KSM,-2.46984626,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-13T17:39:10+00:00,kraken,LMXDRY-NCT32-DCVBRE,withdrawal,ETH,1.2868,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-15T04:00:17+00:00,kraken,LFHLSL-GQJCI-KHUCBS,staking_reward,DOT,1.04536645,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-16T02:22:56+00:00,kraken,LL4NMG-6SP45-OX2MEI,staking_reward,KSM,0.09999013,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-18T04:08:09+00:00,kraken,LVI2CP-7ZB6I-BADADV,staking_reward,DOT,0.80630562,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-18T07:21:59+00:00,kraken,L3KPKO-TV7VL-GTVS4L,internal_transfer,KSM,-5.58442632,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-18T07:22:06+00:00,kraken,LLFEXS-C5SFE-TKTFTZ,internal_transfer,KSM,5.58442632,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-19T02:26:06+00:00,kraken,LHA6C5-MHUZ2-EH7SPY,staking_reward,KSM,0.07699265,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-22T03:58:34+00:00,kraken,LNS5LE-YEAJ3-APK6ZB,staking_reward,DOT,1.07616059,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-23T02:27:38+00:00,kraken,L5LHTV-VLZVI-4W7G5I,staking_reward,KSM,0.1081974,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-25T03:59:57+00:00,kraken,L6OBHD-JM3CK-GEBLZ3,staking_reward,DOT,0.80815424,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-26T02:30:02+00:00,kraken,LOL7K4-AN4IM-WBUJHU,staking_reward,KSM,0.08125439,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-28T12:07:58+00:00,kraken,LKHXPO-JHXL6-CAPKNN,deposit,EUR,2245,0,,,0,Kraken deposit (fiat)
+2020-12-28T12:43:33+00:00,kraken,LIZJEJ-SZG6O-RBBFH3,internal_transfer,KSM,-1.60269078,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-28T12:43:48+00:00,kraken,LAHGAQ-AOJAI-5CAR2W,internal_transfer,KSM,1.60269078,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-29T04:09:07+00:00,kraken,LGJHUD-76ZZK-5ESEIE,staking_reward,DOT,1.07863316,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2020-12-29T09:48:02+00:00,kraken,L5GLVB-7F7WX-CQARKP,deposit,EUR,2.17E+4,0,,,0,Kraken deposit (fiat)
+2020-12-29T10:12:47+00:00,kraken,L4YGG3-D7RP3-MPKGNG,fiat_withdrawal,USDC,2.5,2.5,USDC,,0,Kraken withdrawal (stable_coin)
+2020-12-29T10:20:49+00:00,kraken,LDNGJO-GDCNX-GOYZPJ,fiat_withdrawal,USDC,20122.6311,2.5,USDC,,0,Kraken withdrawal (stable_coin)
+2020-12-29T12:39:01+00:00,kraken,LNCZ76-YMYK2-P7QBSB,fiat_withdrawal,USDC,2.5,2.5,USDC,,0,Kraken withdrawal (stable_coin)
+2020-12-29T12:44:14+00:00,kraken,LLG5KH-5QZV7-JUXIIN,fiat_withdrawal,USDC,2403.6033,2.5,USDC,,0,Kraken withdrawal (stable_coin)
+2020-12-29T16:42:18+00:00,kraken,LPWG35-IDDPT-KPMNP6,internal_transfer,KSM,-1.13636364,0,,,0,Kraken transfer spottostaking (crypto)
+2020-12-29T16:42:54+00:00,kraken,LRQSB6-MK4KP-IENFHR,internal_transfer,KSM,1.13636364,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2020-12-29T18:24:50+00:00,kraken,L5RFV5-JQUFN-CCGFFH,withdrawal,LINK,1.88,0.12,LINK,,0,Kraken withdrawal (crypto)
+2020-12-29T18:39:41+00:00,kraken,L4R3C3-4U6XP-TFPQQJ,withdrawal,LINK,102.84178,0.12,LINK,,0,Kraken withdrawal (crypto)
+2020-12-29T18:47:49+00:00,kraken,LUQ5I6-3LM63-FSZKR7,withdrawal,BTC,0.0045,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-29T18:55:50+00:00,kraken,LPC3CD-5J45O-VXAFOQ,withdrawal,BTC,0.13178,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2020-12-30T02:31:30+00:00,kraken,L2W4HE-VPA4Q-OU5WN4,staking_reward,KSM,0.10940885,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2020-12-30T09:25:54+00:00,kraken,LP7LK6-BPRT5-TLFI7Y,withdrawal,ETH,0.50261,0.005,ETH,,0,Kraken withdrawal (crypto)
+2020-12-30T21:10:21+00:00,kraken,LPTOG6-S7QUO-KT5FFK,withdrawal,LINK,43.73965,0.12,LINK,,0,Kraken withdrawal (crypto)
+2020-12-31T12:16:35+00:00,kraken,LYMQFS-PCYXV-NOJQ3H,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2020-12-31T12:26:43+00:00,kraken,LGDNGD-JOJHK-G7BHLG,deposit,USDC,9.9E+2,0,,,0,Kraken deposit (stable_coin)
+2021-01-01T04:21:17+00:00,kraken,LCHXEG-XPQKB-Z54HGH,staking_reward,DOT,0.81001758,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-01T10:18:02+00:00,kraken,LY3VIW-Y6IWC-NPDC5X,withdrawal,ETH,1.08203,0.005,ETH,,0,Kraken withdrawal (crypto)
+2021-01-01T10:20:10+00:00,kraken,LTUF4G-OMJDK-NKLA33,withdrawal,LINK,21.80982,0.12,LINK,,0,Kraken withdrawal (crypto)
+2021-01-01T11:00:20+00:00,kraken,L6RYT6-52F57-N6CSG5,internal_transfer,DOT,34.04453733,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-01-01T11:00:34+00:00,kraken,LNVH5L-DKVCV-RL5KSZ,internal_transfer,DOT,-34.04453733,0,,,0,Kraken transfer spottostaking (crypto)
+2021-01-01T15:36:39+00:00,kraken,LF62GX-CD5JI-WQK3EC,internal_transfer,KSM,3.71428571,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-01-01T15:36:40+00:00,kraken,LEKAXX-VLEOL-CBF2WG,internal_transfer,KSM,-3.71428571,0,,,0,Kraken transfer spottostaking (crypto)
+2021-01-02T02:33:32+00:00,kraken,LSSS36-U3GHD-5VJTME,staking_reward,KSM,0.08467043,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-04T09:52:23+00:00,kraken,LFCZOE-JWT7S-3WO3NM,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2021-01-04T10:07:02+00:00,kraken,L5K76F-KJNYS-W72RBD,deposit,USDC,9115.1311,0,,,0,Kraken deposit (stable_coin)
+2021-01-04T11:08:40+00:00,kraken,L4BR2N-EKGTR-BJ2HCM,withdrawal,ETH,0.005,0.005,ETH,,0,Kraken withdrawal (crypto)
+2021-01-04T11:20:00+00:00,kraken,LBLMZ2-CY4M4-CSZVJJ,withdrawal,BTC,0.0045,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2021-01-04T11:29:16+00:00,kraken,LDATT6-YNBLQ-6QRI3H,withdrawal,ETH,7.87461,0.005,ETH,,0,Kraken withdrawal (crypto)
+2021-01-04T11:33:56+00:00,kraken,LHLNMV-SHCQV-EMV3YE,withdrawal,BTC,0.03569,0.0005,BTC,,0,Kraken withdrawal (crypto)
+2021-01-04T16:20:44+00:00,kraken,LZNU2A-K2KIB-AWYJT7,deposit,EUR,5.2E+2,0,,,0,Kraken deposit (fiat)
+2021-01-05T04:39:02+00:00,kraken,LCHQP3-AOZ5L-IQ7UAB,staking_reward,DOT,1.12119711,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-06T02:36:11+00:00,kraken,LDC5NV-TSRIU-HUQUXL,staking_reward,KSM,0.11718272,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-07T07:34:46+00:00,kraken,LFV3V6-VAOGJ-7L6DNS,internal_transfer,DOT,3.125,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-01-07T07:34:47+00:00,kraken,LUCZP3-O5DBD-MSDNFP,internal_transfer,DOT,-3.125,0,,,0,Kraken transfer spottostaking (crypto)
+2021-01-07T20:41:54+00:00,kraken,LGTROG-KRNE2-EWKYFQ,internal_transfer,KSM,5.08158014,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-01-07T20:41:56+00:00,kraken,LHRGPT-2TAKY-DMXMVN,internal_transfer,KSM,-5.08158014,0,,,0,Kraken transfer spottostaking (crypto)
+2021-01-07T20:44:32+00:00,kraken,LO3PW7-F4QHS-V6TC6V,withdrawal,LINK,14.90327,0.12,LINK,,0,Kraken withdrawal (crypto)
+2021-01-08T04:54:02+00:00,kraken,L2SSKY-QQNFX-F4SQSU,staking_reward,DOT,0.84620566,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-09T02:39:26+00:00,kraken,LECP7U-563KW-EHDMLP,staking_reward,KSM,0.09003964,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-12T05:08:09+00:00,kraken,LDT6NY-YWHGB-JYA7VJ,staking_reward,DOT,1.13253667,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-13T02:43:37+00:00,kraken,LSWNE2-UJ52X-DK6JSQ,staking_reward,KSM,0.12413238,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-15T05:44:29+00:00,kraken,LUOWSZ-U6YK2-64O67E,staking_reward,DOT,0.85048954,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-16T02:46:45+00:00,kraken,LC6BXE-ZD2HH-N2MFIK,staking_reward,KSM,0.09322085,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-19T05:56:11+00:00,kraken,L4IKZY-TUQQ4-TDNHIU,staking_reward,DOT,1.13513182,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-20T02:53:09+00:00,kraken,LXHL7E-RC6O3-W5FVRC,staking_reward,KSM,0.12441769,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-22T06:31:48+00:00,kraken,LK3ZZL-ZVTIL-A6SIHC,staking_reward,DOT,0.85243467,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-23T03:02:19+00:00,kraken,LDH5IS-RD4JS-V5MNOK,staking_reward,KSM,0.09343535,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-26T06:51:02+00:00,kraken,LWQEKM-LFM27-S7NLUL,staking_reward,DOT,1.13773162,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-27T03:07:58+00:00,kraken,LRGGCS-PIE54-FVBGT4,staking_reward,KSM,0.12470353,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-01-29T07:14:35+00:00,kraken,LE6CHL-OUIYT-XOJVLZ,staking_reward,DOT,0.85438928,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-01-30T03:18:58+00:00,kraken,LR5XJS-U4SFF-TF6GUK,staking_reward,KSM,0.09365091,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-02T07:49:06+00:00,kraken,LIWPD4-L5OWX-M5K7VQ,staking_reward,DOT,1.14033404,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-03T03:14:32+00:00,kraken,LEIUD5-5HABZ-DRVC43,staking_reward,KSM,0.12498916,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-04T10:49:44+00:00,kraken,L6NP6B-W6BIM-6YDVFA,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2021-02-04T10:59:18+00:00,kraken,LBC2AZ-AJETV-55TJTP,deposit,USDC,4991,0,,,0,Kraken deposit (stable_coin)
+2021-02-04T11:19:21+00:00,kraken,LTBSPS-MHU36-AXLABH,internal_transfer,KSM,-10.3926337,0,,,0,Kraken transfer spottostaking (crypto)
+2021-02-04T11:19:37+00:00,kraken,LLWVWZ-2MF3R-BJLN4E,internal_transfer,KSM,10.3926337,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-02-04T11:26:47+00:00,kraken,LAY46P-W77N5-4J6EJM,withdrawal,SNX,1.8,0.2,SNX,,0,Kraken withdrawal (crypto)
+2021-02-04T11:32:48+00:00,kraken,LBH7CY-SEAHO-S5DCVW,withdrawal,SNX,95.22451,0.2,SNX,,0,Kraken withdrawal (crypto)
+2021-02-04T12:35:39+00:00,kraken,LZWBO2-AQM5Y-IACANY,withdrawal,AAVE,0.1081,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-02-04T12:46:57+00:00,kraken,LDEBCY-PBB27-D3DC4U,withdrawal,AAVE,4.32581,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-02-05T08:50:40+00:00,kraken,LH765M-WIA2G-RNNKJN,staking_reward,DOT,0.85633193,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-06T03:20:17+00:00,kraken,L4K3R4-LZOLL-TSTRTU,staking_reward,KSM,0.09936838,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-09T09:31:01+00:00,kraken,LRRC3E-ZKXIG-EUAWZ2,staking_reward,DOT,1.14295029,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-10T03:22:56+00:00,kraken,LARN7X-Y6KYX-REODAS,staking_reward,KSM,0.13894285,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-12T10:22:24+00:00,kraken,L7XVFO-UZPAT-D3IECR,staking_reward,DOT,0.85827648,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-13T03:33:48+00:00,kraken,LPVWRR-PZEEJ-DMOC4F,staking_reward,KSM,0.10434366,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-16T11:19:03+00:00,kraken,LMGFPP-U265Y-CHFZ5B,staking_reward,DOT,1.14555801,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-16T15:02:19+00:00,kraken,LLD5LW-D4SI4-K36NE4,internal_transfer,DOT,-4E+1,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-02-16T15:02:37+00:00,kraken,LVYHSV-3ET7Z-AACKNC,internal_transfer,DOT,4E+1,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-02-16T15:35:46+00:00,kraken,LCPOVF-IR4FR-FWBDGQ,fiat_withdrawal,EUR,995.4,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-02-16T17:30:56+00:00,kraken,LNKAON-AHYYB-S6D5YA,deposit,USDC,2E+1,0,,,0,Kraken deposit (stable_coin)
+2021-02-16T17:40:05+00:00,kraken,L3YBYA-4OM7N-7VSPNV,deposit,USDC,2.98E+3,0,,,0,Kraken deposit (stable_coin)
+2021-02-16T18:20:31+00:00,kraken,LESUYR-L7T3J-TNUENQ,fiat_withdrawal,EUR,2445.12,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-02-17T03:40:25+00:00,kraken,LIFUQB-DAADT-SAD3O7,staking_reward,KSM,0.13926064,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-19T12:50:41+00:00,kraken,LMD2W7-DCJ2Y-Z63REZ,staking_reward,DOT,0.82848826,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-20T03:54:21+00:00,kraken,L6JRTD-DUN7W-QLPQTG,staking_reward,KSM,0.10458231,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-23T13:46:58+00:00,kraken,LO7TMT-HVJPK-IPZNNP,staking_reward,DOT,1.09556053,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-24T04:02:30+00:00,kraken,LF4N76-X3YJR-KQOAWG,staking_reward,KSM,0.13958201,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-02-26T09:50:23+00:00,kraken,L2FU5S-RBS2N-IHGIIK,staking_reward,DOT,0.8226619,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-02-26T12:09:58+00:00,kraken,LDVTT4-5S6RO-5BNNDV,deposit,EUR,9.8E+2,0,,,0,Kraken deposit (fiat)
+2021-02-26T23:41:56+00:00,kraken,LBZMZ7-UKJBL-HXRQ26,withdrawal,ETH,0.31065,0.0017,ETH,,0,Kraken withdrawal (crypto)
+2021-02-26T23:44:24+00:00,kraken,LAKJQN-QLFNH-FUILWS,withdrawal,AAVE,1.07354,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-02-26T23:44:59+00:00,kraken,LINN45-3WG2Z-5BMPRH,withdrawal,LINK,14.06524,0.12,LINK,,0,Kraken withdrawal (crypto)
+2021-02-27T04:13:26+00:00,kraken,LDG4U2-22KEW-QGH7JD,staking_reward,KSM,0.10482217,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-02T10:25:53+00:00,kraken,LELQ6A-K4PWN-LRRKJP,staking_reward,DOT,1.09811902,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-03T04:20:19+00:00,kraken,LWBA6F-QBQN3-SQHYXG,staking_reward,KSM,0.1399047,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-05T11:37:39+00:00,kraken,LPLRM2-YMIRN-BGPACZ,staking_reward,DOT,0.82460452,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-06T04:28:00+00:00,kraken,LHPFZ2-YO2NL-ATVNF3,staking_reward,KSM,0.10506075,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-09T04:26:32+00:00,kraken,LBZ3DL-JSDD4-JSVEJF,staking_reward,DOT,1.10062608,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-10T04:35:20+00:00,kraken,LTJ6GT-VA5NZ-PJ22AX,staking_reward,KSM,0.14022684,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-12T04:13:19+00:00,kraken,LLDODG-L5K5Q-TWRL7V,staking_reward,DOT,0.82659267,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-13T04:45:00+00:00,kraken,LTRUAR-NFDXR-6RE4CO,staking_reward,KSM,0.10530134,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-16T04:25:17+00:00,kraken,LW2ZLF-2QEXO-NUCKL5,staking_reward,DOT,1.10324227,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-17T04:52:07+00:00,kraken,LNMA76-WK7MR-DLKJUA,staking_reward,KSM,0.14054626,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-19T04:25:56+00:00,kraken,LT7EUL-PEBGP-M56VDH,staking_reward,DOT,0.82850853,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-20T04:59:38+00:00,kraken,LBCJMZ-CJXFC-Q7KUSW,staking_reward,KSM,0.10554611,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-23T04:29:44+00:00,kraken,LLRZA5-7VQGA-XON5KB,staking_reward,DOT,1.1057658,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-24T05:09:17+00:00,kraken,LPTBNU-HSDCT-UE4FTB,staking_reward,KSM,0.140869,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-26T04:40:42+00:00,kraken,LSFHNS-NR2PN-JEATNI,staking_reward,DOT,0.83040009,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-27T05:20:41+00:00,kraken,LJT33D-3JIK5-7S6NRA,staking_reward,KSM,0.10578813,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-03-30T04:46:16+00:00,kraken,L3QU3A-RPLVE-4DBNNA,staking_reward,DOT,1.10832275,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-03-31T05:27:59+00:00,kraken,LMVDYY-J4E7E-NTVOWS,staking_reward,KSM,0.14119342,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-02T04:47:34+00:00,kraken,LFTNUJ-NVGAI-7UYSST,staking_reward,DOT,0.83230519,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-03T05:38:01+00:00,kraken,LRUQ4L-TKO3K-V64LEK,staking_reward,KSM,0.10603066,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-06T04:55:01+00:00,kraken,LC7OQH-ECF6W-6RTGHP,staking_reward,DOT,1.1108667,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-07T05:51:30+00:00,kraken,LTVBKC-75NMK-HUXTGO,staking_reward,KSM,0.14151783,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-09T04:54:14+00:00,kraken,L2A2OD-CGO3Z-ADRWRL,staking_reward,DOT,0.83423764,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-10T06:02:15+00:00,kraken,LFNC46-RPOPZ-JHALOG,staking_reward,KSM,0.10627641,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-13T04:59:22+00:00,kraken,LYJPDK-E7PW7-GGSNXH,staking_reward,DOT,1.11340546,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-14T06:14:37+00:00,kraken,LBBC22-ONSZO-X3WHYM,staking_reward,KSM,0.1418412,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-16T05:13:53+00:00,kraken,LHEGUC-DPLCQ-73AZ7I,staking_reward,DOT,0.83613974,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-17T06:21:43+00:00,kraken,LL3XJM-G6RLO-UQOWEY,staking_reward,KSM,0.10651774,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-20T05:21:06+00:00,kraken,LUL3YW-GS56K-JVE3FE,staking_reward,DOT,1.11598392,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-21T06:27:32+00:00,kraken,LAGN46-LNS5W-NDN2GL,staking_reward,KSM,0.14216879,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-23T05:43:52+00:00,kraken,LRTZCP-6FV2P-7VDR4D,staking_reward,DOT,0.83805185,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-24T06:38:20+00:00,kraken,LQULI3-5P7SA-WFGFCF,staking_reward,KSM,0.1067636,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-25T21:24:31+00:00,kraken,LQ6VPP-YSZPT-7M7SB3,internal_transfer,DOT,-688.38638859,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-04-25T21:24:48+00:00,kraken,LHQBYO-SVOAM-43QB5M,internal_transfer,DOT,688.38638859,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-04-25T21:34:11+00:00,kraken,LBV6LH-LNPCV-ZNA6KS,withdrawal,DOT,9.95,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-04-25T21:38:05+00:00,kraken,LZK2KX-YPA7R-ASKS5E,withdrawal,DOT,678.33638859,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-04-27T05:27:55+00:00,kraken,LLNF7E-DWAPQ-PY6HYI,staking_reward,DOT,0.85851474,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-04-28T06:46:19+00:00,kraken,LZYNLB-P6LXZ-HB4625,staking_reward,KSM,0.14249498,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-04-30T05:36:08+00:00,kraken,LNTMRT-VRGLQ-RAUFVY,staking_reward,DOT,0.16124976,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-05-01T06:54:46+00:00,kraken,LIA7CD-54KGB-2SHOYQ,staking_reward,KSM,0.10700876,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-04T05:39:46+00:00,kraken,LPF4PE-7XR2C-UZEQWV,staking_reward,DOT,0.21527384,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-05-04T12:12:48+00:00,kraken,LFUST6-ZKL5F-N3BOXX,internal_transfer,DOT,-164.0305012,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-05-04T12:12:58+00:00,kraken,L54HIE-5ONRE-QI4N4M,internal_transfer,DOT,164.0305012,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-05-04T13:15:43+00:00,kraken,LRD3RR-XH64T-A3IE3M,withdrawal,DOT,163.9805012,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-05T07:05:09+00:00,kraken,L7EYC5-B43LV-4DBO2R,staking_reward,KSM,0.14282227,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-07T01:17:19+00:00,kraken,LFZXDU-IDCPV-EIIVWI,staking_reward,DOT,0.02515733,0,,,0,Kraken staking (crypto)
+2021-05-07T20:53:20+00:00,kraken,LGTXY5-AMTG3-MYTHOF,deposit,USDC,2E+1,0,,,0,Kraken deposit (stable_coin)
+2021-05-07T21:05:28+00:00,kraken,LS23RJ-3EFVO-5PECZS,deposit,USDC,3.48E+3,0,,,0,Kraken deposit (stable_coin)
+2021-05-07T21:20:38+00:00,kraken,LBBACT-KIC26-PGT54E,withdrawal,SNX,180.85183,0.2,SNX,,0,Kraken withdrawal (crypto)
+2021-05-08T07:09:49+00:00,kraken,LW6TH7-7FVL2-3ZV3DS,staking_reward,KSM,0.10725318,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-09T07:55:01+00:00,kraken,LIGBXH-GMKK7-XQURQF,deposit,USDC,5E+3,0,,,0,Kraken deposit (stable_coin)
+2021-05-09T16:05:33+00:00,kraken,LECS53-QCGY7-NL5GTK,withdrawal,SNX,110.57137,0.2,SNX,,0,Kraken withdrawal (crypto)
+2021-05-09T21:16:24+00:00,kraken,LEJ2DY-3CL5Z-KZQ3UO,withdrawal,DOT,73.04053515,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-12T07:23:42+00:00,kraken,L732VH-KH7KB-OUI4ZY,staking_reward,KSM,0.14315108,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-12T13:03:25+00:00,kraken,LXSWMX-52KVQ-7PO2BN,deposit,EUR,3428,0,,,0,Kraken deposit (fiat)
+2021-05-13T21:21:14+00:00,kraken,LV2HDE-D3CNO-HPHRKL,withdrawal,DOT,1.95,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-14T07:44:52+00:00,kraken,LBEZKD-PLW63-T67MNU,withdrawal,DOT,7.24598751,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-15T03:07:05+00:00,kraken,LXISI6-VFCMJ-NVRRHQ,staking_reward,KSM,0.10749488,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-15T10:48:41+00:00,kraken,LFOCC6-PHOBX-JGOQOG,withdrawal,DOT,57.9715531,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-17T12:07:20+00:00,kraken,LRIIQU-WZY27-3V43LA,withdrawal,AAVE,0.1081,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-05-17T12:15:51+00:00,kraken,LGFTEP-JDUXC-6LUNZC,withdrawal,AAVE,1.83258,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-05-19T03:06:25+00:00,kraken,LTGH35-P5CSI-FJORIH,staking_reward,KSM,0.1434862,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-22T03:05:37+00:00,kraken,LWHI2D-4CPWC-OUAC6J,staking_reward,KSM,0.10775519,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-22T19:17:39+00:00,kraken,LXBSW6-QPMZP-O5FCJK,deposit,USDC,2E+1,0,,,0,Kraken deposit (stable_coin)
+2021-05-22T19:26:52+00:00,kraken,LVAPJR-QWWV5-VVRXEX,deposit,USDC,1.48E+3,0,,,0,Kraken deposit (stable_coin)
+2021-05-22T20:59:45+00:00,kraken,LGLMH4-5JRJJ-52I7N6,internal_transfer,KSM,0.3,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-22T20:59:58+00:00,kraken,LEL5YR-Q3SS2-QIL22K,internal_transfer,KSM,-0.3,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-23T06:37:41+00:00,kraken,L7RG2C-4F3MZ-3EIGHR,internal_transfer,KSM,0.4,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-23T06:37:43+00:00,kraken,LICUN2-XBJKF-OMIGN2,internal_transfer,KSM,-0.4,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-23T06:50:40+00:00,kraken,LCWNLQ-4QJCY-HSV5BG,internal_transfer,KSM,0.6,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-23T06:50:45+00:00,kraken,LYD3IJ-WSF4G-6HYJZG,internal_transfer,KSM,-0.6,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-23T08:11:08+00:00,kraken,LZ5YW6-UYKQZ-MGVO7T,internal_transfer,KSM,2.1,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-23T08:11:11+00:00,kraken,LOFZXO-DMMQ4-DI2PNP,internal_transfer,KSM,-2.1,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-23T08:16:52+00:00,kraken,L7CJVX-26VDS-ZYYJVA,internal_transfer,KSM,1.65444714,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-23T08:16:54+00:00,kraken,L7SVPZ-FUEUI-7OCQPL,internal_transfer,KSM,-1.65444714,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-25T08:41:05+00:00,kraken,L2OQPV-UVAPE-T7OSTF,deposit,EUR,975,0,,,0,Kraken deposit (fiat)
+2021-05-25T13:46:17+00:00,kraken,LG7PHB-O4VDT-HSG7OU,fiat_withdrawal,USDC,1172.535,2.5,USDC,,0,Kraken withdrawal (stable_coin)
+2021-05-26T03:08:35+00:00,kraken,LVRRRN-EMCPB-MMW4OO,staking_reward,KSM,0.14843358,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-05-26T10:07:39+00:00,kraken,LGNS3T-CPHLT-ZEFNKM,deposit,EUR,7.9E+2,0,,,0,Kraken deposit (fiat)
+2021-05-26T12:11:30+00:00,kraken,LXE7ZM-ZZLAT-ABAUCU,internal_transfer,DOT,-10.79092701,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-26T12:11:57+00:00,kraken,LJQPNY-MADUS-6J7AHJ,internal_transfer,DOT,10.79092701,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-26T14:04:40+00:00,kraken,LSNVYV-3VT27-7P4PGB,internal_transfer,DOT,-6.82358182,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-26T14:04:59+00:00,kraken,LBVTCG-IHQHL-NZRT5N,internal_transfer,DOT,6.82358182,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-27T07:17:23+00:00,kraken,LZ6QCG-AWTLZ-CE7HGN,deposit,EUR,8.75E+3,0,,,0,Kraken deposit (fiat)
+2021-05-27T07:40:51+00:00,kraken,L3OFRO-AR4L5-UXQX5O,internal_transfer,DOT,-5.55555556,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-27T07:40:51+00:00,kraken,LWSILM-5DAVZ-YTONLQ,internal_transfer,DOT,5.55555556,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-28T05:51:49+00:00,kraken,LF6OSA-E2LYR-PKLKDB,staking_reward,DOT,0.01001568,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-05-28T07:50:09+00:00,kraken,L2N2YQ-BVSF5-JAOTSK,internal_transfer,DOT,-53.19148936,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-28T07:50:54+00:00,kraken,LNFLU2-ZJ5DR-N7FRSA,internal_transfer,DOT,53.19148936,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-28T08:27:10+00:00,kraken,LKA5L2-UH6VC-ZL6JHS,withdrawal,SNX,98.8099,0.2,SNX,,0,Kraken withdrawal (crypto)
+2021-05-28T08:38:38+00:00,kraken,LYSBFE-LKKMN-GLHFVD,withdrawal,LINK,54.17535,0.12,LINK,,0,Kraken withdrawal (crypto)
+2021-05-28T09:02:48+00:00,kraken,LJ6EKN-ZXXKD-4NYGAQ,internal_transfer,DOT,98.39119007,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-05-28T09:02:53+00:00,kraken,LQ6CDC-44CEH-RV3OSY,internal_transfer,DOT,-98.39119007,0,,,0,Kraken transfer spottostaking (crypto)
+2021-05-28T09:12:26+00:00,kraken,LDJ5GN-RIBIR-ADDPBB,withdrawal,AAVE,3.62446,0.0119,AAVE,,0,Kraken withdrawal (crypto)
+2021-05-28T09:18:36+00:00,kraken,LMWOBM-XJMMV-QSLSL2,internal_transfer,DOT,-174.7627595,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-05-28T09:18:46+00:00,kraken,LFIJW5-DGNTG-FFKET7,internal_transfer,DOT,174.7627595,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-05-28T09:44:03+00:00,kraken,L5Z3YO-NV2XR-BP44N4,withdrawal,DOT,1,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-28T09:55:04+00:00,kraken,LRYWVE-MBSVQ-EU4JWI,withdrawal,DOT,269.81238783,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-05-28T10:12:26+00:00,kraken,LKTLR4-BTIN3-2E33L7,fiat_withdrawal,EUR,1289.18,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-05-29T03:05:48+00:00,kraken,LNWBB2-I4BWW-4KWDZJ,staking_reward,KSM,0.11299102,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-01T01:17:35+00:00,kraken,L6MFP2-CVLCH-C6PTMY,staking_reward,DOT,0.00405467,0,,,0,Kraken staking (crypto)
+2021-06-01T08:05:30+00:00,kraken,L7UTFK-SYLRD-JLUC4B,internal_transfer,DOT,-0.00405467,0,,,0,Kraken transfer spottostaking (crypto)
+2021-06-01T08:06:20+00:00,kraken,LB4TXH-XWWQE-RXG5BJ,internal_transfer,DOT,0.00405467,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-06-02T03:09:09+00:00,kraken,LKHZWD-GLHAL-SKYRUW,staking_reward,KSM,0.15080051,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-04T05:53:04+00:00,kraken,LVXM54-X2ZK5-352RNN,staking_reward,DOT,0.0000036,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-05T03:10:51+00:00,kraken,L55JPK-2LOM2-HJRIHI,staking_reward,KSM,0.11324924,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-08T06:04:15+00:00,kraken,LAYS46-A3ZEB-OD6S6H,staking_reward,DOT,0.00000533,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-09T03:32:57+00:00,kraken,LOHW3L-KGDOT-FTD53N,staking_reward,KSM,0.15114932,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-11T05:57:43+00:00,kraken,LC4KCM-SX33F-AJ6UZ3,staking_reward,DOT,0.000004,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-11T17:40:23+00:00,kraken,LDIQU2-OICVI-LEUYIQ,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2021-06-11T17:56:08+00:00,kraken,LERGJV-MVRGQ-TBX3AP,deposit,USDC,9.9E+2,0,,,0,Kraken deposit (stable_coin)
+2021-06-11T18:16:14+00:00,kraken,LGBKJM-HMHR2-Z5EMNI,fiat_withdrawal,EUR,814.29,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-06-12T03:20:39+00:00,kraken,LOGBYU-72OVZ-7LOSAS,staking_reward,KSM,0.11351126,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-15T06:04:52+00:00,kraken,LJ3FA7-6C36S-MTX47A,staking_reward,DOT,0.00000534,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-16T03:21:24+00:00,kraken,L7W3RB-7R3MB-SLV7HR,staking_reward,KSM,0.15149465,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-18T06:08:33+00:00,kraken,LGFGHX-SEQ56-NY7HSB,staking_reward,DOT,0.00000401,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-19T03:18:11+00:00,kraken,L6N56J-JMNDU-M7MSZ2,staking_reward,KSM,0.11377059,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-22T06:45:58+00:00,kraken,LBU4PU-NPZJ3-MVP4P7,staking_reward,DOT,0.00000535,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-23T03:24:44+00:00,kraken,LJOCOU-Y3HZL-B5PNSU,staking_reward,KSM,0.15184569,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-25T06:32:02+00:00,kraken,LV4NBP-SMJ7X-OJV5MD,staking_reward,DOT,0.00000402,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-26T03:22:38+00:00,kraken,LU6NE6-TRRA4-UMZLDS,staking_reward,KSM,0.11403222,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-06-29T08:01:12+00:00,kraken,LXOKQO-NZ6XL-L6SYSC,staking_reward,DOT,0.00000536,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-06-30T03:25:14+00:00,kraken,LJK3WO-KHHS5-2LEAZQ,staking_reward,KSM,0.1521946,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-02T08:11:40+00:00,kraken,LMGEL3-NM5G6-X7J2MP,staking_reward,DOT,0.00000403,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-03T03:26:44+00:00,kraken,LPCJFA-UECRU-32JUMU,staking_reward,KSM,0.11429661,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-03T14:42:33+00:00,kraken,LTLXT7-UY7ZL-JEPNS2,deposit,DOT,1.929126,0,,,0,Kraken deposit (crypto)
+2021-07-03T14:52:09+00:00,kraken,LCPD2R-6BLMN-BKQDBR,deposit,DOT,1194.19029,0,,,0,Kraken deposit (crypto)
+2021-07-03T14:57:36+00:00,kraken,LOITKK-XLZ7I-2OBHUJ,internal_transfer,DOT,-897.089562,0,,,0,Kraken transfer spottostaking (crypto)
+2021-07-03T14:58:07+00:00,kraken,L7DAW6-ZX3GG-BNWDI5,internal_transfer,DOT,897.089562,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-07-03T15:03:20+00:00,kraken,L4E45Z-FD74N-OGFGGR,internal_transfer,KSM,22.09736947,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-07-03T15:03:27+00:00,kraken,LX6VYS-KXNPT-4FKSK3,internal_transfer,KSM,-22.09736947,0,,,0,Kraken transfer spottostaking (crypto)
+2021-07-03T15:11:06+00:00,kraken,L6QWUZ-YUEZI-KU63XT,internal_transfer,DOT,0.000004,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-07-03T15:11:08+00:00,kraken,LWBKDG-YUAO6-TNNUES,internal_transfer,DOT,-0.000004,0,,,0,Kraken transfer spottostaking (crypto)
+2021-07-06T07:56:33+00:00,kraken,L45TNQ-QA5MX-I3L7EL,staking_reward,DOT,0.71267287,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-07T03:27:30+00:00,kraken,L2TF3T-KTSXO-CK3IV6,staking_reward,KSM,0.17763387,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-09T07:59:48+00:00,kraken,LKNPDK-NILG6-4YBDFH,staking_reward,DOT,0.88484114,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-10T03:26:33+00:00,kraken,LFCZRM-SKTKN-7STBWO,staking_reward,KSM,0.13636199,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-13T08:10:43+00:00,kraken,LELBI5-BFMTF-BEPHR7,staking_reward,DOT,1.18094478,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-14T03:29:10+00:00,kraken,LEYERU-FEXPX-YMQ3IU,staking_reward,KSM,0.18199615,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-16T08:22:05+00:00,kraken,LQNJQC-G6QVL-MHKUWR,staking_reward,DOT,0.88682348,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-17T03:30:35+00:00,kraken,LNBUZW-326WF-IVQ3BG,staking_reward,KSM,0.13667536,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-20T09:14:21+00:00,kraken,LGIAK2-FIYNP-C4UJC3,staking_reward,DOT,1.18366241,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-21T03:31:15+00:00,kraken,LYWCBH-57XY5-GIJIID,staking_reward,KSM,0.18242265,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-23T08:41:37+00:00,kraken,LOOEYH-WPKE5-UNRZZH,deposit,EUR,8.7E+2,0,,,0,Kraken deposit (fiat)
+2021-07-23T15:26:19+00:00,kraken,LXK4PS-JHZF3-CQ747Y,staking_reward,DOT,0.93817947,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-24T03:34:36+00:00,kraken,LV2TZJ-2WYEP-XJ7U2D,staking_reward,KSM,0.13698278,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-27T06:29:53+00:00,kraken,LK6SGE-GN3E2-F4JJ63,fiat_withdrawal,USDC,1002.7247,7.5,USDC,,0,Kraken withdrawal (stable_coin)
+2021-07-27T08:34:12+00:00,kraken,LFKZ45-TZTVY-23IFZW,staking_reward,DOT,1.13702164,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-28T03:32:52+00:00,kraken,L4B3GF-3G6YN-F3H2MZ,staking_reward,KSM,0.1828373,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
+2021-07-28T15:43:53+00:00,kraken,LGI3K4-I7OTW-VWSKCN,internal_transfer,KSM,13,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-07-28T15:44:00+00:00,kraken,LQESMZ-SQDQR-YOBHOR,internal_transfer,KSM,-13,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-07-28T16:02:14+00:00,kraken,LLWNGG-ZPW67-3OTKXG,withdrawal,KSM,0.0005,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-07-28T16:13:05+00:00,kraken,LFFV24-OWDVD-EGGMOT,withdrawal,KSM,12.9795,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-07-28T16:49:53+00:00,kraken,LFCA5D-5VZSK-ZB4VR6,internal_transfer,DOT,226.00445187,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-07-28T16:50:00+00:00,kraken,LG6YMN-IK7L4-RYVS6J,internal_transfer,DOT,-226.00445187,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-07-28T17:05:04+00:00,kraken,LI7T54-3K3W2-J6JKZQ,withdrawal,DOT,1,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-07-28T17:08:34+00:00,kraken,LWD55S-4YLWP-DGCS3J,withdrawal,DOT,224.90445187,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-07-28T19:39:07+00:00,kraken,L6U4MN-PSFJI-7YNKIX,deposit,USDC,1005,0,,,0,Kraken deposit (stable_coin)
+2021-07-28T20:13:37+00:00,kraken,LYZ35R-MY56E-CLUJW4,fiat_withdrawal,EUR,835.64,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-07-30T08:42:50+00:00,kraken,LW3G54-BOSRJ-PFIV6W,staking_reward,DOT,0.79138663,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-07-30T14:12:58+00:00,kraken,LMEJ6D-V7QEE-L7BJ7I,internal_transfer,DOT,339.40237113,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-07-30T14:13:04+00:00,kraken,LQ7UW5-RZMYY-2HDOS7,internal_transfer,DOT,-339.40237113,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-07-30T14:13:10+00:00,kraken,LHF7FC-4OXDD-XYJR3Q,internal_transfer,KSM,-126.31093014,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-07-30T14:13:18+00:00,kraken,L64OJA-NKDCO-7MCLIK,internal_transfer,KSM,126.31093014,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-07-30T14:21:42+00:00,kraken,LXPSRL-QX4Y7-3LRX2L,withdrawal,KSM,126.30093014,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-07-30T14:24:05+00:00,kraken,LN4WBH-GNGQW-5TCBBN,withdrawal,DOT,339.35237113,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-07-31T02:05:12+00:00,kraken,LSHYSH-SDPLE-TLXUP4,staking_reward,KSM,0.10656081,0,,,0,Kraken staking (crypto)
+2021-08-03T08:41:44+00:00,kraken,LBX2SK-C4KLU-3N7GDU,staking_reward,DOT,0.5073533,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-06T08:55:16+00:00,kraken,L4CNM3-HAPM6-CAU6CU,staking_reward,DOT,0.33497117,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-07T09:55:48+00:00,kraken,LJJODS-6I7JQ-KIYSRN,internal_transfer,DOT,-340.2446956,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-08-07T09:56:04+00:00,kraken,L3IQB2-YY3HD-HRAWNO,internal_transfer,DOT,340.2446956,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-08-07T10:08:03+00:00,kraken,LOAM24-4PYTL-FSYYHU,withdrawal,KSM,30.43737937,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-08-07T10:18:36+00:00,kraken,LJ7WIF-LL6JR-2TCBDA,internal_transfer,DOT,-0.0000056,0,,,0,Kraken transfer spottostaking (crypto)
+2021-08-07T10:19:03+00:00,kraken,L3U4KF-4Z2BN-T46TG4,internal_transfer,DOT,0.0000056,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-08-10T09:01:18+00:00,kraken,LVZ4VU-STAWD-Q6PQRI,staking_reward,DOT,0.15333521,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-11T21:04:34+00:00,kraken,LOFVNA-YKDMZ-IELP66,deposit,USDC,2E+1,0,,,0,Kraken deposit (stable_coin)
+2021-08-11T21:17:18+00:00,kraken,LEJRJO-5W3KD-Y45XSV,deposit,USDC,1554,0,,,0,Kraken deposit (stable_coin)
+2021-08-11T21:24:59+00:00,kraken,LYQVEX-25VCF-4MGVPQ,fiat_withdrawal,EUR,1320.2,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-08-13T09:07:40+00:00,kraken,LB77HW-GF3CL-NBUTIG,staking_reward,DOT,0.0001343,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-17T19:22:03+00:00,kraken,LOAHDH-KQ6OI-KX6QSW,staking_reward,DOT,0.00021515,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-20T03:37:48+00:00,kraken,LZUS4N-BRGLZ-XVWPUA,staking_reward,DOT,0.00013794,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-20T11:25:57+00:00,kraken,LVT5KL-6NNTO-QNK4MI,deposit,LINK,199.23997862,0,,,0,Kraken deposit (crypto)
+2021-08-20T17:22:56+00:00,kraken,LJ44JA-ROZC4-PXRQNI,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2021-08-20T17:35:37+00:00,kraken,LL43MI-6ADSB-DURKL5,deposit,USDC,2.99E+3,0,,,0,Kraken deposit (stable_coin)
+2021-08-20T18:01:31+00:00,kraken,LKZMEA-IHFI5-OCKCYR,withdrawal,KSM,0.09,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-08-21T15:40:21+00:00,kraken,LFRAMW-XYEAZ-CJ6QB4,withdrawal,KSM,8.52792645,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-08-22T10:43:10+00:00,kraken,L5MAEJ-FJNOH-GKFAWT,withdrawal,KSM,14.74086875,0.01,KSM,,0,Kraken withdrawal (crypto)
+2021-08-24T03:47:32+00:00,kraken,LRZTCG-2N2M3-TV4T4Q,staking_reward,DOT,0.00020215,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-27T03:53:04+00:00,kraken,L5NDNL-HCXUT-QICXHI,staking_reward,DOT,0.0001518,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-08-31T21:42:06+00:00,kraken,L33JWO-AICUX-SEOLCH,staking_reward,DOT,0.00020261,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-03T03:46:21+00:00,kraken,LGHYV5-ENMEA-XOBBD5,staking_reward,DOT,0.0001521,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-07T04:05:23+00:00,kraken,LI6KFL-7T3EZ-7N3DVY,staking_reward,DOT,0.00020308,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-10T03:47:34+00:00,kraken,LD3HA5-3IUAU-KAUYEZ,staking_reward,DOT,0.0001525,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-13T10:02:28+00:00,kraken,LC6KKM-QIPER-XOCKC2,deposit,EUR,11765,0,,,0,Kraken deposit (fiat)
+2021-09-13T10:35:49+00:00,kraken,LLHNPV-Z6S4B-PHR76C,fiat_withdrawal,USDT,7.5,2.5,USDT,,0,Kraken withdrawal (stable_coin)
+2021-09-13T10:40:38+00:00,kraken,L3Q4MH-QJR5Q-YCY7FJ,withdrawal,SOL,0.09,0.01,SOL,,0,Kraken withdrawal (crypto)
+2021-09-13T10:41:28+00:00,kraken,LOKMUY-CSVFX-55IF7F,fiat_withdrawal,USDT,4627.6586,2.5,USDT,,0,Kraken withdrawal (stable_coin)
+2021-09-13T10:43:38+00:00,kraken,L6V5II-EBB5H-I6PSDJ,withdrawal,SOL,14.65668,0.01,SOL,,0,Kraken withdrawal (crypto)
+2021-09-14T05:58:37+00:00,kraken,LZQOIZ-DTRNT-LU7ZDM,withdrawal,ETH,1.09053,0.0035,ETH,,0,Kraken withdrawal (crypto)
+2021-09-14T21:26:35+00:00,kraken,LLBUJD-DHVH6-MCJAFE,staking_reward,DOT,0.00020354,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-15T11:10:55+00:00,kraken,LPCVL2-H3CAN-WMKCJN,withdrawal,SOL,0.04,0.01,SOL,,0,Kraken withdrawal (crypto)
+2021-09-15T12:09:03+00:00,kraken,LGM3UV-SS5TC-LHU7IO,withdrawal,SOL,20.64,0.01,SOL,,0,Kraken withdrawal (crypto)
+2021-09-17T06:13:35+00:00,kraken,LCW6JM-AEJSH-CUWHR3,staking_reward,DOT,0.00015281,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-21T06:22:00+00:00,kraken,L6AH4I-XGQDB-4WAGZ5,staking_reward,DOT,0.00020401,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-24T06:21:16+00:00,kraken,LPI5G4-KFQN7-FFPT65,staking_reward,DOT,0.0001532,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-09-28T06:22:09+00:00,kraken,LMOQAN-6IE3M-ACHC7Q,staking_reward,DOT,0.00020448,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-01T06:22:12+00:00,kraken,LHNCJM-PHWW2-OXGVBS,staking_reward,DOT,0.00015355,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-05T06:30:37+00:00,kraken,LWXZ67-FUWUL-J5T22B,staking_reward,DOT,0.00020495,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-08T07:12:21+00:00,kraken,LQF5ZG-2KBC3-5JXL46,deposit,USDC,6415.73327,0,,,0,Kraken deposit (stable_coin)
+2021-10-08T07:15:01+00:00,kraken,LTPSXO-BLISD-YS465H,withdrawal,KAR,6,1,KAR,,0,Kraken withdrawal (crypto)
+2021-10-08T08:23:20+00:00,kraken,LY4IG7-3CNEB-H53DOS,fiat_withdrawal,EUR,5473.55,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-10-08T14:31:09+00:00,kraken,LLRMMB-GSPDI-TFWBMC,staking_reward,DOT,0.0001539,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-12T14:45:07+00:00,kraken,LD5NYH-ECVI5-MV5SV2,staking_reward,DOT,0.0002054,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-15T14:42:23+00:00,kraken,L4XH4X-2WRWZ-3JPQUM,staking_reward,DOT,0.00015423,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-15T15:37:27+00:00,kraken,LJIZMX-SYM7P-CMB5GH,internal_transfer,DOT,-0.15668251,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2021-10-15T15:37:44+00:00,kraken,LNA735-2VH2I-467SNL,internal_transfer,DOT,0.15668251,0,,,0,Kraken transfer spotfromstaking (crypto)
+2021-10-16T07:14:51+00:00,kraken,LDHOYD-JRML2-IAQBTZ,deposit,KSM,0.2057,0,,,0,Kraken deposit (crypto)
+2021-10-16T07:40:34+00:00,kraken,LPYHBA-PXRQB-64YAXF,withdrawal,DOT,1.79930251,0.05,DOT,,0,Kraken withdrawal (crypto)
+2021-10-19T01:25:18+00:00,kraken,LXCVZG-KUAQC-5R3P4S,staking_reward,DOT,0.00003133,0,,,0,Kraken staking (crypto)
+2021-10-19T18:56:57+00:00,kraken,L7IRW3-6IU2Q-RYHSZA,deposit,KSM,31.568,0,,,0,Kraken deposit (crypto)
+2021-10-19T19:02:37+00:00,kraken,LHCG7V-2KKWU-BC3B46,internal_transfer,DOT,-286.17885133,0,,,0,Kraken transfer spottostaking (crypto)
+2021-10-19T19:02:55+00:00,kraken,LA2HMY-CA6RR-6EYJWP,internal_transfer,DOT,286.17885133,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-10-22T15:27:43+00:00,kraken,LWVD5R-SNU2M-TSGFPO,staking_reward,DOT,0.21135935,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-26T15:38:19+00:00,kraken,LC57LD-HBTGS-HC4JGG,staking_reward,DOT,0.37632324,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-10-29T15:40:10+00:00,kraken,LRBF6V-74SSM-7ZYHBE,staking_reward,DOT,0.28256932,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-02T15:58:12+00:00,kraken,L4EXGU-NJXRL-RWBQT6,staking_reward,DOT,0.37717424,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-05T15:52:57+00:00,kraken,LCE45U-ZPUNE-U6PLN4,staking_reward,DOT,0.28321771,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-09T15:55:36+00:00,kraken,L2CKWC-CDQN5-XZ6Y55,staking_reward,DOT,0.37804113,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-12T15:55:30+00:00,kraken,LS4TDA-VFCFF-RGHBSX,staking_reward,DOT,0.28386954,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-16T16:26:58+00:00,kraken,LWUHEK-JJ243-KPKTDF,staking_reward,DOT,0.37891072,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-19T16:12:03+00:00,kraken,LCDDKV-XGSLW-2XWLWF,staking_reward,DOT,0.28451984,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-23T16:21:20+00:00,kraken,LJIJNR-2M7AL-UO5APV,staking_reward,DOT,0.37978134,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-24T09:48:12+00:00,kraken,LWTN4M-WFKXL-3CQXRZ,deposit,DOT,5,0,,,0,Kraken deposit (crypto)
+2021-11-24T09:52:12+00:00,kraken,L3IDGW-FVPOA-CGTXQF,deposit,DOT,577,0,,,0,Kraken deposit (crypto)
+2021-11-24T10:11:51+00:00,kraken,LGRHPU-7UJMP-SBFQJX,internal_transfer,DOT,582,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-11-24T10:11:52+00:00,kraken,LUUNYR-V5QMU-BZGSF7,internal_transfer,DOT,-582,0,,,0,Kraken transfer spottostaking (crypto)
+2021-11-26T16:40:25+00:00,kraken,L5CRZQ-ZLXOF-TJF4KP,staking_reward,DOT,0.59432083,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-11-30T16:40:11+00:00,kraken,L46JWV-2WAJH-6IV7MA,staking_reward,DOT,1.14583924,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-03T16:39:13+00:00,kraken,LDI6YS-VT4FM-FYRDNQ,staking_reward,DOT,0.86035883,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-07T17:01:11+00:00,kraken,LR5WO4-K7H4C-TBQUDA,staking_reward,DOT,1.14841909,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-10T10:34:51+00:00,kraken,LTHNBQ-PWCMW-YCDVAT,staking_reward,DOT,0.8623329,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-14T10:46:03+00:00,kraken,LLJEQZ-AFDST-SPC72A,staking_reward,DOT,1.15113289,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-17T10:40:12+00:00,kraken,LQR3C4-GWDLQ-D5INV2,staking_reward,DOT,0.86441544,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-21T10:58:06+00:00,kraken,L7YTYW-4M5RU-QNL4NQ,staking_reward,DOT,1.15378027,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-22T12:07:17+00:00,kraken,LYVXYF-WI3WF-QNKPY2,deposit,USDT,1019.955572,0,,,0,Kraken deposit (stable_coin)
+2021-12-22T12:30:21+00:00,kraken,LU62AO-CBDCD-5MSEOG,fiat_withdrawal,EUR,889.42,0.09,EUR,,0,Kraken withdrawal (fiat)
+2021-12-24T10:49:58+00:00,kraken,L3GZB3-HZ7SN-W422C3,staking_reward,DOT,0.86640114,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-26T22:20:06+00:00,kraken,LXYKMF-DLYA4-ZVZUBJ,deposit,DOT,162.50723,0,,,0,Kraken deposit (crypto)
+2021-12-26T22:22:53+00:00,kraken,LUOHJW-N7OOA-TWGAJ5,internal_transfer,DOT,-162.50723,0,,,0,Kraken transfer spottostaking (crypto)
+2021-12-26T22:22:56+00:00,kraken,LB3WFN-7M7AT-3UHHQ4,internal_transfer,DOT,162.50723,0,,,0,Kraken transfer stakingfromspot (staking_on_chain)
+2021-12-28T11:05:38+00:00,kraken,L2XGXP-ZTS47-TU2EWV,staking_reward,DOT,1.21564738,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2021-12-31T11:02:52+00:00,kraken,LR6JLC-UL5OY-GKVZCE,staking_reward,DOT,1.02861386,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-04T11:17:42+00:00,kraken,LBIJPY-5SMWN-GC2N7M,staking_reward,DOT,1.37291944,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-07T11:14:41+00:00,kraken,LMQSLF-W2IG2-T65KVR,staking_reward,DOT,1.0309557,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-11T11:25:50+00:00,kraken,LUL47A-YY3SH-5353DL,staking_reward,DOT,1.37607539,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-14T11:24:29+00:00,kraken,L7T5TR-F5D7W-QWZS77,staking_reward,DOT,1.03332497,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-18T11:41:11+00:00,kraken,L4JHYV-ELPBG-ACTF3N,staking_reward,DOT,1.37923946,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-21T11:43:51+00:00,kraken,L7XEKT-QVBIU-SPBUZN,staking_reward,DOT,1.03569806,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-25T11:54:04+00:00,kraken,LWCWWA-B4VBI-K7FRFX,staking_reward,DOT,1.38240842,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-01-28T11:48:48+00:00,kraken,LQN2HV-IV3JK-LG2L7N,staking_reward,DOT,1.03807697,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-01T12:05:56+00:00,kraken,LGHANS-ZSSW6-ZQGXPZ,staking_reward,DOT,1.38558792,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-04T11:58:52+00:00,kraken,LJWH26-SMX3R-FOHFCN,staking_reward,DOT,1.04046166,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-08T12:13:37+00:00,kraken,LGQLK4-T5KRQ-XXYDGL,staking_reward,DOT,1.38877327,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-11T12:09:00+00:00,kraken,LFBPXA-OFIM2-VXRNF4,staking_reward,DOT,1.04285244,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-15T12:21:00+00:00,kraken,LIMI5H-GAJ6I-2HSUUF,staking_reward,DOT,1.39196622,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-18T12:15:32+00:00,kraken,LVQ44E-TQVWN-5MOMD7,staking_reward,DOT,1.04524941,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-22T12:28:24+00:00,kraken,LJHFMA-MN7ZZ-BE5LUF,staking_reward,DOT,1.3951668,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-02-25T12:16:36+00:00,kraken,LWD7OO-OLK7U-DS7EVN,staking_reward,DOT,1.04765191,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-01T12:32:48+00:00,kraken,LYWYZE-UPUNL-4UJNE4,staking_reward,DOT,1.39837635,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-04T12:25:26+00:00,kraken,L5ACQM-ZJKNA-O6IJ2T,staking_reward,DOT,1.05006123,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-07T10:35:53+00:00,kraken,LSZKRO-DPFMN-DHO7EN,deposit,USDT,1541.55685,0,,,0,Kraken deposit (stable_coin)
+2022-03-07T10:52:41+00:00,kraken,L752DJ-2MNBB-IWVJTS,fiat_withdrawal,EUR,1403.71,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-03-08T12:39:03+00:00,kraken,LCIX43-WFRKP-6JX42H,staking_reward,DOT,1.40159142,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-11T12:32:27+00:00,kraken,L7T545-IL5O4-7OB7PH,staking_reward,DOT,1.0524749,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-15T12:49:25+00:00,kraken,LGHRWC-UA6OG-CTREZU,staking_reward,DOT,1.40481465,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-18T12:44:17+00:00,kraken,LMOHKS-2K6HO-BJTDVN,staking_reward,DOT,1.05489316,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-22T13:10:19+00:00,kraken,LFILNY-5BALP-DRLYI2,staking_reward,DOT,1.40804411,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-22T18:36:51+00:00,kraken,LD4GV2-GOQRW-2J2BIT,deposit,USDT,1971.20542,0,,,0,Kraken deposit (stable_coin)
+2022-03-22T19:22:20+00:00,kraken,LND7R5-BR7ME-VXYHZ4,fiat_withdrawal,EUR,1321.3,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-03-22T19:22:31+00:00,kraken,LVYQ5I-4PKTT-54OG2T,fiat_withdrawal,EUR,440.37,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-03-23T07:32:52+00:00,kraken,LWUNHY-2N5PW-5TRDAL,deposit,USDT,2011.022663,0,,,0,Kraken deposit (stable_coin)
+2022-03-23T07:40:08+00:00,kraken,LGA4PJ-PX3YK-53R6CA,fiat_withdrawal,EUR,1797.94,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-03-25T19:58:26+00:00,kraken,LMYBLH-XARV5-2O4OPE,staking_reward,DOT,1.0573133,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-03-29T20:21:42+00:00,kraken,LARVBC-TIEVI-GRQGPI,staking_reward,DOT,1.41117872,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-01T20:14:37+00:00,kraken,L274LI-MHFQ5-G64A2D,staking_reward,DOT,1.05960705,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-04T10:07:30+00:00,kraken,LBXG6G-WJZF5-U4Z6VZ,deposit,USDT,4006.049939,0,,,0,Kraken deposit (stable_coin)
+2022-04-04T11:17:32+00:00,kraken,LNTLZD-PQTFG-7FFSBO,fiat_withdrawal,EUR,1793.74,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-04-04T11:18:10+00:00,kraken,LMXO5M-YEAXM-FCLZHF,fiat_withdrawal,EUR,1793.75,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-04-05T14:23:08+00:00,kraken,LDJIN6-VZP37-VZNZEN,staking_reward,DOT,1.41442122,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-08T15:03:48+00:00,kraken,LFAC57-JRRR4-3YGXML,staking_reward,DOT,1.06216022,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-12T15:22:32+00:00,kraken,LUX5AJ-5GN3M-IYWKV5,staking_reward,DOT,1.41775044,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-15T15:06:56+00:00,kraken,LCRRVW-M5BMN-AUSZNA,staking_reward,DOT,1.06458481,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-19T15:28:21+00:00,kraken,LE7Z6Y-H4B6Q-CJDDHS,staking_reward,DOT,1.42101141,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-22T15:17:47+00:00,kraken,LTJXRN-QXKM5-VKAKJE,staking_reward,DOT,1.06703211,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-26T15:39:21+00:00,kraken,LXLWPK-ZGAZ7-QHA2KR,staking_reward,DOT,1.4242779,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-04-29T15:35:18+00:00,kraken,LSA6JE-GEBAN-324YLR,staking_reward,DOT,1.06948341,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-03T09:58:46+00:00,kraken,LP3SRX-5CLPJ-ALBGWS,deposit,USDT,995.179847,0,,,0,Kraken deposit (stable_coin)
+2022-05-03T10:01:22+00:00,kraken,LHKWZL-BD7NQ-YYU7FZ,fiat_withdrawal,EUR,932.63,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-05-03T15:42:57+00:00,kraken,LDLWUS-S2UZ6-CPARCE,staking_reward,DOT,1.42755048,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-07T00:10:31+00:00,kraken,LFH47M-NWOSI-W5IIVI,staking_reward,DOT,1.0719428,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-10T13:40:21+00:00,kraken,LCZ3OY-WQ2KQ-3Z4LNM,internal_transfer,DOT,-1088.93808736,0,,,0,Kraken transfer stakingtospot (staking_on_chain)
+2022-05-10T13:43:19+00:00,kraken,LU5WYA-FDNCB-4IWHNC,internal_transfer,DOT,1088.93808736,0,,,0,Kraken transfer spotfromstaking (crypto)
+2022-05-10T13:48:17+00:00,kraken,LGFOSJ-F2DGE-BDTK3Z,withdrawal,DOT,1,0.05,DOT,,0,Kraken withdrawal (crypto)
+2022-05-10T13:55:52+00:00,kraken,L7TLTS-HFER3-H2KLCO,withdrawal,DOT,1087.83808736,0.05,DOT,,0,Kraken withdrawal (crypto)
+2022-05-11T06:51:30+00:00,kraken,L6SI2K-OWSPY-GF2WQC,staking_reward,DOT,1.43070895,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-14T06:41:01+00:00,kraken,LYXYBU-T4PNC-GPQRPR,staking_reward,DOT,0.18972745,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-17T14:01:57+00:00,kraken,LWMNOP-WWA73-YL3KAE,deposit,USDT,4049.921523,0,,,0,Kraken deposit (stable_coin)
+2022-05-17T14:14:16+00:00,kraken,LXLJ4R-GX3CX-PJZR3W,fiat_withdrawal,EUR,3784.89,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-05-18T06:22:33+00:00,kraken,L3BBA5-N7VQQ-CFOUY6,staking_reward,DOT,0.00205243,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-21T06:28:34+00:00,kraken,LUNFOJ-LZW5T-TGEBQG,staking_reward,DOT,0.00159834,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-24T19:55:16+00:00,kraken,LZJNI6-PU3WL-T3AHZ2,staking_reward,DOT,0.00213368,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-27T13:56:46+00:00,kraken,LBNDMG-UW6L2-FYXOII,deposit,ATOM,2,0,,,0,Kraken deposit (crypto)
+2022-05-27T14:08:14+00:00,kraken,LB74D7-4VV6Q-VEVQSR,deposit,ATOM,289,0,,,0,Kraken deposit (crypto)
+2022-05-27T15:54:06+00:00,kraken,LDU2WE-WARCL-AVKPWP,staking_reward,DOT,0.00160229,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-05-28T13:20:29+00:00,kraken,LUFVPS-QFUVD-6KNTSZ,deposit,LUNA2,69,0,,,0,Kraken deposit (crypto)
+2022-05-31T16:09:48+00:00,kraken,LFT7BL-5IPUV-7MQF5Q,staking_reward,DOT,0.0021389,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-03T15:56:39+00:00,kraken,LZWQPH-BCYKN-RC5HPY,staking_reward,DOT,0.00160609,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-04T17:47:04+00:00,kraken,LNQNKX-BV3V3-DRQRA6,deposit,ATOM,62,0,,,0,Kraken deposit (crypto)
+2022-06-07T16:16:17+00:00,kraken,LZL3Q2-T4I77-63JVPS,staking_reward,DOT,0.00214382,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-09T17:10:24+00:00,kraken,LS5JLY-XLM4F-RCB6XB,fiat_withdrawal,EUR,3339.82,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-06-10T16:01:09+00:00,kraken,LCIF7F-UZ6NN-RM7GJ6,staking_reward,DOT,0.00160978,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-14T16:11:30+00:00,kraken,LI55WO-5PM3P-EKEB4Z,staking_reward,DOT,0.00214875,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-17T14:28:20+00:00,kraken,LO4BEY-UMZKG-PZOCEM,staking_reward,DOT,0.00161348,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-21T14:47:51+00:00,kraken,LTE2BH-26BWY-L3UAKJ,staking_reward,DOT,0.00215373,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-24T14:32:21+00:00,kraken,LTI4TN-3GUGH-BEX2VI,staking_reward,DOT,0.00161724,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-06-28T15:13:28+00:00,kraken,LPAIUK-J4ZDN-A2HD2T,staking_reward,DOT,0.00215869,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-01T07:34:52+00:00,kraken,LYOL4I-TJ246-IEUMEI,deposit,USDC,4354.450254,0,,,0,Kraken deposit (stable_coin)
+2022-07-01T08:11:38+00:00,kraken,LV6UFG-MK2UR-APLFSI,fiat_withdrawal,EUR,4110.68,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-07-01T14:46:08+00:00,kraken,LHNKEN-223XA-TLWVXE,staking_reward,DOT,0.00135079,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-05T15:05:17+00:00,kraken,LIE3FN-FMHVJ-DFTRBK,staking_reward,DOT,0.00180278,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-08T14:56:38+00:00,kraken,LPUVAZ-YR2LT-JJMSFK,staking_reward,DOT,0.00135344,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-12T15:13:28+00:00,kraken,LNCRHK-MSNFU-XMPXIG,staking_reward,DOT,0.00180624,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-15T15:01:28+00:00,kraken,L4HQRL-7EH3W-7NWTSB,staking_reward,DOT,0.00135603,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-17T13:53:01+00:00,kraken,LP3KUK-7WIND-VXDXNI,deposit,USDC,6771.374555,0,,,0,Kraken deposit (stable_coin)
+2022-07-17T14:37:33+00:00,kraken,LXUTL5-XKM35-OOJNJ6,fiat_withdrawal,EUR,6619.18,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-07-19T15:28:33+00:00,kraken,LZIEWS-XWI5N-KCXOOX,staking_reward,DOT,0.0018097,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-22T15:14:32+00:00,kraken,LOMPUL-LZPGD-PHEQO7,staking_reward,DOT,0.00135862,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-26T15:34:20+00:00,kraken,LQPFMO-O7WV7-UMPE47,staking_reward,DOT,0.00181317,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-07-29T15:19:13+00:00,kraken,LZEYTT-UYVJY-JSK6IQ,staking_reward,DOT,0.00136123,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-02T15:38:26+00:00,kraken,L6TE2F-KBX5L-HUKYCT,staking_reward,DOT,0.00181664,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-05T15:38:47+00:00,kraken,LYUOYK-ZAQYL-2F26ZI,staking_reward,DOT,0.00136383,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-09T15:38:23+00:00,kraken,L5QK7V-BFRK6-JKRYCN,staking_reward,DOT,0.00182012,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-09T17:07:53+00:00,kraken,L5OQS6-H2MBW-XFP7RP,deposit,ETH,0.00001,0,,,0,Kraken deposit (crypto)
+2022-08-09T17:16:06+00:00,kraken,LCWGLV-QSHZN-I75X5Z,deposit,ETH,3,0,,,0,Kraken deposit (crypto)
+2022-08-09T17:19:43+00:00,kraken,L4U2Y6-H5WDT-4MKLLL,fiat_withdrawal,EUR,4910.89,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-08-12T15:17:39+00:00,kraken,LOTF6H-QJYEK-TMIA4S,staking_reward,DOT,0.00136645,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-16T15:47:44+00:00,kraken,LGWDUS-QXTAN-WLC7JB,staking_reward,DOT,0.00182361,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-19T15:45:38+00:00,kraken,LEMMR6-2RWN3-5WUP3T,staking_reward,DOT,0.00136907,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-20T16:42:25+00:00,kraken,LQF5NQ-HC2RI-PU32WO,deposit,FTM,1,0,,,0,Kraken deposit (crypto)
+2022-08-20T16:44:39+00:00,kraken,LXNTKP-W2RPJ-VFIC4Z,deposit,FTM,1.305E+4,0,,,0,Kraken deposit (crypto)
+2022-08-20T16:50:37+00:00,kraken,LWMWOS-VCIVJ-U7IWDO,fiat_withdrawal,EUR,99.91,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-08-20T16:52:07+00:00,kraken,LAO3RS-BSTVZ-7RZTTH,fiat_withdrawal,EUR,3705.72,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-08-23T16:03:19+00:00,kraken,LVYKVK-DLIBT-6WFUK7,staking_reward,DOT,0.0018271,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-26T16:09:33+00:00,kraken,LRZ3UF-KFGJD-JVGYH6,staking_reward,DOT,0.00137169,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-08-30T17:08:38+00:00,kraken,LG7JHU-Y5RNB-TATSEP,staking_reward,DOT,0.0018306,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-02T16:35:05+00:00,kraken,LPFD7T-HFZQU-U5GYFQ,staking_reward,DOT,0.00137429,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-04T07:14:51+00:00,kraken,LOUWH2-OY5KU-WRWYPD,deposit,FTM,1,0,,,0,Kraken deposit (crypto)
+2022-09-04T07:18:15+00:00,kraken,LEDKIW-EL5IT-TK7G2A,deposit,FTM,22341.3622352,0,,,0,Kraken deposit (crypto)
+2022-09-04T07:26:18+00:00,kraken,LHZ5AU-GP4JW-NKTSCJ,fiat_withdrawal,EUR,6006.33,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-09-06T17:21:05+00:00,kraken,LBECQM-6PBIE-V6XKME,staking_reward,DOT,0.0018341,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-09T16:50:25+00:00,kraken,LHE3LW-3TQ32-F36EUI,staking_reward,DOT,0.00137692,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-13T16:52:34+00:00,kraken,L4UL2V-4WZYQ-GBDWSG,staking_reward,DOT,0.00183761,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-16T17:12:50+00:00,kraken,LGSPQC-NAWOD-4OFFR7,staking_reward,DOT,0.00137957,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-17T17:08:22+00:00,kraken,LXITFD-YF2RF-IVHU33,deposit,FTM,1,0,,,0,Kraken deposit (crypto)
+2022-09-17T17:09:57+00:00,kraken,LC7JBL-TQ6S2-GREXME,deposit,FTM,23823.59415058,0,,,0,Kraken deposit (crypto)
+2022-09-17T17:12:34+00:00,kraken,LFECSF-CILCS-6UDZY4,fiat_withdrawal,EUR,5903.74,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-09-17T20:10:58+00:00,kraken,LQBSBT-XCQ36-SDBP6X,internal_transfer,ETHW,0.000002,0,,,0,Kraken transfer spotfromfutures (crypto)
+2022-09-20T17:12:47+00:00,kraken,L6DI64-Z6ACI-JBIYUZ,staking_reward,DOT,0.00184113,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-23T17:27:16+00:00,kraken,LSOYQN-KBQTL-XGFEDP,staking_reward,DOT,0.00138221,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-26T12:16:11+00:00,kraken,LXGG2P-XTTBB-5AM2S3,deposit,FTM,1,0,,,0,Kraken deposit (crypto)
+2022-09-26T12:17:40+00:00,kraken,L2Q4NR-LZL5K-CPQYO5,deposit,FTM,17673,0,,,0,Kraken deposit (crypto)
+2022-09-26T12:22:18+00:00,kraken,LHTRMQ-GHHSI-25HAPD,fiat_withdrawal,EUR,4058.56,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-09-27T17:35:21+00:00,kraken,LBQ4GL-K6FQ6-7IMPXF,staking_reward,DOT,0.00184466,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-09-30T17:25:39+00:00,kraken,LG5ANK-I5XIG-7YTFXA,staking_reward,DOT,0.00138485,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-04T17:39:39+00:00,kraken,LHOPSV-AMJPG-CJK5NG,staking_reward,DOT,0.00184819,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-07T16:34:00+00:00,kraken,L3OTFS-RAJOI-TV57ZP,staking_reward,DOT,0.00138751,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-09T06:09:34+00:00,kraken,LZ2IJ2-635JX-CX7JT7,deposit,FTM,1,0,,,0,Kraken deposit (crypto)
+2022-10-09T06:11:09+00:00,kraken,L45IRU-AAC26-WLPTWZ,deposit,FTM,27086,0,,,0,Kraken deposit (crypto)
+2022-10-09T06:25:26+00:00,kraken,L5G3GN-LRAQF-4C2FUJ,fiat_withdrawal,EUR,6053.12,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-10-11T16:46:02+00:00,kraken,LOXXGF-G5BCX-XHYUZC,staking_reward,DOT,0.00185175,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-14T16:39:18+00:00,kraken,LOJAF5-6IV5W-GAYJXL,staking_reward,DOT,0.00139018,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-18T16:43:20+00:00,kraken,LPFYCI-QFVKH-DCRGNZ,staking_reward,DOT,0.0018553,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-21T16:45:11+00:00,kraken,LQ6NPK-L46AK-OR5Q42,staking_reward,DOT,0.00139285,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-25T16:53:07+00:00,kraken,LQGDFJ-HIUV3-3OKZUL,staking_reward,DOT,0.00185885,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-10-28T17:19:44+00:00,kraken,LAPOVP-XM4ZD-45ZA67,staking_reward,DOT,0.00139552,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-01T17:19:07+00:00,kraken,LHWWGE-UCR4J-LP6YI6,staking_reward,DOT,0.00186241,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-04T17:12:44+00:00,kraken,LDPXLV-PPQCK-DFY6IN,staking_reward,DOT,0.00139818,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-08T17:33:35+00:00,kraken,LPAV6F-C77NP-OF3P6K,staking_reward,DOT,0.00186598,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-11T04:54:31+00:00,kraken,LUXNQT-SQ6CQ-HGK5VZ,staking_reward,DOT,0.00140086,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-15T04:57:46+00:00,kraken,L5A7HM-UAFSR-SZDSE2,staking_reward,DOT,0.00186975,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-18T04:59:54+00:00,kraken,LWIFXZ-CF3D5-TS3I5Q,staking_reward,DOT,0.00140381,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-20T21:50:08+00:00,kraken,LMKFVN-2F5M4-PIHWXW,deposit,MATIC,1E+1,0,,,0,Kraken deposit (crypto)
+2022-11-20T21:51:18+00:00,kraken,LBJ6Z6-PRE56-42ENWN,deposit,MATIC,7.3E+3,0,,,0,Kraken deposit (crypto)
+2022-11-21T13:53:36+00:00,kraken,L23XEG-RTXOS-VUKKQO,withdrawal,XMR,0.0099,0.0001,XMR,,0,Kraken withdrawal (crypto)
+2022-11-21T14:29:36+00:00,kraken,L7RA3I-QVDJG-RPMLQM,withdrawal,XMR,0.40782,0.0001,XMR,,0,Kraken withdrawal (crypto)
+2022-11-21T14:37:12+00:00,kraken,L36ELY-NNQO4-K2JHYY,fiat_withdrawal,EUR,9.91,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-11-21T14:38:15+00:00,kraken,LL3UTX-U23JJ-T6LUP7,fiat_withdrawal,EUR,5527.84,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-11-22T05:10:27+00:00,kraken,LLKBPQ-UQZQC-IF57U6,staking_reward,DOT,0.00187334,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-25T05:10:04+00:00,kraken,LUYR7J-5Q7WX-OZIN4I,staking_reward,DOT,0.0014065,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-11-29T05:17:52+00:00,kraken,L5FKZ6-OJQPI-C7GXVM,staking_reward,DOT,0.00187693,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-02T05:08:03+00:00,kraken,LTNO7V-FXERL-FPIVUV,staking_reward,DOT,0.00140919,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-06T05:06:33+00:00,kraken,LWHRLN-GFNNT-VNJL42,staking_reward,DOT,0.00188052,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-09T05:07:43+00:00,kraken,L3NUH2-WWZ55-YWRVOU,staking_reward,DOT,0.0014119,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-10T16:49:14+00:00,kraken,LMSOZA-E244H-36SGFC,deposit,MATIC,1E+1,0,,,0,Kraken deposit (crypto)
+2022-12-10T16:49:14+00:00,kraken,LNT6HJ-OTZPG-TCJWT7,deposit,MATIC,6561,0,,,0,Kraken deposit (crypto)
+2022-12-10T16:57:43+00:00,kraken,LVS5GE-OFMTD-NUBE7H,fiat_withdrawal,EUR,5601.15,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-12-10T18:15:01+00:00,kraken,LB6VY6-WE7AN-BSVZUQ,deposit,MATIC,1.6E+2,0,,,0,Kraken deposit (crypto)
+2022-12-10T19:11:41+00:00,kraken,LLIWU4-X4OOG-72J64X,withdrawal,BTC,0.00822,0.00001,BTC,,0,Kraken withdrawal (crypto)
+2022-12-13T05:36:28+00:00,kraken,LBPDHV-3ZEZW-WLZHRC,staking_reward,DOT,0.00188413,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-16T05:25:25+00:00,kraken,LPAHL5-AMOUS-RRWWC5,staking_reward,DOT,0.00141459,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-20T05:23:49+00:00,kraken,LCEKHA-3VH4V-J53WE6,staking_reward,DOT,0.00188774,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-22T08:59:40+00:00,kraken,L7JD72-LBAO4-BSWUJK,deposit,MATIC,7.6E+3,0,,,0,Kraken deposit (crypto)
+2022-12-22T09:02:46+00:00,kraken,LYS6NI-4SX67-QVYZKC,fiat_withdrawal,EUR,5562.77,0.09,EUR,,0,Kraken withdrawal (fiat)
+2022-12-23T05:20:44+00:00,kraken,LO5DBH-RBQN4-FERYR6,staking_reward,DOT,0.00141731,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-27T05:31:42+00:00,kraken,LFFNE6-CFXPU-MOUBPA,staking_reward,DOT,0.00189136,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-30T05:22:48+00:00,kraken,LGFXYZ-P5NPI-P3537B,staking_reward,DOT,0.00142003,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2022-12-30T10:43:45+00:00,kraken,LDCQO5-FK55L-237SNV,deposit,MATIC,184,0,,,0,Kraken deposit (crypto)
+2022-12-30T10:56:59+00:00,kraken,LDIEAB-Y2LEB-UVA4UQ,withdrawal,BTC,0.00818,0.00001,BTC,,0,Kraken withdrawal (crypto)
+2023-01-03T05:35:04+00:00,kraken,L3PDA5-PFWC4-PDOW5D,staking_reward,DOT,0.001895,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-06T05:19:58+00:00,kraken,LCELWD-PSAW5-RDXXLE,staking_reward,DOT,0.00142273,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-10T05:29:19+00:00,kraken,L26RBD-DZ562-Y7DWGL,staking_reward,DOT,0.00189862,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-12T06:13:23+00:00,kraken,LDUT67-7KZ7G-AUG6TR,deposit,MATIC,4291.45,0,,,0,Kraken deposit (crypto)
+2023-01-12T06:24:03+00:00,kraken,LETGXS-Z3J7X-YRVZFX,withdrawal,BTC,0.20345,0.00001,BTC,,0,Kraken withdrawal (crypto)
+2023-01-13T05:17:28+00:00,kraken,L3RMCY-V55LV-WIXKC7,staking_reward,DOT,0.00142547,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-17T05:29:33+00:00,kraken,LX2RBH-K34OF-XVNYT3,staking_reward,DOT,0.00190227,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-20T05:19:47+00:00,kraken,LVUUSC-MB3MC-O2G3HV,staking_reward,DOT,0.0014282,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-26T10:57:07+00:00,kraken,LKDPH4-HWHY3-BJFONI,staking_reward,DOT,0.00204292,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-01-26T14:14:53+00:00,kraken,LNGOU2-Z4A6A-XMTVLD,deposit,MATIC,5673,0,,,0,Kraken deposit (crypto)
+2023-01-26T14:17:43+00:00,kraken,LCLJ4D-GC44L-JQMZGZ,fiat_withdrawal,EUR,5512.24,0.09,EUR,,0,Kraken withdrawal (fiat)
+2023-01-31T00:34:06+00:00,kraken,LSK3ZY-JX2FB-4HMY4O,staking_reward,DOT,0.00158609,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-02-02T06:44:17+00:00,kraken,LZKG24-OUSGS-LZJFNN,staking_reward,DOT,0.00075201,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-02-09T06:34:40+00:00,kraken,LD5IDN-CBVTG-XZPS7C,staking_reward,DOT,0.00234068,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-02-16T05:42:54+00:00,kraken,LK7UBI-GCEN5-H5YWNP,staking_reward,DOT,0.00234379,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-02-23T07:10:21+00:00,kraken,LNO4JS-UJZED-NJVHOV,staking_reward,DOT,0.00234695,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-02-26T09:36:17+00:00,kraken,LBNK3G-M23I5-DVWW6J,deposit,MATIC,6299,0,,,0,Kraken deposit (crypto)
+2023-02-26T09:44:29+00:00,kraken,LY72LA-WRHN4-YZDO55,fiat_withdrawal,EUR,7484.35,0.09,EUR,,0,Kraken withdrawal (fiat)
+2023-03-02T07:12:11+00:00,kraken,LVEWCL-EOM23-KJXVVJ,staking_reward,DOT,0.00235008,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-03-09T07:11:29+00:00,kraken,LBIEHJ-CO3PS-ZNNWHJ,staking_reward,DOT,0.00235322,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-03-14T07:34:24+00:00,kraken,L54BDW-J2STX-GEWKHL,deposit,MATIC,13548,0,,,0,Kraken deposit (crypto)
+2023-03-14T07:40:13+00:00,kraken,LJFS7F-5EMEU-OG3M6T,fiat_withdrawal,EUR,14354.8,0.09,EUR,,0,Kraken withdrawal (fiat)
+2023-03-16T07:22:13+00:00,kraken,LKUZD3-CYMWV-NLGYFJ,staking_reward,DOT,0.00235639,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-03-23T07:12:13+00:00,kraken,LZMBI3-IKPDV-XD5NHV,staking_reward,DOT,0.00235953,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-03-30T07:17:34+00:00,kraken,LR4SIU-EUITU-MYGZ5N,staking_reward,DOT,0.00270024,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-04-06T07:11:35+00:00,kraken,L4C4ZC-VTNBY-ZVDSFF,staking_reward,DOT,0.00321144,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-04-13T07:58:10+00:00,kraken,LOLJMS-BU56O-ZGGUVT,staking_reward,DOT,0.00321727,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-04-20T07:07:50+00:00,kraken,LPIFOE-KFE52-KQYHWV,staking_reward,DOT,0.0032231,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-04-26T07:48:43+00:00,kraken,LOWN7F-CVMT2-56B34D,deposit,USDC,5,0,,,0,Kraken deposit (stable_coin)
+2023-04-26T07:49:19+00:00,kraken,LTNUPJ-7DZQI-LZGMUT,deposit,USDC,2700.779395,0,,,0,Kraken deposit (stable_coin)
+2023-04-26T07:57:57+00:00,kraken,LRHQBI-2JO74-RSGBTO,withdrawal,BTC,0.08997043,0.00001,BTC,,0,Kraken withdrawal (crypto)
+2023-04-27T07:08:39+00:00,kraken,LS6KC4-DOSRR-ZL7BP5,staking_reward,DOT,0.00322899,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-05-04T07:11:51+00:00,kraken,LMMC2Y-KLYIW-NONO6R,staking_reward,DOT,0.00306462,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-05-11T07:17:47+00:00,kraken,LFKSBN-GWODI-2MYQYT,staking_reward,DOT,0.00306991,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-05-18T07:02:33+00:00,kraken,LINZ36-FHUGS-QBCYPI,staking_reward,DOT,0.0030752,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-05-22T09:39:29+00:00,kraken,L2ETRA-F53ES-K6DYVD,deposit,USDC,3,0,,,0,Kraken deposit (stable_coin)
+2023-05-22T09:41:55+00:00,kraken,L5WIBB-J4X3W-A5W3HX,deposit,USDC,3997,0,,,0,Kraken deposit (stable_coin)
+2023-05-22T11:15:58+00:00,kraken,LWG7AB-OXGPR-6HWLYI,fiat_withdrawal,EUR,3639.19,1,EUR,,0,Kraken withdrawal (fiat)
+2023-05-25T06:55:36+00:00,kraken,LUPE4N-DLYCI-ZYI5X5,staking_reward,DOT,0.00342279,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-06-01T06:58:45+00:00,kraken,LSY25P-ZUH2R-MFZV5P,staking_reward,DOT,0.00342934,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-06-05T07:14:41+00:00,kraken,LTXJTC-IDZTO-YAMJIT,deposit,USDC,3,0,,,0,Kraken deposit (stable_coin)
+2023-06-05T07:15:20+00:00,kraken,LHVKHC-CBXLN-GECOKB,deposit,USDC,3309.554926,0,,,0,Kraken deposit (stable_coin)
+2023-06-05T07:30:14+00:00,kraken,LDCTMV-HX36D-G7CSSZ,fiat_withdrawal,EUR,3050.47,1,EUR,,0,Kraken withdrawal (fiat)
+2023-06-08T07:03:32+00:00,kraken,LIN73P-OCXQ7-N42LBK,staking_reward,DOT,0.00355273,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-06-15T07:06:42+00:00,kraken,LXS2H4-25AUG-KSCLGZ,staking_reward,DOT,0.00336353,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-06-21T09:33:49+00:00,kraken,LRGYCZ-UIKCO-JIKSFT,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2023-06-21T09:35:38+00:00,kraken,LECA22-DGVQB-U4FNAK,deposit,USDC,2.99E+3,0,,,0,Kraken deposit (stable_coin)
+2023-06-21T09:40:02+00:00,kraken,LQGF54-ZPK2W-UG5WCQ,fiat_withdrawal,EUR,2701.36,1,EUR,,0,Kraken withdrawal (fiat)
+2023-06-22T07:06:50+00:00,kraken,LCAJ6M-QZE5X-AYFG4C,staking_reward,DOT,0.0032974,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-06-29T07:13:44+00:00,kraken,LMY4FG-OGYML-BBK7WC,staking_reward,DOT,0.00338638,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-07-03T06:01:53+00:00,kraken,LPHPV3-UUBEF-F5BONO,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2023-07-03T06:07:59+00:00,kraken,LWKGJ6-SROXE-BPSAEK,fiat_withdrawal,EUR,2705.8,1,EUR,,0,Kraken withdrawal (fiat)
+2023-07-06T07:11:44+00:00,kraken,LDSLRP-KUS3Q-HCZGSF,staking_reward,DOT,0.00339273,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-07-13T07:00:41+00:00,kraken,LSX6YG-DI6XV-6OWLA4,staking_reward,DOT,0.0033991,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-07-19T09:21:02+00:00,kraken,LT5D2E-EMRHF-PDBEUU,deposit,USDC,6E+3,0,,,0,Kraken deposit (stable_coin)
+2023-07-19T10:06:19+00:00,kraken,LQF5RU-HKRCC-FY4J25,fiat_withdrawal,EUR,1972.57,1,EUR,,0,Kraken withdrawal (fiat)
+2023-07-19T10:06:39+00:00,kraken,LPS4JF-YXTH4-OYO5ME,fiat_withdrawal,EUR,656.86,1,EUR,,0,Kraken withdrawal (fiat)
+2023-07-19T12:04:49+00:00,kraken,LPEPKA-KWQ3N-AUP2KV,deposit,FTM,1E+1,0,,,0,Kraken deposit (crypto)
+2023-07-19T12:08:25+00:00,kraken,LTIMO5-WJ2NA-INLM2U,deposit,FTM,25704.17184439,0,,,0,Kraken deposit (crypto)
+2023-07-19T12:17:41+00:00,kraken,LYDG7O-U2Y7O-WUEXBK,withdrawal,KSM,0.99,0.01,KSM,,0,Kraken withdrawal (crypto)
+2023-07-19T12:21:19+00:00,kraken,LUTERV-BF3GD-JFQPNP,withdrawal,KSM,397.23038118,0.01,KSM,,0,Kraken withdrawal (crypto)
+2023-07-20T07:20:12+00:00,kraken,LBTU3Z-2R24K-UR4VVX,staking_reward,DOT,0.00340549,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-07-27T07:15:36+00:00,kraken,LHGT3O-U2H4G-CVQBZD,staking_reward,DOT,0.0034084,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-08-01T06:26:45+00:00,kraken,LCLAIA-Y5M5U-7L3CNN,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2023-08-01T06:39:53+00:00,kraken,L4LUYW-BVWER-VRZILX,fiat_withdrawal,EUR,2683.63,1,EUR,,0,Kraken withdrawal (fiat)
+2023-08-03T07:33:18+00:00,kraken,LHRISH-YU2IL-IFPQY7,staking_reward,DOT,0.00324388,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-08-10T07:20:20+00:00,kraken,LVIKCR-IXQTF-3KF6L5,staking_reward,DOT,0.00334749,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-08-15T07:43:54+00:00,kraken,LV7MRK-ICWTZ-XEKOHH,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2023-08-15T07:51:05+00:00,kraken,LUQ3VW-O5MQM-LD2XJN,fiat_withdrawal,EUR,2700.18,1,EUR,,0,Kraken withdrawal (fiat)
+2023-08-17T07:39:14+00:00,kraken,LMFFZK-3WQSL-UA6ICZ,staking_reward,DOT,0.00334664,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-08-20T18:40:06+00:00,kraken,L52NF2-N75LM-3WXR3Q,withdrawal,BTC,0.00256,0.00005,BTC,,0,Kraken withdrawal (crypto)
+2023-08-23T15:01:57+00:00,kraken,LAO5QY-YIL5R-ZNM2LS,deposit,USDC,3,0,,,0,Kraken deposit (stable_coin)
+2023-08-23T15:02:32+00:00,kraken,LGH7MT-J6SLZ-TCEARF,deposit,USDC,998.090371,0,,,0,Kraken deposit (stable_coin)
+2023-08-23T15:05:16+00:00,kraken,LDAGE5-GXT4M-WHO4T7,fiat_withdrawal,EUR,907.87,1,EUR,,0,Kraken withdrawal (fiat)
+2023-08-24T07:27:02+00:00,kraken,LWEXGJ-DJTBL-2XN3LR,staking_reward,DOT,0.00326509,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-08-31T07:47:40+00:00,kraken,LTRE6K-RMADL-W2UFMC,staking_reward,DOT,0.00314795,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-09-02T17:19:52+00:00,kraken,LIL4A2-PELUL-JJNPYU,deposit,USDC,3000.0033,0,,,0,Kraken deposit (stable_coin)
+2023-09-02T17:53:04+00:00,kraken,LBVNUA-NHD3G-FQJTJ3,fiat_withdrawal,EUR,2741.2,1,EUR,,0,Kraken withdrawal (fiat)
+2023-09-07T08:08:54+00:00,kraken,L6M2IW-QENVT-FIVROO,staking_reward,DOT,0.00323078,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-09-10T19:14:06+00:00,kraken,L2QIJW-MVLPW-L5HCJ4,deposit,USDC,4498.823915,0,,,0,Kraken deposit (stable_coin)
+2023-09-10T19:18:46+00:00,kraken,LSEQMB-PYLZB-2F2UCA,fiat_withdrawal,EUR,839,1,EUR,,0,Kraken withdrawal (fiat)
+2023-09-10T19:19:12+00:00,kraken,LWLWYF-IZLNU-MQXFY7,fiat_withdrawal,EUR,3303.24,1,EUR,,0,Kraken withdrawal (fiat)
+2023-09-14T07:32:01+00:00,kraken,LCF6U2-RBFGY-N73DIZ,staking_reward,DOT,0.00319767,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-09-17T20:14:22+00:00,kraken,L4PEMO-WITEQ-A4BZYL,deposit,USDC,6000.0003,0,,,0,Kraken deposit (stable_coin)
+2023-09-18T06:01:53+00:00,kraken,LWDFCG-XJV6D-Y6GCGE,fiat_withdrawal,EUR,2299,1,EUR,,0,Kraken withdrawal (fiat)
+2023-09-18T06:02:13+00:00,kraken,LZCF34-7YIZG-KIOC6T,fiat_withdrawal,EUR,3234.96,1,EUR,,0,Kraken withdrawal (fiat)
+2023-09-21T08:03:26+00:00,kraken,L4LE32-F6JHN-T3I65N,staking_reward,DOT,0.00320325,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-09-28T07:56:46+00:00,kraken,LXFYUC-62BID-MHFFH2,staking_reward,DOT,0.00320526,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-10-05T08:05:28+00:00,kraken,LCANBF-DDOVE-YERXR3,staking_reward,DOT,0.00321437,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-10-12T08:09:16+00:00,kraken,LEWYAU-OEXCN-FAE5ZV,staking_reward,DOT,0.00319511,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-10-17T08:55:41+00:00,kraken,LRRJKO-5D27B-TMYQLO,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2023-10-17T09:00:15+00:00,kraken,LARCL6-AKGMN-S3HZGD,fiat_withdrawal,EUR,2802.74,1,EUR,,0,Kraken withdrawal (fiat)
+2023-10-19T08:00:05+00:00,kraken,LREDE5-CW446-Q7A6DO,staking_reward,DOT,0.00321128,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-10-26T08:35:55+00:00,kraken,LKHK5S-LGOUO-WZA6HX,staking_reward,DOT,0.00325247,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-11-02T08:34:54+00:00,kraken,LTXJZM-BE4VC-XF5PT7,staking_reward,DOT,0.00325457,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-11-05T15:56:57+00:00,kraken,LKPVK3-CCN65-IODP44,deposit,USDC,6E+3,0,,,0,Kraken deposit (stable_coin)
+2023-11-05T16:23:29+00:00,kraken,LX3LVL-H6CVX-RJGSRK,fiat_withdrawal,EUR,5510.63,1,EUR,,0,Kraken withdrawal (fiat)
+2023-11-09T09:07:20+00:00,kraken,LKIXXE-WXD6F-ZBKCTL,staking_reward,DOT,0.00303147,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-11-16T10:08:42+00:00,kraken,LLDW5Q-BBFKF-DWY32F,staking_reward,DOT,0.0028502,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-11-23T10:08:10+00:00,kraken,L5BFP2-PWDJX-RM7VXQ,staking_reward,DOT,0.00285094,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-11-27T12:47:59+00:00,kraken,L6WI4I-ZACKS-25LI5E,deposit,USDC,6E+3,0,,,0,Kraken deposit (stable_coin)
+2023-11-27T13:15:47+00:00,kraken,L4AFN3-XXQCG-UGNC6K,fiat_withdrawal,EUR,2299,1,EUR,,0,Kraken withdrawal (fiat)
+2023-11-27T13:16:05+00:00,kraken,LDFSBW-OGA2O-LWX6XS,fiat_withdrawal,EUR,3098.45,1,EUR,,0,Kraken withdrawal (fiat)
+2023-11-30T14:50:23+00:00,kraken,LA4PGM-VPJZT-XRPPPJ,staking_reward,DOT,0.00290197,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-12-07T15:23:11+00:00,kraken,LOURTS-M57ZJ-KAB6AV,staking_reward,DOT,0.00293512,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-12-14T15:17:58+00:00,kraken,LDEPAO-66HBQ-LW4MFV,staking_reward,DOT,0.00294329,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-12-21T08:59:01+00:00,kraken,LW3R7E-HF3P6-ILJJOA,staking_reward,DOT,0.00298398,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2023-12-28T12:57:08+00:00,kraken,LU34ZV-O26X4-K3H7JO,staking_reward,DOT,0.00298527,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-01-02T12:43:46+00:00,kraken,LXEES4-2JO7Z-YN3OT2,deposit,USDC,1E+3,0,,,0,Kraken deposit (stable_coin)
+2024-01-02T13:02:08+00:00,kraken,LWYKXI-P33HO-NISOUR,fiat_withdrawal,EUR,898.41,1,EUR,,0,Kraken withdrawal (fiat)
+2024-01-03T19:51:05+00:00,kraken,LK6PUC-AHNJG-UWP2I3,deposit,USDC,2E+3,0,,,0,Kraken deposit (stable_coin)
+2024-01-03T19:57:18+00:00,kraken,LW4P6H-76G2A-JMDBII,fiat_withdrawal,EUR,1805.31,1,EUR,,0,Kraken withdrawal (fiat)
+2024-01-04T12:40:07+00:00,kraken,LPG5VM-RM252-VEZTBK,staking_reward,DOT,0.00292473,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-01-11T14:41:28+00:00,kraken,LEHWUZ-EAWTP-UCQWUQ,staking_reward,DOT,0.00290027,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-01-12T14:56:13+00:00,kraken,LJKLKU-3UXPA-ZS4H5K,deposit,USDC,5,0,,,0,Kraken deposit (stable_coin)
+2024-01-12T14:56:13+00:00,kraken,LSPXH7-NLHFX-XXDRTX,deposit,USDC,6995,0,,,0,Kraken deposit (stable_coin)
+2024-01-15T07:51:46+00:00,kraken,L73PQM-4VOYW-UZL357,fiat_withdrawal,EUR,6295.86,1,EUR,,0,Kraken withdrawal (fiat)
+2024-01-18T13:22:54+00:00,kraken,LMAZQZ-BCW6H-EIILTK,staking_reward,DOT,0.00290466,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-01-25T07:16:10+00:00,kraken,LRC3VJ-6HR3J-L745AK,staking_reward,DOT,0.00278551,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-01-29T08:45:05+00:00,kraken,LVW4KB-FTHLU-ZSHTJB,deposit,USDC,6000.0015,0,,,0,Kraken deposit (stable_coin)
+2024-01-29T08:49:25+00:00,kraken,LA5K5G-3ZL2L-RT54TR,fiat_withdrawal,EUR,1999,1,EUR,,0,Kraken withdrawal (fiat)
+2024-01-29T08:49:45+00:00,kraken,L66OUW-YK4RO-PWMGQP,fiat_withdrawal,EUR,3454.57,1,EUR,,0,Kraken withdrawal (fiat)
+2024-02-01T07:38:58+00:00,kraken,L56UYX-ZKOZI-MJ3S2X,staking_reward,DOT,0.00285531,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-02-08T08:13:18+00:00,kraken,LVWED5-AGTC4-PUICWG,staking_reward,DOT,0.0033447,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-02-15T08:07:17+00:00,kraken,LUUOYB-7DSE7-GPEGXF,staking_reward,DOT,0.00346262,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-02-22T08:42:00+00:00,kraken,LZEFYQ-GOMNS-46JUAC,staking_reward,DOT,0.00340912,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-02-26T11:04:11+00:00,kraken,LW27DK-QBFYX-DQ5TUQ,deposit,USDC,45428.837449,0,,,0,Kraken deposit (stable_coin)
+2024-02-26T11:04:11+00:00,kraken,LRLNKK-JUMLW-CTVEPW,deposit,USDC,5,0,,,0,Kraken deposit (stable_coin)
+2024-02-26T12:14:35+00:00,kraken,LODE2J-HIDJY-4PNUAB,fiat_withdrawal,EUR,41238.6,1,EUR,,0,Kraken withdrawal (fiat)
+2024-02-29T07:26:58+00:00,kraken,LJIF5D-COQTQ-6TU4DW,staking_reward,DOT,0.00341765,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-03-06T22:48:39+00:00,kraken,L2K3ZT-JRNRS-GL6SQG,deposit,USDC,6000.0012,0,,,0,Kraken deposit (stable_coin)
+2024-03-06T22:59:18+00:00,kraken,LSVQLH-ODBPD-5XLJZ5,fiat_withdrawal,EUR,1999,1,EUR,,0,Kraken withdrawal (fiat)
+2024-03-06T22:59:36+00:00,kraken,LII7ZU-7YO2O-OQDQLZ,fiat_withdrawal,EUR,3417.39,1,EUR,,0,Kraken withdrawal (fiat)
+2024-03-07T07:50:28+00:00,kraken,LP56B5-5RCKI-KEM2WF,staking_reward,DOT,0.00347026,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
+2024-03-07T15:15:02+00:00,kraken,LZAKTG-Q4ZWA-Y5NM42,earn_allocation,DOT,-1.91692938,0,,,0,Kraken earn migration (staking_on_chain)
+2024-03-07T15:15:02+00:00,kraken,LKF37A-NBSIT-26G5OV,earn_allocation,DOT,1.91692938,0,,,0,Kraken earn migration (crypto)
+2024-03-10T21:20:43+00:00,kraken,LZNPFS-L2NDN-PHZER5,earn_reward,DOT,0.001654672,0,,,0,Kraken earn reward (crypto)
+2024-03-14T05:24:35+00:00,kraken,LYDCVZ-AO3WQ-IUQCOK,staking_reward,DOT,0.00023827,0,,,0,Kraken staking (crypto)
+2024-03-17T21:20:50+00:00,kraken,LCTYS2-SSQQW-CTQK23,earn_reward,DOT,0.003577062,0,,,0,Kraken earn reward (crypto)
+2024-03-24T21:20:34+00:00,kraken,LDW4NG-IQBKH-3Q2IVJ,earn_reward,DOT,0.0036523487,0,,,0,Kraken earn reward (crypto)
+2024-03-25T17:29:01+00:00,kraken,LGQ2G5-NYKXG-W53LM4,deposit,USDC,6000.0006,0,,,0,Kraken deposit (stable_coin)
+2024-03-26T07:58:31+00:00,kraken,LM3JV5-63O75-FAGERP,deposit,USDC,1E+1,0,,,0,Kraken deposit (stable_coin)
+2024-03-26T07:58:31+00:00,kraken,LRAAGI-P7INV-4BZAI2,deposit,USDC,32636.270885,0,,,0,Kraken deposit (stable_coin)
+2024-03-26T08:16:42+00:00,kraken,L67JVP-AOW5W-SSUSEM,fiat_withdrawal,EUR,30999,1,EUR,,0,Kraken withdrawal (fiat)
+2024-03-26T08:17:07+00:00,kraken,LNJNRF-FPIR2-RMN2WQ,fiat_withdrawal,EUR,4123.36,1,EUR,,0,Kraken withdrawal (fiat)
+2024-03-31T21:20:41+00:00,kraken,LVDFZ6-V6W4E-CNWXYT,earn_reward,DOT,0.0036468464,0,,,0,Kraken earn reward (crypto)
+2024-04-02T12:05:21+00:00,kraken,LIKGJL-2EF7E-ZG5SAP,deposit,USDC,6000.0006,0,,,0,Kraken deposit (stable_coin)
+2024-04-02T12:10:23+00:00,kraken,LVHV4G-7WCRN-J4JLMA,fiat_withdrawal,EUR,5498.31,1,EUR,,0,Kraken withdrawal (fiat)
+2024-04-07T21:20:36+00:00,kraken,L3PWOM-CGLEB-VKUFMQ,earn_reward,DOT,0.0036376045,0,,,0,Kraken earn reward (crypto)
+2024-04-14T21:20:26+00:00,kraken,L7U4GZ-Y2OPB-C2OVZP,earn_reward,DOT,0.0028442351,0,,,0,Kraken earn reward (crypto)
+2024-04-17T19:40:02+00:00,kraken,LUIMDC-7FR6X-MB7TMX,deposit,USDC,6000.0006,0,,,0,Kraken deposit (stable_coin)
+2024-04-17T20:11:16+00:00,kraken,LPEMIL-GFJ7Q-CSZMV4,fiat_withdrawal,EUR,5542.65,1,EUR,,0,Kraken withdrawal (fiat)
+2024-04-21T21:20:34+00:00,kraken,LRMMLR-CDT66-U66KF2,earn_reward,DOT,0.0028031232,0,,,0,Kraken earn reward (crypto)
+2024-04-28T21:20:39+00:00,kraken,LNHUKQ-DINAH-VSJC2Y,earn_reward,DOT,0.0028990542,0,,,0,Kraken earn reward (crypto)
+2024-05-02T12:50:42+00:00,kraken,LPXG6Q-Q2D6A-YC52N2,deposit,USDC,6000.0006,0,,,0,Kraken deposit (stable_coin)
+2024-05-02T13:01:42+00:00,kraken,LPGOWX-EOILD-6SEKD4,fiat_withdrawal,EUR,5522.55,1,EUR,,0,Kraken withdrawal (fiat)
+2024-05-05T21:20:34+00:00,kraken,L77NJ4-KE3U5-U3737H,earn_reward,DOT,0.0029210908,0,,,0,Kraken earn reward (crypto)
+2024-05-12T21:20:49+00:00,kraken,LVXBCW-HTDPI-ROVJVE,earn_reward,DOT,0.0029209003,0,,,0,Kraken earn reward (crypto)
+2024-05-19T21:20:37+00:00,kraken,LOMB2Q-HEFA5-GPSKHM,earn_reward,DOT,0.0028648934,0,,,0,Kraken earn reward (crypto)
+2024-05-26T21:20:22+00:00,kraken,LU2H4X-YBZQP-EW7UGJ,earn_reward,DOT,0.0029204204,0,,,0,Kraken earn reward (crypto)
+2024-06-02T21:20:33+00:00,kraken,LCHK6Y-HTW3Y-SXL37I,earn_reward,DOT,0.002774755,0,,,0,Kraken earn reward (crypto)
+2024-06-04T07:53:27+00:00,kraken,LTBWSW-WYT44-MG5YTO,deposit,USDC,2.5,0,,,0,Kraken deposit (stable_coin)
+2024-06-04T08:15:06+00:00,kraken,LGYUT7-KV3CE-LCDGJ2,deposit,USDC,5049.46841,0,,,0,Kraken deposit (stable_coin)
+2024-06-04T09:32:51+00:00,kraken,LR4KZJ-MJLI2-DIVD47,fiat_withdrawal,EUR,599,1,EUR,,0,Kraken withdrawal (fiat)
+2024-06-04T09:33:09+00:00,kraken,LP26MD-DHBDI-WAFBWI,fiat_withdrawal,EUR,3973.15,1,EUR,,0,Kraken withdrawal (fiat)
+2024-06-09T21:20:41+00:00,kraken,LSQYNJ-AXOLU-ESJHFK,earn_reward,DOT,0.0032558234,0,,,0,Kraken earn reward (crypto)
+2024-06-16T21:20:42+00:00,kraken,LHHWZC-5DO32-SH2SA3,earn_reward,DOT,0.0034957224,0,,,0,Kraken earn reward (crypto)
+2024-06-18T19:10:00+00:00,kraken,LP3GJQ-BWTYL-54SDEB,deposit,USDC,5,0,,,0,Kraken deposit (stable_coin)
+2024-06-18T19:20:50+00:00,kraken,LAIRYG-5EBNB-65OWFL,deposit,USDC,26575.41633,0,,,0,Kraken deposit (stable_coin)
+2024-06-18T22:29:37+00:00,kraken,L4JEYO-6XFGJ-AVV2O3,fiat_withdrawal,EUR,24387.51,1,EUR,,0,Kraken withdrawal (fiat)
+2024-06-23T21:20:41+00:00,kraken,L4ZUCN-VEOB2-SVYKS3,earn_reward,DOT,0.0035494158,0,,,0,Kraken earn reward (crypto)
+2024-06-30T21:20:29+00:00,kraken,LJTY6I-HZGMQ-SBSJCY,earn_reward,DOT,0.0036033189,0,,,0,Kraken earn reward (crypto)
+2024-07-07T21:20:36+00:00,kraken,LGBA67-X65N3-FKSMZN,earn_reward,DOT,0.0036161405,0,,,0,Kraken earn reward (crypto)
+2024-07-09T20:39:37+00:00,kraken,LJQK2T-DQFB4-XGJKMS,deposit,USDC,5,0,,,0,Kraken deposit (stable_coin)
+2024-07-09T20:41:52+00:00,kraken,LD7JOM-TYG4O-WVUCU5,deposit,USDC,3993.055447,0,,,0,Kraken deposit (stable_coin)
+2024-07-09T20:53:07+00:00,kraken,LPOM7S-UAAOY-SDEN3C,fiat_withdrawal,EUR,3640.18,1,EUR,,0,Kraken withdrawal (fiat)
+2024-07-14T21:20:33+00:00,kraken,LDXOYB-7EE3C-UUFKSM,earn_reward,DOT,0.0035349886,0,,,0,Kraken earn reward (crypto)
+2024-07-21T21:20:34+00:00,kraken,LMRSYD-SXMTP-PHCY6D,earn_reward,DOT,0.0035287823,0,,,0,Kraken earn reward (crypto)
+2024-07-23T13:33:26+00:00,kraken,LJKHVA-EHKI2-5IKMN2,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2024-07-23T13:37:05+00:00,kraken,LJK3RA-JHBU3-VN2WL7,fiat_withdrawal,EUR,1999,1,EUR,,0,Kraken withdrawal (fiat)
+2024-07-23T13:37:45+00:00,kraken,LAT3SJ-X2HD6-YYHKNO,fiat_withdrawal,EUR,722.65,1,EUR,,0,Kraken withdrawal (fiat)
+2024-07-28T21:20:37+00:00,kraken,LJQOV2-TQMJC-3KKHZY,earn_reward,DOT,0.0035828784,0,,,0,Kraken earn reward (crypto)
+2024-08-02T08:38:37+00:00,kraken,L4YENG-MOSIE-QIZQ2U,deposit,USDC,3E+3,0,,,0,Kraken deposit (stable_coin)
+2024-08-02T08:46:09+00:00,kraken,LWWXVQ-3WHOV-PIITXI,fiat_withdrawal,EUR,2733.29,1,EUR,,0,Kraken withdrawal (fiat)
+2024-08-04T21:20:56+00:00,kraken,LHBAJW-XMGUD-RDMJ35,earn_reward,DOT,0.0036825188,0,,,0,Kraken earn reward (crypto)
+2024-08-11T21:20:48+00:00,kraken,LIHLBP-NA66D-HN2SBQ,earn_reward,DOT,0.0035594281,0,,,0,Kraken earn reward (crypto)
+2024-08-16T09:45:17+00:00,kraken,L7IUMT-FMWUC-SZKI3T,deposit,USDC,1499.9963,0,,,0,Kraken deposit (stable_coin)
+2024-08-16T10:37:21+00:00,kraken,LGSYRG-OHDR7-3QV72J,fiat_withdrawal,EUR,1344.27,1,EUR,,0,Kraken withdrawal (fiat)
+2024-08-18T21:20:40+00:00,kraken,LV2FIH-LEIR3-KKU7FP,earn_reward,DOT,0.0035759179,0,,,0,Kraken earn reward (crypto)
+2024-08-25T21:20:27+00:00,kraken,L7WAAG-HAFT2-VLDYM3,earn_reward,DOT,0.0036228212,0,,,0,Kraken earn reward (crypto)
+2024-09-01T21:20:42+00:00,kraken,L3N44F-X5GYF-WQTEUV,earn_reward,DOT,0.003521756,0,,,0,Kraken earn reward (crypto)
+2024-09-08T21:21:05+00:00,kraken,LE4N5N-BHUJU-ORLZIW,earn_reward,DOT,0.0033745864,0,,,0,Kraken earn reward (crypto)
+2024-09-15T21:20:36+00:00,kraken,LYDC4D-KE6RU-LSLTN7,earn_reward,DOT,0.0035734441,0,,,0,Kraken earn reward (crypto)
+2024-09-22T21:20:54+00:00,kraken,LEFQAE-KZBNY-TXKPYC,earn_reward,DOT,0.0035251903,0,,,0,Kraken earn reward (crypto)
+2024-09-29T21:20:46+00:00,kraken,LEG6VP-JLTAE-FMHZAA,earn_reward,DOT,0.0035913065,0,,,0,Kraken earn reward (crypto)
+2024-10-06T21:20:28+00:00,kraken,LCDVOB-M2VE4-NMZCZV,earn_reward,DOT,0.0035773575,0,,,0,Kraken earn reward (crypto)
+2024-10-13T21:20:45+00:00,kraken,LN6XLX-KVTWJ-KVO47Q,earn_reward,DOT,0.0037817198,0,,,0,Kraken earn reward (crypto)
+2024-10-15T11:27:11+00:00,kraken,LQTTT2-BVCAF-IDAYJR,deposit,ETH,0.01,0,,,0,Kraken deposit (crypto)
+2024-10-15T13:40:35+00:00,kraken,LCBNU3-YHGTP-FXZAMQ,deposit,ETH,0.570114922,0,,,0,Kraken deposit (crypto)
+2024-10-20T21:20:29+00:00,kraken,L2EXFH-E7NV4-T5ZL37,earn_reward,DOT,0.0037452388,0,,,0,Kraken earn reward (crypto)
+2024-10-22T11:53:05+00:00,kraken,LQWLII-BKCRB-KZBEQJ,fiat_withdrawal,EUR,1388.97,1,EUR,,0,Kraken withdrawal (fiat)
+2024-10-22T12:20:57+00:00,kraken,L5RX7U-EHRYS-ORK4VO,deposit,USDC,3,0,,,0,Kraken deposit (stable_coin)
+2024-10-22T14:17:10+00:00,kraken,LGOQJD-TGVCP-VOVH3S,deposit,USDC,1087.128494,0,,,0,Kraken deposit (stable_coin)
+2024-10-23T16:11:14+00:00,kraken,LGCPG6-4FI44-THJY67,fiat_withdrawal,EUR,995.04,1,EUR,,0,Kraken withdrawal (fiat)
+2024-10-27T21:21:02+00:00,kraken,L6XW77-PEDCA-R4DSTG,earn_reward,DOT,0.0037969568,0,,,0,Kraken earn reward (crypto)
+2024-11-03T21:20:40+00:00,kraken,LR7BEZ-X766B-6FX2SE,earn_reward,DOT,0.0037603749,0,,,0,Kraken earn reward (crypto)
+2024-11-10T21:20:55+00:00,kraken,LEVH7N-IBT4R-3227SF,earn_reward,DOT,0.0032803387,0,,,0,Kraken earn reward (crypto)
+2024-11-17T21:21:05+00:00,kraken,LV7A3Q-RVAHF-YUB5AX,earn_reward,DOT,0.0041413876,0,,,0,Kraken earn reward (crypto)
+2024-11-24T21:20:55+00:00,kraken,LAM46S-ZSKNK-EBCRWG,earn_reward,DOT,0.0040516188,0,,,0,Kraken earn reward (crypto)
+2024-11-27T21:35:13+00:00,kraken,LM6NHO-UC773-GBISXM,deposit,ETH,0.02,0,,,0,Kraken deposit (crypto)
+2024-11-27T21:43:11+00:00,kraken,LT4724-JFWWJ-V3APF5,deposit,ETH,0.2578702228,0,,,0,Kraken deposit (crypto)
+2024-11-27T22:42:57+00:00,kraken,L5XGKA-DFCDU-VGRFRK,fiat_withdrawal,EUR,955.82,1,EUR,,0,Kraken withdrawal (fiat)
+2024-12-01T21:20:35+00:00,kraken,LJ6XSD-DQJZ5-Y6XKQS,earn_reward,DOT,0.0034231151,0,,,0,Kraken earn reward (crypto)
+2024-12-08T21:20:30+00:00,kraken,LP4FCY-5ALCB-GDTGGM,earn_reward,DOT,0.0027801917,0,,,0,Kraken earn reward (crypto)
+2024-12-15T21:20:46+00:00,kraken,LSZANS-HOAQY-NPYSR6,earn_reward,DOT,0.0028375676,0,,,0,Kraken earn reward (crypto)
+2024-12-22T21:21:10+00:00,kraken,LE6G54-ULJIA-JPJZNR,earn_reward,DOT,0.0028640648,0,,,0,Kraken earn reward (crypto)
+2024-12-29T21:20:54+00:00,kraken,LQBOWL-QQFHL-GKF3AE,earn_reward,DOT,0.0028439614,0,,,0,Kraken earn reward (crypto)
+2025-01-05T21:20:34+00:00,kraken,LV2J37-OR7A6-KU7RNX,earn_reward,DOT,0.0026641004,0,,,0,Kraken earn reward (crypto)
+2025-01-12T21:20:39+00:00,kraken,LFDQBL-AONXO-CCNTON,earn_reward,DOT,0.0025499175,0,,,0,Kraken earn reward (crypto)
+2025-01-16T08:42:22+00:00,kraken,LJ5SYQ-CWUSW-LB3HBM,deposit,USDC,3,0,,,0,Kraken deposit (stable_coin)
+2025-01-16T08:45:16+00:00,kraken,LFYPQO-IOQMY-KUY47V,deposit,USDC,3997,0,,,0,Kraken deposit (stable_coin)
+2025-01-16T08:50:09+00:00,kraken,LC3XBA-BULTE-YHOE62,fiat_withdrawal,EUR,3874.83,1,EUR,,0,Kraken withdrawal (fiat)
+2025-01-19T21:21:07+00:00,kraken,LLIKBZ-RKRG2-LCKJ7I,earn_reward,DOT,0.0028295614,0,,,0,Kraken earn reward (crypto)
+2025-01-26T21:20:51+00:00,kraken,LSP7P4-OGZIH-7WADE3,earn_reward,DOT,0.0028717869,0,,,0,Kraken earn reward (crypto)
+2025-02-02T21:21:13+00:00,kraken,LAL3U7-XTANP-4FNKBP,earn_reward,DOT,0.0027889769,0,,,0,Kraken earn reward (crypto)
+2025-02-09T21:21:05+00:00,kraken,LQEN7B-QXCU4-C5DYPO,earn_reward,DOT,0.0028664144,0,,,0,Kraken earn reward (crypto)
+2025-02-16T21:20:38+00:00,kraken,LGGPPF-2TKRY-GIGNI7,earn_reward,DOT,0.0028382794,0,,,0,Kraken earn reward (crypto)
+2025-02-23T21:20:59+00:00,kraken,LKOLRD-GDJUJ-QUANV4,earn_reward,DOT,0.0027982583,0,,,0,Kraken earn reward (crypto)
+2025-03-02T21:20:52+00:00,kraken,LMQ7G3-MYJ5K-APHKFB,earn_reward,DOT,0.0027895296,0,,,0,Kraken earn reward (crypto)
+2025-03-09T21:21:10+00:00,kraken,LBFHXX-JQ6VB-XSV4C7,earn_reward,DOT,0.002875157,0,,,0,Kraken earn reward (crypto)
+2025-03-16T21:20:58+00:00,kraken,LFRG2N-GT2KV-T3Z6WZ,earn_reward,DOT,0.0028390126,0,,,0,Kraken earn reward (crypto)
+2025-03-23T21:21:11+00:00,kraken,L5EW67-7ZUAT-G4SZ2Y,earn_reward,DOT,0.0028018613,0,,,0,Kraken earn reward (crypto)
+2025-03-30T21:20:44+00:00,kraken,LZS7XQ-QVADA-464ZJB,earn_reward,DOT,0.0028018355,0,,,0,Kraken earn reward (crypto)
+2025-03-31T15:18:57+00:00,kraken,LUODFX-OBOP2-HB7SLE,internal_transfer,USDT,-0.000064,0,,,0,Kraken transfer delistingconversion (stable_coin)
+2025-04-01T06:18:55+00:00,kraken,L6BF5B-YN32I-X6VK3X,internal_transfer,USDC,0.00006396,0,,,0,Kraken transfer delistingconversion (stable_coin)
+2025-04-06T21:21:03+00:00,kraken,L6RM6E-POQEE-CQIQL5,earn_reward,DOT,0.0028048856,0,,,0,Kraken earn reward (crypto)
+2025-04-13T21:20:56+00:00,kraken,LUIFLO-KGGCZ-DX3MMU,earn_reward,DOT,0.0026813943,0,,,0,Kraken earn reward (crypto)
+2025-04-20T21:21:15+00:00,kraken,LSGE54-D425F-B2IH3J,earn_reward,DOT,0.0027079233,0,,,0,Kraken earn reward (crypto)
+2025-04-27T21:20:43+00:00,kraken,LCGNS4-DTAQM-CXF4MV,earn_reward,DOT,0.0026552869,0,,,0,Kraken earn reward (crypto)
+2025-05-04T21:21:05+00:00,kraken,LOQMUF-D5U3S-A22JTG,earn_reward,DOT,0.0027413155,0,,,0,Kraken earn reward (crypto)
+2025-05-09T16:11:41+00:00,kraken,LP6B2R-ZY4YU-RSYNK4,internal_transfer,FTM,-1.7E-7,0,,,0,Kraken transfer  (crypto)
+2025-05-11T19:30:06+00:00,kraken,LOG3XJ-IWSTK-RLXRSV,earn_reward,DOT,0.0026787038,0,,,0,Kraken earn reward (crypto)
+2025-05-18T19:30:10+00:00,kraken,LQS2UF-VWYHV-RWXQ7I,earn_reward,DOT,0.0026516543,0,,,0,Kraken earn reward (crypto)
+2025-05-25T19:30:09+00:00,kraken,LYUEMD-YSHFT-NYFRSS,earn_reward,DOT,0.0026384448,0,,,0,Kraken earn reward (crypto)
+2025-06-01T19:30:00+00:00,kraken,LS4EDI-JYSUZ-T57A72,earn_reward,DOT,0.0026012926,0,,,0,Kraken earn reward (crypto)
+2025-06-08T19:29:58+00:00,kraken,LCTAWP-YNBPZ-5ZT2VT,earn_reward,DOT,0.0026676915,0,,,0,Kraken earn reward (crypto)
+2025-06-15T19:30:20+00:00,kraken,LNNHE2-ZTUEP-TRIMQN,earn_reward,DOT,0.0026704317,0,,,0,Kraken earn reward (crypto)
+2025-06-22T19:30:16+00:00,kraken,LH5YUL-ZRLUE-BAV2L5,earn_reward,DOT,0.0026851568,0,,,0,Kraken earn reward (crypto)
+2025-06-29T19:30:28+00:00,kraken,LPGEIH-JBZEN-52UXSP,earn_reward,DOT,0.0027399185,0,,,0,Kraken earn reward (crypto)
+2025-07-06T19:30:31+00:00,kraken,LCWPGB-XJJBO-K4VYQ4,earn_reward,DOT,0.0028989433,0,,,0,Kraken earn reward (crypto)
+2025-07-13T19:30:27+00:00,kraken,LZSIJ2-XCECX-KQZFTL,earn_reward,DOT,0.0029061859,0,,,0,Kraken earn reward (crypto)
+2025-07-20T19:30:47+00:00,kraken,LC67LP-CRIZX-N32NSI,earn_reward,DOT,0.0026887259,0,,,0,Kraken earn reward (crypto)
+2025-07-27T19:29:42+00:00,kraken,L2RUFS-OBACC-7GGNKV,earn_reward,DOT,0.0028481099,0,,,0,Kraken earn reward (crypto)
+2025-08-03T19:29:39+00:00,kraken,L3PFOU-W3GIM-5GWENG,earn_reward,DOT,0.002987954,0,,,0,Kraken earn reward (crypto)
+2025-08-07T12:44:02+00:00,kraken,LLYPKW-WJPMA-NNTXJ4,deposit,EUR,2,0,,,0,Kraken deposit (fiat)
+2025-08-07T16:40:52+00:00,kraken,LEZT2G-ZYI5X-WB2YMI,deposit,EUR,4E+3,0,,,0,Kraken deposit (fiat)
+2025-08-07T19:41:47+00:00,kraken,LSQF6S-KWAPB-CL57MD,earn_allocation,DOT,-0.00019062,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:41:47+00:00,kraken,LW4A7Y-MKGU2-L6VUTW,earn_allocation,DOT,0.00019062,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:41:47+00:00,kraken,LNXK3G-LQHA3-VBOB2B,earn_allocation,SOL,-0.00000635,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:41:47+00:00,kraken,LMRR3P-OYKVI-JRUWB2,earn_allocation,SOL,0.00000635,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:41:47+00:00,kraken,LVQM52-MVDKA-YN4UJT,earn_allocation,ETH,-2.248E-7,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:41:47+00:00,kraken,LC62NJ-ZKGME-ZD4TSC,earn_allocation,ETH,2.248E-7,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:42:52+00:00,kraken,LNCCZT-BXIDZ-2QEPCK,earn_allocation,DOT,-2.1007403025,0,,,0,Kraken earn deallocation (crypto)
+2025-08-07T19:42:52+00:00,kraken,LT7A7W-EF2KH-X4UV52,earn_allocation,DOT,2.1007403025,0,,,0,Kraken earn deallocation (crypto)
+2025-08-07T19:42:52+00:00,kraken,LHUJGX-6INJC-35GACD,earn_allocation,DOT,-2.1007403025,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:42:52+00:00,kraken,LNKAHT-GZLRO-RBCBGJ,earn_allocation,DOT,2.1007403025,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:44:22+00:00,kraken,LPXGGP-RGTB6-QEPI57,earn_allocation,SUI,-1254.85072,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:44:22+00:00,kraken,LSL5OK-NSERV-752ZFB,earn_allocation,SUI,1254.85072,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-07T19:48:09+00:00,kraken,L7C62L-RZ6NT-W4CNPD,withdrawal,SUI,1254.60072,0.25,SUI,,0,Kraken withdrawal (crypto)
+2025-08-10T19:29:46+00:00,kraken,LRPABE-PMBIO-Z4V5KR,earn_reward,DOT,0.001544919,0,,,0,Kraken earn reward (crypto)
+2025-08-10T19:29:46+00:00,kraken,LJUEM6-T4EAZ-EYXP2Y,earn_reward,DOT,2.721E-7,0,,,0,Kraken earn reward (crypto)
+2025-08-10T19:29:46+00:00,kraken,LX6PE3-PT5QU-IW23MM,earn_allocation,DOT,-0.0010814433,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-10T19:29:46+00:00,kraken,LVXICM-O33LD-ZOD3SM,earn_allocation,DOT,0.0010814433,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-10T19:29:47+00:00,kraken,LGBRXU-TOYYF-Z2FTI3,earn_reward,SOL,2.3E-9,0,,,0,Kraken earn reward (crypto)
+2025-08-10T19:29:48+00:00,kraken,L6V534-27WNZ-Q2RI5M,earn_reward,SUI,0.00009,0,,,0,Kraken earn reward (crypto)
+2025-08-17T19:30:02+00:00,kraken,L2LLWJ-OYUHY-SLBQ4G,earn_reward,DOT,0.0000014634,0,,,0,Kraken earn reward (crypto)
+2025-08-17T19:30:02+00:00,kraken,LHHIOP-EAWVY-KPMIHJ,earn_reward,SOL,3.9E-9,0,,,0,Kraken earn reward (crypto)
+2025-08-18T13:08:21+00:00,kraken,LTHE47-4VW4B-BJ5P7I,deposit,EUR,1E+3,0,,,0,Kraken deposit (fiat)
+2025-08-18T13:15:02+00:00,kraken,LA62UW-5RSDD-ZWIBZQ,deposit,EUR,3E+3,0,,,0,Kraken deposit (fiat)
+2025-08-18T13:16:53+00:00,kraken,LMMEW7-KZWEW-ZYITHU,earn_allocation,SUI,-1300.93511,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-18T13:16:53+00:00,kraken,L5QJSI-57PRQ-3QASIV,earn_allocation,SUI,1300.93511,0,,,0,Kraken earn autoallocation (crypto)
+2025-08-18T13:17:42+00:00,kraken,LZBEQV-HAX73-ZHKSRH,withdrawal,SUI,1300.68518,0.25,SUI,,0,Kraken withdrawal (crypto)
+2025-08-24T19:29:57+00:00,kraken,L7NZQ3-4GDYF-V5LTR7,earn_reward,DOT,0.0000013736,0,,,0,Kraken earn reward (crypto)
+2025-08-24T19:29:57+00:00,kraken,LBZKGB-KEUNH-G7IY7J,earn_reward,SOL,4.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-08-24T19:29:58+00:00,kraken,LCJTKP-IKHQU-AKP734,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-08-24T19:29:58+00:00,kraken,LEZ4QE-4QX37-HCQFIY,earn_reward,SUI,0.00002,0,,,0,Kraken earn reward (crypto)
+2025-08-31T19:29:50+00:00,kraken,LVW7Q6-DOTYG-BENROJ,earn_reward,DOT,0.0000014247,0,,,0,Kraken earn reward (crypto)
+2025-08-31T19:29:50+00:00,kraken,L4WTMF-YBJYQ-63AZ7F,earn_reward,SOL,3.6E-9,0,,,0,Kraken earn reward (crypto)
+2025-08-31T19:29:50+00:00,kraken,L2DT7X-P6FZH-VITEQ4,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-09-07T19:29:55+00:00,kraken,LHKNNP-DIGAQ-IIHBCO,earn_reward,DOT,0.0000014155,0,,,0,Kraken earn reward (crypto)
+2025-09-07T19:29:55+00:00,kraken,LGVHKR-7SCWU-HMP57P,earn_reward,SOL,4.9E-9,0,,,0,Kraken earn reward (crypto)
+2025-09-14T19:29:41+00:00,kraken,LHPZ2G-ERGIZ-6MJ7G5,earn_reward,DOT,0.0000014876,0,,,0,Kraken earn reward (crypto)
+2025-09-14T19:29:42+00:00,kraken,LVEDPV-COZUH-MAKGJF,earn_reward,SOL,4.1E-9,0,,,0,Kraken earn reward (crypto)
+2025-09-14T19:29:42+00:00,kraken,L3KWXE-KPVF6-PS773F,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-09-21T19:29:51+00:00,kraken,L3IFR4-FTKXC-4K5LVK,earn_reward,DOT,0.000001512,0,,,0,Kraken earn reward (crypto)
+2025-09-21T19:29:52+00:00,kraken,LR4KEJ-P7STD-7PDFUG,earn_reward,SOL,4.1E-9,0,,,0,Kraken earn reward (crypto)
+2025-09-21T19:29:52+00:00,kraken,LYOVSX-5J2U7-ZPDZR3,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-09-28T19:32:52+00:00,kraken,LFYOP3-UIFNJ-KT3KGW,earn_reward,DOT,0.0000014696,0,,,0,Kraken earn reward (crypto)
+2025-09-28T19:32:52+00:00,kraken,L33ABZ-XGVJD-DIXJNI,earn_reward,SOL,4E-9,0,,,0,Kraken earn reward (crypto)
+2025-10-05T19:30:02+00:00,kraken,LIZG6R-ETBFA-BJF2O3,earn_reward,DOT,0.0000014606,0,,,0,Kraken earn reward (crypto)
+2025-10-05T19:30:03+00:00,kraken,L7YVOF-6FQST-JR6ZF5,earn_reward,SOL,3.9E-9,0,,,0,Kraken earn reward (crypto)
+2025-10-05T19:30:03+00:00,kraken,LIGY6N-NAJUQ-2QDTT4,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-10-12T19:29:40+00:00,kraken,LFAFFB-XPVJI-ZSTS35,earn_reward,DOT,0.0000013931,0,,,0,Kraken earn reward (crypto)
+2025-10-12T19:29:43+00:00,kraken,LFFA6H-EHOVJ-7PQSRZ,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-10-19T19:29:58+00:00,kraken,LLOR2A-BHBG6-5BZT7D,earn_reward,DOT,0.0000013525,0,,,0,Kraken earn reward (crypto)
+2025-10-19T19:30:00+00:00,kraken,LV2TNB-FG5JW-CBXSMV,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-10-19T19:30:03+00:00,kraken,LF5VAH-AUZ5G-UR7VQX,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-10-26T19:30:04+00:00,kraken,L6LUTP-3P4O7-D5ESL2,earn_reward,DOT,0.0000014122,0,,,0,Kraken earn reward (crypto)
+2025-10-26T19:30:05+00:00,kraken,LJTCKG-3V3LL-XZ4B3R,earn_reward,SOL,3.9E-9,0,,,0,Kraken earn reward (crypto)
+2025-10-26T19:30:08+00:00,kraken,LMXAP3-PYCIK-OBGTGJ,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-11-02T19:35:30+00:00,kraken,LI3FDY-7AXRH-FKZQ35,earn_reward,DOT,0.0000013821,0,,,0,Kraken earn reward (crypto)
+2025-11-02T19:35:38+00:00,kraken,LLET2Q-XDIXG-N4TSRJ,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-11-09T19:36:43+00:00,kraken,LAMFIT-ZGNFC-L7DGCG,earn_reward,DOT,0.0000013875,0,,,0,Kraken earn reward (crypto)
+2025-11-09T19:36:52+00:00,kraken,LS3SJD-CJRWV-WGYEXO,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-11-09T19:37:04+00:00,kraken,LOJPK6-BAHJ3-LGABPL,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-11-16T19:29:32+00:00,kraken,L6P3N4-T37EG-OQ4HBK,earn_reward,DOT,0.0000013888,0,,,0,Kraken earn reward (crypto)
+2025-11-16T19:29:32+00:00,kraken,LT5BCV-ICXFP-AHQGHB,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-11-16T19:29:32+00:00,kraken,LQZL7X-BRFK3-G6MFHM,earn_allocation,DOT,-0.001094611,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-16T19:29:32+00:00,kraken,L64TZR-KU2BL-BGAONJ,earn_allocation,DOT,0.001094611,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-16T19:29:33+00:00,kraken,LGKMQV-URWXV-D4WJ62,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-11-16T19:29:33+00:00,kraken,LHZPKF-2QTGX-KC5X2C,earn_allocation,ETH,-2.256E-7,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-16T19:29:33+00:00,kraken,LCNE36-BCUEH-LOGPOR,earn_allocation,ETH,2.256E-7,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-16T19:29:33+00:00,kraken,LTP6JM-KU7TR-MGF7XH,earn_allocation,SOL,-0.000006389,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-16T19:29:33+00:00,kraken,LHSHDA-W7W2C-SGV62C,earn_allocation,SOL,0.000006389,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-17T11:01:30+00:00,kraken,LWZD5T-UDMVP-GG33NH,earn_allocation,SUI,-0.00002,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-17T11:01:30+00:00,kraken,LJ5HWB-NYJKD-FN74I2,earn_allocation,SUI,0.00002,0,,,0,Kraken earn autoallocation (crypto)
+2025-11-23T19:29:30+00:00,kraken,L4MCYT-SYX7A-5BKWEM,earn_reward,DOT,0.00000139,0,,,0,Kraken earn reward (crypto)
+2025-11-23T19:29:31+00:00,kraken,L6C2HG-OR6KK-3MVRUS,earn_reward,SOL,3.2E-9,0,,,0,Kraken earn reward (crypto)
+2025-11-30T19:29:29+00:00,kraken,LODX7C-JQANS-MFPAJN,earn_reward,DOT,0.0000012987,0,,,0,Kraken earn reward (crypto)
+2025-11-30T19:29:29+00:00,kraken,LFR5SG-M5I5R-JNHSUD,earn_reward,SOL,3.9E-9,0,,,0,Kraken earn reward (crypto)
+2025-11-30T19:29:29+00:00,kraken,LJDZCP-TJE26-G7LTYJ,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-12-07T19:29:33+00:00,kraken,LZ4E2I-YCRN2-TXAVQK,earn_reward,DOT,0.000001302,0,,,0,Kraken earn reward (crypto)
+2025-12-07T19:29:33+00:00,kraken,LF36J5-LLKJM-MRM6N5,earn_reward,SOL,4.3E-9,0,,,0,Kraken earn reward (crypto)
+2025-12-07T19:29:33+00:00,kraken,LIDDVI-R6VDK-VZ7MV5,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-12-14T19:29:37+00:00,kraken,LUIEQC-7TK5X-3JJU7K,earn_reward,DOT,0.000001343,0,,,0,Kraken earn reward (crypto)
+2025-12-14T19:29:37+00:00,kraken,LCO7PK-UCYXV-AS36XL,earn_reward,SOL,3.7E-9,0,,,0,Kraken earn reward (crypto)
+2025-12-21T19:29:46+00:00,kraken,LSLFS6-ZJEXP-YIEZUN,earn_reward,DOT,0.000001262,0,,,0,Kraken earn reward (crypto)
+2025-12-21T19:29:46+00:00,kraken,LU6C4U-LMECJ-3LU4IS,earn_reward,SOL,3.8E-9,0,,,0,Kraken earn reward (crypto)
+2025-12-21T19:29:46+00:00,kraken,LAPX75-UL4VD-OQXJGJ,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2025-12-28T19:29:30+00:00,kraken,L6O3UG-C4LVW-UNVNMO,earn_reward,DOT,0.0000012609,0,,,0,Kraken earn reward (crypto)
+2025-12-28T19:29:30+00:00,kraken,LE3DYD-XKZ6R-NZS2KD,earn_reward,SOL,3.7E-9,0,,,0,Kraken earn reward (crypto)
+2025-12-28T19:29:30+00:00,kraken,LTSUVH-KUUZT-3UXP5Y,earn_reward,ETH,1E-10,0,,,0,Kraken earn reward (crypto)
+2020-11-27T15:43:46+00:00,kraken,LNAYN5-IRQNJ-DV3TRS,buy,BTC,0.02834497,0,,EUR,4E+2,Kraken Trade
+2020-11-27T15:44:38+00:00,kraken,LD4WKF-S4IJF-JDMHEV,buy,ETH,1.38101,0,,EUR,585,Kraken Trade
+2020-12-04T10:32:31+00:00,kraken,LNM7ZA-UYTRO-HM44SJ,buy,ETH,16.14654,0,,EUR,8E+3,Kraken Trade
+2020-12-04T11:58:42+00:00,kraken,LOIQBH-74IXX-KRGGFG,buy,ETH,16.24653,0,,EUR,8E+3,Kraken Trade
+2020-12-04T12:18:10+00:00,kraken,L2PKHB-QFNC2-NIQXTO,buy,ETH,16.42078,0,,EUR,8E+3,Kraken Trade
+2020-12-07T10:40:52+00:00,kraken,LAVYQB-GO6GZ-4VNEF7,buy,KSM,73.98772318,0,,EUR,3263,Kraken Trade
+2020-12-07T10:41:37+00:00,kraken,LUDZ4R-4EKZM-KBMLT6,buy,DOT,765.51500265,0,,EUR,3263,Kraken Trade
+2020-12-08T11:54:08+00:00,kraken,LP2CKG-65RY5-6MW2ZY,buy,BTC,0.05223378,0,,EUR,824,Kraken Trade
+2020-12-09T09:53:47+00:00,kraken,LUAHLO-QW6XX-5EU52N,buy,BTC,0.05324407,0,,EUR,8E+2,Kraken Trade
+2020-12-09T09:55:41+00:00,kraken,LJ3NPT-NSGVM-7WKLMT,buy,ETH,3.49744,0,,EUR,1.6E+3,Kraken Trade
+2020-12-11T15:24:56+00:00,kraken,LCFS53-YJZY5-2P5RRY,buy,ETH,0.21588,0,,EUR,1E+2,Kraken Trade
+2020-12-11T17:23:14+00:00,kraken,L7F35X-4JZ3S-NEB4F5,buy,ETH,0.21908,0,,EUR,1E+2,Kraken Trade
+2020-12-12T06:41:34+00:00,kraken,LOOUKR-I63ZB-EATRUB,buy,ETH,0.21454,0,,EUR,1E+2,Kraken Trade
+2020-12-12T08:28:03+00:00,kraken,LMSTJ7-VVWNO-QBLOBQ,buy,ETH,0.21349,0,,EUR,1E+2,Kraken Trade
+2020-12-12T10:59:02+00:00,kraken,L3BRVD-RPRCQ-PUTZF3,buy,ETH,0.42881,0,,EUR,2E+2,Kraken Trade
+2020-12-12T15:02:11+00:00,kraken,LT3WCP-HDA7W-GTVS57,buy,DOT,25.57423099,0,,EUR,1E+2,Kraken Trade
+2020-12-12T20:45:18+00:00,kraken,LXITDD-7SABW-2YNI4A,buy,KSM,2.46984626,0,,EUR,1E+2,Kraken Trade
+2020-12-12T20:45:44+00:00,kraken,LHUGZT-SFHGZ-UUQHS6,buy,DOT,25.06734027,0,,EUR,1E+2,Kraken Trade
+2020-12-18T07:18:01+00:00,kraken,LSOWQU-DYOBK-CNWJJJ,buy,KSM,5.58442632,0,,EUR,2.6E+2,Kraken Trade
+2020-12-28T12:39:57+00:00,kraken,LFR6AD-SNPPR-EZKV3M,buy,KSM,1.60269078,0,,EUR,74,Kraken Trade
+2020-12-29T10:03:30+00:00,kraken,LTMD5W-YEXR6-BLA3ET,buy,USDC,20130.1311,0,,EUR,16709,Kraken Trade
+2020-12-29T12:33:17+00:00,kraken,LRZVMR-AB5TP-LIR2IO,buy,USDC,2411.1033,0,,EUR,2E+3,Kraken Trade
+2020-12-29T13:50:10+00:00,kraken,LFRPGT-7XSET-VU5GCB,buy,BTC,0.03274,1.12,EUR,EUR,699.9812,Kraken Trade
+2020-12-29T13:50:11+00:00,kraken,LKY2D7-65OXR-KSAHE4,buy,BTC,0.06635,2.24,EUR,EUR,1399.985,Kraken Trade
+2020-12-29T13:50:12+00:00,kraken,LFTH2N-2CXJ7-TX54E6,buy,BTC,0.03819,1.2801,EUR,EUR,800.0805,Kraken Trade
+2020-12-29T16:37:42+00:00,kraken,LHYVUF-NPPHV-CMEYS7,buy,KSM,1.13636364,0.08,EUR,EUR,5E+1,Kraken Trade
+2020-12-29T18:14:15+00:00,kraken,LXCSU4-W4GCE-B7JN73,buy,LINK,104.96178,0,,EUR,1E+3,Kraken Trade
+2020-12-30T09:01:35+00:00,kraken,LYB7Z3-3YTWC-QQ5L3E,buy,ETH,0.50761,0.48,EUR,EUR,299.9975,Kraken Trade
+2020-12-30T16:08:59+00:00,kraken,LUZ2PI-KY4RZ-JF23MQ,buy,LINK,43.85965,0.64,EUR,EUR,4E+2,Kraken Trade
+2020-12-31T13:13:40+00:00,kraken,L5ZTR4-YEFLF-QG2V5M,buy,ETH,0.3370187,0.3199,EUR,EUR,199.9465,Kraken Trade
+2020-12-31T13:13:41+00:00,kraken,L6RS5J-IF64E-ZA4XEG,buy,ETH,0.0000913,0.0001,EUR,EUR,0.0542,Kraken Trade
+2020-12-31T13:18:08+00:00,kraken,L3YZGD-TMRYP-WR6XN7,sell,USDC,1E+3,0,,EUR,804.13,Kraken Trade
+2020-12-31T14:47:31+00:00,kraken,LZROLT-5AVFM-AIJXUJ,buy,LINK,21.92982,0.32,EUR,EUR,2E+2,Kraken Trade
+2021-01-01T08:21:56+00:00,kraken,LXXOJB-HZHQ6-CGRTNN,buy,ETH,0.25253,0.24,EUR,EUR,150.0028,Kraken Trade
+2021-01-01T08:25:26+00:00,kraken,LCQAQQ-J65M6-DZ6PAY,buy,ETH,0.49739,0,,EUR,3E+2,Kraken Trade
+2021-01-01T10:57:01+00:00,kraken,LE5S4B-ES5AW-GEMJKJ,buy,DOT,34.04453733,0,,EUR,2.5E+2,Kraken Trade
+2021-01-01T15:31:48+00:00,kraken,LQRBFO-7XD2X-VMAG45,buy,KSM,3.71428571,0.3328,EUR,EUR,208,Kraken Trade
+2021-01-04T10:16:25+00:00,kraken,LJQE4P-ZTEIF-XVKG5N,sell,USDC,9125.1311,0,,EUR,7185.69,Kraken Trade
+2021-01-04T10:46:54+00:00,kraken,LIEDKE-MHIWO-JZMFJ6,buy,ETH,1.29735,0,,EUR,1E+3,Kraken Trade
+2021-01-04T10:47:44+00:00,kraken,LNGWMK-FJ76S-GRF33V,buy,BTC,0.04119078,0,,EUR,1E+3,Kraken Trade
+2021-01-04T10:55:59+00:00,kraken,LWLIE3-M4FER-CVGEVJ,buy,ETH,1.2795,0,,EUR,1E+3,Kraken Trade
+2021-01-04T10:57:16+00:00,kraken,LWVPVS-MSOHU-TEQZKK,buy,ETH,2.5392,0,,EUR,2E+3,Kraken Trade
+2021-01-04T10:59:38+00:00,kraken,L7WWJS-CQRXQ-Z2FAKZ,buy,ETH,2.77356,0,,EUR,2186.71,Kraken Trade
+2021-01-07T07:31:51+00:00,kraken,LCOTHD-BNK4V-TVUIGV,buy,DOT,3.125,0.04,EUR,EUR,25,Kraken Trade
+2021-01-07T18:42:33+00:00,kraken,L5OJRI-HCFD2-WLIO7Q,buy,KSM,0.70796459,0.064,EUR,EUR,4E+1,Kraken Trade
+2021-01-07T20:35:09+00:00,kraken,LFD3Q6-SPOV2-LEYARV,buy,LINK,15.02327,0,,EUR,2E+2,Kraken Trade
+2021-01-07T20:37:27+00:00,kraken,LS4CQW-OYP26-FW345M,buy,KSM,4.37361555,0,,EUR,254.9,Kraken Trade
+2021-02-04T11:10:01+00:00,kraken,L7FJ75-KXRCN-NGF7DB,sell,USDC,5001,0,,EUR,4110.67,Kraken Trade
+2021-02-04T11:11:20+00:00,kraken,LT2IMB-W5SJD-K6QKR2,buy,SNX,97.42451,0,,EUR,1.5E+3,Kraken Trade
+2021-02-04T11:15:55+00:00,kraken,LAC2HC-OYCZ6-SGEV2W,buy,KSM,10.3926337,0,,EUR,1E+3,Kraken Trade
+2021-02-04T12:26:51+00:00,kraken,LB7O7R-53R2A-TXMVEB,buy,AAVE,4.45771,0,,EUR,1610.67,Kraken Trade
+2021-02-16T15:24:16+00:00,kraken,L33HHS-65RKR-6PVHMD,sell,DOT,4E+1,0,,EUR,995.49,Kraken Trade
+2021-02-16T17:48:27+00:00,kraken,LKZILD-RH4U6-TPMPRO,sell,USDC,3E+3,0,,EUR,2445.21,Kraken Trade
+2021-02-26T14:09:43+00:00,kraken,L3QVQF-D4WJR-W3PD2V,buy,AAVE,1.08544,0,,EUR,3E+2,Kraken Trade
+2021-02-26T23:36:16+00:00,kraken,LV6GTH-TL7DG-ENNC6J,buy,LINK,14.18524,0,,EUR,3E+2,Kraken Trade
+2021-02-26T23:37:03+00:00,kraken,L2A3G3-VAWJM-PF6CYB,buy,ETH,0.31235,0,,EUR,3.8E+2,Kraken Trade
+2021-05-07T21:12:25+00:00,kraken,LGLZP3-CB73E-W7S4UT,sell,USDC,3.5E+3,31.22,USD,USD,3499.65,Kraken Trade
+2021-05-07T21:13:50+00:00,kraken,LJW726-ZVBW4-Z5Z7FH,buy,SNX,181.05183,51.26,USD,USD,3417.17,Kraken Trade
+2021-05-09T15:18:44+00:00,kraken,LIV4H5-MACAN-73HNKX,sell,USDC,5E+3,44.6,USD,USD,4999.5,Kraken Trade
+2021-05-09T15:58:50+00:00,kraken,L5D3XD-B2VU3-UIBFG4,buy,SNX,110.77137,29.56,USD,USD,1970.44,Kraken Trade
+2021-05-09T21:08:04+00:00,kraken,LY5UFZ-XEE54-E4ERKS,buy,DOT,73.06537782,43.67,USD,USD,2911.23,Kraken Trade
+2021-05-12T19:26:53+00:00,kraken,LH4UOA-LZT6X-ASTCBT,buy,DOT,9.29598751,4.44,EUR,EUR,295.56,Kraken Trade
+2021-05-14T15:02:45+00:00,kraken,LA77L3-JRQU6-66VVVJ,buy,DOT,8.22358964,4.43,EUR,EUR,295.57,Kraken Trade
+2021-05-14T15:03:24+00:00,kraken,LFNO2A-UU6Q6-BTB45Z,buy,AAVE,0.59215,4.43,EUR,EUR,295.57,Kraken Trade
+2021-05-14T15:36:17+00:00,kraken,L4SAA5-HIABW-CB6SAO,buy,AAVE,0.57233,4.43,EUR,EUR,295.57,Kraken Trade
+2021-05-14T15:36:28+00:00,kraken,L2LS4B-VLGUW-7RBP4Q,buy,DOT,8.05358317,4.43,EUR,EUR,295.57,Kraken Trade
+2021-05-15T08:48:17+00:00,kraken,L2GZOB-Y55WZ-YRPZSZ,buy,DOT,8,0.4877,EUR,EUR,304.8,Kraken Trade
+2021-05-15T09:27:19+00:00,kraken,LCVXP6-H2LCP-DJSN4K,buy,DOT,7,0.4234,EUR,EUR,264.6,Kraken Trade
+2021-05-15T09:28:41+00:00,kraken,LN54AC-3Y3T3-X3S64A,buy,DOT,1E+1,0.5984,EUR,EUR,374,Kraken Trade
+2021-05-15T10:27:15+00:00,kraken,L2MI7C-GZCTR-5FLCHL,buy,DOT,14,0.8288,EUR,EUR,518,Kraken Trade
+2021-05-15T10:27:47+00:00,kraken,LYVAX5-EDHGX-V4XSGF,buy,AAVE,0.8,0.576,EUR,EUR,3.6E+2,Kraken Trade
+2021-05-15T10:40:57+00:00,kraken,LHNRA2-D3IJ5-ECW6H7,buy,DOT,2.74438029,1.53,EUR,EUR,102.16,Kraken Trade
+2021-05-22T19:39:33+00:00,kraken,LWHT6N-46Y36-5W7QBN,sell,USDC,1.5E+3,13.38,USD,USD,1.5E+3,Kraken Trade
+2021-05-22T19:56:17+00:00,kraken,L5W44P-7SJ5P-VPBM6X,buy,KSM,0.3,0.1536,USD,USD,96,Kraken Trade
+2021-05-23T00:01:31+00:00,kraken,LTO6T5-3U6AF-JBFYAB,buy,KSM,0.4,0.1984,USD,USD,124,Kraken Trade
+2021-05-23T06:45:57+00:00,kraken,LEZXM6-OBYVW-ZJPFZP,buy,KSM,0.6,0.288,USD,USD,1.8E+2,Kraken Trade
+2021-05-23T07:22:45+00:00,kraken,LT55DQ-6E5PF-NHESKZ,buy,KSM,0.9,0.4248,USD,USD,265.5,Kraken Trade
+2021-05-23T07:49:51+00:00,kraken,L4NY53-ERWIN-LPCWT2,buy,KSM,1.2,0.5568,USD,USD,348,Kraken Trade
+2021-05-23T08:06:39+00:00,kraken,LAY5EL-WTC6J-GDWEX2,buy,KSM,1.5,0.684,USD,USD,427.5,Kraken Trade
+2021-05-23T08:11:24+00:00,kraken,LQKVTX-TRNYT-ASV75H,buy,KSM,0.15444714,0.0692,USD,USD,43.2452,Kraken Trade
+2021-05-25T09:20:36+00:00,kraken,LN6TZI-NOTG5-BQOMRC,buy,USDC,1175.035,14.41,EUR,EUR,960.59,Kraken Trade
+2021-05-26T12:08:44+00:00,kraken,LA4ZI6-4ZNHH-B5BBPC,buy,DOT,10.79092701,3.18,EUR,EUR,211.82,Kraken Trade
+2021-05-26T13:38:46+00:00,kraken,LZIWW5-IPGDL-JW7ULC,buy,DOT,2.7027027,0.08,EUR,EUR,5E+1,Kraken Trade
+2021-05-26T13:56:19+00:00,kraken,L5A4XD-W2ZDT-Z7UTIW,buy,DOT,4.12087912,0.12,EUR,EUR,75,Kraken Trade
+2021-05-27T03:17:34+00:00,kraken,LKUPQD-EMJ3D-FQKZME,buy,DOT,5.55555556,0.16,EUR,EUR,1E+2,Kraken Trade
+2021-05-28T05:44:00+00:00,kraken,LJTPAO-GRWS4-A3DPO5,buy,LINK,12.09677,0.48,EUR,EUR,299.9999,Kraken Trade
+2021-05-28T05:50:39+00:00,kraken,LG7POP-CKXFC-EGQTYR,buy,LINK,16.66667,0.64,EUR,EUR,400.0001,Kraken Trade
+2021-05-28T06:18:20+00:00,kraken,LKKA4E-6NJ32-HAN7QT,buy,LINK,25.53191,0.96,EUR,EUR,599.9999,Kraken Trade
+2021-05-28T07:42:11+00:00,kraken,LPJRNU-BIE4S-ADLKMM,buy,DOT,53.19148936,1.6,EUR,EUR,1E+3,Kraken Trade
+2021-05-28T08:20:37+00:00,kraken,LHMDPD-JWQAP-CX72VS,buy,SNX,99.0099,2.599,EUR,EUR,999.604,Kraken Trade
+2021-05-28T08:52:28+00:00,kraken,LXFNIQ-36L2R-H2HQ2A,buy,DOT,25.3,0.757,EUR,EUR,473.11,Kraken Trade
+2021-05-28T08:52:28+00:00,kraken,LPC72M-NN2F3-EZNQ7Z,buy,DOT,28.17593583,0.843,EUR,EUR,526.89,Kraken Trade
+2021-05-28T08:55:08+00:00,kraken,LIJGWI-VWVEH-TOWHUM,buy,AAVE,3.63636,1.6,EUR,EUR,999.999,Kraken Trade
+2021-05-28T08:56:48+00:00,kraken,LTV7HS-Q25LC-ST4WX2,buy,DOT,16.66666667,0.48,EUR,EUR,3E+2,Kraken Trade
+2021-05-28T08:57:37+00:00,kraken,L2PEZN-KKN6D-EQIO4N,buy,DOT,28.24858757,0.8,EUR,EUR,5E+2,Kraken Trade
+2021-05-28T09:15:40+00:00,kraken,LZ3DIY-OGP2C-V6G7KK,buy,DOT,96.14962833,25.16,EUR,EUR,1674.84,Kraken Trade
+2021-06-11T18:12:33+00:00,kraken,LNZNQC-ZS3ZK-3IVJIO,sell,USDC,1E+3,12.22,EUR,EUR,826.6,Kraken Trade
+2021-07-03T14:58:08+00:00,kraken,L3BFVX-TYLP6-YFK5BK,swap_out,DOT,298.25439,0.77546,DOT,KSM,22.09736947,Kraken Crypto-to-Crypto Trade
+2021-07-03T14:58:08+00:00,kraken,LHDPD6-JROLA-NYN2DW,swap_in,KSM,22.09736947,0,,DOT,298.25439,Kraken Crypto-to-Crypto Trade
+2021-07-27T06:16:00+00:00,kraken,LSXZOA-5OI7E-WEEDWB,buy,USDC,1010.2247,12.86,EUR,EUR,857.14,Kraken Trade
+2021-07-28T20:10:01+00:00,kraken,LVTE67-QJQHI-EN5DMK,sell,USDC,1005,12.54,EUR,EUR,848.27,Kraken Trade
+2021-08-07T10:00:07+00:00,kraken,LGAORV-AGO3K-KRWNQV,swap_out,DOT,339.36236,0.88233,DOT,KSM,30.34081856,Kraken Crypto-to-Crypto Trade
+2021-08-07T10:00:07+00:00,kraken,L4QF4F-ZC2M5-3V45FW,swap_in,KSM,30.34081856,0,,DOT,339.36236,Kraken Crypto-to-Crypto Trade
+2021-08-11T21:19:56+00:00,kraken,LY4AZV-FIJTM-N6KTIG,sell,USDC,1574,19.81,EUR,EUR,1340.1,Kraken Trade
+2021-08-20T11:34:37+00:00,kraken,LU33Z4-CMZOQ-VRJ5Y3,sell,LINK,199.23997,14.2472,USD,USD,5479.689,Kraken Trade
+2021-08-20T11:36:19+00:00,kraken,LSEMMQ-6D7UR-O2SANH,buy,KAR,626.66929772,14.1734,USD,USD,5451.2684,Kraken Trade
+2021-08-20T17:38:27+00:00,kraken,LJRRRH-25YQB-HMPOIF,sell,USDC,3E+3,26.76,USD,USD,2999.73,Kraken Trade
+2021-08-20T17:39:05+00:00,kraken,LDPS7L-76V3L-JKH2MC,buy,KSM,8.63792645,43.94,USD,USD,2929.03,Kraken Trade
+2021-08-22T10:33:45+00:00,kraken,LLR6ID-JUSHN-37EHZC,sell,KAR,619.66929,13.0315,USD,USD,5012.1418,Kraken Trade
+2021-08-22T10:35:34+00:00,kraken,LXOAJU-OXAUQ-U5PQR4,buy,KSM,14.75086875,12.964,USD,USD,4986.1462,Kraken Trade
+2021-09-13T10:17:47+00:00,kraken,LWNIBN-X7OE7-OHWESG,buy,SOL,14.76668635,5.1873,EUR,EUR,1995.127,Kraken Trade
+2021-09-13T10:18:16+00:00,kraken,LJJT27-QHEE2-V5RRB3,buy,ETH,0.54701602,2.4,EUR,EUR,1.5E+3,Kraken Trade
+2021-09-13T10:18:20+00:00,kraken,LNB4YK-BZQQ3-37AZ6P,buy,ETH,0.54701603,2.4,EUR,EUR,1.5E+3,Kraken Trade
+2021-09-13T10:30:09+00:00,kraken,LHFY3Q-SOWSB-RTZ37Y,buy,USDT,4640.1586,59.12,EUR,EUR,3940.88,Kraken Trade
+2021-09-14T14:06:43+00:00,kraken,LH6GAF-6MGEA-RICPD6,buy,SOL,20.7,7.1432,EUR,EUR,2747.4009,Kraken Trade
+2021-10-08T08:17:05+00:00,kraken,LWA7RW-5I2WD-SJZXOX,sell,USDC,6415.7332,82.03,EUR,EUR,5550.32,Kraken Trade
+2021-10-16T07:30:44+00:00,kraken,LIFA4Y-HJQ3L-OZ3YHR,swap_out,KSM,0.2057,0.00441,DOT,DOT,1.69703,Kraken Crypto-to-Crypto Trade
+2021-10-16T07:30:44+00:00,kraken,LPBPSW-5BVF2-F7RLVP,swap_in,DOT,1.69703,0,,KSM,0.2057,Kraken Crypto-to-Crypto Trade
+2021-10-19T18:59:40+00:00,kraken,LUZG4F-U767A-VFOT6B,swap_out,KSM,26.69441288,0.38782,DOT,DOT,242.38527,Kraken Crypto-to-Crypto Trade
+2021-10-19T18:59:40+00:00,kraken,LKMF5C-F5WOQ-XZQMXQ,swap_in,DOT,242.38527,0,,KSM,26.69441288,Kraken Crypto-to-Crypto Trade
+2021-10-19T18:59:40+00:00,kraken,L7LGAE-CPMQY-GBZE2P,swap_out,KSM,4.87358712,0.0708,DOT,DOT,44.25217,Kraken Crypto-to-Crypto Trade
+2021-10-19T18:59:40+00:00,kraken,LBMP52-LVDRF-VYX3QF,swap_in,DOT,44.25217,0,,KSM,4.87358712,Kraken Crypto-to-Crypto Trade
+2021-12-22T12:18:21+00:00,kraken,LPN7R5-FBZDS-4DT3D6,sell,USDT,1019.9555,13.35,EUR,EUR,902.86,Kraken Trade
+2022-03-07T10:47:55+00:00,kraken,L7CMJJ-MX7WI-GC37FF,sell,USDT,1541.5569,21.06,EUR,EUR,1424.86,Kraken Trade
+2022-03-22T19:16:41+00:00,kraken,LDOJJD-EFGHL-SOGP46,sell,USDT,1971.2054,26.43,EUR,EUR,1788.28,Kraken Trade
+2022-03-23T07:34:59+00:00,kraken,LZ37CL-EWG5F-P727KE,sell,USDT,2011.0227,26.97,EUR,EUR,1825,Kraken Trade
+2022-04-04T11:14:48+00:00,kraken,LAK54S-WZMYY-X7UDEI,sell,USDT,4006.0499,53.82,EUR,EUR,3641.49,Kraken Trade
+2022-05-03T09:59:05+00:00,kraken,LLJTVB-OIGD2-UJIMJG,sell,USDT,995.1798,13.99,EUR,EUR,946.71,Kraken Trade
+2022-05-17T14:11:55+00:00,kraken,LISEDJ-QCUWD-Y6RP3M,sell,USDT,4049.9216,56.77,EUR,EUR,3841.75,Kraken Trade
+2022-05-28T13:21:05+00:00,kraken,LFEOW2-SPBY6-KFX4WL,sell,LUNA2,69,1.0082,EUR,EUR,387.7842,Kraken Trade
+2022-06-09T17:07:49+00:00,kraken,LBFTQU-B7JYV-MMEIGO,sell,ATOM,353,44.3,EUR,EUR,2997.44,Kraken Trade
+2022-07-01T08:09:07+00:00,kraken,LP7WHP-Q3KDO-5P3GR2,sell,USDC,4354.4503,61.66,EUR,EUR,4172.43,Kraken Trade
+2022-07-17T14:34:54+00:00,kraken,LNX2SA-G6HFE-GO4S57,sell,USDC,6771.3745,99.29,EUR,EUR,6718.56,Kraken Trade
+2022-08-09T17:17:22+00:00,kraken,L7ITBZ-TX3QW-Z26FT4,sell,ETH,3.00001,73.66,EUR,EUR,4984.64,Kraken Trade
+2022-08-20T16:46:03+00:00,kraken,LVGCG7-5GAXN-HXFL3U,sell,FTM,13051,58.59,EUR,EUR,3964.4,Kraken Trade
+2022-09-04T07:23:21+00:00,kraken,LRB2LT-DYY3O-24AOLK,sell,FTM,22342.36223,88.6,EUR,EUR,5995.02,Kraken Trade
+2022-09-17T17:10:16+00:00,kraken,LHSOES-LJ4E5-ECBTFS,sell,FTM,23824.59415,88.56,EUR,EUR,5992.39,Kraken Trade
+2022-09-26T12:18:21+00:00,kraken,LYTAPF-AXCZ6-XANW22,sell,FTM,17674,60.88,EUR,EUR,4119.53,Kraken Trade
+2022-10-09T06:23:14+00:00,kraken,LVMZL4-M5RRS-BWELDN,sell,FTM,27087,90.8,EUR,EUR,6144.01,Kraken Trade
+2022-11-20T22:00:14+00:00,kraken,LQ2BEV-6HQIN-OA3UMD,sell,MATIC,7.31E+3,83.89,EUR,EUR,5676.82,Kraken Trade
+2022-11-21T13:49:11+00:00,kraken,LLWQTQ-RKRXB-LFHHHZ,buy,XMR,0.41792,0.81,EUR,EUR,54.19,Kraken Trade
+2022-12-10T16:55:14+00:00,kraken,LNSUXG-S7RSZ-NQA7J3,sell,MATIC,6571,84.02,EUR,EUR,5685.26,Kraken Trade
+2022-12-10T19:00:52+00:00,kraken,LQHJUD-V6LO7-KZV5MB,sell,MATIC,1.6E+2,2.04,EUR,EUR,138.22,Kraken Trade
+2022-12-10T19:01:18+00:00,kraken,LCD42P-MX6ZB-EA33KK,buy,BTC,0.00823245,2.01,EUR,EUR,134.17,Kraken Trade
+2022-12-22T09:00:31+00:00,kraken,LYRKAZ-5BKGW-LZO22P,sell,MATIC,7.6E+3,83.44,EUR,EUR,5646.3,Kraken Trade
+2022-12-30T10:51:03+00:00,kraken,LN3HQ5-62NRI-SEEG2H,sell,MATIC,184,1.93,EUR,EUR,130.4,Kraken Trade
+2022-12-30T10:51:15+00:00,kraken,L3QA2G-TRMXV-T2YZCM,buy,BTC,0.0081928,1.9,EUR,EUR,126.57,Kraken Trade
+2023-01-12T06:16:59+00:00,kraken,LV7JRJ-ZNKRT-VJR42S,sell,MATIC,4291.45,52.15,EUR,EUR,3528.86,Kraken Trade
+2023-01-12T06:17:12+00:00,kraken,LI6FJD-NUGYG-PFU3JZ,buy,BTC,0.20345514,51.38,EUR,EUR,3425.33,Kraken Trade
+2023-01-26T14:15:20+00:00,kraken,LZBMSB-BVE2V-EOKDGL,sell,MATIC,5673,82.69,EUR,EUR,5595.02,Kraken Trade
+2023-02-26T09:42:21+00:00,kraken,LYH5FB-DBVIY-DUHTVM,sell,MATIC,6299,112.27,EUR,EUR,7596.71,Kraken Trade
+2023-03-14T07:37:44+00:00,kraken,L4HLC3-GE2FC-SCGJE5,sell,MATIC,13548,215.32,EUR,EUR,14570.21,Kraken Trade
+2023-04-26T07:53:02+00:00,kraken,LDCCAN-3AUJA-V4H6QM,sell,USDC,2705.7794,36.28,EUR,EUR,2455.22,Kraken Trade
+2023-04-26T07:53:20+00:00,kraken,L5Z56L-BRTX4-R5BK6B,buy,BTC,0.09258855,35.75,EUR,EUR,2383.19,Kraken Trade
+2023-05-22T11:06:31+00:00,kraken,LL2XB5-O73TY-TXUAAG,sell,USDC,4E+3,54.6,EUR,EUR,3694.79,Kraken Trade
+2023-06-05T07:27:48+00:00,kraken,LNBJME-7NSIS-CB67UI,sell,USDC,3312.555,45.77,EUR,EUR,3097.24,Kraken Trade
+2023-06-21T09:37:36+00:00,kraken,L7EDQ5-FFAHD-L5XFHY,sell,USDC,3E+3,40.54,EUR,EUR,2742.9,Kraken Trade
+2023-07-03T06:05:44+00:00,kraken,L2MCAB-DSOVW-GJOYQW,sell,USDC,3E+3,40.6,EUR,EUR,2747.4,Kraken Trade
+2023-07-19T09:46:38+00:00,kraken,LV3C2W-KFWAD-O3B3TW,sell,USDC,3E+3,39.47,EUR,EUR,2670.9,Kraken Trade
+2023-07-19T11:19:49+00:00,kraken,LK7S47-246LV-DGJJZL,sell,USDC,3E+3,5.9988,USD,USD,2999.4,Kraken Trade
+2023-07-19T11:21:02+00:00,kraken,L4BJ7P-5B4EK-EFMZEL,buy,KSM,124.16494239,0.32282871,KSM,USD,2993.4013,Kraken Trade
+2023-07-19T12:09:12+00:00,kraken,LQPUYB-CPPUP-2CZJRX,sell,FTM,25714.17185,17.2773,USD,USD,6645.1192,Kraken Trade
+2023-07-19T12:10:29+00:00,kraken,LLKYKJ-WHTD6-VHTXXT,buy,KSM,275.11356322,0.71529572,KSM,USD,6627.8419,Kraken Trade
+2023-08-01T06:34:21+00:00,kraken,LK3GBC-ATTJA-WHV233,sell,USDC,3E+3,40.27,EUR,EUR,2724.9,Kraken Trade
+2023-08-15T07:48:25+00:00,kraken,LHGYZK-RAE42-L7SBKC,sell,USDC,3E+3,40.52,EUR,EUR,2741.7,Kraken Trade
+2023-08-23T15:04:33+00:00,kraken,L6LSDB-2BBCW-ZEK6Y2,sell,USDC,1001.0903,13.63,EUR,EUR,922.5,Kraken Trade
+2023-09-02T17:52:14+00:00,kraken,LBNPPW-CG7NM-WYRR3N,sell,USDC,3000.0031,41.13,EUR,EUR,2783.33,Kraken Trade
+2023-09-10T19:17:51+00:00,kraken,LEMIFQ-MOIBX-DWGQ7M,sell,USDC,4498.8241,62.16,EUR,EUR,4206.4,Kraken Trade
+2023-09-18T06:00:02+00:00,kraken,LACOHQ-7ILZD-FJETSP,sell,USDC,6000.0003,83.04,EUR,EUR,5619,Kraken Trade
+2023-10-17T08:58:49+00:00,kraken,LNS7AE-JXIDT-OYXNP4,sell,USDC,3E+3,42.06,EUR,EUR,2845.8,Kraken Trade
+2023-11-05T16:22:34+00:00,kraken,LWVHYZ-BGGQ4-MVJGLP,sell,USDC,6E+3,82.67,EUR,EUR,5594.3,Kraken Trade
+2023-11-27T13:14:29+00:00,kraken,LFR7SU-XLFED-O3UK4P,sell,USDC,6E+3,80.99,EUR,EUR,5480.44,Kraken Trade
+2024-01-02T13:01:06+00:00,kraken,LK26GD-N4VF2-7ZLNCK,sell,USDC,1E+3,13.49,EUR,EUR,912.9,Kraken Trade
+2024-01-03T19:56:42+00:00,kraken,LN6PP3-N5ISK-D2PNBA,sell,USDC,2E+3,27.09,EUR,EUR,1833.4,Kraken Trade
+2024-01-15T07:51:01+00:00,kraken,L3AX7N-PTNC7-3TO34D,sell,USDC,7E+3,94.45,EUR,EUR,6391.31,Kraken Trade
+2024-01-29T08:45:34+00:00,kraken,LMTN36-XOWNE-VWROHB,sell,USDC,6000.0015,81.83,EUR,EUR,5537.4,Kraken Trade
+2024-02-26T12:13:52+00:00,kraken,LNXTYQ-BD5OO-FXR2WB,sell,USDC,45433.8375,618.59,EUR,EUR,41858.19,Kraken Trade
+2024-03-06T22:58:38+00:00,kraken,LTALIO-MP7VM-RIZLIZ,sell,USDC,6000.0011,81.28,EUR,EUR,5499.67,Kraken Trade
+2024-03-26T08:14:43+00:00,kraken,LOZNP6-I5PJE-BQXF2L,sell,USDC,38646.2716,526.87,EUR,EUR,35651.23,Kraken Trade
+2024-04-02T12:09:29+00:00,kraken,L2AQMI-67VBF-HGN6XH,sell,USDC,6000.0006,82.49,EUR,EUR,5581.8,Kraken Trade
+2024-04-17T20:10:37+00:00,kraken,L5RQWU-XBVDO-G6OUE7,sell,USDC,6000.0006,83.15,EUR,EUR,5626.8,Kraken Trade
+2024-05-02T13:00:42+00:00,kraken,LRKLQM-KOYER-TBJSHQ,sell,USDC,6000.0006,82.85,EUR,EUR,5606.4,Kraken Trade
+2024-06-04T09:31:35+00:00,kraken,L2ELNI-KJUSW-LHVPCG,sell,USDC,5051.9684,68.61,EUR,EUR,4642.76,Kraken Trade
+2024-06-18T22:28:48+00:00,kraken,LJSSXD-I544P-BJWIX6,sell,USDC,26580.4163,365.83,EUR,EUR,24754.34,Kraken Trade
+2024-07-09T20:47:50+00:00,kraken,L2LJ2U-LHQI5-6T32AX,sell,USDC,3998.0555,36.41,EUR,EUR,3677.59,Kraken Trade
+2024-07-23T13:33:52+00:00,kraken,LPYNIC-TUSQQ-YJE5OY,sell,USDC,3E+3,27.24,EUR,EUR,2750.89,Kraken Trade
+2024-08-02T08:45:10+00:00,kraken,L7NSWZ-7TNFG-RLXUFX,sell,USDC,3E+3,27.34,EUR,EUR,2761.63,Kraken Trade
+2024-08-16T10:36:32+00:00,kraken,LNFZEU-AKEM5-2K2ILC,sell,USDC,1499.9963,13.45,EUR,EUR,1358.72,Kraken Trade
+2024-10-22T11:52:14+00:00,kraken,LOLV6U-IY7ZC-WAKKXT,sell,ETH,0.58011697,13.9,EUR,EUR,1403.87,Kraken Trade
+2024-10-23T16:10:41+00:00,kraken,LOGEVU-CXZCP-63YYZK,sell,USDC,1090.1285,9.96,EUR,EUR,1006,Kraken Trade
+2024-11-27T22:41:35+00:00,kraken,L5FCKC-6S5LW-QNUTVN,swap_out,ETH,0.27787,4.06453,USDT,USDT,1016.13178,Kraken Crypto-to-Crypto Trade
+2024-11-27T22:41:35+00:00,kraken,LLJD72-RAPEL-TU7Y6A,swap_in,USDT,1016.13178,0,,ETH,0.27787,Kraken Crypto-to-Crypto Trade
+2024-11-27T22:42:18+00:00,kraken,LQI2CJ-JQDRP-XOL3GI,sell,USDT,1012.0672,1.9175,EUR,EUR,958.7313,Kraken Trade
+2025-01-16T08:48:23+00:00,kraken,LBRQMB-GF4FA-ZOBHHC,sell,USDC,4000.000001,7.7672,EUR,EUR,3883.6,Kraken Trade
+2025-08-07T19:43:53+00:00,kraken,LXLRRL-4WSEE-JP56Z7,sell,DOT,2.10093092,0.0271,EUR,EUR,6.7805,Kraken Trade
+2025-08-07T19:44:21+00:00,kraken,LTD2BX-XLQST-HD3CFC,buy,SUI,1259.89028,5.03956,SUI,EUR,4008.7499,Kraken Trade
+2025-08-18T13:16:53+00:00,kraken,LHGDUP-LR5CD-SSHTSD,buy,SUI,1306.15975,5.22464,SUI,EUR,4E+3,Kraken Trade

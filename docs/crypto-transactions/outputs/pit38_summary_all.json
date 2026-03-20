@@ -1,0 +1,166 @@
+{
+  "yearly_summary": {
+    "2020": {
+      "revenue_pln": "3457.76",
+      "cost_pln": "3569.21",
+      "gain_pln": "0.00",
+      "loss_pln": "111.45",
+      "net_income_pln": "-111.45",
+      "tax_due_19pct": "0.00"
+    },
+    "2021": {
+      "revenue_pln": "237246.81",
+      "cost_pln": "107929.07",
+      "gain_pln": "132905.87",
+      "loss_pln": "3588.13",
+      "net_income_pln": "129317.74",
+      "tax_due_19pct": "24570.37"
+    },
+    "2022": {
+      "revenue_pln": "327751.57",
+      "cost_pln": "1519899.81",
+      "gain_pln": "250625.95",
+      "loss_pln": "1442774.20",
+      "net_income_pln": "-1192148.24",
+      "tax_due_19pct": "0.00"
+    },
+    "2023": {
+      "revenue_pln": "389051.62",
+      "cost_pln": "270072.24",
+      "gain_pln": "359066.25",
+      "loss_pln": "240086.87",
+      "net_income_pln": "118979.38",
+      "tax_due_19pct": "22606.08"
+    },
+    "2024": {
+      "revenue_pln": "678598.61",
+      "cost_pln": "1235.93",
+      "gain_pln": "677362.68",
+      "loss_pln": "0.00",
+      "net_income_pln": "677362.68",
+      "tax_due_19pct": "128698.91"
+    },
+    "2025": {
+      "revenue_pln": "16728.64",
+      "cost_pln": "0.00",
+      "gain_pln": "16728.64",
+      "loss_pln": "0.00",
+      "net_income_pln": "16728.64",
+      "tax_due_19pct": "3178.44"
+    }
+  },
+  "lot_inventory": {
+    "AAVE": {
+      "total_amount": "11.14407656",
+      "total_cost_pln": "1129.77",
+      "lot_count": 3
+    },
+    "ACA": {
+      "total_amount": "556.18",
+      "total_cost_pln": "37180.77",
+      "lot_count": 11
+    },
+    "ATOM": {
+      "total_amount": "296.87",
+      "total_cost_pln": "0.00",
+      "lot_count": 2
+    },
+    "BTC": {
+      "total_amount": "0.62476288",
+      "total_cost_pln": "26641.49",
+      "lot_count": 8
+    },
+    "DOT": {
+      "total_amount": "3084.8733804598",
+      "total_cost_pln": "139195.11",
+      "lot_count": 335
+    },
+    "ETH": {
+      "total_amount": "84.8623231761",
+      "total_cost_pln": "510859.36",
+      "lot_count": 84
+    },
+    "EUR": {
+      "total_amount": "4648.56330112",
+      "total_cost_pln": "2892.91",
+      "lot_count": 5
+    },
+    "FDUSD": {
+      "total_amount": "1.28123089",
+      "total_cost_pln": "0.00",
+      "lot_count": 1
+    },
+    "FTM": {
+      "total_amount": "142979.51358095",
+      "total_cost_pln": "51073.01",
+      "lot_count": 15
+    },
+    "KAR": {
+      "total_amount": "7.00000772",
+      "total_cost_pln": "241.16",
+      "lot_count": 1
+    },
+    "KSM": {
+      "total_amount": "697.92371032",
+      "total_cost_pln": "1026517.58",
+      "lot_count": 60
+    },
+    "LINK": {
+      "total_amount": "254.25511862",
+      "total_cost_pln": "5663.78",
+      "lot_count": 5
+    },
+    "LUNA": {
+      "total_amount": "3461.7960621",
+      "total_cost_pln": "2059043.20",
+      "lot_count": 118
+    },
+    "LUNC": {
+      "total_amount": "6.6E-7",
+      "total_cost_pln": "0.00",
+      "lot_count": 1
+    },
+    "S": {
+      "total_amount": "0.63181866",
+      "total_cost_pln": "0.00",
+      "lot_count": 1
+    },
+    "SNX": {
+      "total_amount": "488.25761",
+      "total_cost_pln": "32363.03",
+      "lot_count": 4
+    },
+    "SOL": {
+      "total_amount": "224.4156864311",
+      "total_cost_pln": "1768367.27",
+      "lot_count": 42
+    },
+    "SUI": {
+      "total_amount": "6291.75014",
+      "total_cost_pln": "2082936.86",
+      "lot_count": 71
+    },
+    "USDC": {
+      "total_amount": "104223.447875",
+      "total_cost_pln": "0.00",
+      "lot_count": 43
+    },
+    "USDT": {
+      "total_amount": "43369.21432445",
+      "total_cost_pln": "0.00",
+      "lot_count": 12
+    },
+    "UST": {
+      "total_amount": "44041",
+      "total_cost_pln": "658080.71",
+      "lot_count": 17
+    },
+    "XMR": {
+      "total_amount": "0.41792",
+      "total_cost_pln": "236.26",
+      "lot_count": 1
+    }
+  },
+  "total_tax_events": 84,
+  "warnings": []
+}

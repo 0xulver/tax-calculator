@@ -1,61 +1,212 @@
 # Potential Wallet Candidates
 
-This note is a review list of wallet families that may be missing from [wallets.txt](/home/ulver/code/ai/tax-calculator/docs/crypto-transactions/wallets.txt), based on Binance and Kraken exchange exports from `2020` through `2025`.
+Updated analysis of wallets that may be missing from [wallets.txt](file:///home/ulver/code/ai/tax-calculator/docs/crypto-transactions/wallets.txt), based on comprehensive review of Binance and Kraken exchange exports from `2020` through `2025`.
 
-Important limitation:
-- The exchange exports reviewed here do **not** contain explicit destination/source wallet addresses.
-- Because of that, this is a list of **candidate wallet families or chains**, not confirmed wallet addresses.
-- Nothing here has been added to `wallets.txt`.
+> [!IMPORTANT]
+> The exchange CSV exports **do not contain destination/source wallet addresses**. To get actual addresses, use the **exchange web UI** withdrawal history (Binance: Wallet → Transaction History → Withdrawals; Kraken: History → Withdrawals) or check **email confirmations** which include destination addresses.
 
-Current wallet families already in `wallets.txt`:
-- EVM (`0x...`)
-- Solana
-- Sui
+Current wallets in `wallets.txt`:
+- 4 EVM (`0x...`) — Reaper, Metamask2, Metamask3, Reaper strategist
+- 1 Solana — Old Solana `4QjwQQ...`
+- 2 Sui — Ulver Stashed, m.brantheim stashed
 
-## High Confidence Candidates
+---
 
-| Candidate | Why it looks likely | Evidence from exchange history | Confidence | Confirmed? |
-| --- | --- | --- | --- | --- |
-| Bitcoin wallet(s) | You have both BTC withdrawals and later BTC deposits across exchanges, but no BTC wallet in `wallets.txt`. | Kraken BTC withdrawals in `2020-12-01 09:36:59`, `2021-01-04 11:20:00`, `2022-12-10 19:11:41`, `2023-01-12 06:24:03`. Binance BTC deposits in `2021-08-11 11:41:14`, `2021-08-11 11:53:06`, `2021-08-11 14:27:12`. | High | `[ ]` |
-| Terra wallet(s) | You moved `LUNA` and `UST`, and there is no Terra wallet in `wallets.txt`. | Binance `LUNA` withdrawals in `2021-08-11 14:38:41`, `2021-08-12 07:00:52`, and many more in `2021-2022`. Binance `UST` withdrawals in `2022-01-05 16:02:42`, `2022-01-07 16:53:42`, `2022-01-23 11:08:42`. | High | `[ ]` |
-| Polkadot / Kusama / Substrate wallet(s) | You moved `DOT`, `KSM`, `ACA`, `KAR`, which strongly suggests at least one Substrate-style wallet not listed. | Binance `DOT` withdrawal `2021-12-26 23:17:41`; Binance `KSM` withdrawals `2021-12-09 22:09:42`, `2022-01-23 12:13:42`; Binance `ACA` withdrawals `2022-01-31 13:21:40`, `2022-01-31 13:35:40`. Kraken `DOT`, `KSM`, and `KAR` withdrawals in `2021`. | High | `[ ]` |
-| Cosmos wallet(s) | You withdrew `ATOM`, but there is no Cosmos wallet in `wallets.txt`. | Binance `ATOM` withdrawals `2022-01-31 11:33:41`, `2022-01-31 11:36:42`, `2022-02-06 11:59:41`, `2022-02-06 12:46:40`. Kraken `ATOM` deposits in `2022-05-27 13:56:46`, `2022-05-27 14:08:14`, `2022-06-04 17:47:04`. | High | `[ ]` |
-| Monero wallet(s) | You withdrew `XMR`, and there is no Monero wallet in `wallets.txt`. | Kraken `XMR` withdrawals `2022-11-21 13:53:36` and `2022-11-21 14:29:36`. | High | `[ ]` |
+## High Confidence — Missing Wallet Families
 
-## Medium Confidence Candidates
+### 1. ✅ Polkadot / Kusama — CONFIRMED
 
-| Candidate | Why it looks possible | Evidence from exchange history | Confidence | Confirmed? |
-| --- | --- | --- | --- | --- |
-| Additional EVM wallet(s) | Many `ETH`, `LINK`, `AAVE`, `SNX`, `USDC`, `USDT`, `MATIC`, `FTM` transfers could map to your known EVM wallets, but could also point to older or separate EVM addresses not listed. | Kraken `ETH`, `LINK`, `AAVE`, `SNX` withdrawals in `2020-2021`; Binance `FTM` withdrawals in `2021-2022`; Kraken `USDC` and `USDT` deposits in `2021-2024`; Kraken `MATIC` deposits in `2022-2023`. | Medium | `[ ]` |
-| Additional Solana wallet(s) | You already have one Solana wallet listed, but exchange flows suggest there may have been another Solana address as well. | Binance `SOL` withdrawals `2021-08-27 12:23:42`, `2021-08-27 12:29:42`, `2025-03-02 17:26:43`, `2025-03-02 17:28:43`. Kraken `SOL` withdrawals `2021-09-13 10:40:38`, `2021-09-13 10:43:38`, `2021-09-15 12:09:03`. | Medium | `[ ]` |
-| Additional Sui wallet(s) | You already have two Sui wallets listed, but the exchange withdrawals may have gone to one of those or to a separate Sui address. | Binance `SUI` withdrawals `2024-11-19 17:18:42`, `2024-12-01 20:13:41`, `2024-12-17 09:34:43`. Kraken `SUI` withdrawals `2025-08-07 19:48:09`, `2025-08-18 13:17:42`. | Medium | `[ ]` |
+| Detail | DOT | KSM |
+| --- | --- | --- |
+| **Withdrawn from exchanges** | ~2,919 DOT (16 txs) | ~696 KSM (16 txs across Kraken+Binance) |
+| **Deposited back** | ~3,045 DOT (7 deposits) | ~226 KSM (9 deposits) |
+| **Withdrawal period** | Apr 2021 — May 2022 | Jul 2021 — Jul 2023 |
+| **Deposit period** | Jul 2021 — May 2022 | Oct 2021 — May 2022 |
+| **Pattern** | Staking (large out, partial return) | Crowdloans + staking (heavy accumulation) |
 
-## Lower Confidence / Maybe Already Covered
+**3 DOT addresses found from Kraken saved withdrawal addresses:**
 
-| Candidate | Why it is weaker | Evidence from exchange history | Confidence | Confirmed? |
-| --- | --- | --- | --- | --- |
-| Existing known EVM wallet reuse | Some exchange deposit patterns may simply be funds returning from wallets you already listed. | Binance `USDC` deposits in `2024-2025`; Kraken `USDC` deposits in `2020-2025`; Binance `ETH` deposits in `2024-2025`; Kraken `ETH` deposits in `2022`, `2024`. | Low | `[ ]` |
-| Existing known Solana wallet reuse | Your current Solana wallet may already account for some of the Solana exchange movements. | Binance `SOL` deposits in `2021`; Kraken `SOL` withdrawals in `2021`; Binance `SOL` withdrawals in `2025`. | Low | `[ ]` |
-| Existing known Sui wallet reuse | Your current Sui wallets may already explain the `SUI` withdrawals. | Binance `SUI` withdrawals in `2024`; Kraken `SUI` withdrawals in `2025`. | Low | `[ ]` |
+| Label | Address | Type |
+| --- | --- | --- |
+| Fearless Wallet DOT | `16Q2CwF7mBoQd7ay6YyrBG9eryjvSmyZVjgHzLpFCq5S5Hb3` | Self-custody |
+| Celsius Polkadot | `12cH7rXQPZkwy5KbbNvGqgnmS75CSn1EUjrHno6ymBP9KYUq` | Defunct platform (funds stuck) |
+| Chloe Celsius DOT | `15iv67DkPLWdBpFSWz1tzsJfjpz5mgr46sDBpaD6j4zNYyDF` | Third-party (ex-girlfriend's wallet, gifted crypto) |
 
-## Practical Interpretation
+> [!NOTE]
+> Chloe's Celsius wallet represents crypto gifts. In Sweden (Skatteverket) and Poland, gifting crypto is generally not a taxable disposal for the giver, but the cost basis transfers. However, verify with your tax advisor. Celsius is defunct — same warning as BTC Celsius.
 
-The strongest likely omissions from `wallets.txt` are:
-- Bitcoin
-- Terra
-- Polkadot / Kusama / broader Substrate
-- Cosmos
-- Monero
+**Related parachain tokens also withdrawn:**
+- **ACA** (Acala): 2 Binance withdrawals on 2022-01-31 (~556 ACA total)
+- **KAR** (Karura): 1 Kraken withdrawal on 2021-10-08 (6 KAR)
 
-The weaker candidates are not about a new chain family, but about whether you used an additional wallet on a chain family you already track:
-- another EVM wallet
-- another Solana wallet
-- another Sui wallet
+**KSM address also found (same Fearless Wallet seed):**
 
-## Best Next Step
+| Label | Address | Type |
+| --- | --- | --- |
+| Fearless Wallet KSM | `DdpP9Qtic67emirWfRBA4NNbwqBp4UEbqgpSvNyfh6yyQ37` | Self-custody |
 
-To turn these from chain-level candidates into actual wallet addresses, the best source is:
-- Binance withdrawal/deposit export with destination address and network
-- Kraken withdrawal/deposit export with destination address and method/network
+| Confirmed? |
+| --- |
+| DOT: `[x]` / KSM: `[x]` |
 
-If you export those, I can compare the actual addresses against `wallets.txt` and produce a much cleaner confirmed/unconfirmed candidate list.
+---
+
+### 2. Cosmos (ATOM)
+
+| Detail | Value |
+| --- | --- |
+| **Withdrawn (Binance)** | ~297 ATOM (4 txs: 2022-01-31, 2022-02-06) |
+| **Deposited (Kraken)** | ~353 ATOM (3 txs: 2022-05-27, 2022-06-04) |
+| **Pattern** | Binance → self-custody (staking ~4 months) → Kraken |
+
+**Evidence strength:** Very strong. Clear flow: bought ATOM on Binance, withdrew to self-custody wallet for ~4 months (likely staking on-chain), then deposited to Kraken and sold.
+
+**Likely wallet software:** Keplr browser extension or Cosmostation.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+### 3. Terra (LUNA / UST)
+
+| Detail | LUNA | UST |
+| --- | --- | --- |
+| **Withdrawn** | ~3,459 LUNA (23 Binance txs) | ~44,016 UST (4 Binance txs) |
+| **Deposited back** | ~4,862 LUNA (17 Binance deposits) | ~2,500 UST (1 deposit) |
+| **Active period** | Aug 2021 — Feb 2022 | Jan 2022 |
+| **Also deposited to Kraken** | LUNA2: 69 (May 2022 — post-collapse airdrop) | — |
+
+**Evidence strength:** Very strong. Heavy DeFi activity (27 withdrawals, 18 deposits). The massive UST withdrawals (~$44K) strongly suggest Anchor Protocol usage for the ~20% APY yield. The LUNA2 Kraken deposit confirms you received the post-collapse airdrop, meaning you held LUNA in a Terra wallet at the snapshot.
+
+**Likely wallet software:** Terra Station.
+
+> [!NOTE]
+> Terra Classic collapsed in May 2022. The wallet still exists on Terra Classic chain but is likely near-worthless. The LUNA2 airdrop was distributed to a new Terra 2.0 address derived from the same key. For tax purposes, the acquisition dates and disposals in 2021-2022 are the relevant events.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+### 4. ✅ Bitcoin (BTC) — CONFIRMED
+
+| Detail | Value |
+| --- | --- |
+| **Withdrawn (Kraken)** | ~0.62 BTC (13 txs: Dec 2020 — Jan 2023) |
+| **Deposited (Binance)** | ~0.31 BTC (3 txs: Aug 2021) |
+| **Pattern** | Kraken → BTC wallet → partially moved to Binance |
+
+**6 BTC addresses found from Kraken saved withdrawal addresses:**
+
+| Label | Address | Type |
+| --- | --- | --- |
+| Electrum | `bc1qjd8pnqhkla4fsj0kt7rw96kd0drvqkugstn2z7` | Self-custody |
+| Electrum 2 | `bc1qlkjyugnzkyfp7snhkh5przhwz8xcv7kmypy9yl` | Self-custody |
+| Electrum 3 | `bc1qjllxk2j2n029pakreue07x3agsfkjkm3ufuzqs` | Self-custody |
+| Electrum withdraw | `bc1q7sxfz3yuq0crvza7wj9de628fnykl575k5e3hj` | Self-custody |
+| Celsius BTC | `bc1qvvreqkvs03l86eheelqs8j3wvy6mx2ul0rjz7r` | Defunct platform (funds stuck) |
+| BlockFi BTC | `3GV34TNcQUS53MimCWd8rMjKLxJF3C6Qoj` | Defunct platform (funds stuck) |
+
+> [!WARNING]
+> Celsius and BlockFi are no longer operational. Funds sent to those addresses may be stuck or subject to bankruptcy proceedings. For tax purposes, the withdrawal from Kraken to those addresses is still a reportable event, but any loss of funds may be claimable as a capital loss depending on jurisdiction.
+
+| Confirmed? |
+| --- |
+| `[x]` |
+
+---
+
+### 5. Monero (XMR)
+
+| Detail | Value |
+| --- | --- |
+| **Withdrawn (Kraken)** | ~0.42 XMR (2 txs: 2022-11-21) |
+| **Deposited back** | None |
+
+**Evidence strength:** Moderate. Only 2 withdrawals on the same day, small amount. Still, this confirms a Monero wallet exists somewhere.
+
+> [!NOTE]
+> Monero is privacy-focused. On-chain tracing is not possible. The wallet address can only be found from Kraken withdrawal history, email confirmations, or the wallet software itself.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+## Medium Confidence — Additional Wallets on Known Chains
+
+### 6. Second Solana Wallet (NEW)
+
+| Detail | Value |
+| --- | --- |
+| **Known wallet** | `4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC` (active through Nov 2025) |
+| **Binance SOL withdrawals (2021)** | 2 txs on 2021-08-27 (~51 SOL) — could be same wallet |
+| **Binance SOL withdrawals (2025)** | 2 txs on 2025-03-02 (~138 SOL) — **4 years later** |
+| **Kraken SOL withdrawals (2021)** | 4 txs on 2021-09-13/15 (~35 SOL) |
+
+**Evidence strength:** Medium-High. The **2025 withdrawals** are 4 years after the 2021 ones. If you set up a new wallet (Phantom, Backpack) in the intervening years, the 2025 SOL likely went to a different address. The known "Old Solana" wallet name itself suggests you consider it old.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+### 7. Additional EVM Wallets
+
+| Detail | Value |
+| --- | --- |
+| **Kraken ETH withdrawals** | 12 txs (~66 ETH) in Dec 2020 — Jan 2021 |
+| **Kraken ETH deposits back** | 6 txs (~3.9 ETH) in 2022-2024 |
+| **Kraken LINK** | 7 withdrawals (~253 LINK), 1 deposit (199 LINK) |
+| **Kraken SNX** | 5 withdrawals (~487 SNX) |
+| **Kraken AAVE** | 6 withdrawals (~7.4 AAVE) |
+| **Kraken FTM deposits** | 12 deposits (~130K FTM) |
+| **Kraken MATIC deposits** | 11 deposits (~52K MATIC) |
+
+**Evidence strength:** Medium. These could all map to your 4 known EVM wallets. However, the early 2020 withdrawals predate some DeFi activity and might have gone to an older wallet.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+### 8. Additional Sui Wallets
+
+| Detail | Value |
+| --- | --- |
+| **Binance SUI withdrawals** | 6 txs in Nov-Dec 2024 |
+| **Kraken SUI withdrawals** | 2 txs in Aug 2025 (~2,555 SUI) |
+
+**Evidence strength:** Low-Medium. You have 2 Sui wallets already. The Binance withdrawals (2024) and Kraken withdrawals (2025) may go to your known Stashed wallets, or to a third wallet.
+
+| Confirmed? |
+| --- |
+| `[ ]` |
+
+---
+
+## Summary: Priority Action Items
+
+| Priority | Chain | Estimated Wallet Count | Best Way to Find Address |
+| --- | --- | --- | --- |
+| 🔴 **Critical** | Polkadot/Kusama (DOT/KSM/ACA/KAR) | 1-2 Substrate wallets | Polkadot.js extension, Ledger, or exchange withdrawal history |
+| 🔴 **Critical** | Cosmos (ATOM) | 1 Cosmos wallet | Keplr extension or exchange withdrawal history |
+| 🔴 **Critical** | Terra (LUNA/UST) | 1 Terra wallet | Terra Station or exchange withdrawal history |
+| 🟡 **Important** | Bitcoin (BTC) | 1 BTC wallet | Electrum/Wasabi/Ledger or exchange withdrawal emails |
+| 🟡 **Important** | Solana (new) | Likely 1 additional | Phantom/Backpack or Binance 2025 withdrawal history |
+| 🟠 **Moderate** | Monero (XMR) | 1 XMR wallet | Monero GUI/CLI or Kraken withdrawal email |
+| ⚪ **Low** | EVM / Sui | Possibly 1+ more | Already tracked partially |
+
+## Fastest Way to Resolve All of These
+
+1. **Check Binance withdrawal history** in the web UI (Wallet → Spot → Transaction History → Withdrawals) — filter by DOT, KSM, ATOM, LUNA, BTC, SOL, XMR. **Each withdrawal shows the destination address.**
+2. **Check Kraken withdrawal history** in the web UI (History → Exports → Withdrawals export) — same approach.
+3. **Search email** for "withdrawal" + coin name — confirmation emails from Binance/Kraken contain destination addresses.
+4. **Check browser extensions** — Polkadot.js, Keplr, Phantom, Terra Station may still have the accounts.
+5. **Check Ledger Live** if you used a hardware wallet — accounts tab will show all chains.

@@ -5,3 +5,18 @@ Reaper strategist 0x81876677843D00a7D792E1617459aC2E93202576
 Old Solana 4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC
 Sui Ulver Stashed 0x0d879ddb48b77b454c534e88801bce2be514ab5cad4ffcc00e5a5476cd8b27c9
 Sui m.brantheim stashed 0xad4a4802f3f81d94a6e4fde6ce19fc120cd2f3a5f31de2723a3efbe9f2bf881b
+# BTC wallets (self-custody)
+Electrum bc1qjd8pnqhkla4fsj0kt7rw96kd0drvqkugstn2z7
+Electrum 2 bc1qlkjyugnzkyfp7snhkh5przhwz8xcv7kmypy9yl
+Electrum 3 bc1qjllxk2j2n029pakreue07x3agsfkjkm3ufuzqs
+Electrum withdraw bc1q7sxfz3yuq0crvza7wj9de628fnykl575k5e3hj
+# BTC wallets (defunct platforms — funds may be stuck)
+Celsius BTC bc1qvvreqkvs03l86eheelqs8j3wvy6mx2ul0rjz7r
+BlockFi BTC 3GV34TNcQUS53MimCWd8rMjKLxJF3C6Qoj
+# DOT wallets (self-custody)
+Fearless Wallet DOT 16Q2CwF7mBoQd7ay6YyrBG9eryjvSmyZVjgHzLpFCq5S5Hb3
+# DOT wallets (defunct platforms / third-party)
+Celsius Polkadot 12cH7rXQPZkwy5KbbNvGqgnmS75CSn1EUjrHno6ymBP9KYUq
+Chloe Celsius DOT 15iv67DkPLWdBpFSWz1tzsJfjpz5mgr46sDBpaD6j4zNYyDF
+# KSM wallets (self-custody)
+Fearless Wallet KSM DdpP9Qtic67emirWfRBA4NNbwqBp4UEbqgpSvNyfh6yyQ37
