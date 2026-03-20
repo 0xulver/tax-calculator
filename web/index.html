@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PIT-38 Tax Dashboard — Polish Crypto Tax Calculator</title>
+  <meta name="description" content="Interactive dashboard for Polish PIT-38 crypto tax calculation with cost pool visualization and transaction drill-down." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+  <header id="app-header">
+    <div class="header-left">
+      <h1 class="logo">PIT<span class="logo-accent">-38</span></h1>
+      <span class="logo-sub">Crypto Tax Dashboard</span>
+    </div>
+    <nav id="main-nav">
+      <a href="#/" class="nav-link active" data-view="dashboard">Dashboard</a>
+      <a href="#/timeline" class="nav-link" data-view="timeline">Timeline</a>
+    </nav>
+    <div class="header-right">
+      <span class="tax-badge">0 PLN TAX</span>
+    </div>
+  </header>
+
+  <main id="app">
+    <div class="loading-screen" id="loading">
+      <div class="spinner"></div>
+      <p>Loading tax data...</p>
+    </div>
+  </main>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
