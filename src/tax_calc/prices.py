@@ -118,9 +118,63 @@ class PriceResolver:
         # 6. Unresolved
         return Decimal("0"), "unresolved"
 
+    def resolve_with_rate(
+        self,
+        asset: str,
+        amount: Decimal,
+        counterparty_asset: str,
+        counterparty_amount: Decimal,
+        date_str: str,
+    ) -> Tuple[Decimal, str, Optional[Decimal], str, str]:
+        """Like resolve() but also returns the NBP rate, rate date, and currency used.
+
+        Returns:
+            (pln_value, method, nbp_rate, nbp_rate_date, nbp_currency)
+        """
+        cp = counterparty_asset.upper() if counterparty_asset else ""
+        cp_amt = counterparty_amount.copy_abs() if counterparty_amount else Decimal("0")
+
+        # 1. Direct PLN
+        if cp == "PLN" and cp_amt > 0:
+            return cp_amt, "direct_pln", Decimal("1"), date_str, "PLN"
+
+        # 2. Counterparty is fiat -> NBP rate
+        if cp in FIAT and cp_amt > 0:
+            rate, rate_date = self.nbp.get_rate_with_date(cp, date_str)
+            if rate:
+                return cp_amt * rate, f"nbp_{cp.lower()}", rate, rate_date, cp
+
+        # 3. Counterparty is stablecoin -> treat as USD
+        if cp in STABLECOINS and cp_amt > 0:
+            rate, rate_date = self.nbp.get_rate_with_date("USD", date_str)
+            if rate:
+                return cp_amt * rate, f"nbp_usd_via_{cp.lower()}", rate, rate_date, "USD"
+
+        # 4. Asset itself is stablecoin -> amount * USD rate
+        if is_stablecoin(asset) and amount > 0:
+            rate, rate_date = self.nbp.get_rate_with_date("USD", date_str)
+            if rate:
+                return amount.copy_abs() * rate, f"nbp_usd_stablecoin_{asset.lower()}", rate, rate_date, "USD"
+
+        # 5. CoinGecko
+        if asset.upper() not in FIAT and asset.upper() not in STABLECOINS:
+            price = self._get_coingecko_price(asset, date_str)
+            if price:
+                return amount.copy_abs() * price, "coingecko_pln", price, date_str, asset
+
+        # 6. Unresolved
+        return Decimal("0"), "unresolved", None, "", ""
+
     def stablecoin_pln_value(self, amount: Decimal, date_str: str) -> Tuple[Decimal, str]:
         """Value a stablecoin amount in PLN using NBP USD rate."""
         usd_rate = self.nbp.get_rate("USD", date_str)
         if usd_rate:
             return amount.copy_abs() * usd_rate, "nbp_usd_stablecoin"
         return Decimal("0"), "unresolved"
+
+    def stablecoin_pln_value_with_rate(self, amount: Decimal, date_str: str) -> Tuple[Decimal, str, Optional[Decimal], str]:
+        """Like stablecoin_pln_value but also returns the rate and rate date."""
+        rate, rate_date = self.nbp.get_rate_with_date("USD", date_str)
+        if rate:
+            return amount.copy_abs() * rate, "nbp_usd_stablecoin", rate, rate_date
+        return Decimal("0"), "unresolved", None, ""

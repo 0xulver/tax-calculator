@@ -45,7 +45,16 @@ def parse_args() -> argparse.Namespace:
     # pit38
     pit38 = sub.add_parser("pit38", help="Calculate PIT-38 using cost pool method")
     pit38.add_argument("--input", default=_default_path("outputs", "normalized_all_exchanges.csv"))
-    pit38.add_argument("--salary", default=_default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"))
+    pit38.add_argument("--salary", nargs="*", default=[
+        _default_path("docs", "crypto-transactions", "2022-fantom-salary.txt"),
+        _default_path("docs", "crypto-transactions", "2022-2023-pre-poland-salary.txt"),
+        _default_path("docs", "crypto-transactions", "2023-salary-invoices.txt"),
+        _default_path("docs", "crypto-transactions", "2024-salary-invoices.txt"),
+        _default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"),
+        _default_path("docs", "crypto-transactions", "ftx-purchases.txt"),
+        _default_path("docs", "crypto-transactions", "coinbase-purchases.txt"),
+        _default_path("docs", "crypto-transactions", "celsius-simplex-purchases.txt"),
+    ])
     pit38.add_argument("--output-dir", default=_default_path("outputs"))
     pit38.add_argument("--cache-dir", default=_default_path("data"))
     pit38.add_argument("--pre-residency-costs", type=Decimal, default=Decimal("0"),
@@ -64,7 +73,16 @@ def parse_args() -> argparse.Namespace:
                       default=_default_path("docs", "crypto-cex-transactions", "binance"))
     full.add_argument("--kraken-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "kraken"))
-    full.add_argument("--salary", default=_default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"))
+    full.add_argument("--salary", nargs="*", default=[
+        _default_path("docs", "crypto-transactions", "2022-fantom-salary.txt"),
+        _default_path("docs", "crypto-transactions", "2022-2023-pre-poland-salary.txt"),
+        _default_path("docs", "crypto-transactions", "2023-salary-invoices.txt"),
+        _default_path("docs", "crypto-transactions", "2024-salary-invoices.txt"),
+        _default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"),
+        _default_path("docs", "crypto-transactions", "ftx-purchases.txt"),
+        _default_path("docs", "crypto-transactions", "coinbase-purchases.txt"),
+        _default_path("docs", "crypto-transactions", "celsius-simplex-purchases.txt"),
+    ])
     full.add_argument("--output-dir", default=_default_path("outputs"))
     full.add_argument("--cache-dir", default=_default_path("data"))
     full.add_argument("--pre-residency-costs", type=Decimal, default=Decimal("0"),
@@ -114,15 +132,33 @@ def cmd_pit38(args: argparse.Namespace) -> int:
     nbp = NBPClient(cache_path=os.path.join(cache_dir, "nbp_cache.json"))
     prices = PriceResolver(nbp, cg_cache_path=os.path.join(cache_dir, "coingecko_cache.json"))
 
-    # Load salary lots
-    salary_path = getattr(args, "salary", "")
+    # Load salary lots from all salary files
+    salary_paths = getattr(args, "salary", []) or []
+    if isinstance(salary_paths, str):
+        salary_paths = [salary_paths]
     salary_lots = []
-    if salary_path and os.path.exists(salary_path):
-        print("Parsing salary payments...")
-        salary_lots = parse_salary_payments(salary_path, nbp)
-        print(f"  {len(salary_lots)} salary payments loaded")
-        for lot in salary_lots:
-            print(f"    {lot.date}: {lot.amount} USDC = {fmt(lot.cost_pln)} PLN")
+    for salary_path in salary_paths:
+        if salary_path and os.path.exists(salary_path):
+            basename = os.path.basename(salary_path)
+            # Derive source name from filename
+            if "ftx" in basename:
+                source_name = "ftx_purchase"
+            elif "coinbase" in basename:
+                source_name = "coinbase_purchase"
+            elif "celsius" in basename:
+                source_name = "celsius_purchase"
+            elif "fantom" in basename:
+                source_name = "fantom_salary"
+            else:
+                source_name = "polygon_salary"
+            print(f"Parsing payments from {basename}...")
+            lots = parse_salary_payments(salary_path, nbp, source_name=source_name)
+            salary_lots.extend(lots)
+            total_pln = sum(l.cost_pln for l in lots)
+            print(f"  {len(lots)} payments, total {fmt(total_pln)} PLN")
+    if salary_lots:
+        salary_lots.sort(key=lambda l: l.date)
+        print(f"  Total salary lots: {len(salary_lots)}")
 
     # Load ledger
     input_path = getattr(args, "input", _default_path("outputs", "normalized_all_exchanges.csv"))

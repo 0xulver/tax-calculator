@@ -70,3 +70,52 @@ class NBPClient:
                 continue
 
         return None
+
+    def get_rate_with_date(self, currency: str, date_str: str) -> tuple[Optional[Decimal], str]:
+        """Like get_rate but also returns the actual NBP table date used.
+
+        Returns:
+            (rate, nbp_date) where nbp_date is the business day the rate is from.
+        """
+        if currency.upper() == "PLN":
+            return Decimal("1"), date_str
+
+        currency = currency.upper()
+        cache_key = f"{currency}/{date_str}"
+
+        # For cached rates, reconstruct the rate date by searching backwards
+        if cache_key in self._cache:
+            rate = Decimal(self._cache[cache_key])
+            rate_date = self._find_rate_date(currency, date_str)
+            return rate, rate_date
+
+        base_date = datetime.strptime(date_str, "%Y-%m-%d")
+        for delta in range(1, 10):
+            d = base_date - timedelta(days=delta)
+            ds = d.strftime("%Y-%m-%d")
+
+            url = f"https://api.nbp.pl/api/exchangerates/rates/a/{currency}/{ds}/?format=json"
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "tax-calc/1.0"})
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    rate = Decimal(str(data["rates"][0]["mid"]))
+                    self._cache[cache_key] = str(rate)
+                    self._save_cache()
+                    time.sleep(0.2)
+                    return rate, ds
+            except Exception:
+                continue
+
+        return None, ""
+
+    def _find_rate_date(self, currency: str, date_str: str) -> str:
+        """Find which business day a cached rate came from."""
+        base_date = datetime.strptime(date_str, "%Y-%m-%d")
+        for delta in range(1, 10):
+            d = base_date - timedelta(days=delta)
+            ds = d.strftime("%Y-%m-%d")
+            # Check if this date has data (weekday and not a holiday)
+            if d.weekday() < 5:  # Mon-Fri
+                return ds
+        return ""

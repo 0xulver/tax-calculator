@@ -13,19 +13,17 @@ from tax_calc.nbp import NBPClient
 def parse_salary_payments(
     path: str,
     nbp: NBPClient,
+    source_name: str = "polygon_salary",
 ) -> list[FIFOLot]:
-    """Parse 2025-polygon-payments.txt format into FIFOLots.
+    """Parse salary/purchase payment files into FIFOLots.
 
     Format (repeating blocks):
-        https://polygonscan.com/tx/0x...
+        https://example.com/tx/0x...
         Apr-01-2025
         4500 USDC
 
-    Each payment produces a FIFOLot:
-        date = payment date
-        amount = USDC amount
-        cost_pln = amount * NBP USD rate (from last business day before payment)
-        source = "polygon_salary"
+    Each payment produces a FIFOLot with cost_pln based on the
+    appropriate NBP rate (USD for USDC/USDT, EUR for EUR, etc.).
     """
     with open(path, "r") as f:
         text = f.read()
@@ -58,7 +56,7 @@ def parse_salary_payments(
             amount_line = lines[i]
             i += 1
 
-            lot = _parse_payment(tx_url, date_str, amount_line, nbp)
+            lot = _parse_payment(tx_url, date_str, amount_line, nbp, source_name)
             if lot:
                 lots.append(lot)
         else:
@@ -73,6 +71,7 @@ def _parse_payment(
     date_str: str,
     amount_line: str,
     nbp: NBPClient,
+    source_name: str = "polygon_salary",
 ) -> Optional[FIFOLot]:
     # Parse date: "Apr-01-2025" -> "2025-04-01"
     try:
@@ -89,9 +88,17 @@ def _parse_payment(
     amount = Decimal(match.group(1))
     asset = match.group(2).upper()
 
-    # Get NBP USD rate for cost basis
-    usd_rate = nbp.get_rate("USD", iso_date)
-    cost_pln = amount * usd_rate if usd_rate else Decimal("0")
+    # Determine NBP currency based on asset
+    # USDC/USDT -> USD rate; EUR -> EUR rate; SEK -> SEK rate
+    if asset in ("USDC", "USDT"):
+        nbp_currency = "USD"
+    elif asset in ("EUR", "SEK", "USD", "GBP"):
+        nbp_currency = asset
+    else:
+        nbp_currency = "USD"
+
+    rate = nbp.get_rate(nbp_currency, iso_date)
+    cost_pln = amount * rate if rate else Decimal("0")
 
     # Extract tx hash from URL for source_tx_id
     tx_hash = tx_url.split("/tx/")[-1] if "/tx/" in tx_url else ""
@@ -100,6 +107,8 @@ def _parse_payment(
         date=iso_date,
         amount=amount,
         cost_pln=cost_pln,
-        source="polygon_salary",
+        source=source_name,
         source_tx_id=tx_hash,
+        asset=asset,
+        fiat_currency=nbp_currency,
     )

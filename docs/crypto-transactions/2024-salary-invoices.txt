@@ -1,0 +1,84 @@
+# 2024 USDC salary - based on invoice issue dates (matching tax company approach)
+# Client: Byte Masons LLC (#34-#52) and Conclave (#57)
+# Revenue recognition: Art. 14 ust. 1c - invoice issue date
+# NBP USD rate from last business day before invoice date
+# 19 invoices = 120,000 USDC
+
+https://polygonscan.com/tx/0xa2b3a03764e608af10
+Jan-05-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x04a4c231fca31aa31f
+Jan-19-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xa5f3bad32445f6d185
+Feb-02-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x2b18c01068c1d58ecc
+Feb-16-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x20437f9c8f3557ba92
+Mar-01-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x1eb8c56a9951376966
+Mar-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x8944bba246787b3c52
+Mar-29-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xf8e88e140920513b61
+Apr-12-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x05f0db1e678ba0cdbd
+Apr-26-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x2bb8829e517700478f
+May-10-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x4636bf66a2d95f0e01
+May-24-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x059e6afd031137374e
+Jun-07-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xdaf5255b70c70d37be
+Jun-21-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xe69f825aaaa212be8d
+Jul-05-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xf434f3db50b3f680f3
+Jul-19-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xc0837e311c67d49005
+Aug-02-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x570254c186025f8d2b
+Aug-16-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xff294fcdcb333e3081
+Aug-30-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xff294fcdcb333e3081
+Dec-16-2024
+12000 USDC
+
+Total
+120000 USDC

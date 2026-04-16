@@ -15,7 +15,11 @@ def _make_prices(usd_rate="4.0", eur_rate="4.3"):
     def get_rate(currency, date_str):
         rates = {"PLN": Decimal("1"), "USD": Decimal(usd_rate), "EUR": Decimal(eur_rate)}
         return rates.get(currency.upper())
+    def get_rate_with_date(currency, date_str):
+        rate = get_rate(currency, date_str)
+        return rate, "2025-01-15"  # mock rate date
     nbp.get_rate = get_rate
+    nbp.get_rate_with_date = get_rate_with_date
     prices = PriceResolver(nbp)
     prices._get_coingecko_price = MagicMock(return_value=None)
     return prices

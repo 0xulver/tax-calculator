@@ -1,0 +1,91 @@
+# 2022 USDC salary payments on Fantom blockchain (Jan-Sep 2022)
+# Client: Byte Masons LLC
+# Fantom wallet: 0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+# Token: USDC on Fantom (0x04068DA6C83AFCFA0e13ba15A6696662335D5B75)
+# Source: User records (on-chain verification pending - FTMScan down)
+#
+# Swedish residency period -- pre-Poland acquisition costs
+# Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24
+# NOT deducted in Swedish K4 (K4 covered DeFi, not salary USDC)
+#
+# Note: Mar 3 payment was 4317 USDC (317 was expense reimbursement)
+# Using full 4317 as acquisition cost (crypto received regardless of classification)
+
+https://ftmscan.com/tx/pending-verification
+Jan-06-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jan-15-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jan-30-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Feb-15-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Mar-03-2022
+4317 USDC
+
+https://ftmscan.com/tx/pending-verification
+Mar-17-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Apr-02-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Apr-16-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+May-03-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+May-17-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jun-02-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jun-16-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jul-02-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Jul-16-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Aug-02-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Aug-16-2022
+4000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Sep-02-2022
+6000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Sep-16-2022
+6000 USDC
+
+https://ftmscan.com/tx/pending-verification
+Oct-02-2022
+6000 USDC
+
+Total
+82317 USDC

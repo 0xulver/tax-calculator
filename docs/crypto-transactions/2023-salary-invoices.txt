@@ -1,0 +1,84 @@
+# 2023 USDC salary - Polish residency period only (matching tax company approach)
+# Client: Byte Masons LLC
+# Revenue recognition: Art. 14 ust. 1c - invoice issue date
+# NBP USD rate from last business day before invoice date
+#
+# Moved to Poland: April 12, 2023 (rental agreement)
+# Invoices #7-#13 (Jan 6 - Mar 31) = Swedish income, excluded
+# Invoices #14-#32 (Apr 14 - Dec 8) = Polish income, 18 invoices
+# Tax company reported: 448,108.20 PLN for 2023
+
+https://polygonscan.com/tx/0x59b6df4d775e1dc688
+Apr-14-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xd521d0757660866d90
+Apr-28-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xda9f705d062cdc353b
+May-12-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x39f9e6d420530cb44b
+May-26-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x9c39b8edf60b9954bd
+Jun-09-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xf9860f874d403a88c6
+Jun-23-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xad17421408c6b61e34
+Jul-07-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xd316f86adf0580446d
+Jul-21-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x960e21d9e37a2f65b0
+Aug-04-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb83ea3c749e6b81c16
+Aug-18-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc1b05b88c1ad2ce4be
+Sep-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xee3595886fae04883d
+Sep-15-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xab61d8c08457879186
+Sep-29-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xf0c4dbb2a3f9a8b2ce
+Oct-13-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x42565a69d60ae30b6b
+Oct-27-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb7a6c2e01d80c27615
+Nov-10-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb1100125c812589cba
+Nov-24-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xff000000000000dec08
+Dec-08-2023
+6000 USDC
+
+Total
+108000 USDC

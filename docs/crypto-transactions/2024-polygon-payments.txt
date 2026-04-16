@@ -1,0 +1,82 @@
+# 2024 USDC salary payments from Byte Masons LLC / Conclave
+# Polygon wallet: 0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+# Sender: 0xd152f549545093347a162dce210e7293f1452150
+# Tokens: USDC.e (Jan-Jun) then native USDC (Jul-Dec)
+# Source: Polygonscan API tokentx query
+
+# USDC.e payments (bridged USDC)
+https://polygonscan.com/tx/0xa2b3a03764e608af10
+Jan-02-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x04a4c231fca31aa31f
+Jan-16-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xa5f3bad32445f6d185
+Feb-02-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x2b18c01068c1d58ecc
+Feb-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x20437f9c8f3557ba92
+Mar-04-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x1eb8c56a9951376966
+Mar-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x8944bba246787b3c52
+Apr-01-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xf8e88e140920513b61
+Apr-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x05f0db1e678ba0cdbd
+May-01-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x2bb8829e517700478f
+May-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x4636bf66a2d95f0e01
+Jun-03-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x059e6afd031137374e
+Jun-14-2024
+6000 USDC
+
+# Native USDC payments (switched from USDC.e)
+https://polygonscan.com/tx/0xdaf5255b70c70d37be
+Jul-15-2024
+6536 USDC
+
+https://polygonscan.com/tx/0xe69f825aaaa212be8d
+Aug-01-2024
+6150 USDC
+
+https://polygonscan.com/tx/0xf434f3db50b3f680f3
+Aug-15-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xc0837e311c67d49005
+Sep-02-2024
+6000 USDC
+
+https://polygonscan.com/tx/0x570254c186025f8d2b
+Sep-16-2024
+6000 USDC
+
+https://polygonscan.com/tx/0xff294fcdcb333e3081
+Dec-16-2024
+12000 USDC
+
+Total
+114686 USDC

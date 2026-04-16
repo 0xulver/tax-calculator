@@ -2,55 +2,55 @@
   "yearly_results": {
     "2020": {
       "revenue_pln": "3640.457336",
-      "costs_current_year_pln": "271378.20184801",
+      "costs_current_year_pln": "278039.84519401",
       "costs_prior_years_pln": "0",
       "income_pln": "0",
-      "carry_forward_pln": "267737.74451201",
+      "carry_forward_pln": "274399.38785801",
       "tax_due_pln": "0.00",
       "disposal_count": 1
     },
     "2021": {
       "revenue_pln": "265133.11964358",
-      "costs_current_year_pln": "530117.0168650316",
-      "costs_prior_years_pln": "267737.74451201",
+      "costs_current_year_pln": "561228.4742910316",
+      "costs_prior_years_pln": "274399.38785801",
       "income_pln": "0",
-      "carry_forward_pln": "532721.6417334616",
+      "carry_forward_pln": "570494.7425054616",
       "tax_due_pln": "0.00",
       "disposal_count": 24
     },
     "2022": {
       "revenue_pln": "437946.26269584",
-      "costs_current_year_pln": "136089.5321679455",
-      "costs_prior_years_pln": "532721.6417334616",
+      "costs_current_year_pln": "510774.06541800",
+      "costs_prior_years_pln": "570494.7425054616",
       "income_pln": "0",
-      "carry_forward_pln": "230864.9112055671",
+      "carry_forward_pln": "643322.5452276216",
       "tax_due_pln": "0.00",
       "disposal_count": 27
     },
     "2023": {
       "revenue_pln": "411143.90920192",
-      "costs_current_year_pln": "309051.8626957507",
-      "costs_prior_years_pln": "230864.9112055671",
+      "costs_current_year_pln": "702974.03825943",
+      "costs_prior_years_pln": "643322.5452276216",
       "income_pln": "0",
-      "carry_forward_pln": "128772.8646993978",
+      "carry_forward_pln": "935152.6742851316",
       "tax_due_pln": "0.00",
       "disposal_count": 21
     },
     "2024": {
       "revenue_pln": "785508.574596263929",
-      "costs_current_year_pln": "778181.6737429447",
-      "costs_prior_years_pln": "128772.8646993978",
+      "costs_current_year_pln": "488065.6097300650",
+      "costs_prior_years_pln": "935152.6742851316",
       "income_pln": "0",
-      "carry_forward_pln": "121445.963846078571",
+      "carry_forward_pln": "637709.709418932671",
       "tax_due_pln": "0.00",
       "disposal_count": 32
     },
     "2025": {
       "revenue_pln": "271316.954734785395",
-      "costs_current_year_pln": "468478.7150739021",
-      "costs_prior_years_pln": "121445.963846078571",
+      "costs_current_year_pln": "197234.3704282580",
+      "costs_prior_years_pln": "637709.709418932671",
       "income_pln": "0",
-      "carry_forward_pln": "318607.724185195276",
+      "carry_forward_pln": "563627.125112405276",
       "tax_due_pln": "0.00",
       "disposal_count": 15
     }

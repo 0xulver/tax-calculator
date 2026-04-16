@@ -1,0 +1,49 @@
+# Celsius CEL Token Purchases via Simplex (Fiat-to-Crypto)
+#
+# These are fiat (SEK) purchases of CEL token processed by Simplex
+# on behalf of Celsius. Charged to card as "Simplex-Elastum".
+# All sent to wallet: 0xDF08636DB7B51368221623cD986Bd7a09eEEF4FF
+#
+# Celsius filed for bankruptcy in July 2022. The CEL tokens are worthless.
+# However, the fiat spent acquiring them remains a valid deductible cost
+# in the Polish PIT-38 cost pool (Art. 22 ust. 14-16).
+# Bankruptcy is NOT a taxable disposal event.
+#
+# Pre-Poland residency period (Swedish resident)
+# Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24
+#
+# Source: Simplex email confirmations found via Gmail search.
+# Currency: SEK (convert to PLN using NBP SEK rate from day before purchase)
+# Amount field = SEK paid (fiat cost basis for PIT-38)
+#
+# Cancelled attempts (card NOT charged, no cost event):
+# Dec 27-31, 2020: 11 cancelled
+# Jan 1, 2021: 1 cancelled
+# Feb 4, 2021: 5 cancelled
+
+https://celsius.network/tx/pending-verification
+Dec-26-2020
+6386.45 SEK
+
+https://celsius.network/tx/pending-verification
+Dec-27-2020
+6415.12 SEK
+
+https://celsius.network/tx/pending-verification
+Dec-27-2020
+2104.77 SEK
+
+https://celsius.network/tx/pending-verification
+Jan-01-2021
+12631.46 SEK
+
+https://celsius.network/tx/pending-verification
+Jan-17-2021
+4000.00 SEK
+
+https://celsius.network/tx/pending-verification
+Jan-27-2021
+12000.00 SEK
+
+Total
+43537.80 SEK

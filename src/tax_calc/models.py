@@ -52,6 +52,8 @@ class FIFOLot:
     cost_pln: Decimal
     source: str = ""
     source_tx_id: str = ""
+    asset: str = "USDC"  # crypto asset received/purchased
+    fiat_currency: str = "USD"  # fiat currency used for NBP rate
 
     @property
     def cost_per_unit(self) -> Decimal:

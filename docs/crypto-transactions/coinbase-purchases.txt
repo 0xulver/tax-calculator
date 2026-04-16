@@ -1,0 +1,36 @@
+# Coinbase Cryptocurrency Purchases (Fiat-to-Crypto)
+#
+# These are fiat (EUR) purchases on Coinbase, paid via card ending in 2680.
+# Source: Coinbase purchase receipt emails found via Gmail search.
+#
+# Pre-Poland residency period (Swedish resident)
+# Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24
+#
+# Currency: EUR (convert to PLN using NBP EUR rate from day before purchase)
+# Note: One declined attempt (Apr 18, 2021 SNX) is excluded -- card not charged.
+#
+# Assets purchased: SNX (4 buys), AAVE (1 buy)
+# Amount field = EUR paid (fiat cost basis for PIT-38)
+
+https://coinbase.com/tx/75Y5FJFC
+Mar-13-2021
+590.00 EUR
+
+https://coinbase.com/tx/53LRTE8G
+Mar-25-2021
+400.00 EUR
+
+https://coinbase.com/tx/N566XURW
+Mar-25-2021
+300.00 EUR
+
+https://coinbase.com/tx/CQ7KU3QU
+Apr-23-2021
+690.00 EUR
+
+https://coinbase.com/tx/4D4K8N72
+Jun-08-2021
+650.00 EUR
+
+Total
+2630.00 EUR

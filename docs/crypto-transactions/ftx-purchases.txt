@@ -1,0 +1,20 @@
+# FTX fiat deposits (crypto purchases) -- 2021
+# Exchange: FTX (bankrupt, full transaction history unavailable)
+# Only fiat deposit records available; exact crypto purchased unknown
+#
+# Pre-Poland residency period (Swedish resident)
+# Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24
+#
+# Note: FTX filed for bankruptcy Nov 2022. Cannot retrieve trade history.
+# These fiat deposits confirm crypto was purchased for at least these amounts.
+
+https://ftx.com/tx/pending-verification
+May-14-2021
+860.84 EUR
+
+https://ftx.com/tx/pending-verification
+Jun-02-2021
+489.30 EUR
+
+Total
+1350.14 EUR

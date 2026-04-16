@@ -1,0 +1,66 @@
+# Pre-Poland USDC salary payments (Swedish residency period)
+# Client: Byte Masons LLC
+# These are acquisition costs for USDC received before Polish tax residency.
+# Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24.
+# NOT deducted in Swedish K4 returns (K4 covered DeFi transactions, not salary USDC).
+#
+# Revenue recognition: invoice issue date (matching tax company approach)
+# NBP USD rate from last business day before invoice date
+#
+# 2022 invoices (Oct-Dec on Polygon):
+# Moved to Poland: April 12, 2023 -- everything below is Swedish-period income
+# Note: Oct 2 payment was on Fantom (in 2022-fantom-salary.txt)
+# Polygon payments start Oct 16, 2022
+
+https://polygonscan.com/tx/0x173aa0d0d57ad59a
+Oct-16-2022
+6000 USDC
+
+https://polygonscan.com/tx/0x81c04efdb0479b10
+Nov-01-2022
+6000 USDC
+
+https://polygonscan.com/tx/0x1e8658a7cc4e6294
+Nov-15-2022
+6000 USDC
+
+https://polygonscan.com/tx/0xc2d1660c24d9f51f
+Dec-01-2022
+6000 USDC
+
+https://polygonscan.com/tx/0x445df0da65e16705
+Dec-15-2022
+6000 USDC
+
+# 2023 invoices #7-#13 (Jan-Mar, before moving to Poland April 12)
+
+https://polygonscan.com/tx/0x00fe0bda4de80e03
+Jan-06-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xbd7533e7d4de465f
+Jan-20-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x507aa02cc7d91705
+Feb-03-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x7aadf9fa9248e5c1
+Feb-17-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xe8440431150b44eb
+Mar-03-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc09d63742c7efcc1
+Mar-17-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc5b02f27f93c1b2b
+Mar-31-2023
+6000 USDC
+
+Total
+72000 USDC

@@ -1,0 +1,104 @@
+# 2023 USDC.e salary payments from Byte Masons LLC
+# Polygon wallet: 0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+# Sender: 0xd152f549545093347a162dce210e7293f1452150
+# Token: USDC.e (0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174)
+# Source: Polygonscan API tokentx query
+
+https://polygonscan.com/tx/0x00fe0bda4de80e0363
+Jan-02-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xbd7533e7d4de465f82
+Jan-16-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x507aa02cc7d917053b
+Feb-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x7aadf9fa9248e5c1a5
+Feb-15-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xe8440431150b44eb9c
+Mar-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc09d63742c7efcc1cd
+Mar-15-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc5b02f27f93c1b2b1a
+Apr-02-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x59b6df4d775e1dc688
+Apr-17-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xd521d0757660866d90
+May-02-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xda9f705d062cdc353b
+May-16-2023
+6697 USDC
+
+https://polygonscan.com/tx/0x39f9e6d420530cb44b
+Jun-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x9c39b8edf60b9954bd
+Jun-16-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xf9860f874d403a88c6
+Jul-03-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xad17421408c6b61e34
+Jul-17-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xd316f86adf0580446d
+Jul-31-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x960e21d9e37a2f65b0
+Aug-14-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb83ea3c749e6b81c16
+Aug-31-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xc1b05b88c1ad2ce4be
+Sep-16-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xee3595886fae04883d
+Oct-03-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xab61d8c08457879186
+Oct-17-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xf0c4dbb2a3f9a8b2ce
+Nov-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0x42565a69d60ae30b6b
+Nov-16-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb7a6c2e01d80c27615
+Dec-01-2023
+6000 USDC
+
+https://polygonscan.com/tx/0xb1100125c812589cba
+Dec-15-2023
+6000 USDC
+
+Total
+144697 USDC

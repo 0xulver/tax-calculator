@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2021
 
-Generated: 2026-03-19 19:42
+Generated: 2026-04-16 11:31
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)
@@ -8,10 +8,10 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | PIT-38 Field | Description | Amount (PLN) |
 | ---: | --- | ---: |
 | **Poz. 34** | Revenue from crypto disposals (przychody z odplatnego zbycia walut wirtualnych) | **265,133.12** |
-| **Poz. 35** | Costs incurred in 2021 (koszty uzyskania przychodow poniesione w roku podatkowym) | **530,117.02** |
-| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **267,737.74** |
+| **Poz. 35** | Costs incurred in 2021 (koszty uzyskania przychodow poniesione w roku podatkowym) | **561,228.47** |
+| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **274,399.39** |
 | Poz. 37 | Income / dochod | 0.00 |
-| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **532,721.64** |
+| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **570,494.74** |
 
 ## Tax Calculation
 
@@ -25,207 +25,268 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 - **24** taxable disposal events (crypto -> fiat)
 - Revenue: all fiat received from selling crypto = **265,133.12 PLN**
-- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **530,117.02 PLN**
-- Costs from prior years: undeducted carry-forward = **267,737.74 PLN**
-- Total costs: 797,854.76 PLN
+- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **561,228.47 PLN**
+- Costs from prior years: undeducted carry-forward = **274,399.39 PLN**
+- Total costs: 835,627.86 PLN
 - Costs exceed revenue: income = 0, no tax due
-- Excess costs of **532,721.64 PLN** carry forward to 2022
+- Excess costs of **570,494.74 PLN** carry forward to 2022
+
+---
+
+## Verification: Cost Breakdown by Category
+
+| Category | Count | Total (PLN) |
+| --- | ---: | ---: |
+| Crypto purchases | 66 | 268,753.76 |
+| Fiat purchases (CELSIUS) | 3 | 13,020.35 |
+| Fiat purchases (COINBASE) | 5 | 11,989.28 |
+| Fiat purchases (FTX) | 2 | 6,101.83 |
+| Stablecoin deposits | 26 | 258,580.46 |
+| Trading fees | 70 | 2,782.79 |
+| **TOTAL (= Poz. 35)** | **172** | **561,228.47** |
+
+## Verification: Revenue Breakdown by Source
+
+| Source | Count | Total (PLN) |
+| --- | ---: | ---: |
+| binance | 9 | 64,223.76 |
+| kraken | 15 | 200,909.36 |
+| **TOTAL (= Poz. 34)** | **24** | **265,133.12** |
+
+## Verification: Revenue Breakdown by Asset
+
+| Asset | Count | Total (PLN) |
+| --- | ---: | ---: |
+| BUSD | 5 | 37,941.62 |
+| DOT | 1 | 4,463.38 |
+| KAR | 1 | 19,698.22 |
+| LINK | 1 | 21,494.63 |
+| LUNA | 4 | 26,282.14 |
+| USDC | 11 | 151,078.49 |
+| USDT | 1 | 4,174.64 |
+| **TOTAL** | **24** | **265,133.12** |
+
+---
 
 ## Revenue Events (Crypto -> Fiat Disposals)
 
-| Date | Asset | Amount | Counterparty | CP Amount | Revenue (PLN) | Method |
-| --- | --- | ---: | --- | ---: | ---: | --- |
-| 2021-01-04 | USDC | 9125.1311 | EUR | 7185.69 | 33,160.52 | nbp_eur |
-| 2021-02-04 | USDC | 5001 | EUR | 4110.67 | 18,459.37 | nbp_eur |
-| 2021-02-16 | DOT | 4E+1 | EUR | 995.49 | 4,463.38 | nbp_eur |
-| 2021-02-16 | USDC | 3E+3 | EUR | 2445.21 | 10,963.34 | nbp_eur |
-| 2021-05-07 | USDC | 3.5E+3 | USD | 3499.65 | 13,321.77 | nbp_usd |
-| 2021-05-09 | USDC | 5E+3 | USD | 4999.5 | 18,928.61 | nbp_usd |
-| 2021-05-22 | USDC | 1.5E+3 | USD | 1.5E+3 | 5,516.70 | nbp_usd |
-| 2021-06-11 | USDC | 1E+3 | EUR | 826.6 | 3,703.17 | nbp_eur |
-| 2021-07-28 | USDC | 1005 | EUR | 848.27 | 3,898.14 | nbp_eur |
-| 2021-08-11 | USDC | 1574 | EUR | 1340.1 | 6,121.71 | nbp_eur |
-| 2021-08-20 | LINK | 199.23997 | USD | 5479.689 | 21,494.63 | nbp_usd |
-| 2021-08-20 | USDC | 3E+3 | USD | 2999.73 | 11,766.74 | nbp_usd |
-| 2021-08-22 | KAR | 619.66929 | USD | 5012.1418 | 19,698.22 | nbp_usd |
-| 2021-10-08 | USDC | 6415.7332 | EUR | 5550.32 | 25,238.42 | nbp_eur |
-| 2021-10-31 | LUNA | 15.18 | EUR | 566.214 | 2,616.36 | nbp_eur |
-| 2021-10-31 | LUNA | 20.49 | EUR | 766.326 | 3,541.04 | nbp_eur |
-| 2021-10-31 | LUNA | 17.42 | EUR | 653.25 | 3,018.54 | nbp_eur |
-| 2021-11-01 | LUNA | 98.72 | EUR | 3702 | 17,106.20 | nbp_eur |
-| 2021-11-25 | BUSD | 2571.3498 | EUR | 2293.8 | 10,737.51 | nbp_eur |
-| 2021-12-08 | BUSD | 1053.1312 | EUR | 932.8 | 4,290.04 | nbp_eur |
-| 2021-12-20 | BUSD | 3692.727 | EUR | 3267.9 | 15,141.49 | nbp_eur |
-| 2021-12-22 | USDT | 1019.9555 | EUR | 902.86 | 4,174.64 | nbp_eur |
-| 2021-12-22 | BUSD | 733.822 | EUR | 649.4 | 3,002.70 | nbp_eur |
-| 2021-12-30 | BUSD | 1172.847 | EUR | 1037 | 4,769.89 | nbp_eur |
+| # | Date | Source | Tx ID | Asset | Amount | Counterparty | CP Amount | NBP Rate | Rate Date | Revenue (PLN) |
+| ---: | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- | ---: |
+| 1 | 2021-01-04 | kraken | LJQE4P-ZTEIF-XVK | USDC | 9125.1311 | EUR | 7185.69 | 4.6148 EUR/PLN | 2021-01-01 | 33,160.52 |
+| 2 | 2021-02-04 | kraken | L7FJ75-KXRCN-NGF | USDC | 5001 | EUR | 4110.67 | 4.4906 EUR/PLN | 2021-02-03 | 18,459.37 |
+| 3 | 2021-02-16 | kraken | L33HHS-65RKR-6PV | DOT | 4E+1 | EUR | 995.49 | 4.4836 EUR/PLN | 2021-02-15 | 4,463.38 |
+| 4 | 2021-02-16 | kraken | LKZILD-RH4U6-TPM | USDC | 3E+3 | EUR | 2445.21 | 4.4836 EUR/PLN | 2021-02-15 | 10,963.34 |
+| 5 | 2021-05-07 | kraken | LGLZP3-CB73E-W7S | USDC | 3.5E+3 | USD | 3499.65 | 3.8066 USD/PLN | 2021-05-06 | 13,321.77 |
+| 6 | 2021-05-09 | kraken | LIV4H5-MACAN-73H | USDC | 5E+3 | USD | 4999.5 | 3.7861 USD/PLN | 2021-05-07 | 18,928.61 |
+| 7 | 2021-05-22 | kraken | LWHT6N-46Y36-5W7 | USDC | 1.5E+3 | USD | 1.5E+3 | 3.6778 USD/PLN | 2021-05-21 | 5,516.70 |
+| 8 | 2021-06-11 | kraken | LNZNQC-ZS3ZK-3IV | USDC | 1E+3 | EUR | 826.6 | 4.4800 EUR/PLN | 2021-06-10 | 3,703.17 |
+| 9 | 2021-07-28 | kraken | LVTE67-QJQHI-EN5 | USDC | 1005 | EUR | 848.27 | 4.5954 EUR/PLN | 2021-07-27 | 3,898.14 |
+| 10 | 2021-08-11 | kraken | LY4AZV-FIJTM-N6K | USDC | 1574 | EUR | 1340.1 | 4.5681 EUR/PLN | 2021-08-10 | 6,121.71 |
+| 11 | 2021-08-20 | kraken | LU33Z4-CMZOQ-VRJ | LINK | 199.23997 | USD | 5479.689 | 3.9226 USD/PLN | 2021-08-19 | 21,494.63 |
+| 12 | 2021-08-20 | kraken | LJRRRH-25YQB-HMP | USDC | 3E+3 | USD | 2999.73 | 3.9226 USD/PLN | 2021-08-19 | 11,766.74 |
+| 13 | 2021-08-22 | kraken | LLR6ID-JUSHN-37E | KAR | 619.66929 | USD | 5012.1418 | 3.9301 USD/PLN | 2021-08-20 | 19,698.22 |
+| 14 | 2021-10-08 | kraken | LWA7RW-5I2WD-SJZ | USDC | 6415.7332 | EUR | 5550.32 | 4.5472 EUR/PLN | 2021-10-07 | 25,238.42 |
+| 15 | 2021-10-31 | binance | — | LUNA | 15.18 | EUR | 566.214 | 4.6208 EUR/PLN | 2021-10-29 | 2,616.36 |
+| 16 | 2021-10-31 | binance | — | LUNA | 20.49 | EUR | 766.326 | 4.6208 EUR/PLN | 2021-10-29 | 3,541.04 |
+| 17 | 2021-10-31 | binance | — | LUNA | 17.42 | EUR | 653.25 | 4.6208 EUR/PLN | 2021-10-29 | 3,018.54 |
+| 18 | 2021-11-01 | binance | — | LUNA | 98.72 | EUR | 3702 | 4.6208 EUR/PLN | 2021-10-29 | 17,106.20 |
+| 19 | 2021-11-25 | binance | — | BUSD | 2571.3498 | EUR | 2293.8 | 4.6811 EUR/PLN | 2021-11-24 | 10,737.51 |
+| 20 | 2021-12-08 | binance | — | BUSD | 1053.1312 | EUR | 932.8 | 4.5991 EUR/PLN | 2021-12-07 | 4,290.04 |
+| 21 | 2021-12-20 | binance | — | BUSD | 3692.727 | EUR | 3267.9 | 4.6334 EUR/PLN | 2021-12-17 | 15,141.49 |
+| 22 | 2021-12-22 | kraken | LPN7R5-FBZDS-4DT | USDT | 1019.9555 | EUR | 902.86 | 4.6238 EUR/PLN | 2021-12-21 | 4,174.64 |
+| 23 | 2021-12-22 | binance | — | BUSD | 733.822 | EUR | 649.4 | 4.6238 EUR/PLN | 2021-12-21 | 3,002.70 |
+| 24 | 2021-12-30 | binance | — | BUSD | 1172.847 | EUR | 1037 | 4.5997 EUR/PLN | 2021-12-29 | 4,769.89 |
+
+**Revenue total: 265,133.12 PLN** (sum of all rows above)
 
 ## Cost Events (Crypto Acquisitions)
 
-| Date | Type | Asset | Amount | Cost (PLN) | Method | Notes |
-| --- | --- | --- | ---: | ---: | --- | --- |
-| 2021-01-01 | kraken | ETH | 0.25253 | 692.23 | nbp_eur | Buy 0.25253 ETH for 150.0028 EUR |
-| 2021-01-01 | kraken | ETH | 0.49739 | 1,384.44 | nbp_eur | Buy 0.49739 ETH for 3E+2 EUR |
-| 2021-01-01 | kraken | DOT | 34.04453733 | 1,153.70 | nbp_eur | Buy 34.04453733 DOT for 2.5E+2 EUR |
-| 2021-01-01 | kraken | KSM | 3.71428571 | 959.88 | nbp_eur | Buy 3.71428571 KSM for 208 EUR |
-| 2021-01-01 | kraken | EUR | 0.24 | 1.11 | nbp_eur_fee | Trading fee 0.24 EUR |
-| 2021-01-01 | kraken | EUR | 0.3328 | 1.54 | nbp_eur_fee | Trading fee 0.3328 EUR |
-| 2021-01-04 | kraken | USDC | 1E+1 | 37.58 | nbp_usd_stablecoin | Stablecoin deposit 1E+1 USDC |
-| 2021-01-04 | kraken | USDC | 9115.1311 | 34,258.31 | nbp_usd_stablecoin | Stablecoin deposit 9115.1311 USDC |
-| 2021-01-04 | kraken | ETH | 1.29735 | 4,614.80 | nbp_eur | Buy 1.29735 ETH for 1E+3 EUR |
-| 2021-01-04 | kraken | BTC | 0.04119078 | 4,614.80 | nbp_eur | Buy 0.04119078 BTC for 1E+3 EUR |
-| 2021-01-04 | kraken | ETH | 1.2795 | 4,614.80 | nbp_eur | Buy 1.2795 ETH for 1E+3 EUR |
-| 2021-01-04 | kraken | ETH | 2.5392 | 9,229.60 | nbp_eur | Buy 2.5392 ETH for 2E+3 EUR |
-| 2021-01-04 | kraken | ETH | 2.77356 | 10,091.23 | nbp_eur | Buy 2.77356 ETH for 2186.71 EUR |
-| 2021-01-07 | kraken | DOT | 3.125 | 113.62 | nbp_eur | Buy 3.125 DOT for 25 EUR |
-| 2021-01-07 | kraken | KSM | 0.70796459 | 181.78 | nbp_eur | Buy 0.70796459 KSM for 4E+1 EUR |
-| 2021-01-07 | kraken | LINK | 15.02327 | 908.92 | nbp_eur | Buy 15.02327 LINK for 2E+2 EUR |
-| 2021-01-07 | kraken | KSM | 4.37361555 | 1,158.42 | nbp_eur | Buy 4.37361555 KSM for 254.9 EUR |
-| 2021-01-07 | kraken | EUR | 0.04 | 0.18 | nbp_eur_fee | Trading fee 0.04 EUR |
-| 2021-01-07 | kraken | EUR | 0.064 | 0.29 | nbp_eur_fee | Trading fee 0.064 EUR |
-| 2021-02-04 | kraken | USDC | 1E+1 | 37.35 | nbp_usd_stablecoin | Stablecoin deposit 1E+1 USDC |
-| 2021-02-04 | kraken | USDC | 4991 | 18,642.38 | nbp_usd_stablecoin | Stablecoin deposit 4991 USDC |
-| 2021-02-04 | kraken | SNX | 97.42451 | 6,735.90 | nbp_eur | Buy 97.42451 SNX for 1.5E+3 EUR |
-| 2021-02-04 | kraken | KSM | 10.3926337 | 4,490.60 | nbp_eur | Buy 10.3926337 KSM for 1E+3 EUR |
-| 2021-02-04 | kraken | AAVE | 4.45771 | 7,232.87 | nbp_eur | Buy 4.45771 AAVE for 1610.67 EUR |
-| 2021-02-16 | kraken | USDC | 2E+1 | 73.90 | nbp_usd_stablecoin | Stablecoin deposit 2E+1 USDC |
-| 2021-02-16 | kraken | USDC | 2.98E+3 | 11,010.80 | nbp_usd_stablecoin | Stablecoin deposit 2.98E+3 USDC |
-| 2021-02-26 | kraken | AAVE | 1.08544 | 1,354.29 | nbp_eur | Buy 1.08544 AAVE for 3E+2 EUR |
-| 2021-02-26 | kraken | LINK | 14.18524 | 1,354.29 | nbp_eur | Buy 14.18524 LINK for 3E+2 EUR |
-| 2021-02-26 | kraken | ETH | 0.31235 | 1,715.43 | nbp_eur | Buy 0.31235 ETH for 3.8E+2 EUR |
-| 2021-05-07 | kraken | USDC | 2E+1 | 76.13 | nbp_usd_stablecoin | Stablecoin deposit 2E+1 USDC |
-| 2021-05-07 | kraken | USDC | 3.48E+3 | 13,246.97 | nbp_usd_stablecoin | Stablecoin deposit 3.48E+3 USDC |
-| 2021-05-07 | kraken | SNX | 181.05183 | 13,007.80 | nbp_usd | Buy 181.05183 SNX for 3417.17 USD |
-| 2021-05-07 | kraken | USD | 31.22 | 118.84 | nbp_usd_fee | Trading fee 31.22 USD |
-| 2021-05-07 | kraken | USD | 51.26 | 195.13 | nbp_usd_fee | Trading fee 51.26 USD |
-| 2021-05-09 | kraken | USDC | 5E+3 | 18,930.50 | nbp_usd_stablecoin | Stablecoin deposit 5E+3 USDC |
-| 2021-05-09 | kraken | SNX | 110.77137 | 7,460.28 | nbp_usd | Buy 110.77137 SNX for 1970.44 USD |
-| 2021-05-09 | kraken | DOT | 73.06537782 | 11,022.21 | nbp_usd | Buy 73.06537782 DOT for 2911.23 USD |
-| 2021-05-09 | kraken | USD | 44.6 | 168.86 | nbp_usd_fee | Trading fee 44.6 USD |
-| 2021-05-09 | kraken | USD | 29.56 | 111.92 | nbp_usd_fee | Trading fee 29.56 USD |
-| 2021-05-09 | kraken | USD | 43.67 | 165.34 | nbp_usd_fee | Trading fee 43.67 USD |
-| 2021-05-12 | kraken | DOT | 9.29598751 | 1,348.58 | nbp_eur | Buy 9.29598751 DOT for 295.56 EUR |
-| 2021-05-12 | kraken | EUR | 4.44 | 20.26 | nbp_eur_fee | Trading fee 4.44 EUR |
-| 2021-05-14 | kraken | DOT | 8.22358964 | 1,343.28 | nbp_eur | Buy 8.22358964 DOT for 295.57 EUR |
-| 2021-05-14 | kraken | AAVE | 0.59215 | 1,343.28 | nbp_eur | Buy 0.59215 AAVE for 295.57 EUR |
-| 2021-05-14 | kraken | AAVE | 0.57233 | 1,343.28 | nbp_eur | Buy 0.57233 AAVE for 295.57 EUR |
-| 2021-05-14 | kraken | DOT | 8.05358317 | 1,343.28 | nbp_eur | Buy 8.05358317 DOT for 295.57 EUR |
-| 2021-05-14 | kraken | EUR | 4.43 | 20.13 | nbp_eur_fee | Trading fee 4.43 EUR |
-| 2021-05-14 | kraken | EUR | 4.43 | 20.13 | nbp_eur_fee | Trading fee 4.43 EUR |
-| 2021-05-14 | kraken | EUR | 4.43 | 20.13 | nbp_eur_fee | Trading fee 4.43 EUR |
-| 2021-05-14 | kraken | EUR | 4.43 | 20.13 | nbp_eur_fee | Trading fee 4.43 EUR |
-| 2021-05-15 | kraken | DOT | 8 | 1,381.23 | nbp_eur | Buy 8 DOT for 304.8 EUR |
-| 2021-05-15 | kraken | DOT | 7 | 1,199.06 | nbp_eur | Buy 7 DOT for 264.6 EUR |
-| 2021-05-15 | kraken | DOT | 1E+1 | 1,694.82 | nbp_eur | Buy 1E+1 DOT for 374 EUR |
-| 2021-05-15 | kraken | DOT | 14 | 2,347.37 | nbp_eur | Buy 14 DOT for 518 EUR |
-| 2021-05-15 | kraken | AAVE | 0.8 | 1,631.38 | nbp_eur | Buy 0.8 AAVE for 3.6E+2 EUR |
-| 2021-05-15 | kraken | DOT | 2.74438029 | 462.95 | nbp_eur | Buy 2.74438029 DOT for 102.16 EUR |
-| 2021-05-15 | kraken | EUR | 0.4877 | 2.21 | nbp_eur_fee | Trading fee 0.4877 EUR |
-| 2021-05-15 | kraken | EUR | 0.4234 | 1.92 | nbp_eur_fee | Trading fee 0.4234 EUR |
-| 2021-05-15 | kraken | EUR | 0.5984 | 2.71 | nbp_eur_fee | Trading fee 0.5984 EUR |
-| 2021-05-15 | kraken | EUR | 0.8288 | 3.76 | nbp_eur_fee | Trading fee 0.8288 EUR |
-| 2021-05-15 | kraken | EUR | 0.576 | 2.61 | nbp_eur_fee | Trading fee 0.576 EUR |
-| 2021-05-15 | kraken | EUR | 1.53 | 6.93 | nbp_eur_fee | Trading fee 1.53 EUR |
-| 2021-05-22 | kraken | USDC | 2E+1 | 73.56 | nbp_usd_stablecoin | Stablecoin deposit 2E+1 USDC |
-| 2021-05-22 | kraken | USDC | 1.48E+3 | 5,443.14 | nbp_usd_stablecoin | Stablecoin deposit 1.48E+3 USDC |
-| 2021-05-22 | kraken | KSM | 0.3 | 353.07 | nbp_usd | Buy 0.3 KSM for 96 USD |
-| 2021-05-22 | kraken | USD | 13.38 | 49.21 | nbp_usd_fee | Trading fee 13.38 USD |
-| 2021-05-22 | kraken | USD | 0.1536 | 0.56 | nbp_usd_fee | Trading fee 0.1536 USD |
-| 2021-05-23 | kraken | KSM | 0.4 | 456.05 | nbp_usd | Buy 0.4 KSM for 124 USD |
-| 2021-05-23 | kraken | KSM | 0.6 | 662.00 | nbp_usd | Buy 0.6 KSM for 1.8E+2 USD |
-| 2021-05-23 | kraken | KSM | 0.9 | 976.46 | nbp_usd | Buy 0.9 KSM for 265.5 USD |
-| 2021-05-23 | kraken | KSM | 1.2 | 1,279.87 | nbp_usd | Buy 1.2 KSM for 348 USD |
-| 2021-05-23 | kraken | KSM | 1.5 | 1,572.26 | nbp_usd | Buy 1.5 KSM for 427.5 USD |
-| 2021-05-23 | kraken | KSM | 0.15444714 | 159.05 | nbp_usd | Buy 0.15444714 KSM for 43.2452 USD |
-| 2021-05-23 | kraken | USD | 0.1984 | 0.73 | nbp_usd_fee | Trading fee 0.1984 USD |
-| 2021-05-23 | kraken | USD | 0.288 | 1.06 | nbp_usd_fee | Trading fee 0.288 USD |
-| 2021-05-23 | kraken | USD | 0.4248 | 1.56 | nbp_usd_fee | Trading fee 0.4248 USD |
-| 2021-05-23 | kraken | USD | 0.5568 | 2.05 | nbp_usd_fee | Trading fee 0.5568 USD |
-| 2021-05-23 | kraken | USD | 0.684 | 2.52 | nbp_usd_fee | Trading fee 0.684 USD |
-| 2021-05-23 | kraken | USD | 0.0692 | 0.25 | nbp_usd_fee | Trading fee 0.0692 USD |
-| 2021-05-25 | kraken | USDC | 1175.035 | 4,310.84 | nbp_eur | Buy 1175.035 USDC for 960.59 EUR |
-| 2021-05-25 | kraken | EUR | 14.41 | 64.67 | nbp_eur_fee | Trading fee 14.41 EUR |
-| 2021-05-26 | kraken | DOT | 10.79092701 | 949.08 | nbp_eur | Buy 10.79092701 DOT for 211.82 EUR |
-| 2021-05-26 | kraken | DOT | 2.7027027 | 224.03 | nbp_eur | Buy 2.7027027 DOT for 5E+1 EUR |
-| 2021-05-26 | kraken | DOT | 4.12087912 | 336.04 | nbp_eur | Buy 4.12087912 DOT for 75 EUR |
-| 2021-05-26 | kraken | EUR | 3.18 | 14.25 | nbp_eur_fee | Trading fee 3.18 EUR |
-| 2021-05-26 | kraken | EUR | 0.08 | 0.36 | nbp_eur_fee | Trading fee 0.08 EUR |
-| 2021-05-26 | kraken | EUR | 0.12 | 0.54 | nbp_eur_fee | Trading fee 0.12 EUR |
-| 2021-05-27 | kraken | DOT | 5.55555556 | 449.14 | nbp_eur | Buy 5.55555556 DOT for 1E+2 EUR |
-| 2021-05-27 | kraken | EUR | 0.16 | 0.72 | nbp_eur_fee | Trading fee 0.16 EUR |
-| 2021-05-28 | kraken | LINK | 12.09677 | 1,349.40 | nbp_eur | Buy 12.09677 LINK for 299.9999 EUR |
-| 2021-05-28 | kraken | LINK | 16.66667 | 1,799.20 | nbp_eur | Buy 16.66667 LINK for 400.0001 EUR |
-| 2021-05-28 | kraken | LINK | 25.53191 | 2,698.80 | nbp_eur | Buy 25.53191 LINK for 599.9999 EUR |
-| 2021-05-28 | kraken | DOT | 53.19148936 | 4,498.00 | nbp_eur | Buy 53.19148936 DOT for 1E+3 EUR |
-| 2021-05-28 | kraken | SNX | 99.0099 | 4,496.22 | nbp_eur | Buy 99.0099 SNX for 999.604 EUR |
-| 2021-05-28 | kraken | DOT | 25.3 | 2,128.05 | nbp_eur | Buy 25.3 DOT for 473.11 EUR |
-| 2021-05-28 | kraken | DOT | 28.17593583 | 2,369.95 | nbp_eur | Buy 28.17593583 DOT for 526.89 EUR |
-| 2021-05-28 | kraken | AAVE | 3.63636 | 4,498.00 | nbp_eur | Buy 3.63636 AAVE for 999.999 EUR |
-| 2021-05-28 | kraken | DOT | 16.66666667 | 1,349.40 | nbp_eur | Buy 16.66666667 DOT for 3E+2 EUR |
-| 2021-05-28 | kraken | DOT | 28.24858757 | 2,249.00 | nbp_eur | Buy 28.24858757 DOT for 5E+2 EUR |
-| 2021-05-28 | kraken | DOT | 96.14962833 | 7,533.43 | nbp_eur | Buy 96.14962833 DOT for 1674.84 EUR |
-| 2021-05-28 | kraken | EUR | 0.48 | 2.16 | nbp_eur_fee | Trading fee 0.48 EUR |
-| 2021-05-28 | kraken | EUR | 0.64 | 2.88 | nbp_eur_fee | Trading fee 0.64 EUR |
-| 2021-05-28 | kraken | EUR | 0.96 | 4.32 | nbp_eur_fee | Trading fee 0.96 EUR |
-| 2021-05-28 | kraken | EUR | 1.6 | 7.20 | nbp_eur_fee | Trading fee 1.6 EUR |
-| 2021-05-28 | kraken | EUR | 2.599 | 11.69 | nbp_eur_fee | Trading fee 2.599 EUR |
-| 2021-05-28 | kraken | EUR | 0.757 | 3.40 | nbp_eur_fee | Trading fee 0.757 EUR |
-| 2021-05-28 | kraken | EUR | 0.843 | 3.79 | nbp_eur_fee | Trading fee 0.843 EUR |
-| 2021-05-28 | kraken | EUR | 1.6 | 7.20 | nbp_eur_fee | Trading fee 1.6 EUR |
-| 2021-05-28 | kraken | EUR | 0.48 | 2.16 | nbp_eur_fee | Trading fee 0.48 EUR |
-| 2021-05-28 | kraken | EUR | 0.8 | 3.60 | nbp_eur_fee | Trading fee 0.8 EUR |
-| 2021-05-28 | kraken | EUR | 25.16 | 113.17 | nbp_eur_fee | Trading fee 25.16 EUR |
-| 2021-06-11 | kraken | USDC | 1E+1 | 36.82 | nbp_usd_stablecoin | Stablecoin deposit 1E+1 USDC |
-| 2021-06-11 | kraken | USDC | 9.9E+2 | 3,645.28 | nbp_usd_stablecoin | Stablecoin deposit 9.9E+2 USDC |
-| 2021-06-11 | kraken | EUR | 12.22 | 54.75 | nbp_eur_fee | Trading fee 12.22 EUR |
-| 2021-07-27 | kraken | USDC | 1010.2247 | 3,930.67 | nbp_eur | Buy 1010.2247 USDC for 857.14 EUR |
-| 2021-07-27 | kraken | EUR | 12.86 | 58.97 | nbp_eur_fee | Trading fee 12.86 EUR |
-| 2021-07-28 | kraken | USDC | 1005 | 3,921.21 | nbp_usd_stablecoin | Stablecoin deposit 1005 USDC |
-| 2021-07-28 | kraken | EUR | 12.54 | 57.63 | nbp_eur_fee | Trading fee 12.54 EUR |
-| 2021-08-11 | kraken | USDC | 2E+1 | 77.87 | nbp_usd_stablecoin | Stablecoin deposit 2E+1 USDC |
-| 2021-08-11 | kraken | USDC | 1554 | 6,050.81 | nbp_usd_stablecoin | Stablecoin deposit 1554 USDC |
-| 2021-08-11 | kraken | EUR | 19.81 | 90.49 | nbp_eur_fee | Trading fee 19.81 EUR |
-| 2021-08-20 | kraken | KAR | 626.66929772 | 21,383.15 | nbp_usd | Buy 626.66929772 KAR for 5451.2684 USD |
-| 2021-08-20 | kraken | USDC | 1E+1 | 39.23 | nbp_usd_stablecoin | Stablecoin deposit 1E+1 USDC |
-| 2021-08-20 | kraken | USDC | 2.99E+3 | 11,728.57 | nbp_usd_stablecoin | Stablecoin deposit 2.99E+3 USDC |
-| 2021-08-20 | kraken | KSM | 8.63792645 | 11,489.41 | nbp_usd | Buy 8.63792645 KSM for 2929.03 USD |
-| 2021-08-20 | kraken | USD | 14.2472 | 55.89 | nbp_usd_fee | Trading fee 14.2472 USD |
-| 2021-08-20 | kraken | USD | 14.1734 | 55.60 | nbp_usd_fee | Trading fee 14.1734 USD |
-| 2021-08-20 | kraken | USD | 26.76 | 104.97 | nbp_usd_fee | Trading fee 26.76 USD |
-| 2021-08-20 | kraken | USD | 43.94 | 172.36 | nbp_usd_fee | Trading fee 43.94 USD |
-| 2021-08-22 | kraken | KSM | 14.75086875 | 19,596.05 | nbp_usd | Buy 14.75086875 KSM for 4986.1462 USD |
-| 2021-08-22 | kraken | USD | 13.0315 | 51.22 | nbp_usd_fee | Trading fee 13.0315 USD |
-| 2021-08-22 | kraken | USD | 12.964 | 50.95 | nbp_usd_fee | Trading fee 12.964 USD |
-| 2021-09-03 | binance | USDT | 1E+1 | 38.04 | nbp_usd_stablecoin | Stablecoin deposit 1E+1 USDT |
-| 2021-09-03 | binance | USDT | 3072.036233 | 11,687.25 | nbp_usd_stablecoin | Stablecoin deposit 3072.036233 USDT |
-| 2021-09-03 | binance | USDT | 8843.35 | 33,643.64 | nbp_usd_stablecoin | Stablecoin deposit 8843.35 USDT |
-| 2021-09-03 | binance | USDT | 10164.58 | 38,670.13 | nbp_usd_stablecoin | Stablecoin deposit 10164.58 USDT |
-| 2021-09-13 | kraken | SOL | 14.76668635 | 9,077.63 | nbp_eur | Buy 14.76668635 SOL for 1995.127 EUR |
-| 2021-09-13 | kraken | ETH | 0.54701602 | 6,824.85 | nbp_eur | Buy 0.54701602 ETH for 1.5E+3 EUR |
-| 2021-09-13 | kraken | ETH | 0.54701603 | 6,824.85 | nbp_eur | Buy 0.54701603 ETH for 1.5E+3 EUR |
-| 2021-09-13 | kraken | USDT | 4640.1586 | 17,930.61 | nbp_eur | Buy 4640.1586 USDT for 3940.88 EUR |
-| 2021-09-13 | binance | USDT | 7.5 | 28.80 | nbp_usd_stablecoin | Stablecoin deposit 7.5 USDT |
-| 2021-09-13 | binance | USDT | 4627.6586 | 17,771.13 | nbp_usd_stablecoin | Stablecoin deposit 4627.6586 USDT |
-| 2021-09-13 | kraken | EUR | 5.1873 | 23.60 | nbp_eur_fee | Trading fee 5.1873 EUR |
-| 2021-09-13 | kraken | EUR | 2.4 | 10.92 | nbp_eur_fee | Trading fee 2.4 EUR |
-| 2021-09-13 | kraken | EUR | 2.4 | 10.92 | nbp_eur_fee | Trading fee 2.4 EUR |
-| 2021-09-13 | kraken | EUR | 59.12 | 268.99 | nbp_eur_fee | Trading fee 59.12 EUR |
-| 2021-09-14 | kraken | SOL | 20.7 | 12,469.35 | nbp_eur | Buy 20.7 SOL for 2747.4009 EUR |
-| 2021-09-14 | kraken | EUR | 7.1432 | 32.42 | nbp_eur_fee | Trading fee 7.1432 EUR |
-| 2021-10-08 | kraken | USDC | 6415.73327 | 25,235.65 | nbp_usd_stablecoin | Stablecoin deposit 6415.73327 USDC |
-| 2021-10-08 | kraken | EUR | 82.03 | 373.01 | nbp_eur_fee | Trading fee 82.03 EUR |
-| 2021-10-31 | binance | EUR | 0.566214 | 2.62 | nbp_eur_fee | Trading fee 0.566214 EUR |
-| 2021-10-31 | binance | EUR | 0.766326 | 3.54 | nbp_eur_fee | Trading fee 0.766326 EUR |
-| 2021-10-31 | binance | EUR | 0.65325 | 3.02 | nbp_eur_fee | Trading fee 0.65325 EUR |
-| 2021-11-01 | binance | EUR | 3.702 | 17.11 | nbp_eur_fee | Trading fee 3.702 EUR |
-| 2021-11-25 | binance | EUR | 2.2938 | 10.74 | nbp_eur_fee | Trading fee 2.2938 EUR |
-| 2021-12-08 | binance | EUR | 0.9328 | 4.29 | nbp_eur_fee | Trading fee 0.9328 EUR |
-| 2021-12-20 | binance | EUR | 3.2679 | 15.14 | nbp_eur_fee | Trading fee 3.2679 EUR |
-| 2021-12-22 | kraken | USDT | 1019.955572 | 4,175.39 | nbp_usd_stablecoin | Stablecoin deposit 1019.955572 USDT |
-| 2021-12-22 | binance | USDT | 732.3823 | 2,999.46 | nbp_eur | Buy 732.3823 USDT for 648.7 EUR |
-| 2021-12-22 | kraken | EUR | 13.35 | 61.73 | nbp_eur_fee | Trading fee 13.35 EUR |
-| 2021-12-22 | binance | EUR | 0.6494 | 3.00 | nbp_eur_fee | Trading fee 0.6494 EUR |
-| 2021-12-30 | binance | EUR | 1.037 | 4.77 | nbp_eur_fee | Trading fee 1.037 EUR |
+| # | Date | Source | Tx ID | Category | Asset | Amount | NBP Rate | Rate Date | Cost (PLN) | Notes |
+| ---: | --- | --- | --- | --- | --- | ---: | ---: | --- | ---: | --- |
+| 1 | 2021-01-01 | celsius_purchase | — | Fiat purchases (CELSIUS) | SEK | 12631.46 | 0.4598 SEK/PLN | 2020-12-31 | 5,807.95 | Purchase 12631.46 SEK = 5807.95 PLN |
+| 2 | 2021-01-01 | kraken | LXXOJB-HZHQ6-CGR | Crypto purchases | ETH | 0.25253 | 4.6148 EUR/PLN | 2020-12-31 | 692.23 | Buy 0.25253 ETH for 150.0028 EUR |
+| 3 | 2021-01-01 | kraken | LCQAQQ-J65M6-DZ6 | Crypto purchases | ETH | 0.49739 | 4.6148 EUR/PLN | 2020-12-31 | 1,384.44 | Buy 0.49739 ETH for 3E+2 EUR |
+| 4 | 2021-01-01 | kraken | LE5S4B-ES5AW-GEM | Crypto purchases | DOT | 34.04453733 | 4.6148 EUR/PLN | 2020-12-31 | 1,153.70 | Buy 34.04453733 DOT for 2.5E+2 EUR |
+| 5 | 2021-01-01 | kraken | LQRBFO-7XD2X-VMA | Crypto purchases | KSM | 3.71428571 | 4.6148 EUR/PLN | 2020-12-31 | 959.88 | Buy 3.71428571 KSM for 208 EUR |
+| 6 | 2021-01-01 | kraken | LXXOJB-HZHQ6-CGR | Trading fees | EUR | 0.24 | 4.6148 EUR/PLN | 2020-12-31 | 1.11 | Trading fee 0.24 EUR |
+| 7 | 2021-01-01 | kraken | LQRBFO-7XD2X-VMA | Trading fees | EUR | 0.3328 | 4.6148 EUR/PLN | 2020-12-31 | 1.54 | Trading fee 0.3328 EUR |
+| 8 | 2021-01-04 | kraken | LFCZOE-JWT7S-3WO | Stablecoin deposits | USDC | 1E+1 | 3.7584 USD/PLN | 2021-01-01 | 37.58 | Stablecoin deposit 1E+1 USDC |
+| 9 | 2021-01-04 | kraken | L5K76F-KJNYS-W72 | Stablecoin deposits | USDC | 9115.1311 | 3.7584 USD/PLN | 2021-01-01 | 34,258.31 | Stablecoin deposit 9115.1311 USDC |
+| 10 | 2021-01-04 | kraken | LIEDKE-MHIWO-JZM | Crypto purchases | ETH | 1.29735 | 4.6148 EUR/PLN | 2021-01-01 | 4,614.80 | Buy 1.29735 ETH for 1E+3 EUR |
+| 11 | 2021-01-04 | kraken | LNGWMK-FJ76S-GRF | Crypto purchases | BTC | 0.04119078 | 4.6148 EUR/PLN | 2021-01-01 | 4,614.80 | Buy 0.04119078 BTC for 1E+3 EUR |
+| 12 | 2021-01-04 | kraken | LWLIE3-M4FER-CVG | Crypto purchases | ETH | 1.2795 | 4.6148 EUR/PLN | 2021-01-01 | 4,614.80 | Buy 1.2795 ETH for 1E+3 EUR |
+| 13 | 2021-01-04 | kraken | LWVPVS-MSOHU-TEQ | Crypto purchases | ETH | 2.5392 | 4.6148 EUR/PLN | 2021-01-01 | 9,229.60 | Buy 2.5392 ETH for 2E+3 EUR |
+| 14 | 2021-01-04 | kraken | L7WWJS-CQRXQ-Z2F | Crypto purchases | ETH | 2.77356 | 4.6148 EUR/PLN | 2021-01-01 | 10,091.23 | Buy 2.77356 ETH for 2186.71 EUR |
+| 15 | 2021-01-07 | kraken | LCOTHD-BNK4V-TVU | Crypto purchases | DOT | 3.125 | 4.5446 EUR/PLN | 2021-01-06 | 113.62 | Buy 3.125 DOT for 25 EUR |
+| 16 | 2021-01-07 | kraken | L5OJRI-HCFD2-WLI | Crypto purchases | KSM | 0.70796459 | 4.5446 EUR/PLN | 2021-01-06 | 181.78 | Buy 0.70796459 KSM for 4E+1 EUR |
+| 17 | 2021-01-07 | kraken | LFD3Q6-SPOV2-LEY | Crypto purchases | LINK | 15.02327 | 4.5446 EUR/PLN | 2021-01-06 | 908.92 | Buy 15.02327 LINK for 2E+2 EUR |
+| 18 | 2021-01-07 | kraken | LS4CQW-OYP26-FW3 | Crypto purchases | KSM | 4.37361555 | 4.5446 EUR/PLN | 2021-01-06 | 1,158.42 | Buy 4.37361555 KSM for 254.9 EUR |
+| 19 | 2021-01-07 | kraken | LCOTHD-BNK4V-TVU | Trading fees | EUR | 0.04 | 4.5446 EUR/PLN | 2021-01-06 | 0.18 | Trading fee 0.04 EUR |
+| 20 | 2021-01-07 | kraken | L5OJRI-HCFD2-WLI | Trading fees | EUR | 0.064 | 4.5446 EUR/PLN | 2021-01-06 | 0.29 | Trading fee 0.064 EUR |
+| 21 | 2021-01-17 | celsius_purchase | — | Fiat purchases (CELSIUS) | SEK | 4E+3 | 0.4492 SEK/PLN | 2021-01-15 | 1,796.80 | Purchase 4000.00 SEK = 1796.80 PLN |
+| 22 | 2021-01-27 | celsius_purchase | — | Fiat purchases (CELSIUS) | SEK | 1.2E+4 | 0.4513 SEK/PLN | 2021-01-26 | 5,415.60 | Purchase 12000.00 SEK = 5415.60 PLN |
+| 23 | 2021-02-04 | kraken | L6NP6B-W6BIM-6YD | Stablecoin deposits | USDC | 1E+1 | 3.7352 USD/PLN | 2021-02-03 | 37.35 | Stablecoin deposit 1E+1 USDC |
+| 24 | 2021-02-04 | kraken | LBC2AZ-AJETV-55T | Stablecoin deposits | USDC | 4991 | 3.7352 USD/PLN | 2021-02-03 | 18,642.38 | Stablecoin deposit 4991 USDC |
+| 25 | 2021-02-04 | kraken | LT2IMB-W5SJD-K6Q | Crypto purchases | SNX | 97.42451 | 4.4906 EUR/PLN | 2021-02-03 | 6,735.90 | Buy 97.42451 SNX for 1.5E+3 EUR |
+| 26 | 2021-02-04 | kraken | LAC2HC-OYCZ6-SGE | Crypto purchases | KSM | 10.3926337 | 4.4906 EUR/PLN | 2021-02-03 | 4,490.60 | Buy 10.3926337 KSM for 1E+3 EUR |
+| 27 | 2021-02-04 | kraken | LB7O7R-53R2A-TXM | Crypto purchases | AAVE | 4.45771 | 4.4906 EUR/PLN | 2021-02-03 | 7,232.87 | Buy 4.45771 AAVE for 1610.67 EUR |
+| 28 | 2021-02-16 | kraken | LNKAON-AHYYB-S6D | Stablecoin deposits | USDC | 2E+1 | 3.6949 USD/PLN | 2021-02-15 | 73.90 | Stablecoin deposit 2E+1 USDC |
+| 29 | 2021-02-16 | kraken | L3YBYA-4OM7N-7VS | Stablecoin deposits | USDC | 2.98E+3 | 3.6949 USD/PLN | 2021-02-15 | 11,010.80 | Stablecoin deposit 2.98E+3 USDC |
+| 30 | 2021-02-26 | kraken | L3QVQF-D4WJR-W3P | Crypto purchases | AAVE | 1.08544 | 4.5143 EUR/PLN | 2021-02-25 | 1,354.29 | Buy 1.08544 AAVE for 3E+2 EUR |
+| 31 | 2021-02-26 | kraken | LV6GTH-TL7DG-ENN | Crypto purchases | LINK | 14.18524 | 4.5143 EUR/PLN | 2021-02-25 | 1,354.29 | Buy 14.18524 LINK for 3E+2 EUR |
+| 32 | 2021-02-26 | kraken | L2A3G3-VAWJM-PF6 | Crypto purchases | ETH | 0.31235 | 4.5143 EUR/PLN | 2021-02-25 | 1,715.43 | Buy 0.31235 ETH for 3.8E+2 EUR |
+| 33 | 2021-03-13 | coinbase_purchase | — | Fiat purchases (COINBASE) | EUR | 5.9E+2 | 4.5909 EUR/PLN | 2021-03-12 | 2,708.63 | Purchase 590.00 EUR = 2708.63 PLN |
+| 34 | 2021-03-25 | coinbase_purchase | — | Fiat purchases (COINBASE) | EUR | 4E+2 | 4.6273 EUR/PLN | 2021-03-24 | 1,850.92 | Purchase 400.00 EUR = 1850.92 PLN |
+| 35 | 2021-03-25 | coinbase_purchase | — | Fiat purchases (COINBASE) | EUR | 3E+2 | 4.6273 EUR/PLN | 2021-03-24 | 1,388.19 | Purchase 300.00 EUR = 1388.19 PLN |
+| 36 | 2021-04-23 | coinbase_purchase | — | Fiat purchases (COINBASE) | EUR | 6.9E+2 | 4.5562 EUR/PLN | 2021-04-22 | 3,143.78 | Purchase 690.00 EUR = 3143.78 PLN |
+| 37 | 2021-05-07 | kraken | LGTXY5-AMTG3-MYT | Stablecoin deposits | USDC | 2E+1 | 3.8066 USD/PLN | 2021-05-06 | 76.13 | Stablecoin deposit 2E+1 USDC |
+| 38 | 2021-05-07 | kraken | LS23RJ-3EFVO-5PE | Stablecoin deposits | USDC | 3.48E+3 | 3.8066 USD/PLN | 2021-05-06 | 13,246.97 | Stablecoin deposit 3.48E+3 USDC |
+| 39 | 2021-05-07 | kraken | LJW726-ZVBW4-Z5Z | Crypto purchases | SNX | 181.05183 | 3.8066 USD/PLN | 2021-05-06 | 13,007.80 | Buy 181.05183 SNX for 3417.17 USD |
+| 40 | 2021-05-07 | kraken | LGLZP3-CB73E-W7S | Trading fees | USD | 31.22 | 3.8066 USD/PLN | 2021-05-06 | 118.84 | Trading fee 31.22 USD |
+| 41 | 2021-05-07 | kraken | LJW726-ZVBW4-Z5Z | Trading fees | USD | 51.26 | 3.8066 USD/PLN | 2021-05-06 | 195.13 | Trading fee 51.26 USD |
+| 42 | 2021-05-09 | kraken | LIGBXH-GMKK7-XQU | Stablecoin deposits | USDC | 5E+3 | 3.7861 USD/PLN | 2021-05-07 | 18,930.50 | Stablecoin deposit 5E+3 USDC |
+| 43 | 2021-05-09 | kraken | L5D3XD-B2VU3-UIB | Crypto purchases | SNX | 110.77137 | 3.7861 USD/PLN | 2021-05-07 | 7,460.28 | Buy 110.77137 SNX for 1970.44 USD |
+| 44 | 2021-05-09 | kraken | LY5UFZ-XEE54-E4E | Crypto purchases | DOT | 73.06537782 | 3.7861 USD/PLN | 2021-05-07 | 11,022.21 | Buy 73.06537782 DOT for 2911.23 USD |
+| 45 | 2021-05-09 | kraken | LIV4H5-MACAN-73H | Trading fees | USD | 44.6 | 3.7861 USD/PLN | 2021-05-07 | 168.86 | Trading fee 44.6 USD |
+| 46 | 2021-05-09 | kraken | L5D3XD-B2VU3-UIB | Trading fees | USD | 29.56 | 3.7861 USD/PLN | 2021-05-07 | 111.92 | Trading fee 29.56 USD |
+| 47 | 2021-05-09 | kraken | LY5UFZ-XEE54-E4E | Trading fees | USD | 43.67 | 3.7861 USD/PLN | 2021-05-07 | 165.34 | Trading fee 43.67 USD |
+| 48 | 2021-05-12 | kraken | LH4UOA-LZT6X-AST | Crypto purchases | DOT | 9.29598751 | 4.5628 EUR/PLN | 2021-05-11 | 1,348.58 | Buy 9.29598751 DOT for 295.56 EUR |
+| 49 | 2021-05-12 | kraken | LH4UOA-LZT6X-AST | Trading fees | EUR | 4.44 | 4.5628 EUR/PLN | 2021-05-11 | 20.26 | Trading fee 4.44 EUR |
+| 50 | 2021-05-14 | ftx_purchase | — | Fiat purchases (FTX) | EUR | 860.84 | 4.5447 EUR/PLN | 2021-05-13 | 3,912.26 | Purchase 860.84 EUR = 3912.26 PLN |
+| 51 | 2021-05-14 | kraken | LA77L3-JRQU6-66V | Crypto purchases | DOT | 8.22358964 | 4.5447 EUR/PLN | 2021-05-13 | 1,343.28 | Buy 8.22358964 DOT for 295.57 EUR |
+| 52 | 2021-05-14 | kraken | LFNO2A-UU6Q6-BTB | Crypto purchases | AAVE | 0.59215 | 4.5447 EUR/PLN | 2021-05-13 | 1,343.28 | Buy 0.59215 AAVE for 295.57 EUR |
+| 53 | 2021-05-14 | kraken | L4SAA5-HIABW-CB6 | Crypto purchases | AAVE | 0.57233 | 4.5447 EUR/PLN | 2021-05-13 | 1,343.28 | Buy 0.57233 AAVE for 295.57 EUR |
+| 54 | 2021-05-14 | kraken | L2LS4B-VLGUW-7RB | Crypto purchases | DOT | 8.05358317 | 4.5447 EUR/PLN | 2021-05-13 | 1,343.28 | Buy 8.05358317 DOT for 295.57 EUR |
+| 55 | 2021-05-14 | kraken | LA77L3-JRQU6-66V | Trading fees | EUR | 4.43 | 4.5447 EUR/PLN | 2021-05-13 | 20.13 | Trading fee 4.43 EUR |
+| 56 | 2021-05-14 | kraken | LFNO2A-UU6Q6-BTB | Trading fees | EUR | 4.43 | 4.5447 EUR/PLN | 2021-05-13 | 20.13 | Trading fee 4.43 EUR |
+| 57 | 2021-05-14 | kraken | L4SAA5-HIABW-CB6 | Trading fees | EUR | 4.43 | 4.5447 EUR/PLN | 2021-05-13 | 20.13 | Trading fee 4.43 EUR |
+| 58 | 2021-05-14 | kraken | L2LS4B-VLGUW-7RB | Trading fees | EUR | 4.43 | 4.5447 EUR/PLN | 2021-05-13 | 20.13 | Trading fee 4.43 EUR |
+| 59 | 2021-05-15 | kraken | L2GZOB-Y55WZ-YRP | Crypto purchases | DOT | 8 | 4.5316 EUR/PLN | 2021-05-14 | 1,381.23 | Buy 8 DOT for 304.8 EUR |
+| 60 | 2021-05-15 | kraken | LCVXP6-H2LCP-DJS | Crypto purchases | DOT | 7 | 4.5316 EUR/PLN | 2021-05-14 | 1,199.06 | Buy 7 DOT for 264.6 EUR |
+| 61 | 2021-05-15 | kraken | LN54AC-3Y3T3-X3S | Crypto purchases | DOT | 1E+1 | 4.5316 EUR/PLN | 2021-05-14 | 1,694.82 | Buy 1E+1 DOT for 374 EUR |
+| 62 | 2021-05-15 | kraken | L2MI7C-GZCTR-5FL | Crypto purchases | DOT | 14 | 4.5316 EUR/PLN | 2021-05-14 | 2,347.37 | Buy 14 DOT for 518 EUR |
+| 63 | 2021-05-15 | kraken | LYVAX5-EDHGX-V4X | Crypto purchases | AAVE | 0.8 | 4.5316 EUR/PLN | 2021-05-14 | 1,631.38 | Buy 0.8 AAVE for 3.6E+2 EUR |
+| 64 | 2021-05-15 | kraken | LHNRA2-D3IJ5-ECW | Crypto purchases | DOT | 2.74438029 | 4.5316 EUR/PLN | 2021-05-14 | 462.95 | Buy 2.74438029 DOT for 102.16 EUR |
+| 65 | 2021-05-15 | kraken | L2GZOB-Y55WZ-YRP | Trading fees | EUR | 0.4877 | 4.5316 EUR/PLN | 2021-05-14 | 2.21 | Trading fee 0.4877 EUR |
+| 66 | 2021-05-15 | kraken | LCVXP6-H2LCP-DJS | Trading fees | EUR | 0.4234 | 4.5316 EUR/PLN | 2021-05-14 | 1.92 | Trading fee 0.4234 EUR |
+| 67 | 2021-05-15 | kraken | LN54AC-3Y3T3-X3S | Trading fees | EUR | 0.5984 | 4.5316 EUR/PLN | 2021-05-14 | 2.71 | Trading fee 0.5984 EUR |
+| 68 | 2021-05-15 | kraken | L2MI7C-GZCTR-5FL | Trading fees | EUR | 0.8288 | 4.5316 EUR/PLN | 2021-05-14 | 3.76 | Trading fee 0.8288 EUR |
+| 69 | 2021-05-15 | kraken | LYVAX5-EDHGX-V4X | Trading fees | EUR | 0.576 | 4.5316 EUR/PLN | 2021-05-14 | 2.61 | Trading fee 0.576 EUR |
+| 70 | 2021-05-15 | kraken | LHNRA2-D3IJ5-ECW | Trading fees | EUR | 1.53 | 4.5316 EUR/PLN | 2021-05-14 | 6.93 | Trading fee 1.53 EUR |
+| 71 | 2021-05-22 | kraken | LXBSW6-QPMZP-O5F | Stablecoin deposits | USDC | 2E+1 | 3.6778 USD/PLN | 2021-05-21 | 73.56 | Stablecoin deposit 2E+1 USDC |
+| 72 | 2021-05-22 | kraken | LVAPJR-QWWV5-VVR | Stablecoin deposits | USDC | 1.48E+3 | 3.6778 USD/PLN | 2021-05-21 | 5,443.14 | Stablecoin deposit 1.48E+3 USDC |
+| 73 | 2021-05-22 | kraken | L5W44P-7SJ5P-VPB | Crypto purchases | KSM | 0.3 | 3.6778 USD/PLN | 2021-05-21 | 353.07 | Buy 0.3 KSM for 96 USD |
+| 74 | 2021-05-22 | kraken | LWHT6N-46Y36-5W7 | Trading fees | USD | 13.38 | 3.6778 USD/PLN | 2021-05-21 | 49.21 | Trading fee 13.38 USD |
+| 75 | 2021-05-22 | kraken | L5W44P-7SJ5P-VPB | Trading fees | USD | 0.1536 | 3.6778 USD/PLN | 2021-05-21 | 0.56 | Trading fee 0.1536 USD |
+| 76 | 2021-05-23 | kraken | LTO6T5-3U6AF-JBF | Crypto purchases | KSM | 0.4 | 3.6778 USD/PLN | 2021-05-21 | 456.05 | Buy 0.4 KSM for 124 USD |
+| 77 | 2021-05-23 | kraken | LEZXM6-OBYVW-ZJP | Crypto purchases | KSM | 0.6 | 3.6778 USD/PLN | 2021-05-21 | 662.00 | Buy 0.6 KSM for 1.8E+2 USD |
+| 78 | 2021-05-23 | kraken | LT55DQ-6E5PF-NHE | Crypto purchases | KSM | 0.9 | 3.6778 USD/PLN | 2021-05-21 | 976.46 | Buy 0.9 KSM for 265.5 USD |
+| 79 | 2021-05-23 | kraken | L4NY53-ERWIN-LPC | Crypto purchases | KSM | 1.2 | 3.6778 USD/PLN | 2021-05-21 | 1,279.87 | Buy 1.2 KSM for 348 USD |
+| 80 | 2021-05-23 | kraken | LAY5EL-WTC6J-GDW | Crypto purchases | KSM | 1.5 | 3.6778 USD/PLN | 2021-05-21 | 1,572.26 | Buy 1.5 KSM for 427.5 USD |
+| 81 | 2021-05-23 | kraken | LQKVTX-TRNYT-ASV | Crypto purchases | KSM | 0.15444714 | 3.6778 USD/PLN | 2021-05-21 | 159.05 | Buy 0.15444714 KSM for 43.2452 USD |
+| 82 | 2021-05-23 | kraken | LTO6T5-3U6AF-JBF | Trading fees | USD | 0.1984 | 3.6778 USD/PLN | 2021-05-21 | 0.73 | Trading fee 0.1984 USD |
+| 83 | 2021-05-23 | kraken | LEZXM6-OBYVW-ZJP | Trading fees | USD | 0.288 | 3.6778 USD/PLN | 2021-05-21 | 1.06 | Trading fee 0.288 USD |
+| 84 | 2021-05-23 | kraken | LT55DQ-6E5PF-NHE | Trading fees | USD | 0.4248 | 3.6778 USD/PLN | 2021-05-21 | 1.56 | Trading fee 0.4248 USD |
+| 85 | 2021-05-23 | kraken | L4NY53-ERWIN-LPC | Trading fees | USD | 0.5568 | 3.6778 USD/PLN | 2021-05-21 | 2.05 | Trading fee 0.5568 USD |
+| 86 | 2021-05-23 | kraken | LAY5EL-WTC6J-GDW | Trading fees | USD | 0.684 | 3.6778 USD/PLN | 2021-05-21 | 2.52 | Trading fee 0.684 USD |
+| 87 | 2021-05-23 | kraken | LQKVTX-TRNYT-ASV | Trading fees | USD | 0.0692 | 3.6778 USD/PLN | 2021-05-21 | 0.25 | Trading fee 0.0692 USD |
+| 88 | 2021-05-25 | kraken | LN6TZI-NOTG5-BQO | Crypto purchases | USDC | 1175.035 | 4.4877 EUR/PLN | 2021-05-24 | 4,310.84 | Buy 1175.035 USDC for 960.59 EUR |
+| 89 | 2021-05-25 | kraken | LN6TZI-NOTG5-BQO | Trading fees | EUR | 14.41 | 4.4877 EUR/PLN | 2021-05-24 | 64.67 | Trading fee 14.41 EUR |
+| 90 | 2021-05-26 | kraken | LA4ZI6-4ZNHH-B5B | Crypto purchases | DOT | 10.79092701 | 4.4806 EUR/PLN | 2021-05-25 | 949.08 | Buy 10.79092701 DOT for 211.82 EUR |
+| 91 | 2021-05-26 | kraken | LZIWW5-IPGDL-JW7 | Crypto purchases | DOT | 2.7027027 | 4.4806 EUR/PLN | 2021-05-25 | 224.03 | Buy 2.7027027 DOT for 5E+1 EUR |
+| 92 | 2021-05-26 | kraken | L5A4XD-W2ZDT-Z7U | Crypto purchases | DOT | 4.12087912 | 4.4806 EUR/PLN | 2021-05-25 | 336.04 | Buy 4.12087912 DOT for 75 EUR |
+| 93 | 2021-05-26 | kraken | LA4ZI6-4ZNHH-B5B | Trading fees | EUR | 3.18 | 4.4806 EUR/PLN | 2021-05-25 | 14.25 | Trading fee 3.18 EUR |
+| 94 | 2021-05-26 | kraken | LZIWW5-IPGDL-JW7 | Trading fees | EUR | 0.08 | 4.4806 EUR/PLN | 2021-05-25 | 0.36 | Trading fee 0.08 EUR |
+| 95 | 2021-05-26 | kraken | L5A4XD-W2ZDT-Z7U | Trading fees | EUR | 0.12 | 4.4806 EUR/PLN | 2021-05-25 | 0.54 | Trading fee 0.12 EUR |
+| 96 | 2021-05-27 | kraken | LKUPQD-EMJ3D-FQK | Crypto purchases | DOT | 5.55555556 | 4.4914 EUR/PLN | 2021-05-26 | 449.14 | Buy 5.55555556 DOT for 1E+2 EUR |
+| 97 | 2021-05-27 | kraken | LKUPQD-EMJ3D-FQK | Trading fees | EUR | 0.16 | 4.4914 EUR/PLN | 2021-05-26 | 0.72 | Trading fee 0.16 EUR |
+| 98 | 2021-05-28 | kraken | LJTPAO-GRWS4-A3D | Crypto purchases | LINK | 12.09677 | 4.4980 EUR/PLN | 2021-05-27 | 1,349.40 | Buy 12.09677 LINK for 299.9999 EUR |
+| 99 | 2021-05-28 | kraken | LG7POP-CKXFC-EGQ | Crypto purchases | LINK | 16.66667 | 4.4980 EUR/PLN | 2021-05-27 | 1,799.20 | Buy 16.66667 LINK for 400.0001 EUR |
+| 100 | 2021-05-28 | kraken | LKKA4E-6NJ32-HAN | Crypto purchases | LINK | 25.53191 | 4.4980 EUR/PLN | 2021-05-27 | 2,698.80 | Buy 25.53191 LINK for 599.9999 EUR |
+| 101 | 2021-05-28 | kraken | LPJRNU-BIE4S-ADL | Crypto purchases | DOT | 53.19148936 | 4.4980 EUR/PLN | 2021-05-27 | 4,498.00 | Buy 53.19148936 DOT for 1E+3 EUR |
+| 102 | 2021-05-28 | kraken | LHMDPD-JWQAP-CX7 | Crypto purchases | SNX | 99.0099 | 4.4980 EUR/PLN | 2021-05-27 | 4,496.22 | Buy 99.0099 SNX for 999.604 EUR |
+| 103 | 2021-05-28 | kraken | LXFNIQ-36L2R-H2H | Crypto purchases | DOT | 25.3 | 4.4980 EUR/PLN | 2021-05-27 | 2,128.05 | Buy 25.3 DOT for 473.11 EUR |
+| 104 | 2021-05-28 | kraken | LPC72M-NN2F3-EZN | Crypto purchases | DOT | 28.17593583 | 4.4980 EUR/PLN | 2021-05-27 | 2,369.95 | Buy 28.17593583 DOT for 526.89 EUR |
+| 105 | 2021-05-28 | kraken | LIJGWI-VWVEH-TOW | Crypto purchases | AAVE | 3.63636 | 4.4980 EUR/PLN | 2021-05-27 | 4,498.00 | Buy 3.63636 AAVE for 999.999 EUR |
+| 106 | 2021-05-28 | kraken | LTV7HS-Q25LC-ST4 | Crypto purchases | DOT | 16.66666667 | 4.4980 EUR/PLN | 2021-05-27 | 1,349.40 | Buy 16.66666667 DOT for 3E+2 EUR |
+| 107 | 2021-05-28 | kraken | L2PEZN-KKN6D-EQI | Crypto purchases | DOT | 28.24858757 | 4.4980 EUR/PLN | 2021-05-27 | 2,249.00 | Buy 28.24858757 DOT for 5E+2 EUR |
+| 108 | 2021-05-28 | kraken | LZ3DIY-OGP2C-V6G | Crypto purchases | DOT | 96.14962833 | 4.4980 EUR/PLN | 2021-05-27 | 7,533.43 | Buy 96.14962833 DOT for 1674.84 EUR |
+| 109 | 2021-05-28 | kraken | LJTPAO-GRWS4-A3D | Trading fees | EUR | 0.48 | 4.4980 EUR/PLN | 2021-05-27 | 2.16 | Trading fee 0.48 EUR |
+| 110 | 2021-05-28 | kraken | LG7POP-CKXFC-EGQ | Trading fees | EUR | 0.64 | 4.4980 EUR/PLN | 2021-05-27 | 2.88 | Trading fee 0.64 EUR |
+| 111 | 2021-05-28 | kraken | LKKA4E-6NJ32-HAN | Trading fees | EUR | 0.96 | 4.4980 EUR/PLN | 2021-05-27 | 4.32 | Trading fee 0.96 EUR |
+| 112 | 2021-05-28 | kraken | LPJRNU-BIE4S-ADL | Trading fees | EUR | 1.6 | 4.4980 EUR/PLN | 2021-05-27 | 7.20 | Trading fee 1.6 EUR |
+| 113 | 2021-05-28 | kraken | LHMDPD-JWQAP-CX7 | Trading fees | EUR | 2.599 | 4.4980 EUR/PLN | 2021-05-27 | 11.69 | Trading fee 2.599 EUR |
+| 114 | 2021-05-28 | kraken | LXFNIQ-36L2R-H2H | Trading fees | EUR | 0.757 | 4.4980 EUR/PLN | 2021-05-27 | 3.40 | Trading fee 0.757 EUR |
+| 115 | 2021-05-28 | kraken | LPC72M-NN2F3-EZN | Trading fees | EUR | 0.843 | 4.4980 EUR/PLN | 2021-05-27 | 3.79 | Trading fee 0.843 EUR |
+| 116 | 2021-05-28 | kraken | LIJGWI-VWVEH-TOW | Trading fees | EUR | 1.6 | 4.4980 EUR/PLN | 2021-05-27 | 7.20 | Trading fee 1.6 EUR |
+| 117 | 2021-05-28 | kraken | LTV7HS-Q25LC-ST4 | Trading fees | EUR | 0.48 | 4.4980 EUR/PLN | 2021-05-27 | 2.16 | Trading fee 0.48 EUR |
+| 118 | 2021-05-28 | kraken | L2PEZN-KKN6D-EQI | Trading fees | EUR | 0.8 | 4.4980 EUR/PLN | 2021-05-27 | 3.60 | Trading fee 0.8 EUR |
+| 119 | 2021-05-28 | kraken | LZ3DIY-OGP2C-V6G | Trading fees | EUR | 25.16 | 4.4980 EUR/PLN | 2021-05-27 | 113.17 | Trading fee 25.16 EUR |
+| 120 | 2021-06-02 | ftx_purchase | — | Fiat purchases (FTX) | EUR | 489.3 | 4.4749 EUR/PLN | 2021-06-01 | 2,189.57 | Purchase 489.30 EUR = 2189.57 PLN |
+| 121 | 2021-06-08 | coinbase_purchase | — | Fiat purchases (COINBASE) | EUR | 6.5E+2 | 4.4581 EUR/PLN | 2021-06-07 | 2,897.76 | Purchase 650.00 EUR = 2897.77 PLN |
+| 122 | 2021-06-11 | kraken | LDIQU2-OICVI-LEU | Stablecoin deposits | USDC | 1E+1 | 3.6821 USD/PLN | 2021-06-10 | 36.82 | Stablecoin deposit 1E+1 USDC |
+| 123 | 2021-06-11 | kraken | LERGJV-MVRGQ-TBX | Stablecoin deposits | USDC | 9.9E+2 | 3.6821 USD/PLN | 2021-06-10 | 3,645.28 | Stablecoin deposit 9.9E+2 USDC |
+| 124 | 2021-06-11 | kraken | LNZNQC-ZS3ZK-3IV | Trading fees | EUR | 12.22 | 4.4800 EUR/PLN | 2021-06-10 | 54.75 | Trading fee 12.22 EUR |
+| 125 | 2021-07-27 | kraken | LSXZOA-5OI7E-WEE | Crypto purchases | USDC | 1010.2247 | 4.5858 EUR/PLN | 2021-07-26 | 3,930.67 | Buy 1010.2247 USDC for 857.14 EUR |
+| 126 | 2021-07-27 | kraken | LSXZOA-5OI7E-WEE | Trading fees | EUR | 12.86 | 4.5858 EUR/PLN | 2021-07-26 | 58.97 | Trading fee 12.86 EUR |
+| 127 | 2021-07-28 | kraken | L6U4MN-PSFJI-7YN | Stablecoin deposits | USDC | 1005 | 3.9017 USD/PLN | 2021-07-27 | 3,921.21 | Stablecoin deposit 1005 USDC |
+| 128 | 2021-07-28 | kraken | LVTE67-QJQHI-EN5 | Trading fees | EUR | 12.54 | 4.5954 EUR/PLN | 2021-07-27 | 57.63 | Trading fee 12.54 EUR |
+| 129 | 2021-08-11 | kraken | LOFVNA-YKDMZ-IEL | Stablecoin deposits | USDC | 2E+1 | 3.8937 USD/PLN | 2021-08-10 | 77.87 | Stablecoin deposit 2E+1 USDC |
+| 130 | 2021-08-11 | kraken | LEJRJO-5W3KD-Y45 | Stablecoin deposits | USDC | 1554 | 3.8937 USD/PLN | 2021-08-10 | 6,050.81 | Stablecoin deposit 1554 USDC |
+| 131 | 2021-08-11 | kraken | LY4AZV-FIJTM-N6K | Trading fees | EUR | 19.81 | 4.5681 EUR/PLN | 2021-08-10 | 90.49 | Trading fee 19.81 EUR |
+| 132 | 2021-08-20 | kraken | LSEMMQ-6D7UR-O2S | Crypto purchases | KAR | 626.66929772 | 3.9226 USD/PLN | 2021-08-19 | 21,383.15 | Buy 626.66929772 KAR for 5451.2684 USD |
+| 133 | 2021-08-20 | kraken | LJ44JA-ROZC4-PXR | Stablecoin deposits | USDC | 1E+1 | 3.9226 USD/PLN | 2021-08-19 | 39.23 | Stablecoin deposit 1E+1 USDC |
+| 134 | 2021-08-20 | kraken | LL43MI-6ADSB-DUR | Stablecoin deposits | USDC | 2.99E+3 | 3.9226 USD/PLN | 2021-08-19 | 11,728.57 | Stablecoin deposit 2.99E+3 USDC |
+| 135 | 2021-08-20 | kraken | LDPS7L-76V3L-JKH | Crypto purchases | KSM | 8.63792645 | 3.9226 USD/PLN | 2021-08-19 | 11,489.41 | Buy 8.63792645 KSM for 2929.03 USD |
+| 136 | 2021-08-20 | kraken | LU33Z4-CMZOQ-VRJ | Trading fees | USD | 14.2472 | 3.9226 USD/PLN | 2021-08-19 | 55.89 | Trading fee 14.2472 USD |
+| 137 | 2021-08-20 | kraken | LSEMMQ-6D7UR-O2S | Trading fees | USD | 14.1734 | 3.9226 USD/PLN | 2021-08-19 | 55.60 | Trading fee 14.1734 USD |
+| 138 | 2021-08-20 | kraken | LJRRRH-25YQB-HMP | Trading fees | USD | 26.76 | 3.9226 USD/PLN | 2021-08-19 | 104.97 | Trading fee 26.76 USD |
+| 139 | 2021-08-20 | kraken | LDPS7L-76V3L-JKH | Trading fees | USD | 43.94 | 3.9226 USD/PLN | 2021-08-19 | 172.36 | Trading fee 43.94 USD |
+| 140 | 2021-08-22 | kraken | LXOAJU-OXAUQ-U5P | Crypto purchases | KSM | 14.75086875 | 3.9301 USD/PLN | 2021-08-20 | 19,596.05 | Buy 14.75086875 KSM for 4986.1462 USD |
+| 141 | 2021-08-22 | kraken | LLR6ID-JUSHN-37E | Trading fees | USD | 13.0315 | 3.9301 USD/PLN | 2021-08-20 | 51.22 | Trading fee 13.0315 USD |
+| 142 | 2021-08-22 | kraken | LXOAJU-OXAUQ-U5P | Trading fees | USD | 12.964 | 3.9301 USD/PLN | 2021-08-20 | 50.95 | Trading fee 12.964 USD |
+| 143 | 2021-09-03 | binance | — | Stablecoin deposits | USDT | 1E+1 | 3.8044 USD/PLN | 2021-09-02 | 38.04 | Stablecoin deposit 1E+1 USDT |
+| 144 | 2021-09-03 | binance | — | Stablecoin deposits | USDT | 3072.036233 | 3.8044 USD/PLN | 2021-09-02 | 11,687.25 | Stablecoin deposit 3072.036233 USDT |
+| 145 | 2021-09-03 | binance | — | Stablecoin deposits | USDT | 8843.35 | 3.8044 USD/PLN | 2021-09-02 | 33,643.64 | Stablecoin deposit 8843.35 USDT |
+| 146 | 2021-09-03 | binance | — | Stablecoin deposits | USDT | 10164.58 | 3.8044 USD/PLN | 2021-09-02 | 38,670.13 | Stablecoin deposit 10164.58 USDT |
+| 147 | 2021-09-13 | kraken | LWNIBN-X7OE7-OHW | Crypto purchases | SOL | 14.76668635 | 4.5499 EUR/PLN | 2021-09-10 | 9,077.63 | Buy 14.76668635 SOL for 1995.127 EUR |
+| 148 | 2021-09-13 | kraken | LJJT27-QHEE2-V5R | Crypto purchases | ETH | 0.54701602 | 4.5499 EUR/PLN | 2021-09-10 | 6,824.85 | Buy 0.54701602 ETH for 1.5E+3 EUR |
+| 149 | 2021-09-13 | kraken | LNB4YK-BZQQ3-37A | Crypto purchases | ETH | 0.54701603 | 4.5499 EUR/PLN | 2021-09-10 | 6,824.85 | Buy 0.54701603 ETH for 1.5E+3 EUR |
+| 150 | 2021-09-13 | kraken | LHFY3Q-SOWSB-RTZ | Crypto purchases | USDT | 4640.1586 | 4.5499 EUR/PLN | 2021-09-10 | 17,930.61 | Buy 4640.1586 USDT for 3940.88 EUR |
+| 151 | 2021-09-13 | binance | — | Stablecoin deposits | USDT | 7.5 | 3.8402 USD/PLN | 2021-09-10 | 28.80 | Stablecoin deposit 7.5 USDT |
+| 152 | 2021-09-13 | binance | — | Stablecoin deposits | USDT | 4627.6586 | 3.8402 USD/PLN | 2021-09-10 | 17,771.13 | Stablecoin deposit 4627.6586 USDT |
+| 153 | 2021-09-13 | kraken | LWNIBN-X7OE7-OHW | Trading fees | EUR | 5.1873 | 4.5499 EUR/PLN | 2021-09-10 | 23.60 | Trading fee 5.1873 EUR |
+| 154 | 2021-09-13 | kraken | LJJT27-QHEE2-V5R | Trading fees | EUR | 2.4 | 4.5499 EUR/PLN | 2021-09-10 | 10.92 | Trading fee 2.4 EUR |
+| 155 | 2021-09-13 | kraken | LNB4YK-BZQQ3-37A | Trading fees | EUR | 2.4 | 4.5499 EUR/PLN | 2021-09-10 | 10.92 | Trading fee 2.4 EUR |
+| 156 | 2021-09-13 | kraken | LHFY3Q-SOWSB-RTZ | Trading fees | EUR | 59.12 | 4.5499 EUR/PLN | 2021-09-10 | 268.99 | Trading fee 59.12 EUR |
+| 157 | 2021-09-14 | kraken | LH6GAF-6MGEA-RIC | Crypto purchases | SOL | 20.7 | 4.5386 EUR/PLN | 2021-09-13 | 12,469.35 | Buy 20.7 SOL for 2747.4009 EUR |
+| 158 | 2021-09-14 | kraken | LH6GAF-6MGEA-RIC | Trading fees | EUR | 7.1432 | 4.5386 EUR/PLN | 2021-09-13 | 32.42 | Trading fee 7.1432 EUR |
+| 159 | 2021-10-08 | kraken | LQF5ZG-2KBC3-5JX | Stablecoin deposits | USDC | 6415.73327 | 3.9334 USD/PLN | 2021-10-07 | 25,235.65 | Stablecoin deposit 6415.73327 USDC |
+| 160 | 2021-10-08 | kraken | LWA7RW-5I2WD-SJZ | Trading fees | EUR | 82.03 | 4.5472 EUR/PLN | 2021-10-07 | 373.01 | Trading fee 82.03 EUR |
+| 161 | 2021-10-31 | binance | — | Trading fees | EUR | 0.566214 | 4.6208 EUR/PLN | 2021-10-29 | 2.62 | Trading fee 0.566214 EUR |
+| 162 | 2021-10-31 | binance | — | Trading fees | EUR | 0.766326 | 4.6208 EUR/PLN | 2021-10-29 | 3.54 | Trading fee 0.766326 EUR |
+| 163 | 2021-10-31 | binance | — | Trading fees | EUR | 0.65325 | 4.6208 EUR/PLN | 2021-10-29 | 3.02 | Trading fee 0.65325 EUR |
+| 164 | 2021-11-01 | binance | — | Trading fees | EUR | 3.702 | 4.6208 EUR/PLN | 2021-10-29 | 17.11 | Trading fee 3.702 EUR |
+| 165 | 2021-11-25 | binance | — | Trading fees | EUR | 2.2938 | 4.6811 EUR/PLN | 2021-11-24 | 10.74 | Trading fee 2.2938 EUR |
+| 166 | 2021-12-08 | binance | — | Trading fees | EUR | 0.9328 | 4.5991 EUR/PLN | 2021-12-07 | 4.29 | Trading fee 0.9328 EUR |
+| 167 | 2021-12-20 | binance | — | Trading fees | EUR | 3.2679 | 4.6334 EUR/PLN | 2021-12-17 | 15.14 | Trading fee 3.2679 EUR |
+| 168 | 2021-12-22 | kraken | LYVXYF-WI3WF-QNK | Stablecoin deposits | USDT | 1019.955572 | 4.0937 USD/PLN | 2021-12-21 | 4,175.39 | Stablecoin deposit 1019.955572 USDT |
+| 169 | 2021-12-22 | binance | — | Crypto purchases | USDT | 732.3823 | 4.6238 EUR/PLN | 2021-12-21 | 2,999.46 | Buy 732.3823 USDT for 648.7 EUR |
+| 170 | 2021-12-22 | kraken | LPN7R5-FBZDS-4DT | Trading fees | EUR | 13.35 | 4.6238 EUR/PLN | 2021-12-21 | 61.73 | Trading fee 13.35 EUR |
+| 171 | 2021-12-22 | binance | — | Trading fees | EUR | 0.6494 | 4.6238 EUR/PLN | 2021-12-21 | 3.00 | Trading fee 0.6494 EUR |
+| 172 | 2021-12-30 | binance | — | Trading fees | EUR | 1.037 | 4.5997 EUR/PLN | 2021-12-29 | 4.77 | Trading fee 1.037 EUR |
+
+**Cost total: 561,228.47 PLN** (sum of all rows above)
+
+---
+
+## Verification Checksum
+
+| Check | Expected | Computed | Match |
+| --- | ---: | ---: | --- |
+| Sum of revenue events = Poz. 34 | 265,133.12 | 265,133.12 | YES |
+| Sum of cost events = Poz. 35 | 561,228.47 | 561,228.47 | YES |
+| Poz. 35 + Poz. 36 - Poz. 34 = Poz. 38 | 570,494.74 | 570,494.74 | YES |
 
 ## Legal Basis
 
@@ -235,3 +296,12 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 - **Cost carry-forward**: Unlimited duration, no 50% annual cap (Art. 22 ust. 15-16)
 - **Rate**: NBP mid-rate from last business day before transaction (Art. 11a ust. 1-2)
 - **Stablecoins (USDC/USDT)**: Treated as waluta wirtualna (KIS interpretation, confirmed post-MiCA)
+
+## How to Verify This Report
+
+1. **Revenue events**: Each row shows the exchange transaction. Find the Tx ID in your Kraken/Binance export CSV to confirm the asset, amount, and counterparty.
+2. **NBP rates**: Each row shows the exact rate used and the date it's from (last business day before transaction). Verify at https://api.nbp.pl/api/exchangerates/rates/a/{CURRENCY}/{RATE_DATE}/?format=json
+3. **PLN calculation**: Counterparty Amount x NBP Rate = PLN Value (check any row)
+4. **Salary costs**: Cross-reference with Polygon payment records in docs/crypto-transactions/2025-polygon-payments.txt
+5. **Stablecoin deposits**: These are USDC/USDT deposited to exchanges before selling. The cost basis is the NBP USD rate at deposit time.
+6. **Checksums**: The verification table above confirms that individual events sum to the PIT-38 field totals.

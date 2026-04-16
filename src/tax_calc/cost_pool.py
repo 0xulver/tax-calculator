@@ -33,9 +33,13 @@ class CostPoolEvent:
     counterparty_asset: str = ""
     counterparty_amount: Decimal = Decimal("0")
     notes: str = ""
+    source_tx_id: str = ""
+    nbp_rate: Decimal | None = None
+    nbp_rate_date: str = ""
+    nbp_currency: str = ""
 
     def to_dict(self) -> dict[str, str]:
-        return {
+        d = {
             "date": self.date,
             "event_type": self.event_type,
             "asset": self.asset,
@@ -46,7 +50,13 @@ class CostPoolEvent:
             "counterparty_asset": self.counterparty_asset,
             "counterparty_amount": fmt_full(self.counterparty_amount),
             "notes": self.notes,
+            "source_tx_id": self.source_tx_id,
         }
+        if self.nbp_rate is not None:
+            d["nbp_rate"] = fmt_full(self.nbp_rate)
+            d["nbp_rate_date"] = self.nbp_rate_date
+            d["nbp_currency"] = self.nbp_currency
+        return d
 
 
 @dataclass
@@ -126,17 +136,31 @@ def process_cost_pool(
     pools: dict[int, YearlyPool] = defaultdict(lambda: YearlyPool(year=0))
     warnings: list[str] = []
 
-    # Inject salary USDC as cost events (valued at receipt = already taxed as income)
+    # Track which years have salary data -- stablecoin deposits in those years
+    # should NOT be counted as costs (to avoid double-counting with salary lots)
+    salary_years: set[int] = set()
+
+    # Inject external lots (salary USDC, fiat purchases) as cost events
     if salary_lots:
         for lot in salary_lots:
             year = int(lot.date[:4])
             if pools[year].year == 0:
                 pools[year].year = year
+            currency = getattr(lot, "fiat_currency", "USD")
+            asset = getattr(lot, "asset", "USDC")
+            rate, rate_date = prices.nbp.get_rate_with_date(currency, lot.date)
+            # Only salary sources trigger stablecoin deposit dedup
+            if "salary" in lot.source:
+                salary_years.add(year)
+            is_salary = "salary" in lot.source
+            method = f"nbp_{currency.lower()}_salary" if is_salary else f"nbp_{currency.lower()}_purchase"
+            label = f"Salary {asset} {lot.amount} @ {fmt(lot.cost_pln)} PLN" if is_salary else f"Purchase {lot.amount} {asset} = {fmt(lot.cost_pln)} PLN"
             pools[year].cost_events.append(CostPoolEvent(
-                date=lot.date, event_type="cost", asset="USDC",
+                date=lot.date, event_type="cost", asset=asset,
                 amount=lot.amount, pln_value=lot.cost_pln,
-                price_method="nbp_usd_salary", source="polygon_salary",
-                notes=f"Salary USDC {lot.amount} @ {fmt(lot.cost_pln)} PLN",
+                price_method=method, source=lot.source,
+                notes=label,
+                nbp_rate=rate, nbp_rate_date=rate_date, nbp_currency=currency,
             ))
 
     for row in rows:
@@ -151,6 +175,7 @@ def process_cost_pool(
         date_str = date_iso[:10]
         year = int(date_str[:4])
         source = row.get("source", "")
+        source_tx_id = row.get("source_tx_id", "")
 
         if pools[year].year == 0:
             pools[year].year = year
@@ -160,30 +185,34 @@ def process_cost_pool(
 
         # === REVENUE EVENTS (crypto -> fiat) ===
         if tx_type == "sell" and not is_fiat(asset):
-            revenue_pln, method = prices.resolve(
+            revenue_pln, method, nbp_rate, nbp_date, nbp_cur = prices.resolve_with_rate(
                 asset, amount, cp_asset, cp_amount, date_str)
             pools[year].revenue_events.append(CostPoolEvent(
                 date=date_str, event_type="revenue", asset=asset,
                 amount=amount, pln_value=revenue_pln, price_method=method,
                 source=source, counterparty_asset=cp_asset,
                 counterparty_amount=cp_amount,
+                source_tx_id=source_tx_id,
+                nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency=nbp_cur,
             ))
             # Sale fees are deductible disposal costs
             if fee and fee_asset and is_fiat(fee_asset):
-                fee_pln_rate = prices.nbp.get_rate(fee_asset, date_str)
-                if fee_pln_rate:
+                fee_rate, fee_rate_date = prices.nbp.get_rate_with_date(fee_asset, date_str)
+                if fee_rate:
                     pools[year].fee_costs.append(CostPoolEvent(
                         date=date_str, event_type="cost", asset=fee_asset,
-                        amount=fee, pln_value=fee * fee_pln_rate,
+                        amount=fee, pln_value=fee * fee_rate,
                         price_method=f"nbp_{fee_asset.lower()}_fee", source=source,
                         notes=f"Trading fee {fee} {fee_asset}",
+                        source_tx_id=source_tx_id,
+                        nbp_rate=fee_rate, nbp_rate_date=fee_rate_date, nbp_currency=fee_asset,
                     ))
 
         # === COST EVENTS (fiat -> crypto purchases) ===
         elif tx_type == "buy":
             # Fiat spent to buy crypto = deductible cost
             if cp_asset and is_fiat(cp_asset) and cp_amount > 0:
-                cost_pln, method = prices.resolve(
+                cost_pln, method, nbp_rate, nbp_date, nbp_cur = prices.resolve_with_rate(
                     asset, amount, cp_asset, cp_amount, date_str)
                 pools[year].cost_events.append(CostPoolEvent(
                     date=date_str, event_type="cost", asset=asset,
@@ -191,26 +220,37 @@ def process_cost_pool(
                     source=source, counterparty_asset=cp_asset,
                     counterparty_amount=cp_amount,
                     notes=f"Buy {amount} {asset} for {cp_amount} {cp_asset}",
+                    source_tx_id=source_tx_id,
+                    nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency=nbp_cur,
                 ))
                 # Purchase fees
                 if fee and fee_asset and is_fiat(fee_asset):
-                    fee_pln_rate = prices.nbp.get_rate(fee_asset, date_str)
-                    if fee_pln_rate:
+                    fee_rate, fee_rate_date = prices.nbp.get_rate_with_date(fee_asset, date_str)
+                    if fee_rate:
                         pools[year].fee_costs.append(CostPoolEvent(
                             date=date_str, event_type="cost", asset=fee_asset,
-                            amount=fee, pln_value=fee * fee_pln_rate,
+                            amount=fee, pln_value=fee * fee_rate,
                             price_method=f"nbp_{fee_asset.lower()}_fee", source=source,
                             notes=f"Trading fee {fee} {fee_asset}",
+                            source_tx_id=source_tx_id,
+                            nbp_rate=fee_rate, nbp_rate_date=fee_rate_date, nbp_currency=fee_asset,
                         ))
 
         # === STABLECOIN DEPOSIT = cost (valued at NBP USD rate) ===
+        # Skip if salary data covers this year (salary lots already count the
+        # acquisition cost at receipt time; the exchange deposit is just a
+        # transfer and should not be double-counted)
         elif tx_type == "deposit" and is_stablecoin(asset):
-            pln_value, method = prices.stablecoin_pln_value(amount, date_str)
+            if year in salary_years:
+                continue  # salary lots already cover this cost
+            pln_value, method, nbp_rate, nbp_date = prices.stablecoin_pln_value_with_rate(amount, date_str)
             pools[year].cost_events.append(CostPoolEvent(
                 date=date_str, event_type="cost", asset=asset,
                 amount=amount, pln_value=pln_value, price_method=method,
                 source=source,
                 notes=f"Stablecoin deposit {amount} {asset}",
+                source_tx_id=source_tx_id,
+                nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency="USD",
             ))
 
         # === NON-TAXABLE EVENTS (crypto-to-crypto, transfers, etc.) ===
