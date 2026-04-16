@@ -1,6 +1,10 @@
+# Historical FTX placeholder -- superseded by the real FTX core transaction CSV
+# at docs/crypto-cex-transactions/ftx/core_transactions (m.brantheim@gmail).csv
+# This file is retained only for provenance and is NO LONGER used by the CLI defaults.
+#
 # FTX fiat deposits (crypto purchases) -- 2021
-# Exchange: FTX (bankrupt, full transaction history unavailable)
-# Only fiat deposit records available; exact crypto purchased unknown
+# Exchange: FTX (bankrupt, full transaction history was originally unavailable)
+# Only fiat deposit records were available when this placeholder was created.
 #
 # Pre-Poland residency period (Swedish resident)
 # Deductible under Polish PIT-38 per WSA Warsaw III SA/Wa 1290/24

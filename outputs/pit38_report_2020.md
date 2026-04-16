@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2020
 
-Generated: 2026-04-16 11:31
+Generated: 2026-04-16 14:54
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)

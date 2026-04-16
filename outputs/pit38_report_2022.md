@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2022
 
-Generated: 2026-04-16 11:31
+Generated: 2026-04-16 14:54
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)
@@ -9,9 +9,9 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | ---: | --- | ---: |
 | **Poz. 34** | Revenue from crypto disposals (przychody z odplatnego zbycia walut wirtualnych) | **437,946.26** |
 | **Poz. 35** | Costs incurred in 2022 (koszty uzyskania przychodow poniesione w roku podatkowym) | **510,774.07** |
-| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **570,494.74** |
+| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **595,909.55** |
 | Poz. 37 | Income / dochod | 0.00 |
-| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **643,322.55** |
+| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **668,737.35** |
 
 ## Tax Calculation
 
@@ -26,10 +26,10 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 - **27** taxable disposal events (crypto -> fiat)
 - Revenue: all fiat received from selling crypto = **437,946.26 PLN**
 - Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **510,774.07 PLN**
-- Costs from prior years: undeducted carry-forward = **570,494.74 PLN**
-- Total costs: 1,081,268.81 PLN
+- Costs from prior years: undeducted carry-forward = **595,909.55 PLN**
+- Total costs: 1,106,683.62 PLN
 - Costs exceed revenue: income = 0, no tax due
-- Excess costs of **643,322.55 PLN** carry forward to 2023
+- Excess costs of **668,737.35 PLN** carry forward to 2023
 
 ---
 
@@ -172,7 +172,7 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | --- | ---: | ---: | --- |
 | Sum of revenue events = Poz. 34 | 437,946.26 | 437,946.26 | YES |
 | Sum of cost events = Poz. 35 | 510,774.07 | 510,774.07 | YES |
-| Poz. 35 + Poz. 36 - Poz. 34 = Poz. 38 | 643,322.55 | 643,322.55 | YES |
+| Poz. 35 + Poz. 36 - Poz. 34 = Poz. 38 | 668,737.35 | 668,737.35 | YES |
 
 ## Legal Basis
 

@@ -29,9 +29,9 @@ Use the PIT-38 form for tax year 2023. In the crypto section (`Waluty wirtualne`
 | --- | ---: |
 | Poz. 34 | 411,143.91 |
 | Poz. 35 | 702,974.04 |
-| Poz. 36 | 643,322.55 |
+| Poz. 36 | 668,737.35 |
 | Poz. 37 | 0.00 |
-| Poz. 38 | 935,152.67 |
+| Poz. 38 | 960,567.48 |
 
 Meaning:
 - `Poz. 34`: revenue from crypto disposals
@@ -52,9 +52,9 @@ Use the PIT-38 form for tax year 2024. In the crypto section (`Waluty wirtualne`
 | --- | ---: |
 | Poz. 34 | 785,508.57 |
 | Poz. 35 | 488,065.61 |
-| Poz. 36 | 935,152.67 |
+| Poz. 36 | 960,567.48 |
 | Poz. 37 | 0.00 |
-| Poz. 38 | 637,709.71 |
+| Poz. 38 | 663,124.52 |
 
 Meaning:
 - `Poz. 36` must match the **2023 carry-forward** above
@@ -72,9 +72,9 @@ Use the PIT-38 form for tax year 2025. In the crypto section (`Waluty wirtualne`
 | --- | ---: |
 | Poz. 36 | 271,316.95 |
 | Poz. 37 | 197,234.37 |
-| Poz. 38 | 637,709.71 |
+| Poz. 38 | 663,124.52 |
 | Poz. 39 | 0.00 |
-| Poz. 40 | 563,627.13 |
+| Poz. 40 | 589,041.93 |
 
 Meaning:
 - `Poz. 38` must match the **2024 carry-forward** above
@@ -90,9 +90,9 @@ Use these checks before submitting:
 
 | Year | Check |
 | --- | --- |
-| 2023 | `702,974.04 + 643,322.55 - 411,143.91 = 935,152.67` |
-| 2024 | `488,065.61 + 935,152.67 - 785,508.57 = 637,709.71` |
-| 2025 | `197,234.37 + 637,709.71 - 271,316.95 = 563,627.13` |
+| 2023 | `702,974.04 + 668,737.35 - 411,143.91 = 960,567.48` |
+| 2024 | `488,065.61 + 960,567.48 - 785,508.57 = 663,124.52` |
+| 2025 | `197,234.37 + 663,124.52 - 271,316.95 = 589,041.93` |
 
 If any carry-forward value does not match the prior year, stop and fix the earlier form first.
 

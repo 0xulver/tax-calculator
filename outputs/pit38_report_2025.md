@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2025
 
-Generated: 2026-04-16 11:31
+Generated: 2026-04-16 14:54
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)
@@ -9,9 +9,9 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | ---: | --- | ---: |
 | **Poz. 36** | Revenue from crypto disposals (przychody z odplatnego zbycia walut wirtualnych) | **271,316.95** |
 | **Poz. 37** | Costs incurred in 2025 (koszty uzyskania przychodow poniesione w roku podatkowym) | **197,234.37** |
-| **Poz. 38** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **637,709.71** |
+| **Poz. 38** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **663,124.52** |
 | Poz. 39 | Income / dochod | 0.00 |
-| **Poz. 40** | **Undeducted costs to carry forward** (koszty nieodliczone) | **563,627.13** |
+| **Poz. 40** | **Undeducted costs to carry forward** (koszty nieodliczone) | **589,041.93** |
 
 ## Tax Calculation
 
@@ -26,10 +26,10 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 - **15** taxable disposal events (crypto -> fiat)
 - Revenue: all fiat received from selling crypto = **271,316.95 PLN**
 - Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **197,234.37 PLN**
-- Costs from prior years: undeducted carry-forward = **637,709.71 PLN**
-- Total costs: 834,944.08 PLN
+- Costs from prior years: undeducted carry-forward = **663,124.52 PLN**
+- Total costs: 860,358.89 PLN
 - Costs exceed revenue: income = 0, no tax due
-- Excess costs of **563,627.13 PLN** carry forward to 2026
+- Excess costs of **589,041.93 PLN** carry forward to 2026
 
 ---
 
@@ -121,7 +121,7 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | --- | ---: | ---: | --- |
 | Sum of revenue events = Poz. 36 | 271,316.95 | 271,316.95 | YES |
 | Sum of cost events = Poz. 37 | 197,234.37 | 197,234.37 | YES |
-| Poz. 37 + Poz. 38 - Poz. 36 = Poz. 40 | 563,627.13 | 563,627.13 | YES |
+| Poz. 37 + Poz. 38 - Poz. 36 = Poz. 40 | 589,041.93 | 589,041.93 | YES |
 
 ## Legal Basis
 

@@ -14,6 +14,7 @@ from tax_calc.models import fmt, fmt_full
 from tax_calc.nbp import NBPClient
 from tax_calc.normalizers.base import UNIFIED_COLUMNS, write_csv
 from tax_calc.normalizers.binance import normalize_binance
+from tax_calc.normalizers.ftx import normalize_ftx
 from tax_calc.normalizers.kraken import normalize_kraken
 from tax_calc.normalizers.salary import parse_salary_payments
 from tax_calc.pit38 import generate_pit38_report
@@ -38,6 +39,8 @@ def parse_args() -> argparse.Namespace:
     norm = sub.add_parser("normalize", help="Normalize exchange + salary data")
     norm.add_argument("--binance-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "binance"))
+    norm.add_argument("--ftx-dir",
+                      default=_default_path("docs", "crypto-cex-transactions", "ftx"))
     norm.add_argument("--kraken-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "kraken"))
     norm.add_argument("--output-dir", default=_default_path("outputs"))
@@ -51,7 +54,6 @@ def parse_args() -> argparse.Namespace:
         _default_path("docs", "crypto-transactions", "2023-salary-invoices.txt"),
         _default_path("docs", "crypto-transactions", "2024-salary-invoices.txt"),
         _default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"),
-        _default_path("docs", "crypto-transactions", "ftx-purchases.txt"),
         _default_path("docs", "crypto-transactions", "coinbase-purchases.txt"),
         _default_path("docs", "crypto-transactions", "celsius-simplex-purchases.txt"),
     ])
@@ -71,6 +73,8 @@ def parse_args() -> argparse.Namespace:
     full = sub.add_parser("full", help="Run normalize + pit38 + report")
     full.add_argument("--binance-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "binance"))
+    full.add_argument("--ftx-dir",
+                      default=_default_path("docs", "crypto-cex-transactions", "ftx"))
     full.add_argument("--kraken-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "kraken"))
     full.add_argument("--salary", nargs="*", default=[
@@ -79,7 +83,6 @@ def parse_args() -> argparse.Namespace:
         _default_path("docs", "crypto-transactions", "2023-salary-invoices.txt"),
         _default_path("docs", "crypto-transactions", "2024-salary-invoices.txt"),
         _default_path("docs", "crypto-transactions", "2025-polygon-payments.txt"),
-        _default_path("docs", "crypto-transactions", "ftx-purchases.txt"),
         _default_path("docs", "crypto-transactions", "coinbase-purchases.txt"),
         _default_path("docs", "crypto-transactions", "celsius-simplex-purchases.txt"),
     ])
@@ -98,17 +101,23 @@ def cmd_normalize(args: argparse.Namespace) -> int:
     binance_txns = normalize_binance(args.binance_dir)
     print(f"  Binance: {len(binance_txns)} records")
 
+    print("Normalizing FTX exports...")
+    ftx_txns = normalize_ftx(args.ftx_dir)
+    print(f"  FTX: {len(ftx_txns)} records")
+
     print("Normalizing Kraken exports...")
     kraken_txns = normalize_kraken(args.kraken_dir)
     print(f"  Kraken: {len(kraken_txns)} records")
 
     binance_rows = [t.to_dict() for t in binance_txns]
+    ftx_rows = [t.to_dict() for t in ftx_txns]
     kraken_rows = [t.to_dict() for t in kraken_txns]
-    all_rows = binance_rows + kraken_rows
+    all_rows = binance_rows + ftx_rows + kraken_rows
     all_rows.sort(key=lambda r: r["date"])
 
     os.makedirs(args.output_dir, exist_ok=True)
     write_csv(os.path.join(args.output_dir, "normalized_binance.csv"), binance_rows)
+    write_csv(os.path.join(args.output_dir, "normalized_ftx.csv"), ftx_rows)
     write_csv(os.path.join(args.output_dir, "normalized_kraken.csv"), kraken_rows)
     write_csv(os.path.join(args.output_dir, "normalized_all_exchanges.csv"), all_rows)
 
