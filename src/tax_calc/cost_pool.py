@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal, ROUND_HALF_UP
 from typing import Any
 
-from tax_calc.constants import FIAT, IGNORED_TX_TYPES, is_fiat, is_stablecoin
+from tax_calc.constants import IGNORED_TX_TYPES, is_fiat, is_stablecoin
 from tax_calc.models import FIFOLot, fmt, fmt_full
 from tax_calc.prices import PriceResolver
 
@@ -196,17 +196,21 @@ def process_cost_pool(
                 nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency=nbp_cur,
             ))
             # Sale fees are deductible disposal costs
-            if fee and fee_asset and is_fiat(fee_asset):
-                fee_rate, fee_rate_date = prices.nbp.get_rate_with_date(fee_asset, date_str)
-                if fee_rate:
-                    pools[year].fee_costs.append(CostPoolEvent(
-                        date=date_str, event_type="cost", asset=fee_asset,
-                        amount=fee, pln_value=fee * fee_rate,
-                        price_method=f"nbp_{fee_asset.lower()}_fee", source=source,
-                        notes=f"Trading fee {fee} {fee_asset}",
-                        source_tx_id=source_tx_id,
-                        nbp_rate=fee_rate, nbp_rate_date=fee_rate_date, nbp_currency=fee_asset,
-                    ))
+            _append_fee_cost(
+                pools[year], prices,
+                date_str=date_str,
+                fee_asset=fee_asset,
+                fee_amount=fee,
+                source=source,
+                source_tx_id=source_tx_id,
+                notes=f"Trading fee {fee} {fee_asset}",
+                trade_asset=asset,
+                trade_amount=amount,
+                trade_pln_value=revenue_pln,
+                trade_nbp_rate=nbp_rate,
+                trade_nbp_date=nbp_date,
+                trade_nbp_currency=nbp_cur,
+            )
 
         # === COST EVENTS (fiat -> crypto purchases) ===
         elif tx_type == "buy":
@@ -224,17 +228,21 @@ def process_cost_pool(
                     nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency=nbp_cur,
                 ))
                 # Purchase fees
-                if fee and fee_asset and is_fiat(fee_asset):
-                    fee_rate, fee_rate_date = prices.nbp.get_rate_with_date(fee_asset, date_str)
-                    if fee_rate:
-                        pools[year].fee_costs.append(CostPoolEvent(
-                            date=date_str, event_type="cost", asset=fee_asset,
-                            amount=fee, pln_value=fee * fee_rate,
-                            price_method=f"nbp_{fee_asset.lower()}_fee", source=source,
-                            notes=f"Trading fee {fee} {fee_asset}",
-                            source_tx_id=source_tx_id,
-                            nbp_rate=fee_rate, nbp_rate_date=fee_rate_date, nbp_currency=fee_asset,
-                        ))
+                _append_fee_cost(
+                    pools[year], prices,
+                    date_str=date_str,
+                    fee_asset=fee_asset,
+                    fee_amount=fee,
+                    source=source,
+                    source_tx_id=source_tx_id,
+                    notes=f"Trading fee {fee} {fee_asset}",
+                    trade_asset=asset,
+                    trade_amount=amount,
+                    trade_pln_value=cost_pln,
+                    trade_nbp_rate=nbp_rate,
+                    trade_nbp_date=nbp_date,
+                    trade_nbp_currency=nbp_cur,
+                )
 
         # === STABLECOIN DEPOSIT = cost (valued at NBP USD rate) ===
         # Skip if salary data covers this year (salary lots already count the
@@ -253,11 +261,23 @@ def process_cost_pool(
                 nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency="USD",
             ))
 
+        # === STANDALONE FEES ===
+        elif tx_type == "fee":
+            _append_fee_cost(
+                pools[year], prices,
+                date_str=date_str,
+                fee_asset=asset,
+                fee_amount=amount,
+                source=source,
+                source_tx_id=source_tx_id,
+                notes=row.get("notes", "") or f"Fee {amount} {asset}",
+            )
+
         # === NON-TAXABLE EVENTS (crypto-to-crypto, transfers, etc.) ===
         # swap_in, swap_out, withdrawal, deposit (non-stablecoin),
         # staking_reward, earn_reward, interest, airdrop, token_swap,
-        # conversion, fee — all non-taxable at this stage.
-        # Crypto-to-crypto swap fees are NOT deductible (Art. 23 ust. 1 pkt 38d).
+        # conversion, funding_fee — all non-taxable at this stage.
+        # Crypto-to-crypto swap fees and withdrawal/funding fees are excluded.
 
     # Build PIT-38 results year by year
     carry_forward = pre_residency_costs
@@ -308,3 +328,65 @@ def _dec(v: str) -> Decimal:
         return Decimal(v.strip())
     except Exception:
         return Decimal("0")
+
+
+def _append_fee_cost(
+    pool: YearlyPool,
+    prices: PriceResolver,
+    *,
+    date_str: str,
+    fee_asset: str,
+    fee_amount: Decimal,
+    source: str,
+    source_tx_id: str,
+    notes: str,
+    trade_asset: str = "",
+    trade_amount: Decimal = Decimal("0"),
+    trade_pln_value: Decimal = Decimal("0"),
+    trade_nbp_rate: Decimal | None = None,
+    trade_nbp_date: str = "",
+    trade_nbp_currency: str = "",
+) -> None:
+    """Append a deductible fee cost event when it can be valued in PLN."""
+    if fee_amount <= 0 or not fee_asset:
+        return
+
+    # If the fee is charged in the traded asset itself, value it using the
+    # trade's implied PLN-per-unit instead of a separate price lookup.
+    if trade_asset and fee_asset.upper() == trade_asset.upper() and trade_amount > 0 and trade_pln_value > 0:
+        unit_pln = trade_pln_value / trade_amount
+        pool.fee_costs.append(CostPoolEvent(
+            date=date_str,
+            event_type="cost",
+            asset=fee_asset,
+            amount=fee_amount,
+            pln_value=fee_amount * unit_pln,
+            price_method="trade_implied_fee",
+            source=source,
+            notes=notes,
+            source_tx_id=source_tx_id,
+            nbp_rate=trade_nbp_rate,
+            nbp_rate_date=trade_nbp_date,
+            nbp_currency=trade_nbp_currency,
+        ))
+        return
+
+    fee_pln, method, nbp_rate, nbp_date, nbp_cur = prices.asset_pln_value_with_rate(
+        fee_asset, fee_amount, date_str)
+    if fee_pln <= 0:
+        return
+
+    pool.fee_costs.append(CostPoolEvent(
+        date=date_str,
+        event_type="cost",
+        asset=fee_asset,
+        amount=fee_amount,
+        pln_value=fee_pln,
+        price_method=method,
+        source=source,
+        notes=notes,
+        source_tx_id=source_tx_id,
+        nbp_rate=nbp_rate,
+        nbp_rate_date=nbp_date,
+        nbp_currency=nbp_cur,
+    ))

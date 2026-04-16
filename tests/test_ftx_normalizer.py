@@ -97,7 +97,7 @@ def test_ftx_circle_deposit_fee_and_withdrawal(tmp_path):
 
     txns = normalize_ftx(_write_ftx_csv(rows, str(tmp_path)))
 
-    assert [t.tx_type for t in txns] == ["fiat_deposit", "fee", "withdrawal", "fiat_withdrawal"]
+    assert [t.tx_type for t in txns] == ["fiat_deposit", "funding_fee", "withdrawal", "fiat_withdrawal"]
     assert txns[1].amount == Decimal("89.88")
     assert txns[2].asset == "BTC"
     assert txns[3].asset == "USD"

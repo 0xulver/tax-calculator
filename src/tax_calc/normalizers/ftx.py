@@ -97,7 +97,7 @@ def _normalize_non_spot_entries(dt: datetime, entries: list[dict[str, object]]) 
         if desc == "Circle deposit":
             out.append(_tx(dt, "fiat_deposit", coin, qty.copy_abs(), notes="FTX Circle deposit"))
         elif desc == "Circle deposit fee":
-            out.append(_tx(dt, "fee", coin, qty.copy_abs(), notes="FTX Circle deposit fee"))
+            out.append(_tx(dt, "funding_fee", coin, qty.copy_abs(), notes="FTX Circle deposit fee"))
         elif desc.startswith("fiat_deposit "):
             ref = desc.split()[-1]
             out.append(_tx(dt, "fiat_deposit", coin, qty.copy_abs(), notes=f"FTX {desc}", txid=ref))

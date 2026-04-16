@@ -28,10 +28,10 @@ This is the current calculator output after adding the Celsius/Simplex and Coinb
 
 | Tax Year | PIT-38 Carry-Forward |
 | --- | ---: |
-| 2022 -> 2023 | 668,737.35 PLN |
-| 2023 -> 2024 | 960,567.48 PLN |
-| 2024 -> 2025 | 663,124.52 PLN |
-| 2025 -> 2026 | 589,041.93 PLN |
+| 2022 -> 2023 | 668,757.92 PLN |
+| 2023 -> 2024 | 960,686.74 PLN |
+| 2024 -> 2025 | 663,243.77 PLN |
+| 2025 -> 2026 | 589,298.07 PLN |
 
 This chain only stays coherent if the filings are submitted in order:
 
@@ -50,10 +50,10 @@ If 2023 is not corrected first, the 2024 prior-year cost field will not match th
 | PIT-38 Field | Amount (PLN) |
 | --- | ---: |
 | Poz. 34 -- Revenue | 411,143.91 |
-| Poz. 35 -- Costs incurred in 2023 | 702,974.04 |
-| Poz. 36 -- Costs from prior years | 668,737.35 |
+| Poz. 35 -- Costs incurred in 2023 | 703,072.73 |
+| Poz. 36 -- Costs from prior years | 668,757.92 |
 | Poz. 37 -- Income | 0.00 |
-| Poz. 38 -- Carry-forward to 2024 | 960,567.48 |
+| Poz. 38 -- Carry-forward to 2024 | 960,686.74 |
 | **Tax due** | **0 PLN** |
 
 Source: `outputs/pit38_report_2023.md`
@@ -66,9 +66,9 @@ Use **korekta** if e-Urząd shows an auto-accepted zero PIT-38 for 2024. Use **z
 | --- | ---: |
 | Poz. 34 -- Revenue | 785,508.57 |
 | Poz. 35 -- Costs incurred in 2024 | 488,065.61 |
-| Poz. 36 -- Costs from prior years | 960,567.48 |
+| Poz. 36 -- Costs from prior years | 960,686.74 |
 | Poz. 37 -- Income | 0.00 |
-| Poz. 38 -- Carry-forward to 2025 | 663,124.52 |
+| Poz. 38 -- Carry-forward to 2025 | 663,243.77 |
 | **Tax due** | **0 PLN** |
 
 Source: `outputs/pit38_report_2024.md`
@@ -78,10 +78,10 @@ Source: `outputs/pit38_report_2024.md`
 | PIT-38 Field | Amount (PLN) |
 | --- | ---: |
 | Poz. 36 -- Revenue | 271,316.95 |
-| Poz. 37 -- Costs incurred in 2025 | 197,234.37 |
-| Poz. 38 -- Costs from prior years | 663,124.52 |
+| Poz. 37 -- Costs incurred in 2025 | 197,371.25 |
+| Poz. 38 -- Costs from prior years | 663,243.77 |
 | Poz. 39 -- Income | 0.00 |
-| Poz. 40 -- Carry-forward to 2026 | 589,041.93 |
+| Poz. 40 -- Carry-forward to 2026 | 589,298.07 |
 | **Tax due** | **0 PLN** |
 
 Source: `outputs/pit38_report_2025.md`
@@ -148,7 +148,7 @@ For exact PIT-38 entry steps, see `docs/todo/pit38-filing-guide.md`.
 | Year | Form | Current Status | Problem |
 | --- | --- | --- | --- |
 | 2023 | PIT-37 | Filed late with czynny zal | Wrong form; should be PIT-36 + PIT/ZG |
-| 2023 | PIT-38 | Filed, but with old carry-forward | Needs korekta to 960,567.48 PLN |
+| 2023 | PIT-38 | Filed, but with old carry-forward | Needs korekta to 960,686.74 PLN |
 | 2024 | PIT-37 | Filed by tax company | Wrong form; should be PIT-36 + PIT/ZG |
 | 2024 | PIT-38 | No manual filing yet | Check e-Urząd for zero auto-acceptance before choosing korekta vs first filing |
 | 2025 | PIT-36 / PIT-38 / PIT-28 | Not yet filed | Must file by April 30, 2026 |

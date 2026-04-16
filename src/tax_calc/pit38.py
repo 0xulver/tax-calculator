@@ -18,6 +18,11 @@ def _fmt(v) -> str:
     return f"{d:,.2f}"
 
 
+def _same_form_value(a: Decimal, b: Decimal) -> bool:
+    """Compare values at the 2-decimal precision used on PIT-38 forms."""
+    return _fmt2(a) == _fmt2(b)
+
+
 def _fmt2(v) -> str:
     """Format for PIT-38 form fields (2 decimal places, no thousands separator)."""
     d = Decimal(str(v))
@@ -217,13 +222,13 @@ def generate_pit38_report(
     cost_sum = sum(e.pln_value for e in result.cost_events)
     lines.append("| Check | Expected | Computed | Match |")
     lines.append("| --- | ---: | ---: | --- |")
-    rev_match = "YES" if revenue_sum == result.revenue_pln else "**NO**"
-    cost_match = "YES" if cost_sum == result.costs_current_year_pln else "**NO**"
+    rev_match = "YES" if _same_form_value(revenue_sum, result.revenue_pln) else "**NO**"
+    cost_match = "YES" if _same_form_value(cost_sum, result.costs_current_year_pln) else "**NO**"
     lines.append(f"| Sum of revenue events = Poz. {poz_rev} | {_fmt(result.revenue_pln)} | {_fmt(revenue_sum)} | {rev_match} |")
     lines.append(f"| Sum of cost events = Poz. {poz_cost} | {_fmt(result.costs_current_year_pln)} | {_fmt(cost_sum)} | {cost_match} |")
     if result.income_pln > 0:
         expected_income = result.revenue_pln - result.costs_current_year_pln - result.costs_prior_years_pln
-        income_match = "YES" if expected_income == result.income_pln else "**NO**"
+        income_match = "YES" if _same_form_value(expected_income, result.income_pln) else "**NO**"
         lines.append(f"| Poz. {poz_rev} - Poz. {poz_cost} - Poz. {poz_prior} = Poz. {poz_income} | {_fmt(result.income_pln)} | {_fmt(expected_income)} | {income_match} |")
     else:
         expected_carry = result.costs_current_year_pln + result.costs_prior_years_pln - result.revenue_pln

@@ -57,6 +57,56 @@ class TestBasicCostPool:
         # 5000 EUR * 4.3 = 21500 PLN
         assert r2025.costs_current_year_pln == Decimal("5000") * Decimal("4.3")
 
+    def test_standalone_fee_creates_cost(self):
+        """Standalone trade-fee rows should be deductible costs."""
+        prices = _make_prices()
+        rows = [
+            {"date": "2021-05-11T14:08:04+00:00", "source": "ftx", "source_tx_id": "",
+             "tx_type": "fee", "asset": "USD", "amount": "10", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "", "counterparty_amount": "0",
+             "notes": "FTX spot trade fee"},
+        ]
+        result = process_cost_pool(rows, prices)
+        r2021 = result["yearly_results"][2021]
+        assert r2021.costs_current_year_pln == Decimal("10") * Decimal("4.0")
+
+    def test_funding_fee_is_ignored(self):
+        """Funding and withdrawal-side fees should not enter the PIT-38 cost pool."""
+        prices = _make_prices()
+        rows = [
+            {"date": "2021-05-11T14:08:04+00:00", "source": "ftx", "source_tx_id": "",
+             "tx_type": "funding_fee", "asset": "USD", "amount": "10", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "", "counterparty_amount": "0",
+             "notes": "FTX Circle deposit fee"},
+        ]
+        result = process_cost_pool(rows, prices)
+        r2021 = result["yearly_results"][2021]
+        assert r2021.costs_current_year_pln == Decimal("0")
+
+    def test_withdrawal_fee_is_ignored(self):
+        prices = _make_prices()
+        rows = [
+            {"date": "2025-01-16T08:50:09+00:00", "source": "kraken", "source_tx_id": "",
+             "tx_type": "fiat_withdrawal", "asset": "EUR", "amount": "3874.83", "fee": "1.0",
+             "fee_asset": "EUR", "counterparty_asset": "", "counterparty_amount": "0",
+             "notes": "Kraken withdrawal (fiat)"},
+        ]
+
+    def test_non_fiat_fee_on_buy_uses_trade_implied_value(self):
+        """Fees charged in the acquired asset should still enter the cost pool."""
+        prices = _make_prices()
+        rows = [
+            {"date": "2025-01-10T10:00:00+00:00", "source": "ftx", "source_tx_id": "",
+             "tx_type": "buy", "asset": "SNX", "amount": "10", "fee": "0.1",
+             "fee_asset": "SNX", "counterparty_asset": "USD", "counterparty_amount": "200",
+             "notes": ""},
+        ]
+        result = process_cost_pool(rows, prices)
+        r2025 = result["yearly_results"][2025]
+        # Main cost: 200 USD * 4.0 = 800 PLN
+        # Fee cost: 0.1 / 10 * 800 = 8 PLN
+        assert r2025.costs_current_year_pln == Decimal("808")
+
     def test_crypto_to_crypto_ignored(self):
         """Crypto-to-crypto swaps create no revenue or cost events."""
         prices = _make_prices()

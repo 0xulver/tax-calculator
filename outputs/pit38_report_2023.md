@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2023
 
-Generated: 2026-04-16 14:54
+Generated: 2026-04-16 16:19
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)
@@ -8,10 +8,10 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | PIT-38 Field | Description | Amount (PLN) |
 | ---: | --- | ---: |
 | **Poz. 34** | Revenue from crypto disposals (przychody z odplatnego zbycia walut wirtualnych) | **411,143.91** |
-| **Poz. 35** | Costs incurred in 2023 (koszty uzyskania przychodow poniesione w roku podatkowym) | **702,974.04** |
-| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **668,737.35** |
+| **Poz. 35** | Costs incurred in 2023 (koszty uzyskania przychodow poniesione w roku podatkowym) | **703,072.73** |
+| **Poz. 36** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **668,757.92** |
 | Poz. 37 | Income / dochod | 0.00 |
-| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **960,567.48** |
+| **Poz. 38** | **Undeducted costs to carry forward** (koszty nieodliczone) | **960,686.74** |
 
 ## Tax Calculation
 
@@ -25,11 +25,11 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 - **21** taxable disposal events (crypto -> fiat)
 - Revenue: all fiat received from selling crypto = **411,143.91 PLN**
-- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **702,974.04 PLN**
-- Costs from prior years: undeducted carry-forward = **668,737.35 PLN**
-- Total costs: 1,371,711.39 PLN
+- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **703,072.73 PLN**
+- Costs from prior years: undeducted carry-forward = **668,757.92 PLN**
+- Total costs: 1,371,830.65 PLN
 - Costs exceed revenue: income = 0, no tax due
-- Excess costs of **960,567.48 PLN** carry forward to 2024
+- Excess costs of **960,686.74 PLN** carry forward to 2024
 
 ---
 
@@ -39,8 +39,8 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | --- | ---: | ---: |
 | Crypto purchases | 4 | 64,969.54 |
 | Salary (USDC) | 25 | 631,993.80 |
-| Trading fees | 23 | 6,010.70 |
-| **TOTAL (= Poz. 35)** | **52** | **702,974.04** |
+| Trading fees | 25 | 6,109.39 |
+| **TOTAL (= Poz. 35)** | **54** | **703,072.73** |
 
 ## Verification: Revenue Breakdown by Source
 
@@ -123,29 +123,31 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | 29 | 2023-07-19 | kraken | LLKYKJ-WHTD6-VHT | Crypto purchases | KSM | 275.11356322 | 3.9451 USD/PLN | 2023-07-18 | 26,147.50 | Buy 275.11356322 KSM for 6627.8419 USD |
 | 30 | 2023-07-19 | kraken | LV3C2W-KFWAD-O3B | Trading fees | EUR | 39.47 | 4.4331 EUR/PLN | 2023-07-18 | 174.97 | Trading fee 39.47 EUR |
 | 31 | 2023-07-19 | kraken | LK7S47-246LV-DGJ | Trading fees | USD | 5.9988 | 3.9451 USD/PLN | 2023-07-18 | 23.67 | Trading fee 5.9988 USD |
-| 32 | 2023-07-19 | kraken | LQPUYB-CPPUP-2CZ | Trading fees | USD | 17.2773 | 3.9451 USD/PLN | 2023-07-18 | 68.16 | Trading fee 17.2773 USD |
-| 33 | 2023-07-21 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 3.9710 USD/PLN | 2023-07-20 | 23,826.00 | Salary USDC 6000 @ 23826.00 PLN |
-| 34 | 2023-08-01 | kraken | LK3GBC-ATTJA-WHV | Trading fees | EUR | 40.27 | 4.4135 EUR/PLN | 2023-07-31 | 177.73 | Trading fee 40.27 EUR |
-| 35 | 2023-08-04 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.0810 USD/PLN | 2023-08-03 | 24,486.00 | Salary USDC 6000 @ 24486.00 PLN |
-| 36 | 2023-08-15 | kraken | LHGYZK-RAE42-L7S | Trading fees | EUR | 40.52 | 4.4361 EUR/PLN | 2023-08-14 | 179.75 | Trading fee 40.52 EUR |
-| 37 | 2023-08-18 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1094 USD/PLN | 2023-08-17 | 24,656.40 | Salary USDC 6000 @ 24656.40 PLN |
-| 38 | 2023-08-23 | kraken | L6LSDB-2BBCW-ZEK | Trading fees | EUR | 13.63 | 4.4648 EUR/PLN | 2023-08-22 | 60.86 | Trading fee 13.63 EUR |
-| 39 | 2023-09-01 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1074 USD/PLN | 2023-08-31 | 24,644.40 | Salary USDC 6000 @ 24644.40 PLN |
-| 40 | 2023-09-02 | kraken | LBNPPW-CG7NM-WYR | Trading fees | EUR | 41.13 | 4.4762 EUR/PLN | 2023-09-01 | 184.11 | Trading fee 41.13 EUR |
-| 41 | 2023-09-10 | kraken | LEMIFQ-MOIBX-DWG | Trading fees | EUR | 62.16 | 4.6019 EUR/PLN | 2023-09-08 | 286.05 | Trading fee 62.16 EUR |
-| 42 | 2023-09-15 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.3120 USD/PLN | 2023-09-14 | 25,872.00 | Salary USDC 6000 @ 25872.00 PLN |
-| 43 | 2023-09-18 | kraken | LACOHQ-7ILZD-FJE | Trading fees | EUR | 83.04 | 4.6307 EUR/PLN | 2023-09-15 | 384.53 | Trading fee 83.04 EUR |
-| 44 | 2023-09-29 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.4062 USD/PLN | 2023-09-28 | 26,437.20 | Salary USDC 6000 @ 26437.20 PLN |
-| 45 | 2023-10-13 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.2659 USD/PLN | 2023-10-12 | 25,595.40 | Salary USDC 6000 @ 25595.40 PLN |
-| 46 | 2023-10-17 | kraken | LNS7AE-JXIDT-OYX | Trading fees | EUR | 42.06 | 4.4804 EUR/PLN | 2023-10-16 | 188.45 | Trading fee 42.06 EUR |
-| 47 | 2023-10-27 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.2395 USD/PLN | 2023-10-26 | 25,437.00 | Salary USDC 6000 @ 25437.00 PLN |
-| 48 | 2023-11-05 | kraken | LWVHYZ-BGGQ4-MVJ | Trading fees | EUR | 82.67 | 4.4569 EUR/PLN | 2023-11-03 | 368.45 | Trading fee 82.67 EUR |
-| 49 | 2023-11-10 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1513 USD/PLN | 2023-11-09 | 24,907.80 | Salary USDC 6000 @ 24907.80 PLN |
-| 50 | 2023-11-24 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 3.9969 USD/PLN | 2023-11-23 | 23,981.40 | Salary USDC 6000 @ 23981.40 PLN |
-| 51 | 2023-11-27 | kraken | LFR7SU-XLFED-O3U | Trading fees | EUR | 80.99 | 4.3722 EUR/PLN | 2023-11-24 | 354.10 | Trading fee 80.99 EUR |
-| 52 | 2023-12-08 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.0199 USD/PLN | 2023-12-07 | 24,119.40 | Salary USDC 6000 @ 24119.40 PLN |
+| 32 | 2023-07-19 | kraken | L4BJ7P-5B4EK-EFM | Trading fees | KSM | 0.32282871 | 3.9451 USD/PLN | 2023-07-18 | 30.70 | Trading fee 0.32282871 KSM |
+| 33 | 2023-07-19 | kraken | LQPUYB-CPPUP-2CZ | Trading fees | USD | 17.2773 | 3.9451 USD/PLN | 2023-07-18 | 68.16 | Trading fee 17.2773 USD |
+| 34 | 2023-07-19 | kraken | LLKYKJ-WHTD6-VHT | Trading fees | KSM | 0.71529572 | 3.9451 USD/PLN | 2023-07-18 | 67.98 | Trading fee 0.71529572 KSM |
+| 35 | 2023-07-21 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 3.9710 USD/PLN | 2023-07-20 | 23,826.00 | Salary USDC 6000 @ 23826.00 PLN |
+| 36 | 2023-08-01 | kraken | LK3GBC-ATTJA-WHV | Trading fees | EUR | 40.27 | 4.4135 EUR/PLN | 2023-07-31 | 177.73 | Trading fee 40.27 EUR |
+| 37 | 2023-08-04 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.0810 USD/PLN | 2023-08-03 | 24,486.00 | Salary USDC 6000 @ 24486.00 PLN |
+| 38 | 2023-08-15 | kraken | LHGYZK-RAE42-L7S | Trading fees | EUR | 40.52 | 4.4361 EUR/PLN | 2023-08-14 | 179.75 | Trading fee 40.52 EUR |
+| 39 | 2023-08-18 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1094 USD/PLN | 2023-08-17 | 24,656.40 | Salary USDC 6000 @ 24656.40 PLN |
+| 40 | 2023-08-23 | kraken | L6LSDB-2BBCW-ZEK | Trading fees | EUR | 13.63 | 4.4648 EUR/PLN | 2023-08-22 | 60.86 | Trading fee 13.63 EUR |
+| 41 | 2023-09-01 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1074 USD/PLN | 2023-08-31 | 24,644.40 | Salary USDC 6000 @ 24644.40 PLN |
+| 42 | 2023-09-02 | kraken | LBNPPW-CG7NM-WYR | Trading fees | EUR | 41.13 | 4.4762 EUR/PLN | 2023-09-01 | 184.11 | Trading fee 41.13 EUR |
+| 43 | 2023-09-10 | kraken | LEMIFQ-MOIBX-DWG | Trading fees | EUR | 62.16 | 4.6019 EUR/PLN | 2023-09-08 | 286.05 | Trading fee 62.16 EUR |
+| 44 | 2023-09-15 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.3120 USD/PLN | 2023-09-14 | 25,872.00 | Salary USDC 6000 @ 25872.00 PLN |
+| 45 | 2023-09-18 | kraken | LACOHQ-7ILZD-FJE | Trading fees | EUR | 83.04 | 4.6307 EUR/PLN | 2023-09-15 | 384.53 | Trading fee 83.04 EUR |
+| 46 | 2023-09-29 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.4062 USD/PLN | 2023-09-28 | 26,437.20 | Salary USDC 6000 @ 26437.20 PLN |
+| 47 | 2023-10-13 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.2659 USD/PLN | 2023-10-12 | 25,595.40 | Salary USDC 6000 @ 25595.40 PLN |
+| 48 | 2023-10-17 | kraken | LNS7AE-JXIDT-OYX | Trading fees | EUR | 42.06 | 4.4804 EUR/PLN | 2023-10-16 | 188.45 | Trading fee 42.06 EUR |
+| 49 | 2023-10-27 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.2395 USD/PLN | 2023-10-26 | 25,437.00 | Salary USDC 6000 @ 25437.00 PLN |
+| 50 | 2023-11-05 | kraken | LWVHYZ-BGGQ4-MVJ | Trading fees | EUR | 82.67 | 4.4569 EUR/PLN | 2023-11-03 | 368.45 | Trading fee 82.67 EUR |
+| 51 | 2023-11-10 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.1513 USD/PLN | 2023-11-09 | 24,907.80 | Salary USDC 6000 @ 24907.80 PLN |
+| 52 | 2023-11-24 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 3.9969 USD/PLN | 2023-11-23 | 23,981.40 | Salary USDC 6000 @ 23981.40 PLN |
+| 53 | 2023-11-27 | kraken | LFR7SU-XLFED-O3U | Trading fees | EUR | 80.99 | 4.3722 EUR/PLN | 2023-11-24 | 354.10 | Trading fee 80.99 EUR |
+| 54 | 2023-12-08 | polygon_salary | — | Salary (USDC) | USDC | 6E+3 | 4.0199 USD/PLN | 2023-12-07 | 24,119.40 | Salary USDC 6000 @ 24119.40 PLN |
 
-**Cost total: 702,974.04 PLN** (sum of all rows above)
+**Cost total: 703,072.73 PLN** (sum of all rows above)
 
 ---
 
@@ -154,8 +156,8 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | Check | Expected | Computed | Match |
 | --- | ---: | ---: | --- |
 | Sum of revenue events = Poz. 34 | 411,143.91 | 411,143.91 | YES |
-| Sum of cost events = Poz. 35 | 702,974.04 | 702,974.04 | YES |
-| Poz. 35 + Poz. 36 - Poz. 34 = Poz. 38 | 960,567.48 | 960,567.48 | YES |
+| Sum of cost events = Poz. 35 | 703,072.73 | 703,072.73 | YES |
+| Poz. 35 + Poz. 36 - Poz. 34 = Poz. 38 | 960,686.74 | 960,686.74 | YES |
 
 ## Legal Basis
 

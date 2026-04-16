@@ -244,7 +244,7 @@ date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,c
 2021-05-09T21:08:04+00:00,kraken,LY5UFZ-XEE54-E4ERKS,buy,DOT,73.06537782,43.67,USD,USD,2911.23,Kraken Trade
 2021-05-09T21:16:24+00:00,kraken,LEJ2DY-3CL5Z-KZQ3UO,withdrawal,DOT,73.04053515,0.05,DOT,,0,Kraken withdrawal (crypto)
 2021-05-11T14:08:04.344445+00:00,ftx,,fiat_deposit,USD,3088.88,0,,,0,FTX Circle deposit
-2021-05-11T14:08:04.344445+00:00,ftx,,fee,USD,89.88,0,,,0,FTX Circle deposit fee
+2021-05-11T14:08:04.344445+00:00,ftx,,funding_fee,USD,89.88,0,,,0,FTX Circle deposit fee
 2021-05-11T14:30:35.583218+00:00,ftx,2021-05-11 14:30:35.583218,buy,CEL,11.5,0.00805,CEL,USD,80.638,FTX spot trade
 2021-05-11T14:31:40.635447+00:00,ftx,2021-05-11 14:31:40.635447,buy,CEL,416.1,0.29127,CEL,USD,2918.29275,FTX spot trade
 2021-05-12T07:23:42+00:00,kraken,L732VH-KH7KB-OUI4ZY,staking_reward,KSM,0.14315108,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
@@ -306,7 +306,7 @@ date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,c
 2021-05-18T20:24:37.913971+00:00,ftx,3077949,withdrawal,CEL,565.32756,0,,,0,FTX withdrawal 3077949
 2021-05-19T03:06:25+00:00,kraken,LTGH35-P5CSI-FJORIH,staking_reward,KSM,0.1434862,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
 2021-05-21T21:01:24.834452+00:00,ftx,,fiat_deposit,USD,2348.41,0,,,0,FTX Circle deposit
-2021-05-21T21:01:24.834452+00:00,ftx,,fee,USD,68.4,0,,,0,FTX Circle deposit fee
+2021-05-21T21:01:24.834452+00:00,ftx,,funding_fee,USD,68.4,0,,,0,FTX Circle deposit fee
 2021-05-22T03:05:37+00:00,kraken,LWHI2D-4CPWC-OUAC6J,staking_reward,KSM,0.10775519,0,,,0,Kraken staking (staking_on_chain) raw_asset=KSM.S
 2021-05-22T19:17:39+00:00,kraken,LXBSW6-QPMZP-O5FCJK,deposit,USDC,2E+1,0,,,0,Kraken deposit (stable_coin)
 2021-05-22T19:26:52+00:00,kraken,LVAPJR-QWWV5-VVRXEX,deposit,USDC,1.48E+3,0,,,0,Kraken deposit (stable_coin)

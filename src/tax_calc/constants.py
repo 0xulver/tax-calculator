@@ -46,7 +46,7 @@ COINGECKO_ID_MAP = {
 IGNORED_TX_TYPES = frozenset({
     "internal_transfer", "earn_allocation", "earn_other",
     "fiat_deposit", "fiat_withdrawal", "adjustment", "recovery",
-    "unknown",
+    "funding_fee", "unknown",
 })
 
 

@@ -1,6 +1,6 @@
 # PIT-38 Crypto Tax Report -- 2025
 
-Generated: 2026-04-16 14:54
+Generated: 2026-04-16 16:19
 Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 ## PIT-38 Section E -- Virtual Currency (waluta wirtualna)
@@ -8,10 +8,10 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | PIT-38 Field | Description | Amount (PLN) |
 | ---: | --- | ---: |
 | **Poz. 36** | Revenue from crypto disposals (przychody z odplatnego zbycia walut wirtualnych) | **271,316.95** |
-| **Poz. 37** | Costs incurred in 2025 (koszty uzyskania przychodow poniesione w roku podatkowym) | **197,234.37** |
-| **Poz. 38** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **663,124.52** |
+| **Poz. 37** | Costs incurred in 2025 (koszty uzyskania przychodow poniesione w roku podatkowym) | **197,371.25** |
+| **Poz. 38** | Costs from prior years (koszty z lat ubieglych nieodliczone) | **663,243.77** |
 | Poz. 39 | Income / dochod | 0.00 |
-| **Poz. 40** | **Undeducted costs to carry forward** (koszty nieodliczone) | **589,041.93** |
+| **Poz. 40** | **Undeducted costs to carry forward** (koszty nieodliczone) | **589,298.07** |
 
 ## Tax Calculation
 
@@ -25,11 +25,11 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 
 - **15** taxable disposal events (crypto -> fiat)
 - Revenue: all fiat received from selling crypto = **271,316.95 PLN**
-- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **197,234.37 PLN**
-- Costs from prior years: undeducted carry-forward = **663,124.52 PLN**
-- Total costs: 860,358.89 PLN
+- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **197,371.25 PLN**
+- Costs from prior years: undeducted carry-forward = **663,243.77 PLN**
+- Total costs: 860,615.03 PLN
 - Costs exceed revenue: income = 0, no tax due
-- Excess costs of **589,041.93 PLN** carry forward to 2026
+- Excess costs of **589,298.07 PLN** carry forward to 2026
 
 ---
 
@@ -39,8 +39,8 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | --- | ---: | ---: |
 | Crypto purchases | 2 | 34,221.07 |
 | Salary (USDC) | 7 | 162,735.75 |
-| Trading fees | 14 | 277.55 |
-| **TOTAL (= Poz. 37)** | **23** | **197,234.37** |
+| Trading fees | 16 | 414.44 |
+| **TOTAL (= Poz. 37)** | **25** | **197,371.25** |
 
 ## Verification: Revenue Breakdown by Source
 
@@ -109,9 +109,11 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | 20 | 2025-06-05 | binance | — | Trading fees | EUR | 2.49603 | 4.2778 EUR/PLN | 2025-06-04 | 10.68 | Trading fee 2.49603 EUR |
 | 21 | 2025-08-07 | kraken | LTD2BX-XLQST-HD3 | Crypto purchases | SUI | 1259.89028 | 4.2820 EUR/PLN | 2025-08-06 | 17,165.47 | Buy 1259.89028 SUI for 4008.7499 EUR |
 | 22 | 2025-08-07 | kraken | LXLRRL-4WSEE-JP5 | Trading fees | EUR | 0.0271 | 4.2820 EUR/PLN | 2025-08-06 | 0.12 | Trading fee 0.0271 EUR |
-| 23 | 2025-08-18 | kraken | LHGDUP-LR5CD-SSH | Crypto purchases | SUI | 1306.15975 | 4.2639 EUR/PLN | 2025-08-15 | 17,055.60 | Buy 1306.15975 SUI for 4E+3 EUR |
+| 23 | 2025-08-07 | kraken | LTD2BX-XLQST-HD3 | Trading fees | SUI | 5.03956 | 4.2820 EUR/PLN | 2025-08-06 | 68.66 | Trading fee 5.03956 SUI |
+| 24 | 2025-08-18 | kraken | LHGDUP-LR5CD-SSH | Crypto purchases | SUI | 1306.15975 | 4.2639 EUR/PLN | 2025-08-15 | 17,055.60 | Buy 1306.15975 SUI for 4E+3 EUR |
+| 25 | 2025-08-18 | kraken | LHGDUP-LR5CD-SSH | Trading fees | SUI | 5.22464 | 4.2639 EUR/PLN | 2025-08-15 | 68.22 | Trading fee 5.22464 SUI |
 
-**Cost total: 197,234.37 PLN** (sum of all rows above)
+**Cost total: 197,371.25 PLN** (sum of all rows above)
 
 ---
 
@@ -120,8 +122,8 @@ Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)
 | Check | Expected | Computed | Match |
 | --- | ---: | ---: | --- |
 | Sum of revenue events = Poz. 36 | 271,316.95 | 271,316.95 | YES |
-| Sum of cost events = Poz. 37 | 197,234.37 | 197,234.37 | YES |
-| Poz. 37 + Poz. 38 - Poz. 36 = Poz. 40 | 589,041.93 | 589,041.93 | YES |
+| Sum of cost events = Poz. 37 | 197,371.25 | 197,371.25 | YES |
+| Poz. 37 + Poz. 38 - Poz. 36 = Poz. 40 | 589,298.07 | 589,298.07 | YES |
 
 ## Legal Basis
 

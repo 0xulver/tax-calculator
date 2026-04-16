@@ -178,3 +178,36 @@ class PriceResolver:
         if rate:
             return amount.copy_abs() * rate, "nbp_usd_stablecoin", rate, rate_date
         return Decimal("0"), "unresolved", None, ""
+
+    def asset_pln_value_with_rate(
+        self,
+        asset: str,
+        amount: Decimal,
+        date_str: str,
+    ) -> Tuple[Decimal, str, Optional[Decimal], str, str]:
+        """Value an asset amount directly in PLN.
+
+        Used for standalone fees and for fee assets when there is no better
+        transaction-implied valuation available.
+        """
+        asset = asset.upper()
+        amt = amount.copy_abs()
+
+        if asset == "PLN":
+            return amt, "direct_pln_fee", Decimal("1"), date_str, "PLN"
+
+        if asset in FIAT:
+            rate, rate_date = self.nbp.get_rate_with_date(asset, date_str)
+            if rate:
+                return amt * rate, f"nbp_{asset.lower()}_fee", rate, rate_date, asset
+
+        if asset in STABLECOINS:
+            rate, rate_date = self.nbp.get_rate_with_date("USD", date_str)
+            if rate:
+                return amt * rate, "nbp_usd_stablecoin_fee", rate, rate_date, "USD"
+
+        price = self._get_coingecko_price(asset, date_str)
+        if price:
+            return amt * price, "coingecko_pln_fee", price, date_str, asset
+
+        return Decimal("0"), "unresolved_fee", None, "", ""

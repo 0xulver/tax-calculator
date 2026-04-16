@@ -11,46 +11,46 @@
     },
     "2021": {
       "revenue_pln": "413682.552697220",
-      "costs_current_year_pln": "735192.716528143908",
+      "costs_current_year_pln": "735213.284131403103000000000000000000",
       "costs_prior_years_pln": "274399.38785801",
       "income_pln": "0",
-      "carry_forward_pln": "595909.551688933908",
+      "carry_forward_pln": "595930.11929219310300000000000000000",
       "tax_due_pln": "0.00",
       "disposal_count": 32
     },
     "2022": {
       "revenue_pln": "437946.26269584",
       "costs_current_year_pln": "510774.06541800",
-      "costs_prior_years_pln": "595909.551688933908",
+      "costs_prior_years_pln": "595930.11929219310300000000000000000",
       "income_pln": "0",
-      "carry_forward_pln": "668737.354411093908",
+      "carry_forward_pln": "668757.92201435310300000000000000000",
       "tax_due_pln": "0.00",
       "disposal_count": 27
     },
     "2023": {
       "revenue_pln": "411143.90920192",
-      "costs_current_year_pln": "702974.03825943",
-      "costs_prior_years_pln": "668737.354411093908",
+      "costs_current_year_pln": "703072.725882424000853826184926567365",
+      "costs_prior_years_pln": "668757.92201435310300000000000000000",
       "income_pln": "0",
-      "carry_forward_pln": "960567.483468603908",
+      "carry_forward_pln": "960686.73869485710385382618492656736",
       "tax_due_pln": "0.00",
       "disposal_count": 21
     },
     "2024": {
       "revenue_pln": "785508.574596263929",
       "costs_current_year_pln": "488065.6097300650",
-      "costs_prior_years_pln": "960567.483468603908",
+      "costs_prior_years_pln": "960686.73869485710385382618492656736",
       "income_pln": "0",
-      "carry_forward_pln": "663124.518602404979",
+      "carry_forward_pln": "663243.77382865817485382618492656736",
       "tax_due_pln": "0.00",
       "disposal_count": 32
     },
     "2025": {
       "revenue_pln": "271316.954734785395",
-      "costs_current_year_pln": "197234.3704282580",
-      "costs_prior_years_pln": "663124.518602404979",
+      "costs_current_year_pln": "197371.254694343499094823621297915297",
+      "costs_prior_years_pln": "663243.77382865817485382618492656736",
       "income_pln": "0",
-      "carry_forward_pln": "589041.934295877584",
+      "carry_forward_pln": "589298.073788216278948649806224482657",
       "tax_due_pln": "0.00",
       "disposal_count": 15
     }
