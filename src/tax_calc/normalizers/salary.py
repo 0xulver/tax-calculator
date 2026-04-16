@@ -56,7 +56,16 @@ def parse_salary_payments(
             amount_line = lines[i]
             i += 1
 
-            lot = _parse_payment(tx_url, date_str, amount_line, nbp, source_name)
+            fee_lines: list[str] = []
+            while i < len(lines):
+                next_line = lines[i]
+                if next_line.startswith("http") or next_line.lower().startswith("total"):
+                    break
+                if next_line.lower().startswith("fee"):
+                    fee_lines.append(next_line)
+                i += 1
+
+            lot = _parse_payment(tx_url, date_str, amount_line, nbp, source_name, fee_lines=fee_lines)
             if lot:
                 lots.append(lot)
         else:
@@ -72,6 +81,7 @@ def _parse_payment(
     amount_line: str,
     nbp: NBPClient,
     source_name: str = "polygon_salary",
+    fee_lines: Optional[list[str]] = None,
 ) -> Optional[FIFOLot]:
     # Parse date: "Apr-01-2025" -> "2025-04-01"
     try:
@@ -80,25 +90,31 @@ def _parse_payment(
     except ValueError:
         return None
 
-    # Parse amount: "4500 USDC"
-    match = re.match(r"(\d+(?:\.\d+)?)\s+(\w+)", amount_line)
-    if not match:
+    parsed = _parse_amount_line(amount_line)
+    if not parsed:
         return None
 
-    amount = Decimal(match.group(1))
-    asset = match.group(2).upper()
+    amount, asset = parsed
 
     # Determine NBP currency based on asset
     # USDC/USDT -> USD rate; EUR -> EUR rate; SEK -> SEK rate
-    if asset in ("USDC", "USDT"):
-        nbp_currency = "USD"
-    elif asset in ("EUR", "SEK", "USD", "GBP"):
-        nbp_currency = asset
-    else:
-        nbp_currency = "USD"
+    nbp_currency = _nbp_currency_for_asset(asset)
 
     rate = nbp.get_rate(nbp_currency, iso_date)
     cost_pln = amount * rate if rate else Decimal("0")
+
+    for fee_line in fee_lines or []:
+        parsed_fee = _parse_fee_line(fee_line)
+        if not parsed_fee:
+            continue
+
+        fee_amount, fee_asset = parsed_fee
+        fee_currency = _nbp_currency_for_asset(fee_asset)
+        fee_rate = nbp.get_rate(fee_currency, iso_date)
+        if fee_rate:
+            cost_pln += fee_amount * fee_rate
+        if fee_asset == asset:
+            amount += fee_amount
 
     # Extract tx hash from URL for source_tx_id
     tx_hash = tx_url.split("/tx/")[-1] if "/tx/" in tx_url else ""
@@ -112,3 +128,22 @@ def _parse_payment(
         asset=asset,
         fiat_currency=nbp_currency,
     )
+
+
+def _parse_amount_line(amount_line: str) -> Optional[tuple[Decimal, str]]:
+    match = re.match(r"(\d+(?:\.\d+)?)\s+(\w+)", amount_line.strip())
+    if not match:
+        return None
+    return Decimal(match.group(1)), match.group(2).upper()
+
+
+def _parse_fee_line(fee_line: str) -> Optional[tuple[Decimal, str]]:
+    match = re.match(r"fee\s*:?\s*(\d+(?:\.\d+)?)\s+(\w+)", fee_line.strip(), re.IGNORECASE)
+    if not match:
+        return None
+    return Decimal(match.group(1)), match.group(2).upper()
+
+
+def _nbp_currency_for_asset(asset: str) -> str:
+    asset = asset.upper()
+    return asset if asset in ("EUR", "SEK", "USD", "GBP") else "USD"

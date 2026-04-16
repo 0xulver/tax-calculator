@@ -11,6 +11,8 @@
 #
 # Assets purchased: SNX (4 buys), AAVE (1 buy)
 # Amount field = EUR paid (fiat cost basis for PIT-38)
+# If you later recover explicit Coinbase fees, add an optional line after a purchase:
+#   Fee: 14.99 EUR
 
 https://coinbase.com/tx/75Y5FJFC
 Mar-13-2021

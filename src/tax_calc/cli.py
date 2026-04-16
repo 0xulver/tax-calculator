@@ -15,6 +15,7 @@ from tax_calc.nbp import NBPClient
 from tax_calc.normalizers.base import UNIFIED_COLUMNS, write_csv
 from tax_calc.normalizers.binance import normalize_binance
 from tax_calc.normalizers.ftx import normalize_ftx
+from tax_calc.normalizers.coinbase import normalize_coinbase
 from tax_calc.normalizers.kraken import normalize_kraken
 from tax_calc.normalizers.salary import parse_salary_payments
 from tax_calc.pit38 import generate_pit38_report
@@ -41,6 +42,8 @@ def parse_args() -> argparse.Namespace:
                       default=_default_path("docs", "crypto-cex-transactions", "binance"))
     norm.add_argument("--ftx-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "ftx"))
+    norm.add_argument("--coinbase-dir",
+                      default=_default_path("docs", "crypto-cex-transactions", "coinbase"))
     norm.add_argument("--kraken-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "kraken"))
     norm.add_argument("--output-dir", default=_default_path("outputs"))
@@ -75,6 +78,8 @@ def parse_args() -> argparse.Namespace:
                       default=_default_path("docs", "crypto-cex-transactions", "binance"))
     full.add_argument("--ftx-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "ftx"))
+    full.add_argument("--coinbase-dir",
+                      default=_default_path("docs", "crypto-cex-transactions", "coinbase"))
     full.add_argument("--kraken-dir",
                       default=_default_path("docs", "crypto-cex-transactions", "kraken"))
     full.add_argument("--salary", nargs="*", default=[
@@ -101,6 +106,10 @@ def cmd_normalize(args: argparse.Namespace) -> int:
     binance_txns = normalize_binance(args.binance_dir)
     print(f"  Binance: {len(binance_txns)} records")
 
+    print("Normalizing Coinbase exports...")
+    coinbase_txns = normalize_coinbase(args.coinbase_dir)
+    print(f"  Coinbase: {len(coinbase_txns)} records")
+
     print("Normalizing FTX exports...")
     ftx_txns = normalize_ftx(args.ftx_dir)
     print(f"  FTX: {len(ftx_txns)} records")
@@ -111,13 +120,15 @@ def cmd_normalize(args: argparse.Namespace) -> int:
 
     binance_rows = [t.to_dict() for t in binance_txns]
     ftx_rows = [t.to_dict() for t in ftx_txns]
+    coinbase_rows = [t.to_dict() for t in coinbase_txns]
     kraken_rows = [t.to_dict() for t in kraken_txns]
-    all_rows = binance_rows + ftx_rows + kraken_rows
+    all_rows = binance_rows + coinbase_rows + ftx_rows + kraken_rows
     all_rows.sort(key=lambda r: r["date"])
 
     os.makedirs(args.output_dir, exist_ok=True)
     write_csv(os.path.join(args.output_dir, "normalized_binance.csv"), binance_rows)
     write_csv(os.path.join(args.output_dir, "normalized_ftx.csv"), ftx_rows)
+    write_csv(os.path.join(args.output_dir, "normalized_coinbase.csv"), coinbase_rows)
     write_csv(os.path.join(args.output_dir, "normalized_kraken.csv"), kraken_rows)
     write_csv(os.path.join(args.output_dir, "normalized_all_exchanges.csv"), all_rows)
 
@@ -141,6 +152,13 @@ def cmd_pit38(args: argparse.Namespace) -> int:
     nbp = NBPClient(cache_path=os.path.join(cache_dir, "nbp_cache.json"))
     prices = PriceResolver(nbp, cg_cache_path=os.path.join(cache_dir, "coingecko_cache.json"))
 
+    input_path = getattr(args, "input", _default_path("outputs", "normalized_all_exchanges.csv"))
+    with open(input_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+    print(f"\nLoaded {len(rows)} records from {input_path}")
+    ledger_sources = {row.get("source", "") for row in rows}
+
     # Load salary lots from all salary files
     salary_paths = getattr(args, "salary", []) or []
     if isinstance(salary_paths, str):
@@ -149,6 +167,9 @@ def cmd_pit38(args: argparse.Namespace) -> int:
     for salary_path in salary_paths:
         if salary_path and os.path.exists(salary_path):
             basename = os.path.basename(salary_path)
+            if "coinbase" in basename and "coinbase" in ledger_sources:
+                print(f"Skipping {basename} because Coinbase exchange CSV data is already normalized.")
+                continue
             # Derive source name from filename
             if "ftx" in basename:
                 source_name = "ftx_purchase"
@@ -169,12 +190,6 @@ def cmd_pit38(args: argparse.Namespace) -> int:
         salary_lots.sort(key=lambda l: l.date)
         print(f"  Total salary lots: {len(salary_lots)}")
 
-    # Load ledger
-    input_path = getattr(args, "input", _default_path("outputs", "normalized_all_exchanges.csv"))
-    with open(input_path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-    print(f"\nLoaded {len(rows)} records from {input_path}")
 
     pre_residency = getattr(args, "pre_residency_costs", Decimal("0"))
     first_year = getattr(args, "first_polish_year", 2023)

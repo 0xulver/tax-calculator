@@ -44,6 +44,24 @@ def test_parse_salary_payments(tmp_path):
     assert lots[1].cost_pln == Decimal("18225")  # 4500 * 4.05
 
 
+
+def test_purchase_block_can_include_explicit_fee(tmp_path):
+    content = """  https://coinbase.com/tx/75Y5FJFC
+  Mar-13-2021
+  590 EUR
+  Fee: 14.99 EUR
+"""
+
+    path = str(tmp_path / "coinbase.txt")
+    with open(path, "w") as f:
+        f.write(content)
+
+    nbp = MagicMock(spec=NBPClient)
+    nbp.get_rate.return_value = Decimal("4.5")
+    lots = parse_salary_payments(path, nbp, source_name="coinbase_purchase")
+    assert len(lots) == 1
+    assert lots[0].amount == Decimal("604.99")
+
 def test_salary_lot_has_tx_hash(tmp_path):
     content = """  https://polygonscan.com/tx/0xabc123
   Jan-02-2025
