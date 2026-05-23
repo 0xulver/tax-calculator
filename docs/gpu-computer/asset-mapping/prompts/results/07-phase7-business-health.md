@@ -1,5 +1,7 @@
 ## PHASE 7 REPORT: Business Health & Operational Footprint
 
+> **Correction (2026-05-23):** The LinkedIn entry parsed below as a "university position" (Uniwersytet Jana Kochanowskiego w Kielcach) is actually an **education** entry (his Polish alma mater). His actual NL work is a chain of **factory/production jobs** in the Eindhoven area since Oct 2022 — currently at Sims Lifecycle Services (ITAD recycler) in Son en Breugel. See [`07a-linkedin-employment-deepdive.md`](07a-linkedin-employment-deepdive.md) for the full employment timeline and EAPO implications.
+
 ```json
 {
   "phase": 7,
