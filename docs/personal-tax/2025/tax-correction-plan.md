@@ -1,5 +1,10 @@
 # Tax Correction & 2025 Filing Plan
 
+> **Archived / superseded**: This March 2026 research-phase plan is no longer
+> the current filing plan. Use `docs/todo/filing-summary.md` and
+> `docs/todo/pit38-filing-guide.md`, which follow
+> `docs/tax-law/16-implementation-audit/filing-policy.md`.
+
 **Date**: March 2026
 **Status**: Research phase — gathering information before engaging accountant
 
