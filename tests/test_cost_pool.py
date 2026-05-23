@@ -4,7 +4,12 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from tax_calc.cost_pool import process_cost_pool
+from tax_calc.cost_pool import (
+    POLICY_SPLIT_YEAR_CONSERVATIVE,
+    POLICY_SPLIT_YEAR_HIGH_RISK,
+    POLICY_SPLIT_YEAR_SUPPORTABLE,
+    process_cost_pool,
+)
 from tax_calc.models import FIFOLot
 from tax_calc.nbp import NBPClient
 from tax_calc.prices import PriceResolver
@@ -227,3 +232,85 @@ class TestPreResidencyCosts:
         # Total costs: 100000 > 51600 → income 0
         assert r.income_pln == Decimal("0")
         assert r.carry_forward_pln == Decimal("100000") - Decimal("12000") * Decimal("4.3")
+
+
+class TestSplitYearPolicies:
+
+    def test_split_year_excludes_pre_residency_rows_and_lots(self):
+        prices = _make_prices()
+        rows = [
+            {"date": "2023-04-11T10:00:00+00:00", "source": "kraken", "source_tx_id": "pre-sell",
+             "tx_type": "sell", "asset": "BTC", "amount": "1", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "EUR", "counterparty_amount": "10000",
+             "notes": ""},
+            {"date": "2023-04-12T10:00:00+00:00", "source": "kraken", "source_tx_id": "post-sell",
+             "tx_type": "sell", "asset": "BTC", "amount": "1", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "EUR", "counterparty_amount": "12000",
+             "notes": ""},
+            {"date": "2023-04-10T10:00:00+00:00", "source": "kraken", "source_tx_id": "pre-buy",
+             "tx_type": "buy", "asset": "ETH", "amount": "1", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "EUR", "counterparty_amount": "2000",
+             "notes": ""},
+            {"date": "2023-04-13T10:00:00+00:00", "source": "kraken", "source_tx_id": "post-buy",
+             "tx_type": "buy", "asset": "ETH", "amount": "1", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "EUR", "counterparty_amount": "3000",
+             "notes": ""},
+        ]
+        salary_lots = [
+            FIFOLot("2023-04-11", Decimal("1000"), Decimal("4000"), "polygon_salary"),
+            FIFOLot("2023-04-12", Decimal("1000"), Decimal("4000"), "polygon_salary"),
+        ]
+
+        result = process_cost_pool(
+            rows,
+            prices,
+            salary_lots,
+            Decimal("1000"),
+            policy=POLICY_SPLIT_YEAR_CONSERVATIVE,
+            polish_residency_start="2023-04-12",
+        )
+
+        r2023 = result["yearly_results"][2023]
+        assert r2023.revenue_pln == Decimal("12000") * Decimal("4.3")
+        assert r2023.costs_current_year_pln == Decimal("3000") * Decimal("4.3") + Decimal("4000")
+        assert r2023.costs_prior_years_pln == Decimal("1000")
+        assert r2023.costs_prior_breakdown == {"layer_a_fiat_purchase_costs": Decimal("1000")}
+        assert len(r2023.revenue_events) == 1
+        assert r2023.revenue_events[0].source_tx_id == "post-sell"
+        assert any("Excluded 1 pre residency sell" in w for w in result["warnings"])
+
+    def test_supportable_and_high_risk_layers_are_separate(self):
+        prices = _make_prices()
+        rows = [
+            {"date": "2023-06-01T10:00:00+00:00", "source": "kraken", "source_tx_id": "",
+             "tx_type": "sell", "asset": "BTC", "amount": "1", "fee": "0",
+             "fee_asset": "", "counterparty_asset": "EUR", "counterparty_amount": "1000",
+             "notes": ""},
+        ]
+
+        supportable = process_cost_pool(
+            rows,
+            prices,
+            pre_residency_costs=Decimal("100"),
+            policy=POLICY_SPLIT_YEAR_SUPPORTABLE,
+            imported_salary_usdc_costs=Decimal("200"),
+            imported_successor_costs=Decimal("300"),
+        )["yearly_results"][2023]
+        assert supportable.costs_prior_breakdown == {
+            "layer_a_fiat_purchase_costs": Decimal("100"),
+            "layer_b_same_token_salary_usdc_costs": Decimal("200"),
+        }
+
+        high_risk = process_cost_pool(
+            rows,
+            prices,
+            pre_residency_costs=Decimal("100"),
+            policy=POLICY_SPLIT_YEAR_HIGH_RISK,
+            imported_salary_usdc_costs=Decimal("200"),
+            imported_successor_costs=Decimal("300"),
+        )["yearly_results"][2023]
+        assert high_risk.costs_prior_breakdown == {
+            "layer_a_fiat_purchase_costs": Decimal("100"),
+            "layer_b_same_token_salary_usdc_costs": Decimal("200"),
+            "layer_c_pre_move_swap_successor_costs": Decimal("300"),
+        }

@@ -1,6 +1,6 @@
 # PIT-28 Ryczalt Report -- 2025
 
-Generated: 2026-04-14 16:39
+Generated: 2026-04-25 10:34
 Tax type: **Ryczalt od przychodow ewidencjonowanych (12% flat rate)**
 Activity: IT/software development services (PKWiU 62.01)
 
@@ -11,10 +11,11 @@ Activity: IT/software development services (PKWiU 62.01)
 | Total invoiced (EUR) | 62,956.56 EUR |
 | **Total revenue (PLN)** | **267,794.30 PLN** |
 | Ryczalt rate | 12.00% |
-| Tax before deduction | 32,135.00 PLN |
+| Tax before health deduction | 32,135.00 PLN |
 | Health insurance paid (skladka zdrowotna) | 5,847.67 PLN |
-| Health insurance deduction (50%) | -2,923.84 PLN |
-| **Tax due (podatek nalezny)** | **29,211.00 PLN** |
+| Revenue deduction: 50% health insurance | -2,923.84 PLN |
+| Taxable ryczalt revenue | 264,870.46 PLN |
+| **Tax due (podatek nalezny)** | **31,784.00 PLN** |
 
 ### Health Insurance Contributions (from ZUS DRA)
 
@@ -51,17 +52,19 @@ Source: ZUS DRA declarations, Section VI field 02
 ## Verification
 
 - Sum of invoice PLN values = total revenue: 267,794.30 = 267,794.30 -- YES
-- Total revenue x 12.00% = tax before deduction: 267,794.30 x 0.12 = 32,135.00
-- Tax before deduction - health insurance deduction = tax due: 32,135.00 - 2,923.84 = 29,211.00
+- Total revenue x 12.00% = tax before health deduction: 267,794.30 x 0.12 = 32,135.00
+- Taxable revenue = total revenue - 50% health insurance: 267,794.30 - 2,923.84 = 264,870.46
+- Taxable revenue x 12.00% = tax due: 264,870.46 x 0.12 = 31,784.00
 
 Each EUR amount is converted using the NBP mid-rate from the last business day before the invoice issue date.
 Verify any rate at: `https://api.nbp.pl/api/exchangerates/rates/a/EUR/{RATE_DATE}/?format=json`
 
 ---
 
-## Monthly Tax Advances (Zaliczki)
+## Monthly Tax Advances Before Health Deduction (Zaliczki)
 
 Under ryczalt, monthly advance tax is due by the 20th of the following month.
+This table shows 12% of monthly revenue before applying any health-insurance deduction in-month.
 
 | Month | Revenue (PLN) | Tax Advance (12%) | Due Date |
 | --- | ---: | ---: | --- |
@@ -74,9 +77,9 @@ Under ryczalt, monthly advance tax is due by the 20th of the following month.
 | 2025-12 | 42,274.00 | 5,073.00 | 2026-01-20 |
 | **TOTAL** | **267,794.30** | **32,136.00** | |
 
-Rounding difference between monthly sum and annual total: -2,925.00 PLN
+Rounding difference between monthly sum and annual total: -352.00 PLN
 
-Compare these monthly amounts against your actual payments to determine any remaining balance.
+Compare these monthly amounts against your actual payments as a rough check. The annual PIT-28 tax above applies the final health-insurance revenue deduction.
 
 ---
 
@@ -87,6 +90,6 @@ Compare these monthly amounts against your actual payments to determine any rema
 - **Revenue recognition**: Art. 14 ust. 1c ustawy o PIT (earliest of service completion, invoice date, payment date)
 - **EUR conversion**: NBP mid-rate from last business day before revenue date (Art. 11a ust. 1)
 - **No cost deductions**: Ryczalt is on gross revenue (Art. 12 ust. 2)
-- **Health insurance**: 50% of paid contributions deductible (Art. 11 ust. 1a) -- not included in this report
+- **Health insurance**: 50% of paid contributions deductible from revenue (Art. 11 ust. 1a)
 - **Monthly advances**: Due by 20th of following month (Art. 21 ust. 1)
 - **Annual filing**: PIT-28, due by April 30 of following year

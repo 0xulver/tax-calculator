@@ -42,11 +42,75 @@ def _tx(dt: datetime, tx_type: str, asset: str, amount: Decimal,
     )
 
 
+def _decimal_key(value: Decimal) -> str:
+    if value == 0:
+        return "0"
+    normalized = value.normalize()
+    if normalized == normalized.to_integral():
+        return format(normalized, "f")
+    return format(normalized, "f").rstrip("0").rstrip(".")
+
+
+def _override_key(time_str: str, operation: str, coin: str, change: Decimal) -> tuple[str, str, str, str]:
+    return (time_str.strip(), operation.strip(), coin.strip(), _decimal_key(change))
+
+
+def _load_fiat_counterparty_overrides(binance_dir: str) -> dict[tuple[str, str, str, str], dict[str, str]]:
+    """Load manual fiat counterparties for Binance on/off-ramp rows.
+
+    Binance exports sometimes include only the crypto leg for Paymonade on-ramp
+    or off-ramp rows. The override file supplies the missing fiat counterparty
+    from bank/export evidence without editing generated normalized CSVs.
+    """
+    path = os.path.join(binance_dir, "binance_fiat_counterparty_overrides.csv")
+    if not os.path.exists(path):
+        return {}
+
+    overrides: dict[tuple[str, str, str, str], dict[str, str]] = {}
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            time_str = row.get("time", "")
+            operation = row.get("operation", "")
+            coin = row.get("coin", "")
+            change = parse_decimal(row.get("change", "0"))
+            cp_asset = row.get("counterparty_asset", "").strip()
+            cp_amount = parse_decimal(row.get("counterparty_amount", "0"))
+            if not time_str or not operation or not coin or not cp_asset or cp_amount <= 0:
+                continue
+            overrides[_override_key(time_str, operation, coin, change)] = {
+                "counterparty_asset": cp_asset,
+                "counterparty_amount": _decimal_key(cp_amount),
+                "notes": row.get("notes", "").strip(),
+            }
+    return overrides
+
+
+def _counterparty_override(
+    entry: dict[str, Any],
+    overrides: dict[tuple[str, str, str, str], dict[str, str]],
+) -> tuple[str, Decimal, str] | None:
+    override = overrides.get(_override_key(
+        entry.get("time", ""),
+        entry.get("op", ""),
+        entry.get("coin", ""),
+        entry.get("change", Decimal("0")),
+    ))
+    if not override:
+        return None
+    return (
+        override["counterparty_asset"],
+        parse_decimal(override["counterparty_amount"]),
+        override.get("notes", ""),
+    )
+
+
 def normalize_binance(binance_dir: str) -> list[Transaction]:
     csv_path = os.path.join(binance_dir, "binance_all_transactions_2020_2025.csv")
     if not os.path.exists(csv_path):
         print(f"Warning: {csv_path} not found", file=sys.stderr)
         return []
+    fiat_counterparty_overrides = _load_fiat_counterparty_overrides(binance_dir)
 
     rows: list[dict[str, Any]] = []
     with open(csv_path, "r", encoding="utf-8") as f:
@@ -106,7 +170,8 @@ def normalize_binance(binance_dir: str) -> list[Transaction]:
                                   notes="Binance Fiat OCBS - Add Fiat and Fees"))
         elif op in GROUPED_OPS:
             time_groups[time_str].append({
-                "op": op, "coin": coin, "change": change, "dt": dt, "remark": remark,
+                "op": op, "coin": coin, "change": change, "dt": dt,
+                "remark": remark, "time": time_str,
             })
         else:
             standalone.append(_tx(dt, "unknown", coin, change,
@@ -118,7 +183,7 @@ def normalize_binance(binance_dir: str) -> list[Transaction]:
     # Reconstruct trades from time-grouped entries
     trades: list[Transaction] = []
     for time_str, entries in sorted(time_groups.items()):
-        trades.extend(_process_group(entries))
+        trades.extend(_process_group(entries, fiat_counterparty_overrides))
 
     result = standalone + trades
     result.sort(key=lambda t: t.date)
@@ -164,11 +229,15 @@ def _merge_sell_crypto_to_fiat_groups(
     return new_groups
 
 
-def _process_group(entries: list[dict[str, Any]]) -> list[Transaction]:
+def _process_group(
+    entries: list[dict[str, Any]],
+    fiat_counterparty_overrides: dict[tuple[str, str, str, str], dict[str, str]],
+) -> list[Transaction]:
     """Process a time-grouped set of Binance entries into transactions."""
     dt = entries[0]["dt"]
 
-    buys = [e for e in entries if e["op"] in ("Transaction Buy", "Buy Crypto With Card", "Buy Crypto With Fiat")]
+    direct_fiat_buys = [e for e in entries if e["op"] in ("Buy Crypto With Card", "Buy Crypto With Fiat")]
+    buys = [e for e in entries if e["op"] == "Transaction Buy"]
     sells = [e for e in entries if e["op"] == "Transaction Sold"]
     fees = [e for e in entries if e["op"] == "Transaction Fee"]
     spends = [e for e in entries if e["op"] == "Transaction Spend"]
@@ -187,7 +256,10 @@ def _process_group(entries: list[dict[str, Any]]) -> list[Transaction]:
         return _process_converts(dt, converts)
 
     if sell_fiat:
-        return _process_sell_crypto_to_fiat(dt, sell_fiat)
+        return _process_sell_crypto_to_fiat(dt, sell_fiat, fiat_counterparty_overrides)
+
+    if direct_fiat_buys:
+        return _process_direct_fiat_buy(dt, direct_fiat_buys, total_fee, fee_asset, fiat_counterparty_overrides)
 
     # --- Fix 5a: Transaction Buy/Spend pattern ---
     if buys and (spends or revenues or sells):
@@ -263,7 +335,9 @@ def _process_converts(dt: datetime, converts: list[dict[str, Any]]) -> list[Tran
 
 
 def _process_sell_crypto_to_fiat(
-    dt: datetime, entries: list[dict[str, Any]]
+    dt: datetime,
+    entries: list[dict[str, Any]],
+    fiat_counterparty_overrides: dict[tuple[str, str, str, str], dict[str, str]],
 ) -> list[Transaction]:
     """Process 'Sell Crypto To Fiat' entries (after 2-second merge).
 
@@ -293,6 +367,16 @@ def _process_sell_crypto_to_fiat(
     # Edge case: lone crypto debit with no fiat pair (e.g., Paymonade)
     for e in entries:
         if e["change"] < 0 and not is_fiat(e["coin"]):
+            override = _counterparty_override(e, fiat_counterparty_overrides)
+            if override:
+                cp_asset, cp_amount, override_note = override
+                note = "Binance Sell Crypto To Fiat (manual fiat counterparty)"
+                if override_note:
+                    note += f": {override_note}"
+                result.append(_tx(dt, "sell", e["coin"], e["change"].copy_abs(),
+                                  cp_asset=cp_asset, cp_amount=cp_amount,
+                                  notes=note))
+                continue
             result.append(_tx(dt, "sell", e["coin"], e["change"].copy_abs(),
                               notes=f"Binance Sell Crypto To Fiat (unpaired, {e['remark']})"))
         elif e["change"] > 0 and is_fiat(e["coin"]):
@@ -303,6 +387,64 @@ def _process_sell_crypto_to_fiat(
             result.append(_tx(dt, "unknown", e["coin"], e["change"],
                               notes=f"Binance Sell Crypto To Fiat ungrouped: {e['remark']}"))
 
+    return result
+
+
+def _process_direct_fiat_buy(
+    dt: datetime,
+    entries: list[dict[str, Any]],
+    total_fee: Decimal,
+    fee_asset: str,
+    fiat_counterparty_overrides: dict[tuple[str, str, str, str], dict[str, str]],
+) -> list[Transaction]:
+    """Process Binance direct fiat/card purchases.
+
+    Card rows can include both legs in the export. Paymonade fiat purchases can
+    include only the crypto receipt, in which case a manual override supplies
+    the bank-side fiat amount.
+    """
+    crypto_entries = [e for e in entries if e["change"] > 0 and not is_fiat(e["coin"])]
+    fiat_spends = [e for e in entries if e["change"] < 0 and is_fiat(e["coin"])]
+
+    result: list[Transaction] = []
+    if crypto_entries and fiat_spends:
+        total_spent = sum((e["change"].copy_abs() for e in fiat_spends), Decimal("0"))
+        spent_asset = fiat_spends[0]["coin"]
+        for entry in crypto_entries:
+            result.append(_tx(dt, "buy", entry["coin"], entry["change"].copy_abs(),
+                              fee=total_fee, fee_asset=fee_asset,
+                              cp_asset=spent_asset, cp_amount=total_spent,
+                              notes=f"Binance {entry['op']}"))
+            total_fee = Decimal("0")
+        return result
+
+    for entry in crypto_entries:
+        override = _counterparty_override(entry, fiat_counterparty_overrides)
+        if override:
+            cp_asset, cp_amount, override_note = override
+            note = f"Binance {entry['op']} (manual fiat counterparty)"
+            if override_note:
+                note += f": {override_note}"
+            result.append(_tx(dt, "buy", entry["coin"], entry["change"].copy_abs(),
+                              fee=total_fee, fee_asset=fee_asset,
+                              cp_asset=cp_asset, cp_amount=cp_amount,
+                              notes=note))
+        else:
+            result.append(_tx(dt, "buy", entry["coin"], entry["change"].copy_abs(),
+                              fee=total_fee, fee_asset=fee_asset,
+                              notes=f"Binance {entry['op']}"))
+        total_fee = Decimal("0")
+
+    for entry in fiat_spends:
+        result.append(_tx(dt, "fiat_withdrawal", entry["coin"], entry["change"].copy_abs(),
+                          notes=f"Binance {entry['op']} (unpaired fiat spend)"))
+
+    if result:
+        return result
+
+    for entry in entries:
+        result.append(_tx(dt, "unknown", entry["coin"], entry["change"],
+                          notes=f"Binance direct fiat buy ungrouped: {entry['op']}"))
     return result
 
 

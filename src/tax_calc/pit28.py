@@ -193,15 +193,15 @@ def calculate_pit28(
     total_pln = sum(e.amount_pln for e in entries)
     tax_before = (total_pln * RYCZALT_RATE).quantize(Decimal("1"), rounding=ROUND_HALF_UP)
 
-    # Health insurance deduction (50% of paid skladka zdrowotna)
+    # For ryczalt, 50% of paid health insurance reduces revenue, not tax.
     health_months = health_insurance or []
     health_paid = sum(h.amount_pln for h in health_months)
     health_deduction = (health_paid * Decimal("0.5")).quantize(
         Decimal("0.01"), rounding=ROUND_HALF_UP)
-    # Deduction cannot exceed tax
-    health_deduction = min(health_deduction, tax_before)
+    health_deduction = min(health_deduction, total_pln)
 
-    tax_due = tax_before - health_deduction
+    taxable_revenue = total_pln - health_deduction
+    tax_due = taxable_revenue * RYCZALT_RATE
     tax_due = tax_due.quantize(Decimal("1"), rounding=ROUND_HALF_UP)
 
     # Monthly breakdown for advance payment verification
@@ -263,9 +263,11 @@ def generate_pit28_report(result: PIT28Result, output_path: str | None = None) -
     lines.append(f"| Total invoiced (EUR) | {_fmt(result.total_eur)} EUR |")
     lines.append(f"| **Total revenue (PLN)** | **{_fmt(result.total_pln)} PLN** |")
     lines.append(f"| Ryczalt rate | {result.tax_rate * 100}% |")
-    lines.append(f"| Tax before deduction | {_fmt(result.tax_before_deduction_pln)} PLN |")
+    taxable_revenue = result.total_pln - result.health_insurance_deduction
+    lines.append(f"| Tax before health deduction | {_fmt(result.tax_before_deduction_pln)} PLN |")
     lines.append(f"| Health insurance paid (skladka zdrowotna) | {_fmt(result.health_insurance_paid)} PLN |")
-    lines.append(f"| Health insurance deduction (50%) | -{_fmt(result.health_insurance_deduction)} PLN |")
+    lines.append(f"| Revenue deduction: 50% health insurance | -{_fmt(result.health_insurance_deduction)} PLN |")
+    lines.append(f"| Taxable ryczalt revenue | {_fmt(taxable_revenue)} PLN |")
     lines.append(f"| **Tax due (podatek nalezny)** | **{_fmt(result.tax_due_pln)} PLN** |")
     lines.append("")
 
@@ -304,8 +306,9 @@ def generate_pit28_report(result: PIT28Result, output_path: str | None = None) -
     entry_sum = sum(e.amount_pln for e in result.entries)
     match = "YES" if entry_sum == result.total_pln else "**NO**"
     lines.append(f"- Sum of invoice PLN values = total revenue: {_fmt(entry_sum)} = {_fmt(result.total_pln)} -- {match}")
-    lines.append(f"- Total revenue x {result.tax_rate * 100}% = tax before deduction: {_fmt(result.total_pln)} x {result.tax_rate} = {_fmt(result.tax_before_deduction_pln)}")
-    lines.append(f"- Tax before deduction - health insurance deduction = tax due: {_fmt(result.tax_before_deduction_pln)} - {_fmt(result.health_insurance_deduction)} = {_fmt(result.tax_due_pln)}")
+    lines.append(f"- Total revenue x {result.tax_rate * 100}% = tax before health deduction: {_fmt(result.total_pln)} x {result.tax_rate} = {_fmt(result.tax_before_deduction_pln)}")
+    lines.append(f"- Taxable revenue = total revenue - 50% health insurance: {_fmt(result.total_pln)} - {_fmt(result.health_insurance_deduction)} = {_fmt(taxable_revenue)}")
+    lines.append(f"- Taxable revenue x {result.tax_rate * 100}% = tax due: {_fmt(taxable_revenue)} x {result.tax_rate} = {_fmt(result.tax_due_pln)}")
     lines.append("")
     lines.append("Each EUR amount is converted using the NBP mid-rate from the last business day before the invoice issue date.")
     lines.append("Verify any rate at: `https://api.nbp.pl/api/exchangerates/rates/a/EUR/{RATE_DATE}/?format=json`")
@@ -314,9 +317,10 @@ def generate_pit28_report(result: PIT28Result, output_path: str | None = None) -
     # Monthly breakdown
     lines.append("---")
     lines.append("")
-    lines.append("## Monthly Tax Advances (Zaliczki)")
+    lines.append("## Monthly Tax Advances Before Health Deduction (Zaliczki)")
     lines.append("")
     lines.append("Under ryczalt, monthly advance tax is due by the 20th of the following month.")
+    lines.append("This table shows 12% of monthly revenue before applying any health-insurance deduction in-month.")
     lines.append("")
     lines.append("| Month | Revenue (PLN) | Tax Advance (12%) | Due Date |")
     lines.append("| --- | ---: | ---: | --- |")
@@ -335,7 +339,7 @@ def generate_pit28_report(result: PIT28Result, output_path: str | None = None) -
         lines.append(f"Rounding difference between monthly sum and annual total: {_fmt(diff)} PLN")
         lines.append("")
 
-    lines.append("Compare these monthly amounts against your actual payments to determine any remaining balance.")
+    lines.append("Compare these monthly amounts against your actual payments as a rough check. The annual PIT-28 tax above applies the final health-insurance revenue deduction.")
     lines.append("")
 
     # Legal basis
@@ -348,7 +352,7 @@ def generate_pit28_report(result: PIT28Result, output_path: str | None = None) -
     lines.append("- **Revenue recognition**: Art. 14 ust. 1c ustawy o PIT (earliest of service completion, invoice date, payment date)")
     lines.append("- **EUR conversion**: NBP mid-rate from last business day before revenue date (Art. 11a ust. 1)")
     lines.append("- **No cost deductions**: Ryczalt is on gross revenue (Art. 12 ust. 2)")
-    lines.append("- **Health insurance**: 50% of paid contributions deductible (Art. 11 ust. 1a) -- not included in this report")
+    lines.append("- **Health insurance**: 50% of paid contributions deductible from revenue (Art. 11 ust. 1a)")
     lines.append("- **Monthly advances**: Due by 20th of following month (Art. 21 ust. 1)")
     lines.append("- **Annual filing**: PIT-28, due by April 30 of following year")
     lines.append("")

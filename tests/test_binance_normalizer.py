@@ -175,6 +175,40 @@ class TestPatternC_SellCryptoToFiat:
         assert sells[0].asset == "ETH"
         assert sells[0].amount == Decimal("0.015")
 
+    def test_unpaired_lone_eth_sell_with_manual_counterparty(self, tmp_path):
+        """Manual override supplies missing Paymonade fiat proceeds."""
+        rows = [
+            _row("24-11-04 16:52:04", "Sell Crypto To Fiat", "ETH", "-0.015",
+                 "via Paymonade - Ref - 2024110415420487673581626368"),
+        ]
+        _write_csv(rows, str(tmp_path))
+        with open(tmp_path / "binance_fiat_counterparty_overrides.csv", "w", newline="") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=[
+                    "time", "operation", "coin", "change",
+                    "counterparty_asset", "counterparty_amount", "notes",
+                ],
+            )
+            writer.writeheader()
+            writer.writerow({
+                "time": "24-11-04 16:52:04",
+                "operation": "Sell Crypto To Fiat",
+                "coin": "ETH",
+                "change": "-0.015",
+                "counterparty_asset": "EUR",
+                "counterparty_amount": "33.53231693",
+                "notes": "Estimated from adjacent sale",
+            })
+
+        txns = normalize_binance(str(tmp_path))
+        sells = [t for t in txns if t.tx_type == "sell"]
+        assert len(sells) == 1
+        assert sells[0].asset == "ETH"
+        assert sells[0].amount == Decimal("0.015")
+        assert sells[0].counterparty_asset == "EUR"
+        assert sells[0].counterparty_amount == Decimal("33.53231693")
+
 
 class TestConversions:
     """Binance Convert: crypto-to-fiat, stablecoin-to-stablecoin."""
@@ -217,3 +251,53 @@ class TestBuyWithFiat:
         txns = normalize_binance(_write_csv(rows, str(tmp_path)))
         swaps = [t for t in txns if t.tx_type in ("swap_in", "swap_out")]
         assert len(swaps) == 2  # crypto-to-crypto swap
+
+    def test_buy_crypto_with_card_pairs_fiat_spend(self, tmp_path):
+        """Buy Crypto With Card should become one crypto buy with EUR counterparty."""
+        rows = [
+            _row("21-09-24 14:34:08", "Buy Crypto With Card", "EUR", "-882.9",
+                 "Ref - N01137894764195629056092434"),
+            _row("21-09-24 14:34:08", "Buy Crypto With Card", "LUNA", "30.43532966",
+                 "Ref - N01137894764195629056092434"),
+        ]
+        txns = normalize_binance(_write_csv(rows, str(tmp_path)))
+        buys = [t for t in txns if t.tx_type == "buy"]
+        assert len(buys) == 1
+        assert buys[0].asset == "LUNA"
+        assert buys[0].amount == Decimal("30.43532966")
+        assert buys[0].counterparty_asset == "EUR"
+        assert buys[0].counterparty_amount == Decimal("882.9")
+
+    def test_buy_crypto_with_fiat_manual_counterparty(self, tmp_path):
+        """Manual override supplies missing Paymonade fiat cost."""
+        rows = [
+            _row("25-06-20 13:14:58", "Buy Crypto With Fiat", "USDC", "2275.36649",
+                 "via Paymonade - Ref - 20250620125030584868150282"),
+        ]
+        _write_csv(rows, str(tmp_path))
+        with open(tmp_path / "binance_fiat_counterparty_overrides.csv", "w", newline="") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=[
+                    "time", "operation", "coin", "change",
+                    "counterparty_asset", "counterparty_amount", "notes",
+                ],
+            )
+            writer.writeheader()
+            writer.writerow({
+                "time": "25-06-20 13:14:58",
+                "operation": "Buy Crypto With Fiat",
+                "coin": "USDC",
+                "change": "2275.36649",
+                "counterparty_asset": "EUR",
+                "counterparty_amount": "2000",
+                "notes": "Matched to private bank evidence",
+            })
+
+        txns = normalize_binance(str(tmp_path))
+        buys = [t for t in txns if t.tx_type == "buy"]
+        assert len(buys) == 1
+        assert buys[0].asset == "USDC"
+        assert buys[0].amount == Decimal("2275.36649")
+        assert buys[0].counterparty_asset == "EUR"
+        assert buys[0].counterparty_amount == Decimal("2000")

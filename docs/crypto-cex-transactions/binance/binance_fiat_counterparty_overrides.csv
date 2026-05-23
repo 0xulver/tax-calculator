@@ -1,0 +1,4 @@
+time,operation,coin,change,counterparty_asset,counterparty_amount,notes
+24-11-04 16:52:04,Sell Crypto To Fiat,ETH,-0.015,EUR,33.53231693,Estimated from adjacent same-day Binance ETH/EUR sale; raw Paymonade export has crypto leg only
+25-06-20 13:14:58,Buy Crypto With Fiat,USDC,2275.36649,EUR,2000,Matched to private 2025-06-20 bank evidence; Paymonade ref 20250620125030584868150282
+25-06-22 14:51:02,Buy Crypto With Fiat,USDC,2499.60415945,EUR,2200,Matched to private 2025-06-22 bank evidence; Paymonade ref 2025062213503807441597297664

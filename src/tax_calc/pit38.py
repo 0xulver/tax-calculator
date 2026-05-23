@@ -65,6 +65,9 @@ def generate_pit38_report(
     lines.append("")
     lines.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     lines.append(f"Method: **Polish annual cost pooling** (Art. 22 ust. 14-16, Art. 30b ust. 1a-1b)")
+    lines.append(f"Policy: **{result.policy_label}**")
+    if result.polish_residency_start:
+        lines.append(f"Polish residency start used by policy: **{result.polish_residency_start}**")
     lines.append("")
 
     # PIT-38 Section E fields
@@ -106,7 +109,7 @@ def generate_pit38_report(
     lines.append("")
     lines.append(f"- **{result.disposal_count}** taxable disposal events (crypto -> fiat)")
     lines.append(f"- Revenue: all fiat received from selling crypto = **{_fmt(result.revenue_pln)} PLN**")
-    lines.append(f"- Costs this year: all fiat spent acquiring crypto (incl. salary USDC) = **{_fmt(result.costs_current_year_pln)} PLN**")
+    lines.append(f"- Costs this year under selected policy = **{_fmt(result.costs_current_year_pln)} PLN**")
     lines.append(f"- Costs from prior years: undeducted carry-forward = **{_fmt(result.costs_prior_years_pln)} PLN**")
     lines.append(f"- Total costs: {_fmt(total_costs)} PLN")
     if result.income_pln > 0:
@@ -121,6 +124,19 @@ def generate_pit38_report(
     lines.append("---")
     lines.append("")
     lines.append("## Verification: Cost Breakdown by Category")
+    lines.append("")
+
+    if result.costs_prior_breakdown:
+        lines.append("### Prior-Year / Imported Costs")
+        lines.append("")
+        lines.append("| Layer | Amount (PLN) |")
+        lines.append("| --- | ---: |")
+        for layer, amount in result.costs_prior_breakdown.items():
+            lines.append(f"| {layer} | {_fmt(amount)} |")
+        lines.append(f"| **TOTAL (= Poz. {poz_prior})** | **{_fmt(result.costs_prior_years_pln)}** |")
+        lines.append("")
+
+    lines.append("### Current-Year Costs")
     lines.append("")
 
     # Categorize costs
@@ -245,6 +261,8 @@ def generate_pit38_report(
     lines.append("- **Cost carry-forward**: Unlimited duration, no 50% annual cap (Art. 22 ust. 15-16)")
     lines.append("- **Rate**: NBP mid-rate from last business day before transaction (Art. 11a ust. 1-2)")
     lines.append("- **Stablecoins (USDC/USDT)**: Treated as waluta wirtualna (KIS interpretation, confirmed post-MiCA)")
+    if result.polish_residency_start:
+        lines.append("- **Split-year policy**: Pre-residency disposals and current-year costs before the residency start date are excluded from Polish PIT-38; imported basis is supplied separately.")
     lines.append("")
 
     # How to verify

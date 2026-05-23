@@ -742,8 +742,7 @@ date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,c
 2021-09-21T06:22:00+00:00,kraken,L6AH4I-XGQDB-4WAGZ5,staking_reward,DOT,0.00020401,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
 2021-09-24T06:21:16+00:00,kraken,LPI5G4-KFQN7-FFPT65,staking_reward,DOT,0.0001532,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
 2021-09-24T14:34:07+00:00,binance,,fiat_deposit,EUR,882.9,0,,,0,Binance Fiat OCBS - Add Fiat and Fees
-2021-09-24T14:34:08+00:00,binance,,buy,EUR,882.9,0,,,0,Binance Buy Crypto With Card
-2021-09-24T14:34:08+00:00,binance,,buy,LUNA,30.43532966,0,,,0,Binance Buy Crypto With Card
+2021-09-24T14:34:08+00:00,binance,,buy,LUNA,30.43532966,0,,EUR,882.9,Binance Buy Crypto With Card
 2021-09-24T14:40:41+00:00,binance,,withdrawal,LUNA,30.435329,0,,,0,Binance Withdraw
 2021-09-28T06:22:09+00:00,kraken,LMOQAN-6IE3M-ACHC7Q,staking_reward,DOT,0.00020448,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
 2021-10-01T06:22:12+00:00,kraken,LHNCJM-PHWW2-OXGVBS,staking_reward,DOT,0.00015355,0,,,0,Kraken staking (staking_on_chain) raw_asset=DOT.S
@@ -1682,7 +1681,7 @@ date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,c
 2024-11-03T21:20:40+00:00,kraken,LR7BEZ-X766B-6FX2SE,earn_reward,DOT,0.0037603749,0,,,0,Kraken earn reward (crypto)
 2024-11-04T16:04:54+00:00,binance,,deposit,ETH,0.0001,0,,,0,Binance Deposit
 2024-11-04T16:07:36+00:00,binance,,deposit,ETH,1.33,0,,,0,Binance Deposit
-2024-11-04T16:52:04+00:00,binance,,sell,ETH,0.015,0,,,0,"Binance Sell Crypto To Fiat (unpaired, via Paymonade - Ref - 2024110415420487673581626368)"
+2024-11-04T16:52:04+00:00,binance,,sell,ETH,0.015,0,,EUR,33.53231693,Binance Sell Crypto To Fiat (manual fiat counterparty): Estimated from adjacent same-day Binance ETH/EUR sale; raw Paymonade export has crypto leg only
 2024-11-04T16:54:40+00:00,binance,,sell,ETH,1.3151,0,,EUR,2939.89,Binance Sell Crypto To Fiat
 2024-11-04T16:55:35+00:00,binance,,fiat_withdrawal,EUR,2939.89,0,,,0,Binance Fiat Withdraw
 2024-11-10T21:20:55+00:00,kraken,LEVH7N-IBT4R-3227SF,earn_reward,DOT,0.0032803387,0,,,0,Kraken earn reward (crypto)
@@ -1834,10 +1833,10 @@ date,source,source_tx_id,tx_type,asset,amount,fee,fee_asset,counterparty_asset,c
 2025-06-05T08:43:36+00:00,binance,,fiat_withdrawal,EUR,2624.9,0,,,0,Binance Fiat Withdraw
 2025-06-08T19:29:58+00:00,kraken,LCTAWP-YNBPZ-5ZT2VT,earn_reward,DOT,0.0026676915,0,,,0,Kraken earn reward (crypto)
 2025-06-15T19:30:20+00:00,kraken,LNNHE2-ZTUEP-TRIMQN,earn_reward,DOT,0.0026704317,0,,,0,Kraken earn reward (crypto)
-2025-06-20T13:14:58+00:00,binance,,buy,USDC,2275.36649,0,,,0,Binance Buy Crypto With Fiat
+2025-06-20T13:14:58+00:00,binance,,buy,USDC,2275.36649,0,,EUR,2E+3,Binance Buy Crypto With Fiat (manual fiat counterparty): Matched to private 2025-06-20 bank evidence; Paymonade ref 20250620125030584868150282
 2025-06-20T13:20:15+00:00,binance,,withdrawal,USDC,1E+1,0,,,0,Binance Withdraw
 2025-06-20T13:24:09+00:00,binance,,withdrawal,USDC,2265.439189,0,,,0,Binance Withdraw
-2025-06-22T14:51:02+00:00,binance,,buy,USDC,2499.60415945,0,,,0,Binance Buy Crypto With Fiat
+2025-06-22T14:51:02+00:00,binance,,buy,USDC,2499.60415945,0,,EUR,2.2E+3,Binance Buy Crypto With Fiat (manual fiat counterparty): Matched to private 2025-06-22 bank evidence; Paymonade ref 2025062213503807441597297664
 2025-06-22T14:54:32+00:00,binance,,withdrawal,USDC,2499.604159,0,,,0,Binance Withdraw
 2025-06-22T19:30:16+00:00,kraken,LH5YUL-ZRLUE-BAV2L5,earn_reward,DOT,0.0026851568,0,,,0,Kraken earn reward (crypto)
 2025-06-29T19:30:28+00:00,kraken,LPGEIH-JBZEN-52UXSP,earn_reward,DOT,0.0027399185,0,,,0,Kraken earn reward (crypto)

@@ -20,6 +20,36 @@ from tax_calc.models import FIFOLot, fmt, fmt_full
 from tax_calc.prices import PriceResolver
 
 
+def _fmt_plain(v: Decimal) -> str:
+    """Format Decimal values for human-readable event notes."""
+    if not isinstance(v, Decimal):
+        v = Decimal(str(v))
+    normalized = v.normalize()
+    if normalized == normalized.to_integral():
+        return format(normalized, "f")
+    return format(normalized, "f").rstrip("0").rstrip(".")
+
+
+POLICY_LEGACY_FULL_HISTORY = "legacy_full_history"
+POLICY_SPLIT_YEAR_CONSERVATIVE = "split_year_conservative"
+POLICY_SPLIT_YEAR_SUPPORTABLE = "split_year_supportable"
+POLICY_SPLIT_YEAR_HIGH_RISK = "split_year_high_risk"
+
+PIT38_POLICIES = (
+    POLICY_LEGACY_FULL_HISTORY,
+    POLICY_SPLIT_YEAR_CONSERVATIVE,
+    POLICY_SPLIT_YEAR_SUPPORTABLE,
+    POLICY_SPLIT_YEAR_HIGH_RISK,
+)
+
+POLICY_LABELS = {
+    POLICY_LEGACY_FULL_HISTORY: "Legacy full-history Polish pool (audit/debug only)",
+    POLICY_SPLIT_YEAR_CONSERVATIVE: "Split-year conservative: Layer A imported fiat costs only",
+    POLICY_SPLIT_YEAR_SUPPORTABLE: "Split-year supportable: Layer A + Layer B same-token salary USDC",
+    POLICY_SPLIT_YEAR_HIGH_RISK: "Split-year high-risk: Layers A + B + C successor basis",
+}
+
+
 @dataclass
 class CostPoolEvent:
     """A single revenue or cost event for the cost pool."""
@@ -101,13 +131,21 @@ class PIT38Result:
     revenue_events: list[CostPoolEvent]
     cost_events: list[CostPoolEvent]
     warnings: list[str]
+    policy_name: str = POLICY_LEGACY_FULL_HISTORY
+    policy_label: str = POLICY_LABELS[POLICY_LEGACY_FULL_HISTORY]
+    polish_residency_start: str = ""
+    costs_prior_breakdown: dict[str, Decimal] = field(default_factory=dict)
 
     def to_dict(self) -> dict:
         return {
             "year": self.year,
+            "policy_name": self.policy_name,
+            "policy_label": self.policy_label,
+            "polish_residency_start": self.polish_residency_start,
             "revenue_pln": fmt(self.revenue_pln),
             "costs_current_year_pln": fmt(self.costs_current_year_pln),
             "costs_prior_years_pln": fmt(self.costs_prior_years_pln),
+            "costs_prior_breakdown": {k: fmt(v) for k, v in self.costs_prior_breakdown.items()},
             "income_pln": fmt(self.income_pln),
             "carry_forward_pln": fmt(self.carry_forward_pln),
             "tax_due_pln": fmt(self.tax_due_pln),
@@ -123,6 +161,11 @@ def process_cost_pool(
     salary_lots: list[FIFOLot] | None = None,
     pre_residency_costs: Decimal = Decimal("0"),
     first_polish_year: int = 2023,
+    *,
+    policy: str = POLICY_LEGACY_FULL_HISTORY,
+    polish_residency_start: str = "2023-04-12",
+    imported_salary_usdc_costs: Decimal = Decimal("0"),
+    imported_successor_costs: Decimal = Decimal("0"),
 ) -> dict[str, Any]:
     """Process the normalized ledger using Polish annual cost pooling.
 
@@ -130,11 +173,53 @@ def process_cost_pool(
         rows: Normalized transaction dicts
         prices: PriceResolver for PLN conversions
         salary_lots: Salary USDC payments (become costs in the year received)
-        pre_residency_costs: Total PLN value of crypto purchased before Polish residency
-        first_polish_year: First year of Polish tax residency (for pre-residency costs)
+        pre_residency_costs: Layer A imported pre-residency fiat-purchase costs
+        first_polish_year: First year of Polish tax residency (for imported costs)
+        policy: Filing policy. Legacy includes all years; split-year policies start
+            from polish_residency_start and import explicit Layer A/B/C costs.
+        polish_residency_start: First day of Polish tax residency, YYYY-MM-DD.
+        imported_salary_usdc_costs: Layer B imported same-token salary USDC basis.
+        imported_successor_costs: Layer C imported successor basis through pre-move swaps.
     """
+    if policy not in PIT38_POLICIES:
+        raise ValueError(f"Unknown PIT-38 policy: {policy}")
+
     pools: dict[int, YearlyPool] = defaultdict(lambda: YearlyPool(year=0))
     warnings: list[str] = []
+    excluded_counts: dict[str, int] = defaultdict(int)
+    split_year = policy != POLICY_LEGACY_FULL_HISTORY
+    start_year = int(polish_residency_start[:4]) if split_year else first_polish_year
+    imported_prior_breakdown = _imported_prior_breakdown(
+        policy=policy,
+        imported_fiat_costs=pre_residency_costs,
+        imported_salary_usdc_costs=imported_salary_usdc_costs,
+        imported_successor_costs=imported_successor_costs,
+    )
+    imported_prior_total = sum(imported_prior_breakdown.values(), Decimal("0"))
+
+    if split_year:
+        warnings.append(
+            f"Split-year policy active: rows before {polish_residency_start} are excluded "
+            "from Polish PIT-38 revenue and current-year costs."
+        )
+        if imported_prior_total == 0:
+            warnings.append(
+                "No imported pre-residency costs supplied. This is conservative but may "
+                "overstate PIT-38 tax until the move-date inventory is rebuilt."
+            )
+        if imported_salary_usdc_costs > 0 and policy in (
+            POLICY_SPLIT_YEAR_SUPPORTABLE,
+            POLICY_SPLIT_YEAR_HIGH_RISK,
+        ):
+            warnings.append(
+                "Layer B salary-USDC imported cost is KIS-dependent and requires Swedish "
+                "income-tax evidence plus same-token move-date provenance."
+            )
+        if imported_successor_costs > 0 and policy == POLICY_SPLIT_YEAR_HIGH_RISK:
+            warnings.append(
+                "Layer C successor-basis cost through pre-move crypto-to-crypto swaps is "
+                "high risk and should remain separate from default filing numbers."
+            )
 
     # Track which years have salary data -- stablecoin deposits in those years
     # should NOT be counted as costs (to avoid double-counting with salary lots)
@@ -144,6 +229,9 @@ def process_cost_pool(
     if salary_lots:
         for lot in salary_lots:
             year = int(lot.date[:4])
+            if split_year and lot.date < polish_residency_start:
+                excluded_counts["pre_residency_salary_or_purchase_lots"] += 1
+                continue
             if pools[year].year == 0:
                 pools[year].year = year
             currency = getattr(lot, "fiat_currency", "USD")
@@ -164,6 +252,13 @@ def process_cost_pool(
             ))
 
     for row in rows:
+        date_iso = row["date"]
+        date_str = date_iso[:10]
+        year = int(date_str[:4])
+        if split_year and date_str < polish_residency_start:
+            excluded_counts[f"pre_residency_{row['tx_type']}"] += 1
+            continue
+
         tx_type = row["tx_type"]
         asset = row["asset"]
         amount = _dec(row["amount"])
@@ -171,9 +266,6 @@ def process_cost_pool(
         fee_asset = row.get("fee_asset", "")
         cp_asset = row.get("counterparty_asset", "")
         cp_amount = _dec(row.get("counterparty_amount", "0"))
-        date_iso = row["date"]
-        date_str = date_iso[:10]
-        year = int(date_str[:4])
         source = row.get("source", "")
         source_tx_id = row.get("source_tx_id", "")
 
@@ -223,7 +315,7 @@ def process_cost_pool(
                     amount=amount, pln_value=cost_pln, price_method=method,
                     source=source, counterparty_asset=cp_asset,
                     counterparty_amount=cp_amount,
-                    notes=f"Buy {amount} {asset} for {cp_amount} {cp_asset}",
+                    notes=f"Buy {_fmt_plain(amount)} {asset} for {_fmt_plain(cp_amount)} {cp_asset}",
                     source_tx_id=source_tx_id,
                     nbp_rate=nbp_rate, nbp_rate_date=nbp_date, nbp_currency=nbp_cur,
                 ))
@@ -280,7 +372,10 @@ def process_cost_pool(
         # Crypto-to-crypto swap fees and withdrawal/funding fees are excluded.
 
     # Build PIT-38 results year by year
-    carry_forward = pre_residency_costs
+    if imported_prior_total > 0 and pools[start_year].year == 0:
+        pools[start_year].year = start_year
+
+    carry_forward = Decimal("0")
     results: dict[int, PIT38Result] = {}
 
     for year in sorted(pools.keys()):
@@ -288,8 +383,11 @@ def process_cost_pool(
         revenue = pool.total_revenue
         costs_current = pool.total_costs
 
-        # For the first Polish year, add pre-residency costs
         costs_prior = carry_forward
+        prior_breakdown: dict[str, Decimal] = {}
+        if year == start_year and imported_prior_total > 0:
+            costs_prior += imported_prior_total
+            prior_breakdown = dict(imported_prior_breakdown)
 
         total_costs = costs_current + costs_prior
         if revenue > total_costs:
@@ -313,14 +411,53 @@ def process_cost_pool(
             revenue_events=pool.revenue_events,
             cost_events=pool.cost_events + pool.fee_costs,
             warnings=warnings,
+            policy_name=policy,
+            policy_label=POLICY_LABELS[policy],
+            polish_residency_start=polish_residency_start if split_year else "",
+            costs_prior_breakdown=prior_breakdown,
         )
 
         carry_forward = new_carry
 
+    for key, count in sorted(excluded_counts.items()):
+        warnings.append(f"Excluded {count} {key.replace('_', ' ')} events/lots under {policy}.")
+
     return {
         "yearly_results": results,
         "warnings": warnings,
+        "policy_name": policy,
+        "policy_label": POLICY_LABELS[policy],
+        "polish_residency_start": polish_residency_start if split_year else "",
+        "imported_prior_breakdown": {k: fmt(v) for k, v in imported_prior_breakdown.items()},
     }
+
+
+def _imported_prior_breakdown(
+    *,
+    policy: str,
+    imported_fiat_costs: Decimal,
+    imported_salary_usdc_costs: Decimal,
+    imported_successor_costs: Decimal,
+) -> dict[str, Decimal]:
+    """Return the imported prior-year cost layers included by a policy."""
+    breakdown: dict[str, Decimal] = {}
+
+    if policy == POLICY_LEGACY_FULL_HISTORY:
+        if imported_fiat_costs > 0:
+            breakdown["legacy_pre_residency_costs"] = imported_fiat_costs
+        return breakdown
+
+    if imported_fiat_costs > 0:
+        breakdown["layer_a_fiat_purchase_costs"] = imported_fiat_costs
+
+    if policy in (POLICY_SPLIT_YEAR_SUPPORTABLE, POLICY_SPLIT_YEAR_HIGH_RISK):
+        if imported_salary_usdc_costs > 0:
+            breakdown["layer_b_same_token_salary_usdc_costs"] = imported_salary_usdc_costs
+
+    if policy == POLICY_SPLIT_YEAR_HIGH_RISK and imported_successor_costs > 0:
+        breakdown["layer_c_pre_move_swap_successor_costs"] = imported_successor_costs
+
+    return breakdown
 
 
 def _dec(v: str) -> Decimal:
