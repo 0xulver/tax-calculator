@@ -7,6 +7,7 @@ import { renderEvents, resetFilters } from './events.js';
 import { renderDrilldown } from './drilldown.js';
 import { renderWaterfall } from './waterfall.js';
 import { renderTimeline } from './timeline.js';
+import { renderPoolExplorer, resetPoolFilters } from './pool-explorer.js';
 
 let data = null;
 
@@ -31,6 +32,7 @@ function route() {
     }
     if (hash === '#/' && link.dataset.view === 'dashboard') link.classList.add('active');
     if (hash === '#/timeline' && link.dataset.view === 'timeline') link.classList.add('active');
+    if (hash === '#/pool' && link.dataset.view === 'pool') link.classList.add('active');
   });
 
   // Route matching
@@ -38,6 +40,9 @@ function route() {
     renderDashboard(app, data);
   } else if (hash === '#/timeline') {
     renderTimeline(app, data);
+  } else if (hash === '#/pool') {
+    resetPoolFilters();
+    renderPoolExplorer(app, data);
   } else if (hash.startsWith('#/waterfall/')) {
     const year = hash.split('/')[2];
     const yearData = data.yearly_results[year];

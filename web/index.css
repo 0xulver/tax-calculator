@@ -710,3 +710,186 @@ body {
 .animate-in:nth-child(4) { animation-delay: 150ms; }
 .animate-in:nth-child(5) { animation-delay: 200ms; }
 .animate-in:nth-child(6) { animation-delay: 250ms; }
+
+/* ===== POOL EXPLORER ===== */
+.pool-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.pool-stat-card {
+  text-align: center;
+  padding: 20px 16px;
+}
+
+.pool-stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.pool-stat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.pool-stat-value {
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pool-stat-detail {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+/* Chart wrapper */
+.pool-chart-wrap {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.pool-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Tooltip */
+.pool-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(30, 41, 59, 0.95);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  box-shadow: var(--shadow-md);
+  z-index: 50;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  line-height: 1.5;
+  max-width: 280px;
+}
+
+.pool-tooltip.visible {
+  opacity: 1;
+}
+
+/* Event dots hover */
+.pool-event-dot:hover + circle {
+  r: 6;
+  opacity: 1;
+}
+
+/* Dot pulse animation on click */
+@keyframes dotPulse {
+  0% { r: 12; opacity: 0.5; stroke: var(--indigo); stroke-width: 3; }
+  50% { r: 20; opacity: 0.2; stroke: var(--indigo); stroke-width: 2; }
+  100% { r: 12; opacity: 0; stroke: var(--indigo); stroke-width: 0; }
+}
+
+.pool-dot-pulse {
+  animation: dotPulse 1.2s ease-out;
+  fill: rgba(129, 140, 248, 0.2) !important;
+}
+
+/* Legend row */
+.pool-legend {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  padding: 0 4px;
+}
+
+/* Year separator rows in the table */
+.pool-year-separator {
+  background: var(--bg-surface) !important;
+  border: none !important;
+  cursor: default !important;
+}
+
+.pool-year-separator td {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--indigo);
+  padding: 10px 16px !important;
+  border-bottom: 2px solid var(--border-accent) !important;
+}
+
+.pool-year-separator:hover {
+  background: var(--bg-surface) !important;
+}
+
+/* Running value column */
+.pool-running-value {
+  color: var(--green) !important;
+  font-weight: 700 !important;
+}
+
+/* Delta columns */
+.pool-delta-positive {
+  color: var(--teal) !important;
+}
+
+.pool-delta-negative {
+  color: var(--amber) !important;
+}
+
+/* Row highlight on click */
+.pool-row-highlight {
+  background: rgba(129, 140, 248, 0.1) !important;
+  box-shadow: inset 3px 0 0 var(--indigo);
+}
+
+.pool-row-highlight td:first-child {
+  padding-left: 13px;
+}
+
+/* Event row hover override for pool table */
+.pool-event-row {
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.pool-event-row:hover {
+  background: rgba(129, 140, 248, 0.06) !important;
+}
+
+/* Deposit badge */
+.badge-deposit { background: var(--blue-dim); color: var(--blue); }
+
+/* ===== POOL EXPLORER RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .pool-summary-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .pool-summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pool-chart-wrap {
+    padding: 12px;
+  }
+}
+
