@@ -1,0 +1,84 @@
+Cosmos (ATOM)
+cosmos1f9uy5d0glyp5gh3c7vf8vrkethwt7rdqun7u63
+
+Osmosis (OSMO)
+osmo1f9uy5d0glyp5gh3c7vf8vrkethwt7rdq5gdvvr
+
+Terrastation Classic (LUNA/LUNC)
+terra196f4pl0az6j9kwpxq5dmyzzpq28hedtvy798q5
+
+Reaper MetaMask (Arbitrum)
+0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+
+Reaper MetaMask (MATIC)
+0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+
+Reaper MetaMask (FTM)
+0x01C1a8D062b29dD2AC3aE49b717C02C99bADe52a
+
+MetaMask1 (AVAX)
+0x8cA0c27a7a868A4069967709B5592995A69aE006
+
+MetaMask1 (OP)
+0x8cA0c27a7a868A4069967709B5592995A69aE006
+
+MetaMask1 (FTM)
+0x8cA0c27a7a868A4069967709B5592995A69aE006
+
+MetaMask3 (FTM)
+0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864
+
+MetaMask3 (Arbitrum)
+0xB573f01f2901c0dB3E14Ec80C6E12e4868DEC864
+
+Kusama (KSM)
+DdpP9Qtic67emirWfRBA4NNbwqBp4UEbqgpSvNyfh6yyQ37
+
+Polkadot (DOT)
+HyLivKvXmYrwEPtucjtw4gW9x2WZ9EbscnZDi6r8YGQe3eQ
+
+Solana (SOL)
+4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC
+
+MetaMask 2 (Ethereum)
+0x8cA0c27a7a868A4069967709B5592995A69aE006
+
+MetaMask (Ethereum)
+0x0611e663263e10fcf901a8CE2d6995F400Bb3dDC
+
+
+Kraken
+634 transactions
+3 years ago
+23,60 kr
+Total value
+
+FTX
+162 transactions
+5 years ago
+334 439 kr
+Total value
+Binance
+Binance
+189 transactions
+3 years ago
+23 774,12 kr
+Total value
+Coinbase
+Coinbase
+SYNCED
+3 years ago
+27 transactions
+5 years ago
+0,00 kr
+Total value
+BlockFi 2
+BlockFi 2
+8 transactions
+5 years ago
+206,90 kr
+Total value
+
+Celsius Network
+984 transactions
+4 years ago

@@ -5,6 +5,11 @@ Reaper strategist 0x81876677843D00a7D792E1617459aC2E93202576
 Old Solana 4QjwQQ4gny4YZbpZtj6aThtRKSz4ALmtxUBS3tY7BpSC
 Sui Ulver Stashed 0x0d879ddb48b77b454c534e88801bce2be514ab5cad4ffcc00e5a5476cd8b27c9
 Sui m.brantheim stashed 0xad4a4802f3f81d94a6e4fde6ce19fc120cd2f3a5f31de2723a3efbe9f2bf881b
+# Koinly-derived historical wallets (high confidence)
+Old MetaMask 0x0611e663263e10fcf901a8ce2d6995f400bb3ddc
+Terrastation Classic LUNA LUNC main terra196f4pl0az6j9kwpxq5dmyzzpq28hedtvy798q5
+Osmosis OSMO main osmo1f9uy5d0glyp5gh3c7vf8vrkethwt7rdq5gdvvr
+Cosmos ATOM main cosmos1f9uy5d0glyp5gh3c7vf8vrkethwt7rdqun7u63
 # BTC wallets (self-custody)
 Electrum bc1qjd8pnqhkla4fsj0kt7rw96kd0drvqkugstn2z7
 Electrum 2 bc1qlkjyugnzkyfp7snhkh5przhwz8xcv7kmypy9yl

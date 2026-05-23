@@ -34,12 +34,60 @@
       "native_decimals": 18
     },
     {
+      "name": "arbitrum",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "42161",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
       "name": "base",
       "family": "evm",
       "type": "evm_explorer",
       "api_url": "https://api.etherscan.io/v2/api",
       "chainid": "8453",
       "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
+      "name": "fantom",
+      "family": "evm",
+      "type": "oklink_explorer",
+      "api_url": "https://www.oklink.com",
+      "rpc_url": "https://rpc.fantom.network",
+      "trace_rpc_url": "https://rpcapi-tracing.fantom.network",
+      "chain_short_name": "FTM",
+      "api_key_env": "OKLINK_API_KEY",
+      "native_symbol": "FTM",
+      "native_decimals": 18
+    },
+    {
+      "name": "mantle",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://api.etherscan.io/v2/api",
+      "chainid": "5000",
+      "api_key_env": "ETHERSCAN_API_KEY",
+      "native_symbol": "MNT",
+      "native_decimals": 18
+    },
+    {
+      "name": "scroll",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://scrollscan.com/api",
+      "native_symbol": "ETH",
+      "native_decimals": 18
+    },
+    {
+      "name": "mode",
+      "family": "evm",
+      "type": "evm_explorer",
+      "api_url": "https://explorer.mode.network/api",
       "native_symbol": "ETH",
       "native_decimals": 18
     },

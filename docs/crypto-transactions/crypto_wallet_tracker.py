@@ -109,6 +109,18 @@ def read_json(path: str) -> Dict[str, Any]:
         return json.load(f)
 
 
+def load_env_file(path: str = ".env") -> None:
+    if not os.path.exists(path):
+        return
+    with open(path, "r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
 def parse_utc_date(value: str) -> dt.datetime:
     return dt.datetime.strptime(value, "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
 
@@ -858,6 +870,7 @@ def filter_salary_candidates(
 
 def main() -> int:
     args = parse_args()
+    load_env_file()
     cfg = read_json(args.config)
     wallets = read_wallets(args.wallets_file, args.wallet_filter)
     if not wallets:
