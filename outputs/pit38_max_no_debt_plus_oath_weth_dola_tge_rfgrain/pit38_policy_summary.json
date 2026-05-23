@@ -1,0 +1,32 @@
+[
+  {
+    "policy": "split_year_high_risk",
+    "year": "2023",
+    "revenue_pln": "264113.82",
+    "costs_current_year_pln": "500922.56",
+    "costs_prior_years_pln": "588848.16",
+    "income_pln": "0.00",
+    "tax_due_pln": "0.00",
+    "carry_forward_pln": "825656.90"
+  },
+  {
+    "policy": "split_year_high_risk",
+    "year": "2024",
+    "revenue_pln": "785654.54",
+    "costs_current_year_pln": "488065.61",
+    "costs_prior_years_pln": "825656.90",
+    "income_pln": "0.00",
+    "tax_due_pln": "0.00",
+    "carry_forward_pln": "528067.97"
+  },
+  {
+    "policy": "split_year_high_risk",
+    "year": "2025",
+    "revenue_pln": "271316.95",
+    "costs_current_year_pln": "215310.63",
+    "costs_prior_years_pln": "528067.97",
+    "income_pln": "0.00",
+    "tax_due_pln": "0.00",
+    "carry_forward_pln": "472061.65"
+  }
+]

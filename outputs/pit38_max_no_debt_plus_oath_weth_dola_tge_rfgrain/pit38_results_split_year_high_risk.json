@@ -1,0 +1,75 @@
+{
+  "policy_name": "split_year_high_risk",
+  "policy_label": "Split-year high-risk: Layers A + B + C successor basis",
+  "polish_residency_start": "2023-04-12",
+  "imported_prior_breakdown": {
+    "layer_a_fiat_purchase_costs": "77955.80",
+    "layer_c_pre_move_swap_successor_costs": "510892.36"
+  },
+  "yearly_results": {
+    "2023": {
+      "policy_name": "split_year_high_risk",
+      "policy_label": "Split-year high-risk: Layers A + B + C successor basis",
+      "polish_residency_start": "2023-04-12",
+      "revenue_pln": "264113.81863492",
+      "costs_current_year_pln": "500922.559174424000853826184926567365",
+      "costs_prior_years_pln": "588848.16",
+      "costs_prior_breakdown": {
+        "layer_a_fiat_purchase_costs": "77955.80",
+        "layer_c_pre_move_swap_successor_costs": "510892.36"
+      },
+      "income_pln": "0",
+      "carry_forward_pln": "825656.90053950400085382618492656736",
+      "tax_due_pln": "0.00",
+      "disposal_count": 17
+    },
+    "2024": {
+      "policy_name": "split_year_high_risk",
+      "policy_label": "Split-year high-risk: Layers A + B + C successor basis",
+      "polish_residency_start": "2023-04-12",
+      "revenue_pln": "785654.540771860219",
+      "costs_current_year_pln": "488065.6097300650",
+      "costs_prior_years_pln": "825656.90053950400085382618492656736",
+      "costs_prior_breakdown": {},
+      "income_pln": "0",
+      "carry_forward_pln": "528067.96949770878185382618492656736",
+      "tax_due_pln": "0.00",
+      "disposal_count": 32
+    },
+    "2025": {
+      "policy_name": "split_year_high_risk",
+      "policy_label": "Split-year high-risk: Layers A + B + C successor basis",
+      "polish_residency_start": "2023-04-12",
+      "revenue_pln": "271316.954734785395",
+      "costs_current_year_pln": "215310.634694343499094823621297915297",
+      "costs_prior_years_pln": "528067.96949770878185382618492656736",
+      "costs_prior_breakdown": {},
+      "income_pln": "0",
+      "carry_forward_pln": "472061.649457266885948649806224482657",
+      "tax_due_pln": "0.00",
+      "disposal_count": 15
+    }
+  },
+  "warnings": [
+    "Split-year policy active: rows before 2023-04-12 are excluded from Polish PIT-38 revenue and current-year costs.",
+    "Layer C successor-basis cost through pre-move crypto-to-crypto swaps is high risk and should remain separate from default filing numbers.",
+    "Excluded 2 pre residency adjustment events/lots under split_year_high_risk.",
+    "Excluded 5 pre residency airdrop events/lots under split_year_high_risk.",
+    "Excluded 158 pre residency buy events/lots under split_year_high_risk.",
+    "Excluded 2 pre residency conversion events/lots under split_year_high_risk.",
+    "Excluded 168 pre residency deposit events/lots under split_year_high_risk.",
+    "Excluded 5 pre residency fiat deposit events/lots under split_year_high_risk.",
+    "Excluded 2 pre residency fiat exchange events/lots under split_year_high_risk.",
+    "Excluded 54 pre residency fiat withdrawal events/lots under split_year_high_risk.",
+    "Excluded 2 pre residency funding fee events/lots under split_year_high_risk.",
+    "Excluded 7 pre residency interest events/lots under split_year_high_risk.",
+    "Excluded 85 pre residency internal transfer events/lots under split_year_high_risk.",
+    "Excluded 42 pre residency salary or purchase lots events/lots under split_year_high_risk.",
+    "Excluded 64 pre residency sell events/lots under split_year_high_risk.",
+    "Excluded 297 pre residency staking reward events/lots under split_year_high_risk.",
+    "Excluded 203 pre residency swap in events/lots under split_year_high_risk.",
+    "Excluded 203 pre residency swap out events/lots under split_year_high_risk.",
+    "Excluded 2 pre residency token swap events/lots under split_year_high_risk.",
+    "Excluded 161 pre residency withdrawal events/lots under split_year_high_risk."
+  ]
+}
