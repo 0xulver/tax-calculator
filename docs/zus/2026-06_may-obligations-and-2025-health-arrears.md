@@ -207,8 +207,11 @@ filed 18-05-2026):
 
 ## Open items
 
-- [ ] Pay 827,43 (arrears) today; 1 251,44 (May ZUS) + 10 466 (ryczałt) by 22 June.
-- [ ] File May 2026 DRA (two fields per above) if PUE has not auto-generated it.
+- [x] **Paid 2026-06-17** (receipts in `docs/payments/2026/`):
+      arrears **827,43** (`...zus_health-arrears-2025...`), May ZUS **1 251,44**
+      (`...zus_skladki-2026-05...`), ryczałt **10 466** (`...us_ryczalt-pit28-2026-05...`).
+- [x] **Filed May 2026 DRA** 2026-06-17 22:22 (status OK, UPO issued);
+      PDF in `docs/zus/dra/2026/`.
 - [ ] Track USDC cost basis (87 215,20 PLN) for future PIT-38 when converted.
 - [ ] Confirm with accountant: (a) monthly społeczne/health deduction choice for the
       advance; (b) crypto-received-for-services cost basis.
